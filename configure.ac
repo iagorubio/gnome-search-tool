@@ -1,6 +1,9 @@
 dnl -*- mode: m4 -*-
 AC_PREREQ([2.63])
-AC_INIT([gnome-search-tool],[3.3.0],[],[gnome-search-tool])
+AC_INIT([gnome-search-tool],
+        [3.3.1],
+        [http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-search-tools],
+        [gnome-search-tool])
 
 AC_CONFIG_HEADERS(config.h)
 AC_CONFIG_MACRO_DIR([m4])
