@@ -27,9 +27,9 @@ AC_PROG_CXX
 AC_ISC_POSIX
 AC_HEADER_STDC
 
-AM_DISABLE_STATIC
 # enable libtool
-AC_PROG_LIBTOOL
+LT_PREREQ([2.2])
+LT_INIT([disable-static])
 
 ## don't rerun to this point if we abort
 AC_CACHE_SAVE
