@@ -5,13 +5,12 @@ AC_INIT([gnome-search-tool],[3.3.0],[],[gnome-search-tool])
 AC_CONFIG_HEADERS(config.h)
 AC_CONFIG_MACRO_DIR([m4])
 
-m4_ifdef([AM_SILENT_RULES],[AM_SILENT_RULES([yes])])
-
 AC_CANONICAL_TARGET
 
-# require automake 1.10
-AM_INIT_AUTOMAKE([1.10 dist-bzip2 no-dist-gzip foreign])
+AM_INIT_AUTOMAKE([1.11 foreign dist-xz no-dist-gzip tar-ustar])
 AM_MAINTAINER_MODE([enable])
+
+AM_SILENT_RULES([yes])
 
 GETTEXT_PACKAGE=AC_PACKAGE_NAME
 AC_SUBST(GETTEXT_PACKAGE)
