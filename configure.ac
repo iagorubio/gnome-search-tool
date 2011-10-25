@@ -1,5 +1,5 @@
 dnl -*- mode: m4 -*-
-AC_PREREQ(2.63)
+AC_PREREQ([2.63])
 AC_INIT([gnome-search-tool],[3.3.0],[],[gnome-search-tool])
 
 AC_CONFIG_HEADERS(config.h)
@@ -21,10 +21,10 @@ PKG_PROG_PKG_CONFIG([0.22])
 AM_GNU_GETTEXT([external])
 AM_GNU_GETTEXT_VERSION([0.17])
 
+# Check for programs
 AC_PROG_CC
 AM_PROG_CC_C_O
 AC_PROG_CXX
-AC_ISC_POSIX
 AC_HEADER_STDC
 
 # enable libtool
