@@ -1,170 +1,259 @@
-# Norwegian translation of gnome-utils (bokmål dialect).
+# Norwegian bokmål translation of gnome-search-tool.
 # Copyright (C) 1999-2005 Free Software Foundation, Inc.
 #
-# Kjartan Maraas <kmaraas@gnome.org>, 1999-2011.
+# Kjartan Maraas <kmaraas@gnome.org>, 1999-2012.
 # Terance Edward Sola <terance@lyse.net>, 2005.
 # Torstein Adolf Winterseth <kvikende@fsfe.org>, 2010.
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-utils 2.91.x\n"
+"Project-Id-Version: gnome-search-tool 3.3.x\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-10-06 14:36-0400\n"
-"PO-Revision-Date: 2011-08-10 15:24+0200\n"
+"POT-Creation-Date: 2012-01-25 20:17+0100\n"
+"PO-Revision-Date: 2012-01-25 20:19+0100\n"
 "Last-Translator: Kjartan Maraas <kmaraas@gnome.org>\n"
-"Language-Team: Norwegian Bokmål <i18n-nb@lister.ping.uio.no>\n"
+"Language-Team: Norwegian bokmål <i18n-nb@lister.ping.uio.no>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 1.1\n"
 
 #: ../data/gnome-search-tool.desktop.in.h:1
+msgid "Search for Files..."
+msgstr "Søk etter filer …"
+
+#: ../data/gnome-search-tool.desktop.in.h:2
 msgid "Locate documents and folders on this computer by name or content"
 msgstr ""
 "Finn dokumenter og mapper på denne datamaskinen etter navn eller innhold"
 
-#: ../data/gnome-search-tool.desktop.in.h:2
-msgid "Search for Files..."
-msgstr "Søk etter filer …"
-
 #: ../data/gnome-search-tool.schemas.in.h:1
-msgid "Default Window Height"
-msgstr "Standard vindushøyde"
+msgid "Show Additional Options"
+msgstr "Vis flere alternativer"
 
-#: ../data/gnome-search-tool.schemas.in.h:2
-msgid "Default Window Maximized"
-msgstr "Forvalgt vindu maksimert"
-
-#: ../data/gnome-search-tool.schemas.in.h:3
-msgid "Default Window Width"
-msgstr "Standard vindusbredde"
-
+#. Translators: The quoted text is the label of the additional
+#. options expander that is translated elsewhere.
 #: ../data/gnome-search-tool.schemas.in.h:4
-msgid "Disable Quick Search"
-msgstr "Deaktiver hurtigsøk"
-
-#: ../data/gnome-search-tool.schemas.in.h:5
-msgid "Disable Quick Search Second Scan"
-msgstr "Deaktiver andre gangs søk i hurtigsøk"
-
-#: ../data/gnome-search-tool.schemas.in.h:6
-msgid "Look in Folder"
-msgstr "Se i mappe"
-
-#: ../data/gnome-search-tool.schemas.in.h:7
-msgid "Quick Search Excluded Paths"
-msgstr "Utelatte stier for hurtigsøk"
-
-#: ../data/gnome-search-tool.schemas.in.h:8
-msgid "Quick Search Second Scan Excluded Paths"
-msgstr "Utelatte stier for andre gangs søk ved hurtigsøk"
-
-#: ../data/gnome-search-tool.schemas.in.h:9
-msgid "Search Result Columns Order"
-msgstr "Rekkefølge for kolonne for søkeresultater"
+msgid ""
+"This key determines if the \"Select more options\" section is expanded when "
+"the search tool is started."
+msgstr ""
+"Denne nøkklen bestemmer om alle søkealternativene skal vises når "
+"søkeverktøyet starter."
 
 #. Translators: The quoted text is the label of an available
 #. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:12
+#: ../data/gnome-search-tool.schemas.in.h:7
 msgid "Select the search option \"Contains the text\""
 msgstr "Velg søkealternativet «Innholder tekst»"
+
+#: ../data/gnome-search-tool.schemas.in.h:8
+msgid ""
+"This key determines if the \"Contains the text\" search option is selected "
+"when the search tool is started."
+msgstr ""
+"Denne nøkkelen bestemmer om «Inneholder teksten» alternativet skal gjelde "
+"når søkeverktøyet starter."
+
+#. Translators: The quoted text is the label of an available
+#. search option that is translated elsewhere.
+#: ../data/gnome-search-tool.schemas.in.h:11
+msgid "Select the search option \"Date modified less than\""
+msgstr "Velg søkealternativet «Endringsdato nyere enn»"
+
+#: ../data/gnome-search-tool.schemas.in.h:12
+msgid ""
+"This key determines if the \"Date modified less than\" search option is "
+"selected when the search tool is started."
+msgstr ""
+"Denne nøkkelen bestemmer om «Endringsdato mindre enn» alternativet skal "
+"gjelde når søkeverktøyet starter."
 
 #. Translators: The quoted text is the label of an available
 #. search option that is translated elsewhere.
 #: ../data/gnome-search-tool.schemas.in.h:15
-msgid "Select the search option \"Date modified less than\""
-msgstr "Velg søkealternativet «Endringsdato nyere enn»"
-
-#. Translators: The quoted text is the label of an available
-#. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:18
 msgid "Select the search option \"Date modified more than\""
 msgstr "Velg søkealternativet «Endringsdato eldre enn»"
 
-#. Translators: The quoted text is the label of an available
-#. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:21
-msgid "Select the search option \"Exclude other filesystems\""
-msgstr "Velg søkealternativet «Utelat andre filsystemer»"
+#: ../data/gnome-search-tool.schemas.in.h:16
+msgid ""
+"This key determines if the \"Date modified more than\" search option is "
+"selected when the search tool is started."
+msgstr ""
+"Denne nøkkelen bestemmer om «Endringsdato mer enn» alternativet skal gjelde "
+"når søkeverktøyet starter."
 
 #. Translators: The quoted text is the label of an available
 #. search option that is translated elsewhere.
+#: ../data/gnome-search-tool.schemas.in.h:19
+msgid "Select the search option \"Size at least\""
+msgstr "Velg søkealternativet «Minste størrelse»"
+
+#: ../data/gnome-search-tool.schemas.in.h:20
+msgid ""
+"This key determines if the \"Size at least\" search option is selected when "
+"the search tool is started."
+msgstr ""
+"Denne nøkkelen bestemmer om «Minste størrelse» alternativet skal gjelde når "
+"søkeverktøyet starter."
+
+#. Translators: The quoted text is the label of an available
+#. search option that is translated elsewhere.
+#: ../data/gnome-search-tool.schemas.in.h:23
+msgid "Select the search option \"Size at most\""
+msgstr "Velg søkealternativet «Største størrelse»"
+
 #: ../data/gnome-search-tool.schemas.in.h:24
-msgid "Select the search option \"File is empty\""
-msgstr "Velg søkealternativet «Filen er tom»"
+msgid ""
+"This key determines if the \"Size at most\" search option is selected when "
+"the search tool is started."
+msgstr ""
+"Denne nøkkelen bestemmer om «Ikke større enn» alternativet skal gjelde når "
+"søkeverktøyet starter."
 
 #. Translators: The quoted text is the label of an available
 #. search option that is translated elsewhere.
 #: ../data/gnome-search-tool.schemas.in.h:27
-msgid "Select the search option \"Follow symbolic links\""
-msgstr "Velg søkealternativet «Følg symbolske lenker»"
+msgid "Select the search option \"File is empty\""
+msgstr "Velg søkealternativet «Filen er tom»"
+
+#: ../data/gnome-search-tool.schemas.in.h:28
+msgid ""
+"This key determines if the \"File is empty\" search option is selected when "
+"the search tool is started."
+msgstr ""
+"Denne nøkkelen bestemmer om «Filen er tom» alternativet skal gjelde når "
+"søkeverktøyet starter."
 
 #. Translators: The quoted text is the label of an available
 #. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:30
-msgid "Select the search option \"Name does not contain\""
-msgstr "Velg søkealternativet «Navn inneholder ikke»"
+#: ../data/gnome-search-tool.schemas.in.h:31
+msgid "Select the search option \"Owned by user\""
+msgstr "Velg søkealternativet «Eies av bruker»"
+
+#: ../data/gnome-search-tool.schemas.in.h:32
+msgid ""
+"This key determines if the \"Owned by user\" search option is selected when "
+"the search tool is started."
+msgstr ""
+"Denne nøkkelen bestemmer om «Eies av bruker» alternativet skal gjelde når "
+"søkeverktøyet starter."
 
 #. Translators: The quoted text is the label of an available
 #. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:33
-msgid "Select the search option \"Name matches regular expression\""
-msgstr "Velg søkealternativet «Navn har treff på vanlig uttrykk»"
-
-#. Translators: The quoted text is the label of an available
-#. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:36
+#: ../data/gnome-search-tool.schemas.in.h:35
 msgid "Select the search option \"Owned by group\""
 msgstr "Velg søkealternativet «Eies av gruppe»"
+
+#: ../data/gnome-search-tool.schemas.in.h:36
+msgid ""
+"This key determines if the \"Owned by group\" search option is selected when "
+"the search tool is started."
+msgstr ""
+"Denne nøkkelen bestemmer om «Eies av gruppe» alternativet skal gjelde når "
+"søkeverktøyet starter."
 
 #. Translators: The quoted text is the label of an available
 #. search option that is translated elsewhere.
 #: ../data/gnome-search-tool.schemas.in.h:39
-msgid "Select the search option \"Owned by user\""
-msgstr "Velg søkealternativet «Eies av bruker»"
-
-#. Translators: The quoted text is the label of an available
-#. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:42
 msgid "Select the search option \"Owner is unrecognized\""
 msgstr "Velg søkealternativet «Eier gjenkjennes ikke»"
 
-#. Translators: The quoted text is the label of an available
-#. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:45
-msgid "Select the search option \"Show hidden files and folders\""
-msgstr "Velg søkealternativet «Vis skjulte filer og mapper»"
+#: ../data/gnome-search-tool.schemas.in.h:40
+msgid ""
+"This key determines if the \"Owner is unrecognized\" search option is "
+"selected when the search tool is started."
+msgstr ""
+"Denne nøkkelen bestemmer om «Eier gjenkjennes ikke» alternativet skal gjelde "
+"når søkeverktøyet starter."
 
 #. Translators: The quoted text is the label of an available
 #. search option that is translated elsewhere.
+#: ../data/gnome-search-tool.schemas.in.h:43
+msgid "Select the search option \"Name does not contain\""
+msgstr "Velg søkealternativet «Navn inneholder ikke»"
+
+#: ../data/gnome-search-tool.schemas.in.h:44
+msgid ""
+"This key determines if the \"Name does not contain\" search option is "
+"selected when the search tool is started."
+msgstr ""
+"Denne nøkkelen bestemmer om «Navn inneholder ikke» alternativet skal gjelde "
+"når søkeverktøyet starter."
+
+#. Translators: The quoted text is the label of an available
+#. search option that is translated elsewhere.
+#: ../data/gnome-search-tool.schemas.in.h:47
+msgid "Select the search option \"Name matches regular expression\""
+msgstr "Velg søkealternativet «Navn har treff på vanlig uttrykk»"
+
 #: ../data/gnome-search-tool.schemas.in.h:48
-msgid "Select the search option \"Size at least\""
-msgstr "Velg søkealternativet «Minste størrelse»"
+msgid ""
+"This key determines if the \"Name matches regular expression\" search option "
+"is selected when the search tool is started."
+msgstr ""
+"Denne nøkkelen bestemmer om «Navn har treff på vanlig uttrykk» skal gjelde "
+"når søkeverktøyet starter."
 
 #. Translators: The quoted text is the label of an available
 #. search option that is translated elsewhere.
 #: ../data/gnome-search-tool.schemas.in.h:51
-msgid "Select the search option \"Size at most\""
-msgstr "Velg søkealternativet «Største størrelse»"
+msgid "Select the search option \"Show hidden files and folders\""
+msgstr "Velg søkealternativet «Vis skjulte filer og mapper»"
 
 #: ../data/gnome-search-tool.schemas.in.h:52
-msgid "Show Additional Options"
-msgstr "Vis flere alternativer"
-
-#: ../data/gnome-search-tool.schemas.in.h:53
-msgid "This key defines the default value of the \"Look in Folder\" widget."
-msgstr "Denne nøkkelen definerer forvalgt verdi for komponenten «Se i mappe»."
-
-#: ../data/gnome-search-tool.schemas.in.h:54
 msgid ""
-"This key defines the order of the columns in the search results. This key "
-"should not be modified by the user."
+"This key determines if the \"Show hidden files and folders\" search option "
+"is selected when the search tool is started."
 msgstr ""
-"Denne nøkkelen definerer rekkefølgen på kolonnene i søkeresultatene. Denne "
-"burde ikke endres av brukeren."
+"Denne nøkkelen bestemmer om «Vis skjulte filer og mapper» alternativet skal "
+"gjelde når søkeverktøyet starter."
 
+#. Translators: The quoted text is the label of an available
+#. search option that is translated elsewhere.
 #: ../data/gnome-search-tool.schemas.in.h:55
+msgid "Select the search option \"Follow symbolic links\""
+msgstr "Velg søkealternativet «Følg symbolske lenker»"
+
+#: ../data/gnome-search-tool.schemas.in.h:56
+msgid ""
+"This key determines if the \"Follow symbolic links\" search option is "
+"selected when the search tool is started."
+msgstr ""
+"Denne nøkkelen bestemmer om «Følg symbolske lenker» alternativet skal gjelde "
+"når søkeverktøyet starter."
+
+#. Translators: The quoted text is the label of an available
+#. search option that is translated elsewhere.
+#: ../data/gnome-search-tool.schemas.in.h:59
+msgid "Select the search option \"Exclude other filesystems\""
+msgstr "Velg søkealternativet «Utelat andre filsystemer»"
+
+#: ../data/gnome-search-tool.schemas.in.h:60
+msgid ""
+"This key determines if the \"Exclude other filesystems\" search option is "
+"selected when the search tool is started."
+msgstr ""
+"Denne nøkkelen bestemmer om «Ekskluder andre filsystemer» alternativet skal "
+"gjelde når søkeverktøyet starter."
+
+#: ../data/gnome-search-tool.schemas.in.h:61
+msgid "Disable Quick Search"
+msgstr "Deaktiver hurtigsøk"
+
+#: ../data/gnome-search-tool.schemas.in.h:62
+msgid ""
+"This key determines if the search tool disables the use of the locate "
+"command when performing simple file name searches."
+msgstr ""
+"Denne nøkkelen bestemmer om søkeverktøyet deaktiverer bruken av «locate»-"
+"kommandoen under enkle filnavnsøk."
+
+#: ../data/gnome-search-tool.schemas.in.h:63
+msgid "Quick Search Excluded Paths"
+msgstr "Utelatte stier for hurtigsøk"
+
+#: ../data/gnome-search-tool.schemas.in.h:64
 msgid ""
 "This key defines the paths the search tool will exclude from a quick search. "
 "The wildcards '*' and '?' are supported. The default values are /mnt/*, /"
@@ -174,7 +263,23 @@ msgstr ""
 "søk. Jokertegnene «*» og «?» er støttet. De forvalgte verdiene er /mnt/*, / "
 "media/*, /dev/*, /tmp/*, /proc/*, og /var/*."
 
-#: ../data/gnome-search-tool.schemas.in.h:56
+#: ../data/gnome-search-tool.schemas.in.h:65
+msgid "Disable Quick Search Second Scan"
+msgstr "Deaktiver andre gangs søk i hurtigsøk"
+
+#: ../data/gnome-search-tool.schemas.in.h:66
+msgid ""
+"This key determines if the search tool disables the use of the find command "
+"after performing a quick search."
+msgstr ""
+"Denne nøkkelen bestemmer om søkeverktøyet slår av bruken av «find»-"
+"kommandoen etter å ha utført et raskt søk."
+
+#: ../data/gnome-search-tool.schemas.in.h:67
+msgid "Quick Search Second Scan Excluded Paths"
+msgstr "Utelatte stier for andre gangs søk ved hurtigsøk"
+
+#: ../data/gnome-search-tool.schemas.in.h:68
 msgid ""
 "This key defines the paths the search tool will exclude from a second scan "
 "when performing a quick search. The second scan uses the find command to "
@@ -187,17 +292,23 @@ msgstr ""
 "filer. Hensikten med det neste søket er å finne filer som ikke har blitt "
 "indeksert. Jokertegnene «*» og «?» er støttet. Den forvalgte verdien er /."
 
-#: ../data/gnome-search-tool.schemas.in.h:57
-msgid ""
-"This key defines the window height, and it's used to remember the size of "
-"the search tool between sessions. Setting it to -1 will make the search tool "
-"use the default height."
-msgstr ""
-"Denne nøkkelen definerer høyden på vinduet, og den er brukt til å huske "
-"størrelsen på søkevertøyet mellom øktenen. Ved å sette den til -1, vil "
-"forvalgt bredde brukes."
+#: ../data/gnome-search-tool.schemas.in.h:69
+msgid "Search Result Columns Order"
+msgstr "Rekkefølge for kolonne for søkeresultater"
 
-#: ../data/gnome-search-tool.schemas.in.h:58
+#: ../data/gnome-search-tool.schemas.in.h:70
+msgid ""
+"This key defines the order of the columns in the search results. This key "
+"should not be modified by the user."
+msgstr ""
+"Denne nøkkelen definerer rekkefølgen på kolonnene i søkeresultatene. Denne "
+"burde ikke endres av brukeren."
+
+#: ../data/gnome-search-tool.schemas.in.h:71
+msgid "Default Window Width"
+msgstr "Standard vindusbredde"
+
+#: ../data/gnome-search-tool.schemas.in.h:72
 msgid ""
 "This key defines the window width, and it's used to remember the size of the "
 "search tool between sessions. Setting it to -1 will make the search tool use "
@@ -207,148 +318,36 @@ msgstr ""
 "størrelsen på søkeverktøyet mellom økter. Ved å sette denne til -1, vil "
 "forvalgt bredde brukes."
 
-#: ../data/gnome-search-tool.schemas.in.h:59
-msgid ""
-"This key determines if the \"Contains the text\" search option is selected "
-"when the search tool is started."
-msgstr ""
-"Denne nøkkelen bestemmer om «Inneholder teksten» alternativet skal gjelde "
-"når søkeverktøyet starter."
-
-#: ../data/gnome-search-tool.schemas.in.h:60
-msgid ""
-"This key determines if the \"Date modified less than\" search option is "
-"selected when the search tool is started."
-msgstr ""
-"Denne nøkkelen bestemmer om «Endringsdato mindre enn» alternativet skal "
-"gjelde når søkeverktøyet starter."
-
-#: ../data/gnome-search-tool.schemas.in.h:61
-msgid ""
-"This key determines if the \"Date modified more than\" search option is "
-"selected when the search tool is started."
-msgstr ""
-"Denne nøkkelen bestemmer om «Endringsdato mer enn» alternativet skal gjelde "
-"når søkeverktøyet starter."
-
-#: ../data/gnome-search-tool.schemas.in.h:62
-msgid ""
-"This key determines if the \"Exclude other filesystems\" search option is "
-"selected when the search tool is started."
-msgstr ""
-"Denne nøkkelen bestemmer om «Ekskluder andre filsystemer» alternativet skal "
-"gjelde når søkeverktøyet starter."
-
-#: ../data/gnome-search-tool.schemas.in.h:63
-msgid ""
-"This key determines if the \"File is empty\" search option is selected when "
-"the search tool is started."
-msgstr ""
-"Denne nøkkelen bestemmer om «Filen er tom» alternativet skal gjelde når "
-"søkeverktøyet starter."
-
-#: ../data/gnome-search-tool.schemas.in.h:64
-msgid ""
-"This key determines if the \"Follow symbolic links\" search option is "
-"selected when the search tool is started."
-msgstr ""
-"Denne nøkkelen bestemmer om «Følg symbolske lenker» alternativet skal gjelde "
-"når søkeverktøyet starter."
-
-#: ../data/gnome-search-tool.schemas.in.h:65
-msgid ""
-"This key determines if the \"Name does not contain\" search option is "
-"selected when the search tool is started."
-msgstr ""
-"Denne nøkkelen bestemmer om «Navn inneholder ikke» alternativet skal gjelde "
-"når søkeverktøyet starter."
-
-#: ../data/gnome-search-tool.schemas.in.h:66
-msgid ""
-"This key determines if the \"Name matches regular expression\" search option "
-"is selected when the search tool is started."
-msgstr ""
-"Denne nøkkelen bestemmer om «Navn har treff på vanlig uttrykk» skal gjelde "
-"når søkeverktøyet starter."
-
-#: ../data/gnome-search-tool.schemas.in.h:67
-msgid ""
-"This key determines if the \"Owned by group\" search option is selected when "
-"the search tool is started."
-msgstr ""
-"Denne nøkkelen bestemmer om «Eies av gruppe» alternativet skal gjelde når "
-"søkeverktøyet starter."
-
-#: ../data/gnome-search-tool.schemas.in.h:68
-msgid ""
-"This key determines if the \"Owned by user\" search option is selected when "
-"the search tool is started."
-msgstr ""
-"Denne nøkkelen bestemmer om «Eies av bruker» alternativet skal gjelde når "
-"søkeverktøyet starter."
-
-#: ../data/gnome-search-tool.schemas.in.h:69
-msgid ""
-"This key determines if the \"Owner is unrecognized\" search option is "
-"selected when the search tool is started."
-msgstr ""
-"Denne nøkkelen bestemmer om «Eier gjenkjennes ikke» alternativet skal gjelde "
-"når søkeverktøyet starter."
-
-#. Translators: The quoted text is the label of the additional
-#. options expander that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:72
-msgid ""
-"This key determines if the \"Select more options\" section is expanded when "
-"the search tool is started."
-msgstr ""
-"Denne nøkklen bestemmer om alle søkealternativene skal vises når "
-"søkeverktøyet starter."
-
 #: ../data/gnome-search-tool.schemas.in.h:73
-msgid ""
-"This key determines if the \"Show hidden files and folders\" search option "
-"is selected when the search tool is started."
-msgstr ""
-"Denne nøkkelen bestemmer om «Vis skjulte filer og mapper» alternativet skal "
-"gjelde når søkeverktøyet starter."
+msgid "Default Window Height"
+msgstr "Standard vindushøyde"
 
 #: ../data/gnome-search-tool.schemas.in.h:74
 msgid ""
-"This key determines if the \"Size at least\" search option is selected when "
-"the search tool is started."
+"This key defines the window height, and it's used to remember the size of "
+"the search tool between sessions. Setting it to -1 will make the search tool "
+"use the default height."
 msgstr ""
-"Denne nøkkelen bestemmer om «Minste størrelse» alternativet skal gjelde når "
-"søkeverktøyet starter."
+"Denne nøkkelen definerer høyden på vinduet, og den er brukt til å huske "
+"størrelsen på søkevertøyet mellom øktenen. Ved å sette den til -1, vil "
+"forvalgt bredde brukes."
 
 #: ../data/gnome-search-tool.schemas.in.h:75
-msgid ""
-"This key determines if the \"Size at most\" search option is selected when "
-"the search tool is started."
-msgstr ""
-"Denne nøkkelen bestemmer om «Ikke større enn» alternativet skal gjelde når "
-"søkeverktøyet starter."
+msgid "Default Window Maximized"
+msgstr "Forvalgt vindu maksimert"
 
 #: ../data/gnome-search-tool.schemas.in.h:76
 msgid ""
-"This key determines if the search tool disables the use of the find command "
-"after performing a quick search."
-msgstr ""
-"Denne nøkkelen bestemmer om søkeverktøyet slår av bruken av «find»-"
-"kommandoen etter å ha utført et raskt søk."
-
-#: ../data/gnome-search-tool.schemas.in.h:77
-msgid ""
-"This key determines if the search tool disables the use of the locate "
-"command when performing simple file name searches."
-msgstr ""
-"Denne nøkkelen bestemmer om søkeverktøyet deaktiverer bruken av «locate»-"
-"kommandoen under enkle filnavnsøk."
-
-#: ../data/gnome-search-tool.schemas.in.h:78
-msgid ""
 "This key determines if the search tool window starts in a maximized state."
 msgstr "Denne nøkkelen bestemmer om søkeverktøyet skal startes maksimert."
+
+#: ../data/gnome-search-tool.schemas.in.h:77
+msgid "Look in Folder"
+msgstr "Se i mappe"
+
+#: ../data/gnome-search-tool.schemas.in.h:78
+msgid "This key defines the default value of the \"Look in Folder\" widget."
+msgstr "Denne nøkkelen definerer forvalgt verdi for komponenten «Se i mappe»."
 
 #: ../src/gsearchtool-callbacks.c:194
 msgid "Could not open help document."
