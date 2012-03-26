@@ -1,22 +1,21 @@
 # QIRIMTATARCA gnome-utils.
 # Copyright (C) 1998-2010 Free Software Foundation, Inc.
 # This file is distributed under the same license as the gnome-utils package.
+# Reşat SABIQ <tilde.birlik@gmail.com>, 2010, 2011, 2012.
 #
-# Reşat SABIQ <tilde.birlik@gmail.com>, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-10-06 14:36-0400\n"
-"PO-Revision-Date: 2010-04-14 20:53-0500\n"
+"POT-Creation-Date: 2012-03-17 00:58-0500\n"
+"PO-Revision-Date: 2012-03-17 01:08-0500\n"
 "Last-Translator: Reşat SABIQ <tilde.birlik@gmail.com>\n"
-"Language-Team: QIRIMTATARCA (Qırım Türkçesi) <tilde-birlik-tercime@lists."
-"sourceforge.net>\n"
+"Language-Team: QIRIMTATARCA <tilde-birlik-meydan@lists.sourceforge.net>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms:  nplurals=1; plural=0;\n"
+"Content-Transfer-Encoding: UTF-8\n"
+"Plural-Forms: nplurals=1; plural=0\n"
 
 #: ../data/gnome-search-tool.desktop.in.h:1
 msgid "Locate documents and folders on this computer by name or content"
@@ -147,7 +146,7 @@ msgstr "\"Ait olduğu kullanıcı\" arama seçeneğini seçin"
 #. search option that is translated elsewhere.
 #: ../data/gnome-search-tool.schemas.in.h:42
 msgid "Select the search option \"Owner is unrecognized\""
-msgstr "\"Saibi tanılmağandır\" qıdırma ihtiyarını saylañız"
+msgstr "\"Sahibi tanılmağandır\" qıdırma ihtiyarını saylañız"
 
 #. Translators: The quoted text is the label of an available
 #. search option that is translated elsewhere.
@@ -327,7 +326,7 @@ msgid ""
 "This key determines if the \"Owner is unrecognized\" search option is "
 "selected when the search tool is started."
 msgstr ""
-"Bu anahtar qıdırma aleti başlatılğanında \"Saibi tanılmağandır\" qıdırma "
+"Bu anahtar qıdırma aleti başlatılğanında \"Sahibi tanılmağandır\" qıdırma "
 "ihtiyarınıñ saylanğan olıp olmağanını belgiler."
 
 # tr
@@ -504,9 +503,8 @@ msgstr "Şöy_le Aç"
 
 #. Popup menu item: Open Containing Folder
 #: ../src/gsearchtool-callbacks.c:1155
-#, fuzzy
 msgid "Open Containing _Folder"
-msgstr "_Cilbent Aç"
+msgstr "İhtiva Etken _Cilbentni Aç"
 
 # tr
 #: ../src/gsearchtool-callbacks.c:1173
@@ -757,7 +755,7 @@ msgstr "Ait olğanı _zümre"
 
 #: ../src/gsearchtool.c:92
 msgid "Owner is unrecognized"
-msgstr "Saibi tanılmağandır"
+msgstr "Sahibi tanılmağandır"
 
 #: ../src/gsearchtool.c:94
 msgid "Na_me does not contain"
@@ -1192,3 +1190,2027 @@ msgstr "Oturım idaresi ihtiyariyatı:"
 #: ../libeggsmclient/eggsmclient.c:253
 msgid "Show session management options"
 msgstr "Oturım idaresi ihtiyariyatını köster"
+
+#~ msgid "Check folder sizes and available disk space"
+#~ msgstr "Cilbent ölçülerini ve faydalanışlı disk fezasını teşker"
+
+#~ msgid "Disk Usage Analyzer"
+#~ msgstr "Disk Qullanımı Tahlilcisi"
+
+#~ msgid "Disk Usage Analyzer Preferences"
+#~ msgstr "Disk Qullanımı Tahlilcisi Tercihleri"
+
+# tr
+#~ msgid "Select _devices to include in filesystem scan:"
+#~ msgstr "Dosya sistemi taramasında içermek için _aygıları seç:"
+
+# tr
+#~ msgid "_Monitor changes to your home folder"
+#~ msgstr "Başlangıç _klasörünüzdeki değişiklikleri izle"
+
+# tr
+#~ msgid "All_ocated Space"
+#~ msgstr "Ayrılmış _Alan"
+
+# tr
+#~ msgid "Refresh"
+#~ msgstr "Tazele"
+
+# tr
+#~ msgid "S_can Remote Folder..."
+#~ msgstr "_Uzaktaki Klasörü Tara..."
+
+# tr
+#~ msgid "Scan F_older..."
+#~ msgstr "Klasörü _Tara..."
+
+# tr
+#~ msgid "Scan Filesystem"
+#~ msgstr "Dosya Sistemini Tara"
+
+# tr
+#~ msgid "Scan Folder"
+#~ msgstr "Dizini Tara"
+
+# tr
+#~ msgid "Scan Home"
+#~ msgstr "Başlangıç Dizinini Tara"
+
+# tr
+#~ msgid "Scan Remote Folder"
+#~ msgstr "Uzaktaki Klasörü Tara"
+
+# tr
+#~ msgid "Scan _Filesystem"
+#~ msgstr "_Dosya sistemini tara"
+
+# tr
+#~ msgid "Scan _Home Folder"
+#~ msgstr "_Başlangıç Klasörünü Tara"
+
+# tr
+#~ msgid "Scan a folder"
+#~ msgstr "Bir klasörü tara"
+
+# tr
+#~ msgid "Scan a remote folder"
+#~ msgstr "Uzaktaki bir dizini tara"
+
+# tr
+#~ msgid "Scan filesystem"
+#~ msgstr "Dosya sistemini tara"
+
+# tr
+#~ msgid "Scan home folder"
+#~ msgstr "Başlangıç klasörünü tara"
+
+# tr
+#~ msgid "St_atusbar"
+#~ msgstr "_Durum Çubuğu"
+
+# tr
+#~ msgid "Stop scanning"
+#~ msgstr "Taramayı durdur"
+
+#~ msgid "_Analyzer"
+#~ msgstr "_Tahlilci"
+
+# tüklü
+#~ msgid "_Collapse All"
+#~ msgstr "Hepsini _Eştir"
+
+#~ msgid "_Contents"
+#~ msgstr "_İçindekiler"
+
+#~ msgid "_Edit"
+#~ msgstr "_Tahrir"
+
+#~ msgid "_Expand All"
+#~ msgstr "Hepsini _Cayıldır"
+
+#~ msgid "_Help"
+#~ msgstr "_Yardım"
+
+#~ msgid "_Toolbar"
+#~ msgstr "_Alet çubuğı"
+
+#~ msgid "_View"
+#~ msgstr "_Körünim"
+
+#~ msgid "A list of URIs for partitions to be excluded from scanning."
+#~ msgstr "Taramada harıç tutulacaq taqsimler içün bir URİ listesi."
+
+# tr
+#~ msgid "Enable monitoring of home directory"
+#~ msgstr "Başlangıç dizininin izlenmesini etkinleştir"
+
+#~ msgid "Excluded partitions URIs"
+#~ msgstr "Harıç tutulğan taqsimler URİ'leri"
+
+# tr
+#~ msgid "Status Bar is Visible"
+#~ msgstr "Durum Çubuğu Görünür"
+
+# tr
+#~ msgid "Subfolders tooltips visible"
+#~ msgstr "Alt klasör balonlarının görünmesi"
+
+# tr
+#~ msgid "Toolbar is Visible"
+#~ msgstr "Araç çubuğu Görünür"
+
+# tr
+#~ msgid "Whether any change to the home directory should be monitored."
+#~ msgstr "Başlangıç dizinindeki değişikliklerin izlenip izlenmemesi."
+
+# tr
+#~ msgid ""
+#~ "Whether the status bar at the bottom of main window should be visible."
+#~ msgstr "Ana pencerenin altındaki durum çubuğunun görünür olup olmayacağı."
+
+#~ msgid "Whether the subfolder tooltips of the selected folder are drawn."
+#~ msgstr "Saylanğan cilbentniñ alt-cilbent alet-qaraneleriniñ sızılacağı."
+
+# tr
+#~ msgid "Whether the toolbar should be visible in main window."
+#~ msgstr "Ana pencere içindeki araç çubuğunun görünür olup olmayacağı."
+
+#~ msgid "Scanning..."
+#~ msgstr "Tarana..."
+
+#~ msgid "Calculating percentage bars..."
+#~ msgstr "Faizlik çubuqlar hesaplana..."
+
+#~ msgid "Ready"
+#~ msgstr "Hazır"
+
+# tr
+#~ msgid "Total filesystem capacity"
+#~ msgstr "Toplam dosya sistemi kapasitesi"
+
+# tr
+#~ msgid "Total filesystem usage"
+#~ msgstr "Toplam dosya sistemi kullanımı"
+
+# tr
+#~ msgid "contains hardlinks for:"
+#~ msgstr "sabit bağlantılar içerir:"
+
+#~ msgid "%5d item"
+#~ msgid_plural "%5d items"
+#~ msgstr[0] "%5d aded"
+
+# tr
+#~ msgid "Could not initialize monitoring"
+#~ msgstr "İzleme başlatılamadı"
+
+# tr
+#~ msgid "Changes to your home folder will not be monitored."
+#~ msgstr "Başlangıç dizinindeki değişiklikler izlenmeyecek."
+
+# tr
+#~ msgid "Move to parent folder"
+#~ msgstr "Üst klasöre taşı"
+
+# tr
+#~ msgid "Zoom in"
+#~ msgstr "Yakınlaştır"
+
+# tr
+#~ msgid "Zoom out"
+#~ msgstr "Uzaklaştır"
+
+#~ msgid "Save screenshot"
+#~ msgstr "Ekran körüntisini saqla"
+
+# tr
+#~ msgid "View as Rings Chart"
+#~ msgstr "Halka Çizelgesi Olarak Göster"
+
+# tr
+#~ msgid "View as Treemap Chart"
+#~ msgstr "Ağaç Haritası Çizelgesi Olarak Göster"
+
+# tr
+#~ msgid "Show version"
+#~ msgstr "Sürümü göster"
+
+# tr
+#~ msgid "[DIRECTORY]"
+#~ msgstr "[DİZİN]"
+
+# tr
+#~ msgid "Too many arguments. Only one directory can be specified."
+#~ msgstr "Çok fazla argüman. Sadece bir dizin belirtilebilir."
+
+# tr
+#~ msgid "Could not detect any mount point."
+#~ msgstr "Hiçbir bağlama noktası tespit edilemedi."
+
+# tr
+#~ msgid "Without mount points disk usage cannot be analyzed."
+#~ msgstr "Bağlama noktaları olmadan disk kullanımı analiz edilemez."
+
+# tr
+#~ msgid "Maximum depth"
+#~ msgstr "Azami derinlik"
+
+# tr
+#~ msgid "The maximum depth drawn in the chart from the root"
+#~ msgstr "Kökten çizelgenin çizileceği azami derinlik"
+
+# tr
+#~ msgid "Chart model"
+#~ msgstr "Çizelge modeli"
+
+# tr
+#~ msgid "Set the model of the chart"
+#~ msgstr "Çizelgenin modelini ayarlayın"
+
+# tr
+#~ msgid "Chart root node"
+#~ msgstr "Çizelge kök düğümü"
+
+# tr
+#~ msgid "Set the root node from the model"
+#~ msgstr "Modelden kök düğümü atan"
+
+# tr
+#~ msgid "Cannot create pixbuf image!"
+#~ msgstr "pixbuf görüntüsü oluşturulamıyor"
+
+# tr
+#~ msgid "Save Snapshot"
+#~ msgstr "Anlık Durum Kaydet"
+
+# tr
+#~ msgid "_Image type:"
+#~ msgstr "_Görüntü türü:"
+
+# tr
+#~ msgid "Scan"
+#~ msgstr "Tara"
+
+# tr
+#~ msgid "Device"
+#~ msgstr "Aygıt"
+
+# tr
+#~ msgid "Mount Point"
+#~ msgstr "Bağlama Noktası"
+
+# tr
+#~ msgid "Filesystem Type"
+#~ msgstr "Dosya Sistemi Türü"
+
+# tr
+#~ msgid "Total Size"
+#~ msgstr "Toplum Boyut"
+
+# tr
+#~ msgid "Available"
+#~ msgstr "Mevcut"
+
+# tr
+#~ msgid "Cannot scan location \"%s\""
+#~ msgstr "Konum \"%s\" taranamadı"
+
+# tr
+#~ msgid "Custom Location"
+#~ msgstr "Özel Konum"
+
+# tr
+#~ msgid "SSH"
+#~ msgstr "SSH"
+
+# tr
+#~ msgid "Public FTP"
+#~ msgstr "Genel FTP"
+
+# tr
+#~ msgid "FTP (with login)"
+#~ msgstr "FTP (giriş ile)"
+
+# tr
+#~ msgid "Windows share"
+#~ msgstr "Windows paylaşımı"
+
+# tr
+#~ msgid "WebDAV (HTTP)"
+#~ msgstr "WebDAV (HTTP)"
+
+# tr
+#~ msgid "Secure WebDAV (HTTPS)"
+#~ msgstr "Güvenli WebDAV (HTTPS)"
+
+# tr
+#~ msgid "Cannot Connect to Server. You must enter a name for the server."
+#~ msgstr "Sunucuya Bağlanılamıyor. Sunucu için bir isim girmeniz gerekiyor."
+
+# tr
+#~ msgid "Please enter a name and try again."
+#~ msgstr "Lütfen bir isim girin ve yeniden deneyin."
+
+# tr
+#~ msgid "_Location (URI):"
+#~ msgstr "_Konum (URI):"
+
+# tr
+#~ msgid "_Server:"
+#~ msgstr "_Sunucu:"
+
+# tr
+#~ msgid "Optional information:"
+#~ msgstr "Tercihi bilgi:"
+
+# tr
+#~ msgid "_Share:"
+#~ msgstr "_Paylaşım:"
+
+# tr
+#~ msgid "_Port:"
+#~ msgstr "_Kapı:"
+
+# tr
+#~ msgid "_Folder:"
+#~ msgstr "_Dizin:"
+
+# tr
+#~ msgid "_User Name:"
+#~ msgstr "K_ullanıcı adı:"
+
+# tr
+#~ msgid "_Domain Name:"
+#~ msgstr "Alan A_dı:"
+
+# tr
+#~ msgid "Connect to Server"
+#~ msgstr "Sunucuya Bağlan"
+
+# tr
+#~ msgid "Service _type:"
+#~ msgstr "Servis _türü:"
+
+# tr
+#~ msgid "_Scan"
+#~ msgstr "_Tara"
+
+# tr
+#~ msgid "Rescan your home folder?"
+#~ msgstr "Başlangıç klasörünüz tekrar taransın mı?"
+
+# tr
+#~ msgid ""
+#~ "The content of your home folder has changed. Select rescan to update the "
+#~ "disk usage details."
+#~ msgstr ""
+#~ "Başlangıç klasörünun içeriği değişti. Disk kullanım ayrıntılarını "
+#~ "güncellemek için tekrar taramayı seçin."
+
+# tr
+#~ msgid "_Rescan"
+#~ msgstr "_Tekrar Tara"
+
+# tr
+#~ msgid "Usage"
+#~ msgstr "Kullanım"
+
+# tr
+#~ msgid "Contents"
+#~ msgstr "İçindekiler"
+
+# tr
+#~ msgid "Select Folder"
+#~ msgstr "Bir Klasör Seçin"
+
+# tr
+#~ msgid "_Show hidden folders"
+#~ msgstr "_Gizli klasörleri göster"
+
+# tr
+#~ msgid "Cannot check an excluded folder!"
+#~ msgstr "Dışlanan bir klasörü kontrol edilemez!"
+
+# tr
+#~ msgid "\"%s\" is not a valid folder"
+#~ msgstr "\"%s\" geçerli bir klasör değil"
+
+# tr
+#~ msgid "Could not analyze disk usage."
+#~ msgstr "Disk kullanımını analiz edilemedi."
+
+# tr
+#~ msgid "_Open Folder"
+#~ msgstr "_Klasör Aç"
+
+# tr
+#~ msgid "Total filesystem capacity:"
+#~ msgstr "Toplam dosya sistemi kapasitesi:"
+
+# tr
+#~ msgid "used:"
+#~ msgstr "kullanılan:"
+
+# tr
+#~ msgid "available:"
+#~ msgstr "ulaşılabilir:"
+
+# tr
+#~ msgid "Could not open folder \"%s\""
+#~ msgstr "\"%s\" klasörü açılamadı"
+
+# tr
+#~ msgid "There is no installed viewer capable of displaying the folder."
+#~ msgstr "Klasörü gösterebilecek bir görüntüleyici yüklü değil."
+
+# tr
+#~ msgid "Could not move \"%s\" to the Trash"
+#~ msgstr "\"%s\" Çöpe taşınamadı"
+
+# tr
+#~ msgid "Could not move file to the Trash"
+#~ msgstr "Dosya Çöpe taşınamadı"
+
+# tr
+#~ msgid "Details: %s"
+#~ msgstr "Ayrıntılar: %s"
+
+# tr
+#~ msgid "There was an error displaying help."
+#~ msgstr "Yardım gösterilirken bir hata oluştu."
+
+#~ msgid ""
+#~ "This program is free software; you can redistribute it and/or modify it "
+#~ "under the terms of the GNU General Public License as published by the "
+#~ "Free Software Foundation; either version 2 of the License, or (at your "
+#~ "option) any later version."
+#~ msgstr ""
+#~ "Bu program serbest yazılımdır; onı Serbest Yazılım Vaqfı (FSF) tarafından "
+#~ "neşir etilgeni kibi GNU Umumiy Aleniy Litsenziyası şartları altında kene "
+#~ "dağıtabilir ve/yaki deñiştirebilirsiñiz; ya Litsenziyanıñ 2-nci sürümi, "
+#~ "ya da (ihtiyarıñızğa köre) her hangi soñraki sürümi."
+
+#~ msgid ""
+#~ "This program is distributed in the hope that it will be useful, but "
+#~ "WITHOUT ANY WARRANTY; without even the implied warranty of "
+#~ "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General "
+#~ "Public License for more details."
+#~ msgstr ""
+#~ "Bu program faydalı olacağı ümüti ile, lâkin HER HANGİ KEFALET OLMADAN "
+#~ "dağıtıla; hatta zımniy ALIP-BERİLEBİLİRLİK yaki BELLİ MURATQA LİYAQAT "
+#~ "kefaleti olmadan.  Daa çoq tafsilât içün GNU Umumiy Aleniy Litsenziyasını "
+#~ "körüñiz."
+
+#~ msgid ""
+#~ "You should have received a copy of the GNU General Public License along "
+#~ "with this program; if not, write to the Free Software Foundation, Inc., "
+#~ "51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA"
+#~ msgstr ""
+#~ "Bu program ile beraber bir GNU Umumiy Aleniy Litsenziyası kopiyasını "
+#~ "berilgen olmañız lâzim; aksi taqdirde, Serbest Yazılım Vaqfı'na yazıñız: "
+#~ "Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, "
+#~ "MA  02110-1301 USA"
+
+# tr
+#~ msgid "Baobab"
+#~ msgstr "Baobab"
+
+# tr
+#~ msgid "A graphical tool to analyze disk usage."
+#~ msgstr "Disk kullanımını analiz etmek için grafiksel bir araç."
+
+#~ msgid "translator-credits"
+#~ msgstr "Reşat SABIQ <tilde.birlik@gmail.com>"
+
+# tr
+#~ msgid "The folder does not exist."
+#~ msgstr "Dizin mevcut değil."
+
+# tr
+#~ msgid "Default Dictionary Server"
+#~ msgstr "Öntanımlı Sözlük Sunucusu"
+
+# tr
+#~ msgid "Dictionary Look up"
+#~ msgstr "Sözlükte Arama"
+
+# tr
+#~ msgid "Look up words in a dictionary"
+#~ msgstr "Kelimeleri bir sözlükte ara"
+
+#~ msgid "Cl_ear"
+#~ msgstr "_Temizle"
+
+#~ msgid "_About"
+#~ msgstr "_Haqqında"
+
+#~ msgid "_Look Up Selected Text"
+#~ msgstr "Saylanğan Metinni _Tapıştır"
+
+#~ msgid "_Preferences"
+#~ msgstr "_Tercihler"
+
+#~ msgid "_Print"
+#~ msgstr "_Bastır"
+
+#~ msgid "_Save"
+#~ msgstr "_Saqla"
+
+# tr
+#~ msgid "Check word definitions and spellings in an online dictionary"
+#~ msgstr "Sözcük tanımlarını ve yazımlarını çevrimiçi bir sözlükte denetle"
+
+# tr
+#~ msgid "Dictionary"
+#~ msgstr "Sözlük"
+
+# tr
+#~ msgid "Dictionary server (Deprecated)"
+#~ msgstr "Sözlük sunucusu  (Önerilmeyen)"
+
+# tr
+#~ msgid "Port used to connect to server (Deprecated)"
+#~ msgstr "Sunucuya bağlanmak için kullanılan kapı (Önerilmeyen)"
+
+# tr
+#~ msgid ""
+#~ "Specify whether to use smart lookup. This key is dependant on whether the "
+#~ "dictionary server supports this option. The default is TRUE. This key is "
+#~ "deprecated and no longer in use."
+#~ msgstr ""
+#~ "Akıllı aramayı kullanma seçeneğini belirleyin. Bu anahtar sözlük "
+#~ "sunucusunun bu seçeneği desteklemesine bağlıdır. Öntanımlı değer TRUE, "
+#~ "olarak seçilidir. Bu anahtar önerilmiyor ve artık kullanımda değildir."
+
+# tr
+#~ msgid "The default database to use"
+#~ msgstr "Kullanılacak öntanımlı veritabanı"
+
+# tr
+#~ msgid "The default height of the application window"
+#~ msgstr "Uygulama penceresinin öntanımlı yüksekliği"
+
+# tr
+#~ msgid "The default search strategy to use"
+#~ msgstr "Kullanılacak öntanımlı arama stratejisi"
+
+# tr
+#~ msgid "The default width of the application window"
+#~ msgstr "Uygulama penceresinin öntanımlı genişliği"
+
+# tr
+#~ msgid ""
+#~ "The dictionary server to connect to. The default server is dict.org. See "
+#~ "http://www.dict.org for details on other servers. This key is deprecated "
+#~ "and no longer in use."
+#~ msgstr ""
+#~ "Bağlanılacak sözlük sunucusu. Öntanımlı sunucu dict.org. Diğer sunucular "
+#~ "hakkında ayrıntılı bilgi için http://www.dict.org adresini kullanınız. Bu "
+#~ "anahtar önerilmiyor ve artık kullanımda değildir."
+
+# tr
+#~ msgid "The font to be used when printing"
+#~ msgstr "Yazdırma sırasında kullanılacak yazıtipi"
+
+# tr
+#~ msgid "The font to be used when printing a definition."
+#~ msgstr "Bir tanım yazdırılırken kullanılacak yazıtipi."
+
+# tr
+#~ msgid ""
+#~ "The name of the default individual database or meta-database to use on a "
+#~ "dictionary source. An exclamation mark (\"!\") means that all the "
+#~ "databases present in a dictionary source should be searched"
+#~ msgstr ""
+#~ "Sözlük kaynağında kullanılacak öntanımlı ayrı veritabanının veya meta-"
+#~ "veritabanı adı.Ünlem işareti (\"!\") bir sözlük kaynağında mevcut tüm "
+#~ "veritabanlarının aranması anlamına gelmektedir."
+
+# tr
+#~ msgid ""
+#~ "The name of the default search strategy to use on a dictionary source, if "
+#~ "available. The default strategy is 'exact', that is match exact words."
+#~ msgstr ""
+#~ "Eğer ulaşılabilir ise bir sözlük kaynağında kullanılacak öntanımlı arama "
+#~ "stratejisinin ismi. Öntanımlı strateji 'exact', tam kelimeleri seçer."
+
+# tr
+#~ msgid "The name of the dictionary source used"
+#~ msgstr "Kullanılan sözlük kaynağının ismi"
+
+# tr
+#~ msgid ""
+#~ "The name of the dictionary source used to retrieve the definitions of "
+#~ "words."
+#~ msgstr ""
+#~ "Kelimelerin tanımlarının alınacağı öntanımlı sözlük kaynağının ismi."
+
+# tr
+#~ msgid "The page of the sidebar to show"
+#~ msgstr "Gösterilecek olan kenar çubuğu sayfası"
+
+# tr
+#~ msgid ""
+#~ "The port number to connect to. The default port is 2628. This key is "
+#~ "deprecated and no longer in use."
+#~ msgstr ""
+#~ "Bağlantı için kullanılacak kapı (port) numarası. Öntanımlı değer, 2628.Bu "
+#~ "anahtar önerilmemektedir ve artık kullanımda değildir."
+
+# tr
+#~ msgid "The width of the sidebar"
+#~ msgstr "Kenar çubuğunun genişliği"
+
+# tr
+#~ msgid ""
+#~ "This key defines the width of the sidebar and it's used to remember the "
+#~ "setting across sessions."
+#~ msgstr ""
+#~ "Bu anahtar kenar çubuğunun genişliğini belirler ve oturumlar arasında bu "
+#~ "ayarın hatırlanması için kullanılır."
+
+# tr
+#~ msgid ""
+#~ "This key defines the window height and it's used to remember the size of "
+#~ "the dictionary window across sessions. Setting it to -1 will make the "
+#~ "dictionary window use a height based on the font size."
+#~ msgstr ""
+#~ "Bu anahtar pencere yüksekliğini tanımlar ve oturumlar arası pencere "
+#~ "boyutunu hatırlamak için kullanılır.Bu anahtarı -1 yapmak yazıtipi "
+#~ "büyüklüğüne bağlı bir pencere yüksekliği kullanılmasını sağlar."
+
+# tr
+#~ msgid ""
+#~ "This key defines the window width and it's used to remember the size of "
+#~ "the dictionary window across sessions. Setting it to -1 will make the "
+#~ "dictionary window use a width based on the font size."
+#~ msgstr ""
+#~ "Bu anahtar pencere genişliğini tanımlar ve oturumlar arası pencere "
+#~ "boyutunu hatırlamak için kullanılır.Bu anahtarı -1 yapmak yazıtipi "
+#~ "büyüklüğüne bağlı bir pencere genişliği kullanılmasını sağlar."
+
+#~ msgid ""
+#~ "This key defines whether the sidebar should be visible and it's used to "
+#~ "remember the state of the sidebar across sessions. Setting it to TRUE "
+#~ "will make the sidebar always be displayed."
+#~ msgstr ""
+#~ "Bu anahtar yan çubuqnıñ körünir olıp olmaycağını belgiler ve oturımlar "
+#~ "arasında yan çubuqnıñ durumını hatırlamaq içün qullanılır. Bunı DOĞRU'ğa "
+#~ "tesbit etüv yan çubuqnı her zaman köstertir."
+
+#~ msgid ""
+#~ "This key defines whether the statusbar should be visible and it's used to "
+#~ "remember the state of the statusbar across sessions. Setting it to TRUE "
+#~ "will make the statusbar always be displayed."
+#~ msgstr ""
+#~ "Bu anahtar durum çubuğınıñ körünir olıp olmaycağını belgiler ve oturımlar "
+#~ "arasında onıñ durumını hatırlamaq içün qullanılır. Bunı DOĞRU'ğa tesbit "
+#~ "etüv durum çubuğını her zaman köstertir."
+
+# tüklü
+#~ msgid ""
+#~ "This key defines whether the window should be maximized and it's used to "
+#~ "remember the state of the dictionary window across sessions. Setting it "
+#~ "to TRUE will make the window always appear as maximized."
+#~ msgstr ""
+#~ "Bu anahtar pencereniñ azamiyleştirilgen olıp olmaycağını belgiler ve "
+#~ "oturımlar arasında luğat penceresiniñ durumını hatırlamaq içün "
+#~ "qullanılır. Bunı DOĞRU'ğa tesbit etüv pencereni her zaman "
+#~ "azamiyleştirilgen olaraq köründirir."
+
+#~ msgid ""
+#~ "This key defines which page of the sidebar should be displayed and it's "
+#~ "used to remember the setting across sessions.. It can be \"speller\" or "
+#~ "\"databases\"."
+#~ msgstr ""
+#~ "Bu anahtar yan çubuqnıñ hangi saifesiniñ kösterilecegini belgiler ve bu "
+#~ "ayarnı oturımlar arasında hatırlamaq içün qullanılır. Ya \"speller"
+#~ "\" (imlâcı) ya da \"databases\" (veritabanları) olabilir."
+
+# tr
+#~ msgid "Use smart lookup (Deprecated)"
+#~ msgstr "Akıllı aramayı kullan (Önerilmeyen)"
+
+# tr
+#~ msgid "Whether the application window should be maximized"
+#~ msgstr "Uygulama penceresinin ekranı kaplayıp kaplamayacağı"
+
+# tr
+#~ msgid "Whether the sidebar should be visible"
+#~ msgstr "Kenar çubuğunun görünür olup olmayacağı"
+
+# tr
+#~ msgid "Whether the statusbar should be visible"
+#~ msgstr "Durum çubuğunun görünür olup olmayacağı"
+
+# tr
+#~ msgid "Print"
+#~ msgstr "Yazdır"
+
+# tr
+#~ msgid "Source"
+#~ msgstr "Kaynak"
+
+# tr
+#~ msgid "_Print font:"
+#~ msgstr "_Yazdırma yazıtipi:"
+
+# tr
+#~ msgid "_Select a dictionary source for looking up words:"
+#~ msgstr "Kelime aramak için bir sözlük kaynağı _seçin:"
+
+# tr
+#~ msgid "Dictionaries"
+#~ msgstr "Sözlükler"
+
+# tr
+#~ msgid "H_ostname:"
+#~ msgstr "_Makine Adı"
+
+# tr
+#~ msgid "Source Name"
+#~ msgstr "Kaynak İsmi"
+
+# tr
+#~ msgid "Strategies"
+#~ msgstr "Stratejiler"
+
+# tr
+#~ msgid "_Description:"
+#~ msgstr "_Açıklama:"
+
+# tr
+#~ msgid "_Transport:"
+#~ msgstr "_Taşıma:"
+
+# tr
+#~ msgid "Spanish Dictionaries"
+#~ msgstr "İspanyolca Sözlükler"
+
+# tr
+#~ msgid "Longdo Thai-English Dictionaries"
+#~ msgstr "Longdo Tay-İngilizce Sözlükler"
+
+# tr
+#~ msgid "Client Name"
+#~ msgstr "İstemci İsmi"
+
+# tr
+#~ msgid "The name of the client of the context object"
+#~ msgstr "Bağlam nesnesi istemcisinin ismi"
+
+# tr
+#~ msgid "Hostname"
+#~ msgstr "Makine Adı"
+
+# tr
+#~ msgid "The hostname of the dictionary server to connect to"
+#~ msgstr "Bağlanılacak sözlük sunucusunun makine adı"
+
+# tr
+#~ msgid "Port"
+#~ msgstr "Kapı"
+
+# tr
+#~ msgid "The port of the dictionary server to connect to"
+#~ msgstr "Sözlük sunucusuna bağlanılacak kapı"
+
+# tr
+#~ msgid "Status"
+#~ msgstr "Durum"
+
+# tr
+#~ msgid "The status code as returned by the dictionary server"
+#~ msgstr "Sözlük sunucusundan dönen durum kodu"
+
+# tr
+#~ msgid "No connection to the dictionary server at '%s:%d'"
+#~ msgstr "'%s:%d' itibariyle sözlük sunucusuna bağlantı yok"
+
+# tr
+#~ msgid "Lookup failed for hostname '%s': no suitable resources found"
+#~ msgstr "Makine adı '%s' için arama başarısız: uygun kaynak bulunamadı"
+
+# tr
+#~ msgid "Lookup failed for host '%s': %s"
+#~ msgstr "Makine '%s' için arama başarısız: %s"
+
+# tr
+#~ msgid "Lookup failed for host '%s': host not found"
+#~ msgstr "Makine '%s' için arama başarısız: makine bulunamadı"
+
+# tr
+#~ msgid ""
+#~ "Unable to connect to the dictionary server at '%s:%d'. The server replied "
+#~ "with code %d (server down)"
+#~ msgstr ""
+#~ "Sözlük sunucusuna '%s:%d' itibariyle bağlanılamadı.Sunucu %d kodu ile "
+#~ "cevap verdi (sunucu çalışmıyor)"
+
+# tr
+#~ msgid ""
+#~ "Unable to parse the dictionary server reply\n"
+#~ ": '%s'"
+#~ msgstr ""
+#~ "Sözlük sunucusu cevabının ayrıştırılmasında hata\n"
+#~ ": '%s'"
+
+#~ msgid "No definitions found for '%s'"
+#~ msgstr "'%s' içün tapılğan tarifler yoq"
+
+# tr
+#~ msgid "Invalid database '%s'"
+#~ msgstr "Geçersiz veritabanı '%s'"
+
+# tr
+#~ msgid "Invalid strategy '%s'"
+#~ msgstr "Geçersiz strateji '%s'"
+
+# tr
+#~ msgid "Bad command '%s'"
+#~ msgstr "Geçersiz komut '%s'"
+
+# tr
+#~ msgid "Bad parameters for command '%s'"
+#~ msgstr "'%s' komutu için geçersiz parametreler"
+
+# tr
+#~ msgid "No databases found on dictionary server at '%s'"
+#~ msgstr "'%s' "
+
+# tr
+#~ msgid "No strategies found on dictionary server at '%s'"
+#~ msgstr "'%s' sözlük sunucusu üzerinde bir strateji bulunamadı"
+
+# tr
+#~ msgid "Connection failed to the dictionary server at %s:%d"
+#~ msgstr "%s:%d itibariyle sözlük sunucusuna bağlantı başarısız"
+
+# tr
+#~ msgid ""
+#~ "Error while reading reply from server:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Sunucudan gelen cevap okunurken hata:\n"
+#~ "%s"
+
+# tr
+#~ msgid "Connection timeout for the dictionary server at '%s:%d'"
+#~ msgstr "'%s:%d' itibariyle sözlük sunucusuna bağlantı zaman aşımına uğrası"
+
+# tr
+#~ msgid "No hostname defined for the dictionary server"
+#~ msgstr "Sözlük sunucusu için makine adı tanımlanmadı"
+
+# tr
+#~ msgid "Unable to create socket"
+#~ msgstr "Soket oluşturulamadı"
+
+# tr
+#~ msgid "Unable to set the channel as non-blocking: %s"
+#~ msgstr "Kanal bloke edilemez olarak tanımlamadı: %s"
+
+# tr
+#~ msgid "Unable to connect to the dictionary server at '%s:%d'"
+#~ msgstr "Sözlük sunucusuna bağlanılamadı '%s:%d'"
+
+# tr
+#~ msgid "Local Only"
+#~ msgstr "Sadece Yerel"
+
+# tr
+#~ msgid "Whether the context uses only local dictionaries or not"
+#~ msgstr "Bağlamın yerel sözlükleri kullanıp kullanmayacağı"
+
+# tr
+#~ msgid "Reload the list of available databases"
+#~ msgstr "Erişilebilir veri tabanlarının listesini yeniden yükle"
+
+# tr
+#~ msgid "Clear the list of available databases"
+#~ msgstr "Ulaşılabilir veri tabanlarının listesini temizle"
+
+# tr
+#~ msgid "Error while matching"
+#~ msgstr "Eşleşme yapılırken hata"
+
+#~ msgid "Not found"
+#~ msgstr "Tapılmadı"
+
+#~ msgid "F_ind:"
+#~ msgstr "_Tap:"
+
+#~ msgid "_Previous"
+#~ msgstr "_Evelki"
+
+#~ msgid "_Next"
+#~ msgstr "_Soñraki"
+
+#~ msgid "Error while looking up definition"
+#~ msgstr "Tarif tapıştırılğanda hata"
+
+# tr
+#~ msgid "Another search is in progress"
+#~ msgstr "Başka bir arama halen sürmekte"
+
+# tr
+#~ msgid "Please wait until the current search ends."
+#~ msgstr "Lütfen geçerli arama bitene kadar bekleyin."
+
+# tr
+#~ msgid "Error while retrieving the definition"
+#~ msgstr "Tanım alınırken hata"
+
+# tr
+#~ msgid "Filename"
+#~ msgstr "Dosya adı"
+
+# tr
+#~ msgid "The filename used by this dictionary source"
+#~ msgstr "Sözlük sunucusunda kullanılan dosya adı"
+
+# tr
+#~ msgid "The display name of this dictonary source"
+#~ msgstr "Bu sözlük kaynağının görünen ismi"
+
+# tr
+#~ msgid "Description"
+#~ msgstr "Betimleme"
+
+# tr
+#~ msgid "The description of this dictionary source"
+#~ msgstr "Bu sözlük kaynağının tanımı"
+
+# tr
+#~ msgid "Database"
+#~ msgstr "Veritabanı"
+
+# tr
+#~ msgid "The default database of this dictonary source"
+#~ msgstr "Bu sözlük kaynağının öntanımlı veritabanı"
+
+# tr
+#~ msgid "Strategy"
+#~ msgstr "Strateji"
+
+# tr
+#~ msgid "The default strategy of this dictonary source"
+#~ msgstr "Bu sözlük kaynağının öntanımlı stratejisi"
+
+#~ msgid "Transport"
+#~ msgstr "Naqliye"
+
+# tr
+#~ msgid "The transport mechanism used by this dictionary source"
+#~ msgstr "Bu sözlük sunucusu tarafından kullanılacak taşıma mekanizması"
+
+#~ msgid "Context"
+#~ msgstr "Bağlam"
+
+# tr
+#~ msgid "The GdictContext bound to this source"
+#~ msgstr "Bu kaynağa bağlanacak GdictContext "
+
+# tr
+#~ msgid "Invalid transport type '%d'"
+#~ msgstr "Geçersiz taşıma tipi '%d'"
+
+# tr
+#~ msgid "No '%s' group found inside the dictionary source definition"
+#~ msgstr "Sözlük kaynağı tanımı içinde '%s' grubu bulunamadı"
+
+# tr
+#~ msgid ""
+#~ "Unable to get the '%s' key inside the dictionary source definition: %s"
+#~ msgstr "'%s' anahtarı sözlük kaynağı %s içinden alınamadı"
+
+# tr
+#~ msgid ""
+#~ "Unable to get the '%s' key inside the dictionary source definition file: "
+#~ "%s"
+#~ msgstr "'%s' anahtarı sözlük kaynak tanım dosyası %s içinden alınamadı"
+
+# tr
+#~ msgid "Dictionary source does not have name"
+#~ msgstr "Sözlük kaynağının ismi yok"
+
+#~ msgid "Dictionary source '%s' has invalid transport '%s'"
+#~ msgstr "Luğat menbası '%s' keçersiz '%s' naqliyesine sahiptir"
+
+# tr
+#~ msgid "Reload the list of available sources"
+#~ msgstr "Erişilebilir kaynakların listesini yenile"
+
+# tr
+#~ msgid "Paths"
+#~ msgstr "Yollar"
+
+# tr
+#~ msgid "Search paths used by this object"
+#~ msgstr "Bu nesne tarafından kullanılan arama yolları"
+
+# tr
+#~ msgid "Sources"
+#~ msgstr "Kaynaklar"
+
+# tr
+#~ msgid "Dictionary sources found"
+#~ msgstr "Bulunan sözlük kaynakları"
+
+# tr
+#~ msgid "Clear the list of similar words"
+#~ msgstr "Benzer kelimeler listesini temizle"
+
+# tr
+#~ msgid "The GdictContext object used to get the word definition"
+#~ msgstr "Kelime tanımı alınırken kullanılan GdictContext nesnesi"
+
+# tr
+#~ msgid "The database used to query the GdictContext"
+#~ msgstr "GdictContext sorgusu için kullanılacak veritabanı"
+
+# tr
+#~ msgid "The strategy used to query the GdictContext"
+#~ msgstr "GdictContext sorgulamak için kullanılacak strateji"
+
+# tr
+#~ msgid "Reload the list of available strategies"
+#~ msgstr "Erişilebilir stratejilerin listesini yeniden yükle"
+
+# tr
+#~ msgid "Clear the list of available strategies"
+#~ msgstr "Erişilebilir stratejilerin listesini temizle"
+
+# tr
+#~ msgid "GDict debugging flags to set"
+#~ msgstr "Atanacak GDict hata ayıklama imleri"
+
+# tr
+#~ msgid "FLAGS"
+#~ msgstr "İMLER"
+
+# tr
+#~ msgid "GDict debugging flags to unset"
+#~ msgstr "Kaldırmak için GDict hata ayıklama imleri"
+
+# tr
+#~ msgid "GDict Options"
+#~ msgstr "GDict Seçenekleri"
+
+# tr
+#~ msgid "Show GDict Options"
+#~ msgstr "GDict Seçeneklerini Göster"
+
+# tr
+#~ msgid "Look up words in dictionaries"
+#~ msgstr "Kelimeleri sözlüklerde ara"
+
+# tr
+#~ msgid ""
+#~ "Definition for '%s'\n"
+#~ "  From '%s':\n"
+#~ "\n"
+#~ "%s\n"
+#~ msgstr ""
+#~ "'%2$s' veritabanından\n"
+#~ "'%1$s' için tanım gelen tanım:\n"
+#~ "\n"
+#~ "%3$s\n"
+
+# tr
+#~ msgid "Error: %s\n"
+#~ msgstr "Hata: %s\n"
+
+# tr
+#~ msgid "See gnome-dictionary --help for usage\n"
+#~ msgstr "Kullanım yardımı için gnome-dictionary --help\n"
+
+# tr
+#~ msgid "Unable to find a suitable dictionary source"
+#~ msgstr "Uygun bir sözlük kaynağı bulunamadı"
+
+# tr
+#~ msgid ""
+#~ "Error while looking up the definition of \"%s\":\n"
+#~ "%s"
+#~ msgstr ""
+#~ "\"%s\"\" için tanım aranırken hata:\n"
+#~ "%s"
+
+# tr
+#~ msgid "Words to look up"
+#~ msgstr "Aranacak kelimeler"
+
+# tr
+#~ msgid "word"
+#~ msgstr "kelime"
+
+# tr
+#~ msgid "Words to match"
+#~ msgstr "Eşleşecek kelimeler"
+
+# tr
+#~ msgid "Dictionary source to use"
+#~ msgstr "Kullanılacak sözlük kaynağı"
+
+# tr
+#~ msgid "source"
+#~ msgstr "kaynak"
+
+# tr
+#~ msgid "Show available dictionary sources"
+#~ msgstr "Geçerli sözlük kaynaklarını göster"
+
+# tr
+#~ msgid "Print result to the console"
+#~ msgstr "Sonucu konsola yazdır"
+
+# tr
+#~ msgid "Database to use"
+#~ msgstr "Kullanılacak veritabanı"
+
+# db=veri tabanı?
+# tr
+#~ msgid "db"
+#~ msgstr "db"
+
+# tr
+#~ msgid "Strategy to use"
+#~ msgstr "Kullanılacak strateji"
+
+# tr
+#~ msgid "strat"
+#~ msgstr "strat"
+
+# tr
+#~ msgid " - Look up words in dictionaries"
+#~ msgstr " - Kelimeleri sözlüklerde ara"
+
+# tr
+#~ msgid "Save a Copy"
+#~ msgstr "Bir Kopya Kaydet"
+
+# tr
+#~ msgid "Untitled document"
+#~ msgstr "İsimsiz döküman"
+
+# tr
+#~ msgid "Error while writing to '%s'"
+#~ msgstr "'%s' dosyasına yazılırken hata"
+
+#~ msgid "Clear the definitions found"
+#~ msgstr "Tapılğan tariflerni temizle"
+
+#~ msgid "Clear definition"
+#~ msgstr "Tarifni temizle"
+
+#~ msgid "Clear the text of the definition"
+#~ msgstr "Tarifniñ metnini temizle"
+
+#~ msgid "Print the definitions found"
+#~ msgstr "Tapılğan tariflerni bastır"
+
+#~ msgid "Print definition"
+#~ msgstr "Tarifni bastır"
+
+#~ msgid "Print the text of the definition"
+#~ msgstr "Tarifniñ metnini bastır"
+
+#~ msgid "Save the definitions found"
+#~ msgstr "Tapılğan tariflerni saqla"
+
+#~ msgid "Save definition"
+#~ msgstr "Tarifni saqla"
+
+#~ msgid "Save the text of the definition to a file"
+#~ msgstr "Tarifniñ metnini bir dosyege saqla"
+
+#~ msgid "Click to view the dictionary window"
+#~ msgstr "Luğat penceresini körmek içün çertiñiz"
+
+#~ msgid "Toggle dictionary window"
+#~ msgstr "Luğat penceresini döndür"
+
+#~ msgid "Show or hide the definition window"
+#~ msgstr "Tarif penceresini köster ya da gizle"
+
+#~ msgid "Type the word you want to look up"
+#~ msgstr "Tapıştırmağa istegeniñiz kelimeni tuşlañız"
+
+# tr
+#~ msgid "Dictionary entry"
+#~ msgstr "Sözlük girişi"
+
+# tr
+#~ msgid "Dictionary Preferences"
+#~ msgstr "Sözlük Tercihleri"
+
+# tr
+#~ msgid "There was an error while displaying help"
+#~ msgstr "Yardım gösterilirken bir hata oluştu"
+
+# tr
+#~ msgid "No dictionary source available with name '%s'"
+#~ msgstr "'%s' isminde ulaşılabilir sözlük kaynağı yok"
+
+# tr
+#~ msgid "Unable to find dictionary source"
+#~ msgstr "Sözlük kaynağı bulunamadı"
+
+# tr
+#~ msgid "No context available for source '%s'"
+#~ msgstr "'%s' kaynağı için ulaşılabilir bağlam yok"
+
+# tr
+#~ msgid "Unable to create a context"
+#~ msgstr "Bir bağlam oluşturulamadı"
+
+# tr
+#~ msgid "Unable to connect to GConf"
+#~ msgstr "GConf 'a bağlanılamadı"
+
+# tr
+#~ msgid "Unable to get notification for preferences"
+#~ msgstr "Tercihler için uyarı alınamadı"
+
+# tr
+#~ msgid "Unable to get notification for the document font"
+#~ msgstr "Belge yazıtipi için uyarı alınamadı"
+
+# tr
+#~ msgid "Unable to rename file '%s' to '%s': %s"
+#~ msgstr "'%s' dosyasının ismi '%s' olarak değiştirilemedi: %s"
+
+# tr
+#~ msgid "Unable to create the data directory '%s': %s"
+#~ msgstr "'%s' veri dizini oluşturulamıyor: %s"
+
+# tr
+#~ msgid "Edit Dictionary Source"
+#~ msgstr "Sözlük Kaynağı Düzenle"
+
+# tr
+#~ msgid "Add Dictionary Source"
+#~ msgstr "Sözlük Kaynağı Ekle"
+
+# tr
+#~ msgid "Remove \"%s\"?"
+#~ msgstr "\"%s\" kaldırılsın mı?"
+
+# tr
+#~ msgid "This will permanently remove the dictionary source from the list."
+#~ msgstr "Bu, sözlük kaynağını kalıcı olarak listeden kaldıracaktır."
+
+# tr
+#~ msgid "Unable to remove source '%s'"
+#~ msgstr "'%s' kaynağı kaldırılamıyor"
+
+# tr
+#~ msgid "Add a new dictionary source"
+#~ msgstr "Yeni bir sözlük kaynağı ekle"
+
+# tr
+#~ msgid "Remove the currently selected dictionary source"
+#~ msgstr "Geçerli olarak seçili sözlük kaynağını kaldır"
+
+# tr
+#~ msgid "Set the font used for printing the definitions"
+#~ msgstr "Tanımları yazdırmak için kullanılacak yazıtipini belirtin"
+
+# tr
+#~ msgid "Unable to display the preview: %s"
+#~ msgstr "Önizleme gösterilemiyor: %s"
+
+# tr
+#~ msgid "Unable to create a source file"
+#~ msgstr "Kaynak dosya oluşturulamadı"
+
+# tr
+#~ msgid "Unable to save source file"
+#~ msgstr "Kaynak dosya kaydedilemedi"
+
+# tr
+#~ msgid "Searching for '%s'..."
+#~ msgstr "'%s' aranıyor..."
+
+# tr
+#~ msgid "No definitions found"
+#~ msgstr "Tanım bulunamadı"
+
+# tr
+#~ msgid "A definition found"
+#~ msgid_plural "%d definitions found"
+#~ msgstr[0] "%d tanım bulundu"
+
+# tr
+#~ msgid "%s - Dictionary"
+#~ msgstr "%s - Sözlük"
+
+# tr
+#~ msgid "_File"
+#~ msgstr "_Dosya"
+
+# tr
+#~ msgid "_Go"
+#~ msgstr "_Git"
+
+# tr
+#~ msgid "_New"
+#~ msgstr "_Yeni"
+
+# tr
+#~ msgid "New look up"
+#~ msgstr "Yeni arama"
+
+# tr
+#~ msgid "_Save a Copy..."
+#~ msgstr "_Bir Kopya Kaydet..."
+
+# tr
+#~ msgid "P_review..."
+#~ msgstr "Ö_nizleme..."
+
+# tr
+#~ msgid "Preview this document"
+#~ msgstr "Bu belgeyi önizle"
+
+# tr
+#~ msgid "_Print..."
+#~ msgstr "_Yazdır..."
+
+# tr
+#~ msgid "Print this document"
+#~ msgstr "Bu belgeyi yazdır"
+
+# tr
+#~ msgid "Select _All"
+#~ msgstr "_Tümünü Seç"
+
+# tr
+#~ msgid "Find a word or phrase in the document"
+#~ msgstr "Döküman içinde kelime ya da deyim ara"
+
+# tr
+#~ msgid "Find Ne_xt"
+#~ msgstr "_Sonrakini Bul"
+
+# tr
+#~ msgid "Find Pre_vious"
+#~ msgstr "Ö_ncekini Bul"
+
+# tr
+#~ msgid "_Previous Definition"
+#~ msgstr "Ön_ceki Tanım"
+
+# tr
+#~ msgid "Go to the previous definition"
+#~ msgstr "Önceki tanıma git"
+
+# tr
+#~ msgid "_Next Definition"
+#~ msgstr "_Sonraki Tanım"
+
+# tr
+#~ msgid "Go to the next definition"
+#~ msgstr "Sonraki tanıma git"
+
+# tr
+#~ msgid "_First Definition"
+#~ msgstr "İ_lk tanım"
+
+# tr
+#~ msgid "Go to the first definition"
+#~ msgstr "İlk tanıma git"
+
+# tr
+#~ msgid "_Last Definition"
+#~ msgstr "S_on Tanım"
+
+# tr
+#~ msgid "Go to the last definition"
+#~ msgstr "Son tanıma git"
+
+# tr
+#~ msgid "Similar _Words"
+#~ msgstr "Benzer _Kelimeler"
+
+# tr
+#~ msgid "Dictionary Sources"
+#~ msgstr "Sözlük Kaynakları"
+
+# tr
+#~ msgid "Available _Databases"
+#~ msgstr "Ulaşılabilir _Veri tabanları"
+
+# tr
+#~ msgid "Available St_rategies"
+#~ msgstr "Ulaşılaiblir _Stratejiler"
+
+# tr
+#~ msgid "_Sidebar"
+#~ msgstr "_Kenar çubuğu"
+
+# tr
+#~ msgid "S_tatusbar"
+#~ msgstr "_Durum çubuğu"
+
+# tr
+#~ msgid "Dictionary source `%s' selected"
+#~ msgstr "Sözlük kaynağı `%s' seçildi"
+
+# tr
+#~ msgid "Strategy `%s' selected"
+#~ msgstr "Strateji `%s' seçildi"
+
+# tr
+#~ msgid "Database `%s' selected"
+#~ msgstr "Veritabanı `%s' seçildi"
+
+# tr
+#~ msgid "Word `%s' selected"
+#~ msgstr "`%s' kelimesi seçildi"
+
+# tr
+#~ msgid "Double-click on the word to look up"
+#~ msgstr "Aranacak kelimenin üzerine çift tıklayın"
+
+# tr
+#~ msgid "Double-click on the matching strategy to use"
+#~ msgstr "Kullanılacak eşleşen stratejinin üstüne çift tıklayın"
+
+# tr
+#~ msgid "Double-click on the source to use"
+#~ msgstr "Kullanmak için kaynağın üzerine çift tıklayın"
+
+# tr
+#~ msgid "Double-click on the database to use"
+#~ msgstr "Kullanılacak veri tabanının üstüne çift tıklayın"
+
+#~ msgid "Look _up:"
+#~ msgstr "_Tapıştır:"
+
+#~ msgid "Similar words"
+#~ msgstr "Beñzer kelimeler"
+
+#~ msgid "Available dictionaries"
+#~ msgstr "Faydalanışlı luğatlar"
+
+# tr
+#~ msgid "Available strategies"
+#~ msgstr "Ulaşılabilir stratejiler"
+
+# tr
+#~ msgid "Dictionary sources"
+#~ msgstr "Sözlük kaynakları"
+
+# tr
+#~ msgid "Error loading the help page"
+#~ msgstr "Yardım sayfası yüklenirken hata"
+
+#~ msgid "None"
+#~ msgstr "Hiç biri"
+
+#~ msgid "Drop shadow"
+#~ msgstr "Kölge tüşür"
+
+#~ msgid "Border"
+#~ msgstr "Sıñır"
+
+#~ msgid "Include _pointer"
+#~ msgstr "İbre_ni dahil et"
+
+#~ msgid "Include the window _border"
+#~ msgstr "Pencere _sıñırını dahil et"
+
+#~ msgid "Apply _effect:"
+#~ msgstr "Effekt _uyğula:"
+
+#~ msgid "Grab the whole _desktop"
+#~ msgstr "Bütün _masaüstüni yaqala"
+
+#~ msgid "Grab the current _window"
+#~ msgstr "Cari _pencereni yaqala"
+
+#~ msgid "Select _area to grab"
+#~ msgstr "Yaqalanacaq _mıntıqanı sayla"
+
+#~ msgid "Grab _after a delay of"
+#~ msgstr "Yaqalamazdan _evelki keçikme"
+
+#~ msgid "seconds"
+#~ msgstr "saniye"
+
+#~ msgid "Take Screenshot"
+#~ msgstr "Ekran Körüntisini Al"
+
+#~ msgid "Effects"
+#~ msgstr "Effektler"
+
+#~ msgid "Take _Screenshot"
+#~ msgstr "_Ekran Körüntisini Al"
+
+# tr
+#~ msgid "Error while saving screenshot"
+#~ msgstr "Ekran görüntüsü kaydedilirken hata"
+
+# tr
+#~ msgid ""
+#~ "Impossible to save the screenshot to %s.\n"
+#~ " Error was %s.\n"
+#~ " Please choose another location and retry."
+#~ msgstr ""
+#~ "Ekran görüntüsü %s konumuna kaydedilemiyor.\n"
+#~ " Hatası %s\n"
+#~ " Lütfen başka bir konum seçin ve tekrar deneyin."
+
+#~ msgid "Screenshot taken"
+#~ msgstr "Ekran körüntüsü alındı"
+
+# tr
+#~ msgid "Unable to take a screenshot of the current window"
+#~ msgstr "Mevcut pencerenin ekran görüntüsü alınamadı"
+
+#~ msgid "Screenshot-%s.png"
+#~ msgstr "Ekran-koruntisi-%s.png"
+
+#~ msgid "Screenshot-%s-%d.png"
+#~ msgstr "Ekran-koruntisi-%s-%d.png"
+
+#~ msgid "Screenshot.png"
+#~ msgstr "Ekran-koruntisi.png"
+
+#~ msgid "Screenshot-%d.png"
+#~ msgstr "Ekran-koruntisi-%d.png"
+
+# tr
+#~ msgid "Grab a window instead of the entire screen"
+#~ msgstr "Tüm ekran yerine bir pencere yakala"
+
+# tr
+#~ msgid "Grab an area of the screen instead of the entire screen"
+#~ msgstr "Tüm ekran yerine ekranın bir alanını yakala"
+
+# tr
+#~ msgid "Include the window border with the screenshot"
+#~ msgstr "Ekran görüntüsüyle birlikte pencere kenarlıklarını da kapsa"
+
+# tr
+#~ msgid "Remove the window border from the screenshot"
+#~ msgstr "Ekran görüntüsünden pencere kenarlıklarını çıkar"
+
+# tr
+#~ msgid "Take screenshot after specified delay [in seconds]"
+#~ msgstr "Belirtilen süreden sonra [saniye olarak] ekran görüntüsü al"
+
+# tr
+#~ msgid "Effect to add to the border (shadow, border or none)"
+#~ msgstr "Çerçeveye eklenecek efekt (gölge, kenarlık ya da hiçbiri)"
+
+#~ msgid "effect"
+#~ msgstr "effekt"
+
+# tr
+#~ msgid "Interactively set options"
+#~ msgstr "Seçenekleri etkileşimli olarak ata"
+
+#~ msgid "Take a picture of the screen"
+#~ msgstr "Ekrannıñ bir resmini çıqar"
+
+# tr
+#~ msgid ""
+#~ "Conflicting options: --window and --area should not be used at the same "
+#~ "time.\n"
+#~ msgstr ""
+#~ "Çakışan seçenekler: --window ve --area aynı anda kullanılmamalıdır.\n"
+
+#~ msgid "Save images of your desktop or individual windows"
+#~ msgstr "Masaüstüñiz ya da ferdiy pencereleriñizniñ suretlerini saqla"
+
+#~ msgid "*"
+#~ msgstr "*"
+
+#~ msgid "C_opy to Clipboard"
+#~ msgstr "Tüyreme-tahtasına _Kopiyala"
+
+#~ msgid "Save Screenshot"
+#~ msgstr "Ekran Körüntisini Saqla"
+
+#~ msgid "Save in _folder:"
+#~ msgstr "_Cilbentte saqla:"
+
+#~ msgid "_Name:"
+#~ msgstr "İ_sim:"
+
+#~ msgid "Border Effect"
+#~ msgstr "Sıñıt Tesiri"
+
+# tr
+#~ msgid ""
+#~ "Effect to add to the outside of a border. Possible values are \"shadow\", "
+#~ "\"none\", and \"border\"."
+#~ msgstr ""
+#~ "Kenarlıkların dışına uygulanacak efekt. Geçerli değerler \"shadow"
+#~ "\" (gölge), \"none\" (etki yok), \"border\" (kenarlık)."
+
+# tr
+#~ msgid ""
+#~ "Grab just the current window, rather than the whole desktop. This key has "
+#~ "been deprecated and it is no longer in use."
+#~ msgstr ""
+#~ "Tüm masaüstü yerine sadece mevcut pencereyi yakala. Bu anahtar artık "
+#~ "kullanılmıyor."
+
+#~ msgid "Include Border"
+#~ msgstr "Sıñırnı Dahil Et"
+
+#~ msgid "Include Pointer"
+#~ msgstr "İbreni Dahil Et"
+
+# tr
+#~ msgid "Include the pointer in the screenshot"
+#~ msgstr "Ekran görüntüsünde belirteci de içer"
+
+# tr
+#~ msgid "Include the window manager border along with the screenshot"
+#~ msgstr ""
+#~ "Ekran görüntüsüyle birlikte pencere yöneticisi kenalıklarını da kapsa"
+
+#~ msgid "Screenshot delay"
+#~ msgstr "Ekran körüntisi keçikmesi"
+
+#~ msgid "Screenshot directory"
+#~ msgstr "Ekran körüntisi cilbenti"
+
+# tr
+#~ msgid "The directory the last screenshot was saved in."
+#~ msgstr "Son ekran görüntüsünün kaydedildiği dizin."
+
+# tr
+#~ msgid "The number of seconds to wait before taking the screenshot."
+#~ msgstr "Ekran görüntüsü alınmadan önce beklenecek saniye sayısı."
+
+# tr
+#~ msgid "Window-specific screenshot (deprecated)"
+#~ msgstr "Pencereye özel ekran görüntüsü (kullanılmıyor)"
+
+# tr
+#~ msgid ""
+#~ "UI definition file for the screenshot program is missing.\n"
+#~ "Please check your installation of gnome-utils"
+#~ msgstr ""
+#~ "Ekran Görüntüsü programı için UI tanım dosyası kayıp.\n"
+#~ "Lütfen gnome-utils kurulumunuzu kontrol edin"
+
+#~ msgid "Select a folder"
+#~ msgstr "Bir cilbent sayla"
+
+# tr
+#~ msgid ""
+#~ "Unable to clear the temporary folder:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Geçici dizin temizlenemiyor:\n"
+#~ "%s"
+
+# tr
+#~ msgid ""
+#~ "The child save process unexpectedly exited.  We are unable to write the "
+#~ "screenshot to disk."
+#~ msgstr ""
+#~ "Saklama alt süreci beklenmedik bir şekilde sonlandı. Ekran görüntüsü "
+#~ "diske yazılamıyor."
+
+# tr
+#~ msgid "Unknown error saving screenshot to disk"
+#~ msgstr "Ekran görüntüsü kaydedilirken bilinmeyen hata"
+
+#~ msgid "Untitled Window"
+#~ msgstr "Serlevhasız Pencere"
+
+#~ msgid "File already exists"
+#~ msgstr "Dosye endi mevcuttır"
+
+# tr
+#~ msgid "The file \"%s\" already exists. Would you like to replace it?"
+#~ msgstr "\"%s\" dosyası zaten mevcut. Yerine koymak ister misiniz?"
+
+#~ msgid "Saving file..."
+#~ msgstr "Dosya saqlana..."
+
+# tr
+#~ msgid "Can't access source file"
+#~ msgstr "Kaynak dosyaya erişilemiyor"
+
+#~ msgid "Log File Viewer"
+#~ msgstr "Kütük Dosyesi Körüntileyicisi"
+
+#~ msgid "View or monitor system log files"
+#~ msgstr "Sistem kütük dosyelerine baq ya da közet"
+
+# tr
+#~ msgid "Height of the main window in pixels"
+#~ msgstr "Ana pencerenin benek olarak yüksekliği"
+
+# tr
+#~ msgid "Log file to open up on startup"
+#~ msgstr "Başlangıçta açılacak günlük dosyası"
+
+# tr
+#~ msgid "Log files to open up on startup"
+#~ msgstr "Başlangıçta açılacak günlük dosyaları"
+
+# tr
+#~ msgid "Size of the font used to display the log"
+#~ msgstr "Günlüğü göstermek için kullanılan yazıtipi boyutu"
+
+# tr
+#~ msgid ""
+#~ "Specifies a list of log files to open up at startup. A default list is "
+#~ "created by reading /etc/syslog.conf."
+#~ msgstr ""
+#~ "Başlangıçta açılacak günlük dosyalarının listesini belirtir. /etc/syslog."
+#~ "conf dosyası okunarak öntanımlı bir liste oluşturulur."
+
+# tr
+#~ msgid "Specifies the height of the log viewer main window in pixels."
+#~ msgstr ""
+#~ "Günlük görüntüleyicisinin ana pencere yüksekliğini benek cinsinden "
+#~ "belirtir."
+
+# tr
+#~ msgid ""
+#~ "Specifies the log file displayed at startup. The default is either /var/"
+#~ "adm/messages or /var/log/messages, depending on your operating system."
+#~ msgstr ""
+#~ "Başlangıçta açılacak günlük dosyasını belirtir. Öntanımlı değer işletim "
+#~ "sisteminize bağlı olarak ya /var/adm/messages ya da /var/log/messages "
+#~ "olabilir."
+
+# tr
+#~ msgid ""
+#~ "Specifies the size of the fixed-width font used to display the log in the "
+#~ "main tree view. The default is taken from the default terminal font size."
+#~ msgstr ""
+#~ "Ana ağaç görünümü içindeki kaydın gösterilmesi için kullanılacak fixed-"
+#~ "width yazıtipi boyutu belirler. Öntanımlı olan öntanımlı terminal "
+#~ "yazıtipinden alınmıştır."
+
+# tr
+#~ msgid "Specifies the width of the log viewer main window in pixels."
+#~ msgstr ""
+#~ "Benek cinsinden günlük görüntüleyici ana pencere genişliğini belirtir"
+
+# tr
+#~ msgid "Width of the main window in pixels"
+#~ msgstr "Ana pencerenin benek olarak genişliği"
+
+#~ msgid "Background:"
+#~ msgstr "Arqa-zemin:"
+
+#~ msgid "Effect:"
+#~ msgstr "Effekt:"
+
+#~ msgid "Foreground:"
+#~ msgstr "Ög-zemin:"
+
+#~ msgid "Hide"
+#~ msgstr "Gizle"
+
+#~ msgid "Highlight"
+#~ msgstr "Işıqlandır"
+
+#~ msgid "_Regular Expression:"
+#~ msgstr "_Muntazam İfade:"
+
+# tr
+#~ msgid "Impossible to open the file %s"
+#~ msgstr "%s dosyasını açmak imkansız"
+
+# tr
+#~ msgid "Filter name is empty!"
+#~ msgstr "Filtre ismi boş!"
+
+# tr
+#~ msgid "Filter name may not contain the ':' character"
+#~ msgstr "Filtre ismi ':' karakteri içeremez"
+
+# tr
+#~ msgid "Regular expression is empty!"
+#~ msgstr "Düzenli ifade boş!"
+
+# tr
+#~ msgid "Regular expression is invalid: %s"
+#~ msgstr "Düzenli ifade geçersiz: %s"
+
+# tr
+#~ msgid "Please specify either foreground or background color!"
+#~ msgstr "Lütfen ya ön ya da arka plan rengini belirtin!"
+
+# tr
+#~ msgid "Edit filter"
+#~ msgstr "Filtre düzenle"
+
+# tr
+#~ msgid "Add new filter"
+#~ msgstr "Yeni filtre ekle"
+
+# tr
+#~ msgid "Filters"
+#~ msgstr "Filtreler"
+
+#~ msgid "_Find:"
+#~ msgstr "_Tap:"
+
+# tr
+#~ msgid "Find Previous"
+#~ msgstr "Öncekini Bul"
+
+# tr
+#~ msgid "Find previous occurrence of the search string"
+#~ msgstr "Arama dizgisinin önceki yerini bul"
+
+# tr
+#~ msgid "Find Next"
+#~ msgstr "Sonrakini Bul"
+
+# tr
+#~ msgid "Find next occurrence of the search string"
+#~ msgstr "Arama dizgisinin bir sonraki yerini bul"
+
+# tr
+#~ msgid "Clear the search string"
+#~ msgstr "Arama dizgisini temizle"
+
+# tr
+#~ msgid ""
+#~ "Error while uncompressing the GZipped log. The file might be corrupt."
+#~ msgstr "GZip ile sıkıştırılmış günlük açılırken hata. Dosya bozuk olabilir."
+
+# tr
+#~ msgid "You don't have enough permissions to read the file."
+#~ msgstr "Dosyayı okumak için yeterli haklara sahip değilsiniz."
+
+# tr
+#~ msgid "The file is not a regular file or is not a text file."
+#~ msgstr "Dosyası normal bir dosya değil veya bir metin dosyası değil."
+
+# tr
+#~ msgid "This version of System Log does not support GZipped logs."
+#~ msgstr ""
+#~ "Sistem Günlüğü'nü bu sürümü GZip ile sıkıştırılmış günlükleri desteklemez."
+
+#~ msgid "Loading..."
+#~ msgstr "Yüklene..."
+
+# tr
+#~ msgid "Show the application's version"
+#~ msgstr "Uygulamanın sürümünü göster"
+
+#~ msgid "[LOGFILE...]"
+#~ msgstr "[KÜTÜK DOSYESİ...]"
+
+#~ msgid " - Browse and monitor logs"
+#~ msgstr " - Kütüklerni kez ve közet"
+
+#~ msgid "Log Viewer"
+#~ msgstr "Kütük Körüntileyicisi"
+
+#~ msgid "System Log Viewer"
+#~ msgstr "Sistem Kütük Körüntileyicisi"
+
+# tr
+#~ msgid "last update: %s"
+#~ msgstr "son güncelleme : %s"
+
+# tr
+#~ msgid "%d lines (%s) - %s"
+#~ msgstr "%d satır (%s) - %s"
+
+#~ msgid "Open Log"
+#~ msgstr "Kütük Aç"
+
+# tr
+#~ msgid "There was an error displaying help: %s"
+#~ msgstr "Yardım gösterilirken bir hata oluştu: %s"
+
+# tr
+#~ msgid "Wrapped"
+#~ msgstr "Katlanmış"
+
+# tr
+#~ msgid "A system log viewer for GNOME."
+#~ msgstr "GNOME için sistem günlük görüntüleyici."
+
+#~ msgid "_Filters"
+#~ msgstr "_Süzgüçler"
+
+#~ msgid "_Open..."
+#~ msgstr "_Aç..."
+
+# tr
+#~ msgid "Open a log from file"
+#~ msgstr "Dosyadan günlük aç"
+
+#~ msgid "_Close"
+#~ msgstr "_Qapat"
+
+# tr
+#~ msgid "Close this log"
+#~ msgstr "Günlüğü kapat"
+
+#~ msgid "_Quit"
+#~ msgstr "_Çıq"
+
+# tr
+#~ msgid "Quit the log viewer"
+#~ msgstr "Günlük görüntüleyicisinden çık"
+
+# tr
+#~ msgid "_Copy"
+#~ msgstr "_Kopyala"
+
+# tr
+#~ msgid "Copy the selection"
+#~ msgstr "Seçimi kopyala"
+
+#~ msgid "Select the entire log"
+#~ msgstr "Bütün kütükni sayla"
+
+#~ msgid "_Find..."
+#~ msgstr "_Tap..."
+
+#~ msgid "Find a word or phrase in the log"
+#~ msgstr "Kütük içinde bir kelime ya da ibare tap"
+
+# tr
+#~ msgid "Bigger text size"
+#~ msgstr "Daha büyük metin boyutu"
+
+# tr
+#~ msgid "Smaller text size"
+#~ msgstr "Daha küçük metin boyutu"
+
+# tr
+#~ msgid "Normal text size"
+#~ msgstr "Normal metin boyutu"
+
+# tr
+#~ msgid "Manage Filters"
+#~ msgstr "Filtreleri Yönet"
+
+# tr
+#~ msgid "Manage filters"
+#~ msgstr "Filtreleri yönet"
+
+# tr
+#~ msgid "Open the help contents for the log viewer"
+#~ msgstr "Günlük görüntüleyici için yardım dosyasını aç"
+
+# tr
+#~ msgid "Show the about dialog for the log viewer"
+#~ msgstr "Günlük görüntüleyici için hakkında penceresini göster"
+
+# tr
+#~ msgid "_Statusbar"
+#~ msgstr "_Durum Çubuğu"
+
+# tr
+#~ msgid "Show Status Bar"
+#~ msgstr "Durum Çubuğunu Göster"
+
+# tr
+#~ msgid "Side _Pane"
+#~ msgstr "_Kenar Çubuğu"
+
+# tr
+#~ msgid "Show Side Pane"
+#~ msgstr "Kenar Çubuğunu Göster"
+
+# tr
+#~ msgid "Show matches only"
+#~ msgstr "Sadece eşleşmeler"
+
+# tr
+#~ msgid "Only show lines that match one of the given filters"
+#~ msgstr ""
+#~ "Sadece bir ya da daha fazla girilen filtre ile eşleşen satırları göster"
+
+#~ msgid "Can't read from \"%s\""
+#~ msgstr "\"%s\" oqulalmay"
+
+#~ msgid "Version: "
+#~ msgstr "Sürüm: "
+
+# tr
+#~ msgid "Could not open the following files:"
+#~ msgstr "Aşağıdaki dosyalar açılamadı:"
+
+#~ msgid "Save snapshot"
+#~ msgstr "Anlık durum kaydet"
+
+# tr
+#~ msgid "Take a screenshot of the current window"
+#~ msgstr "Cari pencereniñ bir ekran körüntisini al"
+
+#~ msgid "Take a screenshot of the whole screen"
+#~ msgstr "Bütün ekrannıñ bir ekran körüntisini al"
