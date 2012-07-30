@@ -58,12 +58,15 @@ store_window_state_and_geometry (GSearchWindow *gsearch)
 	gsearch->window_width = MAX (gsearch->window_width, MINIMUM_WINDOW_WIDTH);
 	gsearch->window_height = MAX (gsearch->window_height, MINIMUM_WINDOW_HEIGHT);
 
-	gsearchtool_gconf_set_int ("/apps/gnome-search-tool/default_window_width",
-	                           gsearch->window_width);
-	gsearchtool_gconf_set_int ("/apps/gnome-search-tool/default_window_height",
-		                   gsearch->window_height);
-	gsearchtool_gconf_set_boolean ("/apps/gnome-search-tool/default_window_maximized",
-	                               gsearch->is_window_maximized);
+	g_settings_set_int (gsearch->gnome_search_tool_settings,
+	                    "default-window-width",
+	                    gsearch->window_width);
+	g_settings_set_int (gsearch->gnome_search_tool_settings,
+	                    "default-window-height",
+		            gsearch->window_height);
+	g_settings_set_boolean (gsearch->gnome_search_tool_settings,
+	                        "default-window-maximized",
+	                        gsearch->is_window_maximized);
 }
 
 static void
@@ -272,7 +275,7 @@ remove_constraint_cb (GtkWidget * widget,
 	    g_list_remove (gsearch->available_options_selected_list, constraint);
 
 	set_constraint_selected_state (gsearch, constraint->constraint_id, FALSE);
-	set_constraint_gconf_boolean (constraint->constraint_id, FALSE);
+	set_constraint_gsettings_boolean (constraint->constraint_id, FALSE);
 	g_slice_free (GSearchConstraint, constraint);
 	g_list_free (list);
 }
@@ -322,7 +325,7 @@ look_in_folder_changed_cb (GtkWidget * widget,
 	value = gtk_file_chooser_get_filename (GTK_FILE_CHOOSER (gsearch->look_in_folder_button));
 
 	if (value != NULL) {
-		gsearchtool_gconf_set_string ("/apps/gnome-search-tool/look_in_folder", value);
+		g_settings_set_string (gsearch->gnome_search_tool_settings, "look-in-folder", value);
 	}
 	g_free (value);
 }
@@ -1847,40 +1850,48 @@ disable_quick_search_cb (GtkWidget * dialog,
                          gint response,
                          gpointer data)
 {
+	GSearchWindow * gsearch = data;
+
 	gtk_widget_destroy (GTK_WIDGET (dialog));
 
 	if (response == GTK_RESPONSE_OK) {
-		gsearchtool_gconf_set_boolean ("/apps/gnome-search-tool/disable_quick_search", TRUE);
+		g_settings_set_boolean (gsearch->gnome_search_tool_settings, "disable-quick-search", TRUE);
 	}
 }
 
 void
-single_click_to_activate_key_changed_cb (GConfClient * client,
-                                         guint cnxn_id,
-                                         GConfEntry * entry,
+single_click_to_activate_key_changed_cb (GSettings * settings,
+                                         gchar * key,
                                          gpointer user_data)
 {
 	GSearchWindow * gsearch = user_data;
-	GConfValue * value;
+	gchar * value;
 
-	value = gconf_entry_get_value (entry);
-
-	g_return_if_fail (value->type == GCONF_VALUE_STRING);
+	value = g_settings_get_string (settings, key);
 
 	gsearch->is_search_results_single_click_to_activate =
-		(strncmp (gconf_value_get_string (value), "single", 6) == 0) ? TRUE : FALSE;
+		(strncmp (value, "single", 6) == 0) ? TRUE : FALSE;
+
+	g_free (value);
 }
 
 void
 columns_changed_cb (GtkTreeView * treeview,
                     gpointer user_data)
 {
+	GVariantBuilder array_builder;
+	GSearchWindow * gsearch = user_data;
 	GSList * order;
+	GSList * iter;
 
 	order = gsearchtool_get_columns_order (treeview);
 
+	g_variant_builder_init (&array_builder, G_VARIANT_TYPE ("ai"));
+	for (iter = order; iter; iter = iter->next)
+		g_variant_builder_add (&array_builder, "i", GPOINTER_TO_INT (iter->data));
+
 	if (g_slist_length (order) == NUM_VISIBLE_COLUMNS) {
-		gsearchtool_gconf_set_list ("/apps/gnome-search-tool/columns_order", order, GCONF_VALUE_INT);
+		g_settings_set_value (gsearch->gnome_search_tool_settings, "columns-order", g_variant_new ("ai", &array_builder));
 	}
 	g_slist_free (order);
 }

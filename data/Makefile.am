@@ -3,10 +3,14 @@ icon_DATA = thumbnail_frame.png
 
 man_MANS = gnome-search-tool.1
 
-schemadir = $(GCONF_SCHEMA_FILE_DIR)
-schema_in_file = gnome-search-tool.schemas.in
-schema_DATA = $(schema_in_file:.schemas.in=.schemas)
 @INTLTOOL_SCHEMAS_RULE@
+@INTLTOOL_XML_NOMERGE_RULE@
+
+gsettings_SCHEMAS = org.gnome.gnome-search-tool.gschema.xml
+@GSETTINGS_RULES@
+
+gsettingsconvertdir = $(datadir)/GConf/gsettings
+gsettingsconvert_DATA = gnome-search-tool.convert
 
 Utilitiesdir = $(datadir)/applications
 Utilities_in_files = gnome-search-tool.desktop.in 
@@ -16,22 +20,14 @@ Utilities_DATA = $(Utilities_in_files:.desktop.in=.desktop)
 EXTRA_DIST = \
 	$(icon_DATA) \
 	$(man_MANS) \
-	$(schema_in_file) \
+	org.gnome.gnome-search-tool.gschema.xml.in \
 	$(Utilities_in_files) \
-	$(Utilities_DATA)
-
-if GCONF_SCHEMAS_INSTALL
-install-data-local:
-	if test -z "$(DESTDIR)" ; then \
-		GCONF_CONFIG_SOURCE=$(GCONF_SCHEMA_CONFIG_SOURCE) $(GCONFTOOL) --makefile-install-rule $(top_builddir)/data/$(schema_DATA) ; \
-	fi
-else
-install-data-local:
-endif
+	$(Utilities_DATA) \
+	gnome-search-tool.convert
 
 CLEANFILES = 				\
 	gnome-search-tool.desktop	\
-	$(schema_DATA)
+	$(gsettings_SCHEMAS)
 
 disthook:
 	cd $(distdir) ; rm -f $(CLEANFILES)

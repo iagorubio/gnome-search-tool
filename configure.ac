@@ -38,14 +38,8 @@ LT_INIT([disable-static])
 AC_CACHE_SAVE
 
 GLIB_GSETTINGS
-AM_GCONF_SOURCE_2
 
 GNOME_DOC_INIT
-
-AC_PATH_PROG(GCONFTOOL, [gconftool-2], [no])
-AS_IF([test "x$GCONFTOOL" = "xno"],
-      [AC_MSG_ERROR([gconftool-2 executable not found in your path - should be installed with GConf])]
-)
 
 dnl strftime extension checks
 msg_strftime=no
@@ -89,13 +83,14 @@ AS_IF([test x$withval != x],
 AC_SUBST(GREP_COMMAND)
 
 GLIB_MIN_VERSION=2.30.0
+GIO_MIN_VERSION=2.30.0
 GTK_MIN_VERSION=3.0.0
 
 PKG_CHECK_MODULES(GSEARCHTOOL,
-                  gio-unix-2.0
+                  gio-unix-2.0 >= $GIO_MIN_VERSION
+                  gio-2.0 >= $GIO_MIN_VERSION
                   glib-2.0 >= $GLIB_MIN_VERSION
-                  gtk+-3.0 >= $GTK_MIN_VERSION
-                  gconf-2.0)
+                  gtk+-3.0 >= $GTK_MIN_VERSION)
 
 AC_CONFIG_FILES([
 Makefile

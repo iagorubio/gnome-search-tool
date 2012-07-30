@@ -34,8 +34,6 @@ extern "C" {
 #endif
 
 #include <gtk/gtk.h>
-#include <gconf/gconf.h>
-#include <gconf/gconf-client.h>
 
 #define GSEARCH_TYPE_WINDOW gsearch_window_get_type()
 #define GSEARCH_WINDOW(obj) \
@@ -64,6 +62,12 @@ typedef enum {
 	MAKE_IT_STOP,
 	MAKE_IT_QUIT
 } GSearchCommandStatus;
+
+typedef enum {
+	SPEED_TRADEOFF_ALWAYS = 0,
+	SPEED_TRADEOFF_LOCAL_ONLY,
+	SPEED_TRADEOFF_NEVER
+} NautilusSpeedTradeoff;
 
 typedef enum {
 	COLUMN_ICON,
@@ -139,6 +143,11 @@ struct _GSearchWindow {
 
 	gchar                 * save_results_as_default_filename;
 
+	GSettings             * gnome_search_tool_settings;
+	GSettings             * gnome_search_tool_select_settings;
+	GSettings             * gnome_desktop_interface_settings;
+	GSettings             * nautilus_settings;
+
 	GSearchCommandDetails * command_details;
 };
 
@@ -198,8 +207,8 @@ void
 remove_constraint (gint constraint_id);
 
 void
-set_constraint_gconf_boolean (gint constraint_id,
-                              gboolean flag);
+set_constraint_gsettings_boolean (gint constraint_id,
+                                  gboolean flag);
 void
 set_constraint_selected_state (GSearchWindow * gsearch,
                                gint constraint_id,

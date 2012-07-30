@@ -162,9 +162,8 @@ disable_quick_search_cb (GtkWidget * dialog,
                          gint response,
                          gpointer data);
 void
-single_click_to_activate_key_changed_cb (GConfClient * client,
-                                         guint cnxn_id,
-                                         GConfEntry * entry,
+single_click_to_activate_key_changed_cb (GSettings * settings,
+                                         gchar * key,
                                          gpointer user_data);
 void
 columns_changed_cb (GtkTreeView * treeview,

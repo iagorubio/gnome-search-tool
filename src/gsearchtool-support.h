@@ -38,40 +38,6 @@ extern "C" {
 #define ICON_SIZE 24
 
 gboolean
-gsearchtool_gconf_get_boolean (const gchar * key);
-
-void
-gsearchtool_gconf_set_boolean (const gchar * key,
-                               const gboolean flag);
-gint
-gsearchtool_gconf_get_int (const gchar * key);
-
-void
-gsearchtool_gconf_set_int (const gchar * key,
-                           const gint value);
-char *
-gsearchtool_gconf_get_string (const gchar * key);
-
-void
-gsearchtool_gconf_set_string (const gchar * key,
-                              const gchar * value);
-
-GSList *
-gsearchtool_gconf_get_list (const gchar * key,
-                            GConfValueType list_type);
-void
-gsearchtool_gconf_set_list (const gchar * key,
-                            GSList * list,
-                            GConfValueType list_type);
-void
-gsearchtool_gconf_add_dir (const gchar * dir);
-
-void
-gsearchtool_gconf_watch_key (const gchar * dir,
-                             const gchar * key,
-                             GConfClientNotifyFunc callback,
-                             gpointer user_data);
-gboolean
 is_path_hidden (const gchar * path);
 
 gboolean

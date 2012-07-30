@@ -53,252 +53,6 @@ GtkTreeViewColumn *
 gsearchtool_gtk_tree_view_get_column_with_sort_column_id (GtkTreeView * treeview,
                                                           gint id);
 
-/* START OF THE GCONF FUNCTIONS */
-
-static gboolean
-gsearchtool_gconf_handle_error (GError ** error)
-{
-	if (error != NULL) {
-		if (*error != NULL) {
-			g_warning (_("GConf error:\n  %s"), (*error)->message);
-			g_error_free (*error);
-			*error = NULL;
-			return TRUE;
-		}
-	}
-	return FALSE;
-}
-
-static GConfClient *
-gsearchtool_gconf_client_get_global (void)
-{
-	static GConfClient * global_gconf_client = NULL;
-
-	/* Initialize gconf if needed */
-	if (!gconf_is_initialized ()) {
-		char *argv[] = { "gsearchtool-preferences", NULL };
-		GError *error = NULL;
-
-		if (!gconf_init (1, argv, &error)) {
-			if (gsearchtool_gconf_handle_error (&error)) {
-				return NULL;
-			}
-		}
-	}
-
-	if (global_gconf_client == NULL) {
-		global_gconf_client = gconf_client_get_default ();
-	}
-
-	return global_gconf_client;
-}
-
-char *
-gsearchtool_gconf_get_string (const gchar * key)
-{
-	GConfClient * client;
-	GError * error = NULL;
-	gchar * result;
-
-	g_return_val_if_fail (key != NULL, NULL);
-
-	client = gsearchtool_gconf_client_get_global ();
-	g_return_val_if_fail (client != NULL, NULL);
-
-	result = gconf_client_get_string (client, key, &error);
-
-	if (gsearchtool_gconf_handle_error (&error)) {
-		result = g_strdup ("");
-	}
-
-	return result;
-}
-
-void
-gsearchtool_gconf_set_string (const gchar * key,
-                              const gchar * value)
-{
-	GConfClient * client;
-	GError * error = NULL;
-
-	g_return_if_fail (key != NULL);
-
-	client = gsearchtool_gconf_client_get_global ();
-	g_return_if_fail (client != NULL);
-
-	gconf_client_set_string (client, key, value, &error);
-
-	gsearchtool_gconf_handle_error (&error);			      
-			      
-}
-
-GSList *
-gsearchtool_gconf_get_list (const gchar * key,
-                            GConfValueType list_type)
-{
-	GConfClient * client;
-	GError * error = NULL;
-	GSList * result;
-
-	g_return_val_if_fail (key != NULL, FALSE);
-
-	client = gsearchtool_gconf_client_get_global ();
-	g_return_val_if_fail (client != NULL, NULL);
-
-	result = gconf_client_get_list (client, key, list_type, &error);
-
-	if (gsearchtool_gconf_handle_error (&error)) {
-		result = NULL;
-	}
-
-	return result;
-}
-
-void
-gsearchtool_gconf_set_list (const gchar * key,
-                            GSList * list,
-                            GConfValueType list_type)
-{
-	GConfClient * client;
-	GError * error = NULL;
-
-	g_return_if_fail (key != NULL);
-
-	client = gsearchtool_gconf_client_get_global ();
-	g_return_if_fail (client != NULL);
-
-	gconf_client_set_list (client, key, list_type, list, &error);
-
-	gsearchtool_gconf_handle_error (&error);
-}
-
-gint
-gsearchtool_gconf_get_int (const gchar * key)
-{
-	GConfClient * client;
-	GError * error = NULL;
-	gint result;
-
-	g_return_val_if_fail (key != NULL, FALSE);
-
-	client = gsearchtool_gconf_client_get_global ();
-	g_return_val_if_fail (client != NULL, FALSE);
-
-	result = gconf_client_get_int (client, key, &error);
-
-	if (gsearchtool_gconf_handle_error (&error)) {
-		result = 0;
-	}
-
-	return result;
-}
-
-void
-gsearchtool_gconf_set_int (const gchar * key,
-                           const gint value)
-{
-	GConfClient * client;
-	GError * error = NULL;
-
-	g_return_if_fail (key != NULL);
-
-	client = gsearchtool_gconf_client_get_global ();
-	g_return_if_fail (client != NULL);
-
-	gconf_client_set_int (client, key, value, &error);
-
-	gsearchtool_gconf_handle_error (&error);
-}
-
-gboolean
-gsearchtool_gconf_get_boolean (const gchar * key)
-{
-	GConfClient * client;
-	GError * error = NULL;
-	gboolean result;
-
-	g_return_val_if_fail (key != NULL, FALSE);
-
-	client = gsearchtool_gconf_client_get_global ();
-	g_return_val_if_fail (client != NULL, FALSE);
-
-	result = gconf_client_get_bool (client, key, &error);
-
-	if (gsearchtool_gconf_handle_error (&error)) {
-		result = FALSE;
-	}
-
-	return result;
-}
-
-void
-gsearchtool_gconf_set_boolean (const gchar * key,
-                               const gboolean flag)
-{
-	GConfClient * client;
-	GError * error = NULL;
-
-	g_return_if_fail (key != NULL);
-
-	client = gsearchtool_gconf_client_get_global ();
-	g_return_if_fail (client != NULL);
-
-	gconf_client_set_bool (client, key, flag, &error);
-
-	gsearchtool_gconf_handle_error (&error);
-}
-
-void
-gsearchtool_gconf_add_dir (const gchar * dir)
-{
-	GConfClient * client;
-	GError * error = NULL;
-
-	g_return_if_fail (dir != NULL);
-
-	client = gsearchtool_gconf_client_get_global ();
-	g_return_if_fail (client != NULL);
-
-	gconf_client_add_dir (client,
-	                      dir,
-	                      GCONF_CLIENT_PRELOAD_RECURSIVE,
-	                      &error);
-
-	gsearchtool_gconf_handle_error (&error);
-}
-
-void
-gsearchtool_gconf_watch_key (const gchar * dir,
-                             const gchar * key,
-                             GConfClientNotifyFunc callback,
-                             gpointer user_data)
-{
-	GConfClient * client;
-	GError * error = NULL;
-
-	g_return_if_fail (key != NULL);
-	g_return_if_fail (dir != NULL);
-
-	client = gsearchtool_gconf_client_get_global ();
-	g_return_if_fail (client != NULL);
-
-	gconf_client_add_dir (client,
-	                      dir,
-	                      GCONF_CLIENT_PRELOAD_NONE,
-	                      &error);
-
-	gsearchtool_gconf_handle_error (&error);
-
-	gconf_client_notify_add (client,
-	                         key,
-	                         callback,
-	                         user_data,
-	                         NULL,
-	                         &error);
-
-	gsearchtool_gconf_handle_error (&error);
-}
-
 /* START OF GENERIC GNOME-SEARCH-TOOL FUNCTIONS */
 
 gboolean
@@ -334,10 +88,13 @@ is_path_hidden (const gchar * path)
 gboolean
 is_quick_search_excluded_path (const gchar * path)
 {
-	GSList     * exclude_path_list;
-	GSList     * tmp_list;
+	GSettings  * settings;
+	gchar     ** exclude_path_list;
 	gchar      * dir;
 	gboolean     results = FALSE;
+	gint         i;
+
+	settings = g_settings_new ("org.gnome.gnome-search-tool");
 
 	dir = g_strdup (path);
 
@@ -355,65 +112,66 @@ is_quick_search_excluded_path (const gchar * path)
 	g_free (dir);
 
 	/* Check path against the Quick-Search-Excluded-Paths list. */
-	exclude_path_list = gsearchtool_gconf_get_list ("/apps/gnome-search-tool/quick_search_excluded_paths",
-	                                                GCONF_VALUE_STRING);
+	exclude_path_list = g_settings_get_strv (settings, "quick-search-excluded-paths");
 
-	for (tmp_list = exclude_path_list; tmp_list; tmp_list = tmp_list->next) {
+	if (exclude_path_list) {
+		for (i = 0; exclude_path_list[i]; i++) {
 
-		/* Skip empty or null values. */
-		if ((tmp_list->data == NULL) || (strlen (tmp_list->data) == 0)) {
-			continue;
-		}
-
-		dir = g_strdup (tmp_list->data);
-
-		/* Wild-card comparisons. */
-		if (g_strstr_len (dir, strlen (dir), "*") != NULL) {
-
-			if (g_pattern_match_simple (dir, path) == TRUE) {
-
-				results = TRUE;
-				g_free (dir);
-				break;
-			}
-		}
-		/* Non-wild-card comparisons. */
-		else {
-			/* Add a trailing G_DIR_SEPARATOR. */
-			if (g_str_has_suffix (dir, G_DIR_SEPARATOR_S) == FALSE) {
-
-				gchar *tmp;
-
-				tmp = dir;
-				dir = g_strconcat (dir, G_DIR_SEPARATOR_S, NULL);
-				g_free (tmp);
+			/* Skip empty or null values. */
+			if (strlen (exclude_path_list[i]) == 0) {
+				continue;
 			}
 
-			if (strcmp (path, dir) == 0) {
+			dir = g_strdup (exclude_path_list[i]);
 
-				results = TRUE;
-				g_free (dir);
-				break;
+			/* Wild-card comparisons. */
+			if (g_strstr_len (dir, strlen (dir), "*") != NULL) {
+
+				if (g_pattern_match_simple (dir, path) == TRUE) {
+
+					results = TRUE;
+					g_free (dir);
+					break;
+				}
 			}
+			/* Non-wild-card comparisons. */
+			else {
+				/* Add a trailing G_DIR_SEPARATOR. */
+				if (g_str_has_suffix (dir, G_DIR_SEPARATOR_S) == FALSE) {
+
+					gchar *tmp;
+
+					tmp = dir;
+					dir = g_strconcat (dir, G_DIR_SEPARATOR_S, NULL);
+					g_free (tmp);
+				}
+
+				if (strcmp (path, dir) == 0) {
+
+					results = TRUE;
+					g_free (dir);
+					break;
+				}
+			}
+			g_free (dir);
 		}
-		g_free (dir);
+		g_strfreev (exclude_path_list);
 	}
 
-	for (tmp_list = exclude_path_list; tmp_list; tmp_list = tmp_list->next) {
-		g_free (tmp_list->data);
-	}
-	g_slist_free (exclude_path_list);
-
+	g_object_unref (settings);
 	return results;
 }
 
 gboolean
 is_second_scan_excluded_path (const gchar * path)
 {
-	GSList     * exclude_path_list;
-	GSList     * tmp_list;
+	GSettings  * settings;
+	gchar     ** exclude_path_list;
 	gchar      * dir;
 	gboolean     results = FALSE;
+	gint         i;
+
+	settings = g_settings_new ("org.gnome.gnome-search-tool");
 
 	dir = g_strdup (path);
 
@@ -431,55 +189,53 @@ is_second_scan_excluded_path (const gchar * path)
 	g_free (dir);
 
 	/* Check path against the Quick-Search-Excluded-Paths list. */
-	exclude_path_list = gsearchtool_gconf_get_list ("/apps/gnome-search-tool/quick_search_second_scan_excluded_paths",
-	                                                GCONF_VALUE_STRING);
+	exclude_path_list = g_settings_get_strv (settings, "quick-search-second-scan-excluded-paths");
 
-	for (tmp_list = exclude_path_list; tmp_list; tmp_list = tmp_list->next) {
+	if (exclude_path_list) {
+		for (i = 0; exclude_path_list[i]; i++) {
 
-		/* Skip empty or null values. */
-		if ((tmp_list->data == NULL) || (strlen (tmp_list->data) == 0)) {
-			continue;
-		}
-
-		dir = g_strdup (tmp_list->data);
-
-		/* Wild-card comparisons. */
-		if (g_strstr_len (dir, strlen (dir), "*") != NULL) {
-
-			if (g_pattern_match_simple (dir, path) == TRUE) {
-
-				results = TRUE;
-				g_free (dir);
-				break;
-			}
-		}
-		/* Non-wild-card comparisons. */
-		else {
-			/* Add a trailing G_DIR_SEPARATOR. */
-			if (g_str_has_suffix (dir, G_DIR_SEPARATOR_S) == FALSE) {
-
-				gchar *tmp;
-
-				tmp = dir;
-				dir = g_strconcat (dir, G_DIR_SEPARATOR_S, NULL);
-				g_free (tmp);
+			/* Skip empty or null values. */
+			if (strlen (exclude_path_list[i]) == 0) {
+				continue;
 			}
 
-			if (strcmp (path, dir) == 0) {
+			dir = g_strdup (exclude_path_list[i]);
 
-				results = TRUE;
-				g_free (dir);
-				break;
+			/* Wild-card comparisons. */
+			if (g_strstr_len (dir, strlen (dir), "*") != NULL) {
+
+				if (g_pattern_match_simple (dir, path) == TRUE) {
+
+					results = TRUE;
+					g_free (dir);
+					break;
+				}
 			}
+			/* Non-wild-card comparisons. */
+			else {
+				/* Add a trailing G_DIR_SEPARATOR. */
+				if (g_str_has_suffix (dir, G_DIR_SEPARATOR_S) == FALSE) {
+
+					gchar *tmp;
+
+					tmp = dir;
+					dir = g_strconcat (dir, G_DIR_SEPARATOR_S, NULL);
+					g_free (tmp);
+				}
+
+				if (strcmp (path, dir) == 0) {
+
+					results = TRUE;
+					g_free (dir);
+					break;
+				}
+			}
+			g_free (dir);
 		}
-		g_free (dir);
+		g_strfreev (exclude_path_list);
 	}
 
-	for (tmp_list = exclude_path_list; tmp_list; tmp_list = tmp_list->next) {
-		g_free (tmp_list->data);
-	}
-	g_slist_free (exclude_path_list);
-
+	g_object_unref (settings);
 	return results;
 }
 
@@ -1435,35 +1191,47 @@ void
 gsearchtool_set_columns_order (GtkTreeView * treeview)
 {
 	GtkTreeViewColumn * last = NULL;
-	GSList * order;
-	GSList * it;
+	GSettings * settings;
+	GVariant * value;
 
-	order = gsearchtool_gconf_get_list ("/apps/gnome-search-tool/columns_order", GCONF_VALUE_INT);
+	settings = g_settings_new ("org.gnome.gnome-search-tool");
 
-	for (it = order; it; it = it->next) {
+	value = g_settings_get_value (settings, "columns-order");
 
-		GtkTreeViewColumn * cur;
-		gint id;
+	if (value) {
+		GVariantIter *iter;
+		GVariant     *item;
 
-		id = GPOINTER_TO_INT (it->data);
+		g_variant_get (value, "ai", &iter);
 
-		if (id >= 0 && id < NUM_COLUMNS) {
+		while ((item = g_variant_iter_next_value (iter))) {
+			GtkTreeViewColumn * cur;
+			gint id;
 
-			cur = gsearchtool_gtk_tree_view_get_column_with_sort_column_id (treeview, id);
+			g_variant_get (item, "i", &id);
 
-			if (cur && cur != last) {
-				gtk_tree_view_move_column_after (treeview, cur, last);
-				last = cur;
+			if (id >= 0 && id < NUM_COLUMNS) {
+
+				cur = gsearchtool_gtk_tree_view_get_column_with_sort_column_id (treeview, id);
+
+				if (cur && cur != last) {
+					gtk_tree_view_move_column_after (treeview, cur, last);
+					last = cur;
+				}
 			}
+			g_variant_unref (item);
 		}
+		g_variant_iter_free (iter);
+		g_variant_unref (value);
 	}
-	g_slist_free (order);
+	g_object_unref (settings);
 }
 
 void
 gsearchtool_get_stored_window_geometry (gint * width,
                                         gint * height)
 {
+	GSettings * settings;
 	gint saved_width;
 	gint saved_height;
 
@@ -1471,8 +1239,10 @@ gsearchtool_get_stored_window_geometry (gint * width,
 		return;
 	}
 
-	saved_width = gsearchtool_gconf_get_int ("/apps/gnome-search-tool/default_window_width");
-	saved_height = gsearchtool_gconf_get_int ("/apps/gnome-search-tool/default_window_height");
+	settings = g_settings_new ("org.gnome.gnome-search-tool");
+
+	saved_width = g_settings_get_int (settings, "default-window-width");
+	saved_height = g_settings_get_int (settings, "default-window-height");
 
 	if (saved_width == -1) {
 		saved_width = DEFAULT_WINDOW_WIDTH;
@@ -1484,6 +1254,7 @@ gsearchtool_get_stored_window_geometry (gint * width,
 
 	*width = MAX (saved_width, MINIMUM_WINDOW_WIDTH);
 	*height = MAX (saved_height, MINIMUM_WINDOW_HEIGHT);
+	g_object_unref (settings);
 }
 
 /* START OF NAUTILUS/EEL FUNCTIONS: USED FOR HANDLING OF DUPLICATE FILENAMES */

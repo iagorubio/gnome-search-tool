@@ -507,7 +507,7 @@ start_animation (GSearchWindow * gsearch, gboolean first_pass)
 		gtk_window_set_title (GTK_WINDOW (gsearch->window), title);
 
 		gtk_label_set_text (GTK_LABEL (gsearch->files_found_label), "");
-		if (gsearchtool_gconf_get_boolean ("/desktop/gnome/interface/enable_animations")) {
+		if (g_settings_get_boolean (gsearch->gnome_desktop_interface_settings, "enable-animations")) {
 			gtk_spinner_start (GTK_SPINNER (gsearch->progress_spinner));
 			gtk_widget_show (gsearch->progress_spinner);
 		}
@@ -650,23 +650,27 @@ build_search_command (GSearchWindow * gsearch,
 		if (gsearch->command_details->is_command_first_pass == TRUE) {
 
 			gchar * locate;
-			gchar * show_thumbnails_string;
+			NautilusSpeedTradeoff show_thumbnails_enum;
 			gboolean disable_quick_search;
 
 			locate = g_find_program_in_path ("locate");
-			disable_quick_search = gsearchtool_gconf_get_boolean ("/apps/gnome-search-tool/disable_quick_search");
-			gsearch->command_details->is_command_second_pass_enabled = !gsearchtool_gconf_get_boolean ("/apps/gnome-search-tool/disable_quick_search_second_scan");
+			disable_quick_search = g_settings_get_boolean (gsearch->gnome_search_tool_settings, "disable-quick-search");
+			gsearch->command_details->is_command_second_pass_enabled = !g_settings_get_boolean (gsearch->gnome_search_tool_settings, "disable-quick-search-second-scan");
 
-			show_thumbnails_string = gsearchtool_gconf_get_string ("/apps/nautilus/preferences/show_image_thumbnails");
-			if ((show_thumbnails_string != NULL) &&
-			    ((strcmp (show_thumbnails_string, "always") == 0) ||
-			     (strcmp (show_thumbnails_string, "local_only") == 0))) {
+			show_thumbnails_enum = g_settings_get_enum (gsearch->nautilus_settings, "show-image-thumbnails");
+			if (show_thumbnails_enum == SPEED_TRADEOFF_ALWAYS ||
+			    show_thumbnails_enum == SPEED_TRADEOFF_LOCAL_ONLY) {
+			    	GVariant * value;
+			    	guint64 size_limit = 10485760;
+
 			    	gsearch->show_thumbnails = TRUE;
-				gsearch->show_thumbnails_file_size_limit = gsearchtool_gconf_get_int ("/apps/nautilus/preferences/thumbnail_limit");
-			}
-			else if (show_thumbnails_string == NULL) { /* FIXME: Nautilus 3.0 uses dconf -- for now fallback to the defaults. */
-				gsearch->show_thumbnails = TRUE;
-				gsearch->show_thumbnails_file_size_limit = 10485760;
+
+			    	value = g_settings_get_value (gsearch->nautilus_settings, "thumbnail-limit");
+			    	if (value) {
+				    	size_limit = g_variant_get_uint64 (value);
+					g_variant_unref (value);
+				}
+				gsearch->show_thumbnails_file_size_limit = size_limit;
 			}
 			else {
 				gsearch->show_thumbnails = FALSE;
@@ -692,7 +696,6 @@ build_search_command (GSearchWindow * gsearch,
 							file_is_named_escaped);
 			}
 			g_free (locate);
-			g_free (show_thumbnails_string);
 		}
 		else {
 			g_string_append_printf (command, "find \"%s\" %s \"%s\" -print",
@@ -1154,71 +1157,76 @@ set_constraint_selected_state (GSearchWindow * gsearch,
 }
 
 void
-set_constraint_gconf_boolean (gint constraint_id,
-                              gboolean flag)
+set_constraint_gsettings_boolean (gint constraint_id,
+                                  gboolean flag)
 {
+	GSettings * select_settings;
+
+	select_settings = g_settings_new ("org.gnome.gnome-search-tool.select");
+
 	switch (constraint_id) {
 
 		case SEARCH_CONSTRAINT_CONTAINS_THE_TEXT:
-			gsearchtool_gconf_set_boolean ("/apps/gnome-search-tool/select/contains_the_text",
-	   		       	       	       	       flag);
+			g_settings_set_boolean (select_settings, "contains-the-text",
+	   		       	       	       	flag);
 			break;
 		case SEARCH_CONSTRAINT_DATE_MODIFIED_BEFORE:
-			gsearchtool_gconf_set_boolean ("/apps/gnome-search-tool/select/date_modified_less_than",
-	   		       	       	       	       flag);
+			g_settings_set_boolean (select_settings, "date-modified-less-than",
+	   		       	       	       	flag);
 			break;
 		case SEARCH_CONSTRAINT_DATE_MODIFIED_AFTER:
-			gsearchtool_gconf_set_boolean ("/apps/gnome-search-tool/select/date_modified_more_than",
-	   		       	       	       	       flag);
+			g_settings_set_boolean (select_settings, "date-modified-more-than",
+	   		       	       	       	flag);
 			break;
 		case SEARCH_CONSTRAINT_SIZE_IS_MORE_THAN:
-			gsearchtool_gconf_set_boolean ("/apps/gnome-search-tool/select/size_at_least",
-	   		       	       		       flag);
+			g_settings_set_boolean (select_settings, "size-at-least",
+	   		       	       		flag);
 			break;
 		case SEARCH_CONSTRAINT_SIZE_IS_LESS_THAN:
-			gsearchtool_gconf_set_boolean ("/apps/gnome-search-tool/select/size_at_most",
-	   		       	       	  	       flag);
+			g_settings_set_boolean (select_settings, "size-at-most",
+	   		       	       	  	flag);
 			break;
 		case SEARCH_CONSTRAINT_FILE_IS_EMPTY:
-			gsearchtool_gconf_set_boolean ("/apps/gnome-search-tool/select/file_is_empty",
-	   		       	       	               flag);
+			g_settings_set_boolean (select_settings, "file-is-empty",
+	   		       	       	        flag);
 			break;
 		case SEARCH_CONSTRAINT_OWNED_BY_USER:
-			gsearchtool_gconf_set_boolean ("/apps/gnome-search-tool/select/owned_by_user",
-	   		       	       	               flag);
+			g_settings_set_boolean (select_settings, "owned-by-user",
+	   		       	       	        flag);
 			break;
 		case SEARCH_CONSTRAINT_OWNED_BY_GROUP:
-			gsearchtool_gconf_set_boolean ("/apps/gnome-search-tool/select/owned_by_group",
-	   		       	       	               flag);
+			g_settings_set_boolean (select_settings, "owned-by-group",
+	   		       	       	        flag);
 			break;
 		case SEARCH_CONSTRAINT_OWNER_IS_UNRECOGNIZED:
-			gsearchtool_gconf_set_boolean ("/apps/gnome-search-tool/select/owner_is_unrecognized",
-	   		       	       	               flag);
+			g_settings_set_boolean (select_settings, "owner-is-unrecognized",
+	   		       	       	        flag);
 			break;
 		case SEARCH_CONSTRAINT_FILE_IS_NOT_NAMED:
-			gsearchtool_gconf_set_boolean ("/apps/gnome-search-tool/select/name_does_not_contain",
-	   		       	       	               flag);
+			g_settings_set_boolean (select_settings, "name-does-not-contain",
+	   		       	       	        flag);
 			break;
 		case SEARCH_CONSTRAINT_FILE_MATCHES_REGULAR_EXPRESSION:
-			gsearchtool_gconf_set_boolean ("/apps/gnome-search-tool/select/name_matches_regular_expression",
-	   		       	       	               flag);
+			g_settings_set_boolean (select_settings, "name-matches-regular-expression",
+	   		       	       	        flag);
 			break;
 		case SEARCH_CONSTRAINT_SHOW_HIDDEN_FILES_AND_FOLDERS:
-			gsearchtool_gconf_set_boolean ("/apps/gnome-search-tool/select/show_hidden_files_and_folders",
-	   		       	       	               flag);
+			g_settings_set_boolean (select_settings, "show-hidden-files-and-folders",
+	   		       	       	        flag);
 			break;
 		case SEARCH_CONSTRAINT_FOLLOW_SYMBOLIC_LINKS:
-			gsearchtool_gconf_set_boolean ("/apps/gnome-search-tool/select/follow_symbolic_links",
-	   		       	       	               flag);
+			g_settings_set_boolean (select_settings, "follow-symbolic-links",
+	   		       	       	        flag);
 			break;
 		case SEARCH_CONSTRAINT_SEARCH_OTHER_FILESYSTEMS:
-			gsearchtool_gconf_set_boolean ("/apps/gnome-search-tool/select/exclude_other_filesystems",
-	   		       	       	               flag);
+			g_settings_set_boolean (select_settings, "exclude-other-filesystems",
+	   		       	       	        flag);
 			break;
 
 		default:
 			break;
 	}
+	g_object_unref (select_settings);
 }
 
 /*
@@ -1878,8 +1886,8 @@ spawn_search_command (GSearchWindow * gsearch,
 		gsearch->search_results_pixbuf_hash_table = g_hash_table_new_full (g_str_hash, g_str_equal, g_free, g_object_unref);
 		gsearch->search_results_filename_hash_table = g_hash_table_new_full (g_str_hash, g_str_equal, g_free, NULL);
 
-		/* Get value of nautilus date_format key */
-		gsearch->search_results_date_format_string = gsearchtool_gconf_get_string ("/apps/nautilus/preferences/date_format");
+		/* Use default value of nautilus date_format key before it was removed */
+		gsearch->search_results_date_format_string = g_strdup ("locale");
 
 		gtk_tree_view_scroll_to_point (GTK_TREE_VIEW (gsearch->search_results_tree_view), 0, 0);
 		gtk_tree_model_foreach (GTK_TREE_MODEL (gsearch->search_results_list_store),
@@ -2073,7 +2081,7 @@ add_constraint (GSearchWindow * gsearch,
 
 	constraint->constraint_id = constraint_id;
 	set_constraint_info_defaults (constraint);
-	set_constraint_gconf_boolean (constraint->constraint_id, TRUE);
+	set_constraint_gsettings_boolean (constraint->constraint_id, TRUE);
 
 	widget = create_constraint_box (gsearch, constraint, value);
 	gtk_box_pack_start (GTK_BOX (gsearch->available_options_vbox), widget, FALSE, FALSE, 0);
@@ -2617,70 +2625,68 @@ set_clone_command (GSearchWindow * gsearch,
 }
 
 static void
-handle_gconf_settings (GSearchWindow * gsearch)
+handle_gsettings_settings (GSearchWindow * gsearch)
 {
-	gsearchtool_gconf_add_dir ("/apps/gnome-search-tool");
-
-	if (gsearchtool_gconf_get_boolean ("/apps/gnome-search-tool/show_additional_options")) {
+	if (g_settings_get_boolean (gsearch->gnome_search_tool_settings, "show-additional-options")) {
 		if (gtk_widget_get_visible (gsearch->available_options_vbox) == FALSE) {
 			gtk_expander_set_expanded (GTK_EXPANDER (gsearch->show_more_options_expander), TRUE);
 			gtk_widget_show (gsearch->available_options_vbox);
 		}
 	}
 
-	if (gsearchtool_gconf_get_boolean ("/apps/gnome-search-tool/select/contains_the_text")) {
+	if (g_settings_get_boolean (gsearch->gnome_search_tool_select_settings, "contains-the-text")) {
 		add_constraint (gsearch, SEARCH_CONSTRAINT_CONTAINS_THE_TEXT, "", FALSE);
 	}
 
-	if (gsearchtool_gconf_get_boolean ("/apps/gnome-search-tool/select/date_modified_less_than")) {
+	if (g_settings_get_boolean (gsearch->gnome_search_tool_select_settings, "date-modified-less-than")) {
 		add_constraint (gsearch, SEARCH_CONSTRAINT_DATE_MODIFIED_BEFORE, "", FALSE);
 	}
 
-	if (gsearchtool_gconf_get_boolean ("/apps/gnome-search-tool/select/date_modified_more_than")) {
+	if (g_settings_get_boolean (gsearch->gnome_search_tool_select_settings, "date-modified-more-than")) {
 		add_constraint (gsearch, SEARCH_CONSTRAINT_DATE_MODIFIED_AFTER, "", FALSE);
 	}
 
-	if (gsearchtool_gconf_get_boolean ("/apps/gnome-search-tool/select/size_at_least")) {
+	if (g_settings_get_boolean (gsearch->gnome_search_tool_select_settings, "size-at-least")) {
 		add_constraint (gsearch, SEARCH_CONSTRAINT_SIZE_IS_MORE_THAN, "", FALSE);
 	}
 
-	if (gsearchtool_gconf_get_boolean ("/apps/gnome-search-tool/select/size_at_most")) {
+	if (g_settings_get_boolean (gsearch->gnome_search_tool_select_settings, "size-at-most")) {
 		add_constraint (gsearch, SEARCH_CONSTRAINT_SIZE_IS_LESS_THAN, "", FALSE);
 	}
 
-	if (gsearchtool_gconf_get_boolean ("/apps/gnome-search-tool/select/file_is_empty")) {
+	if (g_settings_get_boolean (gsearch->gnome_search_tool_select_settings, "file-is-empty")) {
 		add_constraint (gsearch, SEARCH_CONSTRAINT_FILE_IS_EMPTY, NULL, FALSE);
 	}
 
-	if (gsearchtool_gconf_get_boolean ("/apps/gnome-search-tool/select/owned_by_user")) {
+	if (g_settings_get_boolean (gsearch->gnome_search_tool_select_settings, "owned-by-user")) {
 		add_constraint (gsearch, SEARCH_CONSTRAINT_OWNED_BY_USER, "", FALSE);
 	}
 
-	if (gsearchtool_gconf_get_boolean ("/apps/gnome-search-tool/select/owned_by_group")) {
+	if (g_settings_get_boolean (gsearch->gnome_search_tool_select_settings, "owned-by-group")) {
 		add_constraint (gsearch, SEARCH_CONSTRAINT_OWNED_BY_GROUP, "", FALSE);
 	}
 
-	if (gsearchtool_gconf_get_boolean ("/apps/gnome-search-tool/select/owner_is_unrecognized")) {
+	if (g_settings_get_boolean (gsearch->gnome_search_tool_select_settings, "owner-is-unrecognized")) {
 		add_constraint (gsearch, SEARCH_CONSTRAINT_OWNER_IS_UNRECOGNIZED, NULL, FALSE);
 	}
 
-	if (gsearchtool_gconf_get_boolean ("/apps/gnome-search-tool/select/name_does_not_contain")) {
+	if (g_settings_get_boolean (gsearch->gnome_search_tool_select_settings, "name-does-not-contain")) {
 		add_constraint (gsearch, SEARCH_CONSTRAINT_FILE_IS_NOT_NAMED, "", FALSE);
 	}
 
-	if (gsearchtool_gconf_get_boolean ("/apps/gnome-search-tool/select/name_matches_regular_expression")) {
+	if (g_settings_get_boolean (gsearch->gnome_search_tool_select_settings, "name-matches-regular-expression")) {
 		add_constraint (gsearch, SEARCH_CONSTRAINT_FILE_MATCHES_REGULAR_EXPRESSION, "", FALSE);
 	}
 
-	if (gsearchtool_gconf_get_boolean ("/apps/gnome-search-tool/select/show_hidden_files_and_folders")) {
+	if (g_settings_get_boolean (gsearch->gnome_search_tool_select_settings, "show-hidden-files-and-folders")) {
 		add_constraint (gsearch, SEARCH_CONSTRAINT_SHOW_HIDDEN_FILES_AND_FOLDERS, NULL, FALSE);
 	}
 
-	if (gsearchtool_gconf_get_boolean ("/apps/gnome-search-tool/select/follow_symbolic_links")) {
+	if (g_settings_get_boolean (gsearch->gnome_search_tool_select_settings, "follow-symbolic-links")) {
 		add_constraint (gsearch, SEARCH_CONSTRAINT_FOLLOW_SYMBOLIC_LINKS, NULL, FALSE);
 	}
 
-	if (gsearchtool_gconf_get_boolean ("/apps/gnome-search-tool/select/exclude_other_filesystems")) {
+	if (g_settings_get_boolean (gsearch->gnome_search_tool_select_settings, "exclude-other-filesystems")) {
 		add_constraint (gsearch, SEARCH_CONSTRAINT_SEARCH_OTHER_FILESYSTEMS, NULL, FALSE);
 	}
 }
@@ -2708,8 +2714,13 @@ gsearch_app_create (GSearchWindow * gsearch)
 	GtkWidget * button;
 	GtkWidget * container;
 
+	gsearch->gnome_search_tool_settings = g_settings_new ("org.gnome.gnome-search-tool");
+	gsearch->gnome_search_tool_select_settings = g_settings_new ("org.gnome.gnome-search-tool.select");
+	gsearch->gnome_desktop_interface_settings = g_settings_new ("org.gnome.desktop.interface");
+	gsearch->nautilus_settings = g_settings_new ("org.gnome.nautilus.preferences");
+
 	gsearch->window = gtk_window_new (GTK_WINDOW_TOPLEVEL);
-	gsearch->is_window_maximized = gsearchtool_gconf_get_boolean ("/apps/gnome-search-tool/default_window_maximized");
+	gsearch->is_window_maximized = g_settings_get_boolean (gsearch->gnome_search_tool_settings, "default-window-maximized");
 	g_signal_connect (G_OBJECT (gsearch->window), "size-allocate",
 			  G_CALLBACK (gsearch_window_size_allocate),
 			  gsearch);
@@ -2782,7 +2793,7 @@ gsearch_app_create (GSearchWindow * gsearch)
 		add_atk_namedesc (GTK_WIDGET (gsearch->look_in_folder_button), _("Look in folder"), _("Select the folder or device from which you want to begin the search."));
 	}
 
-	locale_string = gsearchtool_gconf_get_string ("/apps/gnome-search-tool/look_in_folder");
+	locale_string = g_settings_get_string (gsearch->gnome_search_tool_settings, "look-in-folder");
 
 	if ((g_file_test (locale_string, G_FILE_TEST_EXISTS) == FALSE) || 
 	    (g_file_test (locale_string, G_FILE_TEST_IS_DIR) == FALSE)) {
@@ -2919,13 +2930,13 @@ gsearch_window_get_type (void)
 }
 
 static void
-gsearchtool_setup_gconf_notifications (GSearchWindow * gsearch)
+gsearchtool_setup_gsettings_notifications (GSearchWindow * gsearch)
 
 {
 	gchar * click_to_activate_pref;
 
 	/* Get value of nautilus click behavior (single or double click to activate items) */
-	click_to_activate_pref = gsearchtool_gconf_get_string ("/apps/nautilus/preferences/click_policy");
+	click_to_activate_pref = g_settings_get_string (gsearch->nautilus_settings, "click-policy");
 
 	if (click_to_activate_pref == NULL) {
 		gsearch->is_search_results_single_click_to_activate = FALSE;
@@ -2935,10 +2946,10 @@ gsearchtool_setup_gconf_notifications (GSearchWindow * gsearch)
 	gsearch->is_search_results_single_click_to_activate =
 		(strncmp (click_to_activate_pref, "single", 6) == 0) ? TRUE : FALSE;
 
-	gsearchtool_gconf_watch_key ("/apps/nautilus/preferences",
-	                             "/apps/nautilus/preferences/click_policy",
-	                             (GConfClientNotifyFunc) single_click_to_activate_key_changed_cb,
-	                             gsearch);
+	g_signal_connect (gsearch->nautilus_settings,
+	                  "changed::click-policy",
+	                  G_CALLBACK (single_click_to_activate_key_changed_cb),
+	                  gsearch);
 
 	g_free (click_to_activate_pref);
 }
@@ -3005,10 +3016,10 @@ main (int argc,
 
 	gtk_widget_show (gsearch->window);
 
-	gsearchtool_setup_gconf_notifications (gsearch);
+	gsearchtool_setup_gsettings_notifications (gsearch);
 
 	if (handle_goption_args (gsearch) == FALSE) {
-		handle_gconf_settings (gsearch);
+		handle_gsettings_settings (gsearch);
 	}
 
 	gtk_main ();
