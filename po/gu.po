@@ -8,7 +8,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug."
 "cgi?product=gnome-search-tool&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2011-10-07 07:08+0000\n"
-"PO-Revision-Date: 2012-08-03 16:45+0530\n"
+"PO-Revision-Date: 2012-08-08 16:24+0530\n"
 "Last-Translator: \n"
 "Language-Team: gu_IN <kde-i18n-doc@kde.org>\n"
 "MIME-Version: 1.0\n"
@@ -1014,7 +1014,7 @@ msgstr "- the GNOME શોધ સાધનો"
 #: ../src/gsearchtool.c:2970
 #, c-format
 msgid "Failed to parse command line arguments: %s\n"
-msgstr "આદેશ વાક્ય દલીલોને પદચ્છેદન કરવામાં નિષ્ફળતા: %s\n"
+msgstr "આદેશ વાક્ય દલીલોનું પદચ્છેદન કરતી વખતે નિષ્ફળતા: %s\n"
 
 #: ../libeggsmclient/eggdesktopfile.c:165
 #, c-format
