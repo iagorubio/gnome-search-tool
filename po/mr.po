@@ -3,14 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # sandeep shedmake <sandeep.shedmake@gmail.com>, 2007.
-# Sandeep Shedmake <sandeep.shedmake@gmail.com>, 2008, 2009.
-# Sandeep Shedmake <sshedmak@redhat.com>, 2009.
+# Sandeep Shedmake <sshedmak@redhat.com>, 2008, 2009.
+# Sandeep Shedmake <sshedmak@redhat.com>, 2009, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: mr\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-10-06 14:36-0400\n"
-"PO-Revision-Date: 2009-09-11 11:48+0530\n"
+"PO-Revision-Date: 2012-08-16 13:30+0530\n"
 "Last-Translator: Sandeep Shedmake <sshedmak@redhat.com>\n"
 "Language-Team: Marathi <fedora-trans-mr@redhat.com>\n"
 "Language: mr\n"
@@ -26,7 +26,7 @@ msgstr ""
 "\n"
 "\n"
 "\n"
-"X-Generator: KBabel 1.11.4\n"
+"X-Generator: Lokalize 1.4\n"
 
 #: ../data/gnome-search-tool.desktop.in.h:1
 msgid "Locate documents and folders on this computer by name or content"
@@ -169,7 +169,8 @@ msgid ""
 "This key defines the order of the columns in the search results. This key "
 "should not be modified by the user."
 msgstr ""
-"शोध परिणामात ही किल्ली स्तंभ क्रमवारी व्याख्यीत करते. वापरकर्त्याने ही किल्ली संपादीत "
+"शोध परिणामात ही किल्ली स्तंभ क्रमवारी व्याख्यीत करते. वापरकर्त्याने ही किल्ली "
+"संपादीत "
 "करायची नाही."
 
 #: ../data/gnome-search-tool.schemas.in.h:55
@@ -178,8 +179,10 @@ msgid ""
 "The wildcards '*' and '?' are supported. The default values are /mnt/*, /"
 "media/*, /dev/*, /tmp/*, /proc/*, and /var/*."
 msgstr ""
-"शोध साधनाने जलद शोधमधून कोणते मार्ग वगळायचे हे या किल्ली द्वारे निश्चित केले जाते. "
-"वाईल्डकार्ड '*' व '?' समर्थीत आहे. मुलभूत मुल्य आहे /mnt/*, /media/*, /dev/*, /tmp/"
+"शोध साधनाने जलद शोधमधून कोणते मार्ग वगळायचे हे या किल्ली द्वारे निश्चित केले "
+"जाते. "
+"वाईल्डकार्ड '*' व '?' समर्थीत आहे. मुलभूत मुल्य आहे /mnt/*, /media/*, /dev/*, "
+"/tmp/"
 "*, /proc/*, व /var/*."
 
 #: ../data/gnome-search-tool.schemas.in.h:56
@@ -190,8 +193,10 @@ msgid ""
 "not been indexed. The wildcards '*' and '?' are supported. The default value "
 "is /."
 msgstr ""
-"सेकंद शोध साधनाने जलद शोधमधून कोणते मार्ग वगळायचे हे या किल्ली द्वारे निश्चित केले जाते. "
-"फाइल शोधण्याकरीता सेकंद स्कॅन फाइल आदेश वापरले जाते. सेकंद स्कॅनचा उद्देश विनाक्रमांकीत "
+"सेकंद शोध साधनाने जलद शोधमधून कोणते मार्ग वगळायचे हे या किल्ली द्वारे निश्चित "
+"केले जाते. "
+"फाइल शोधण्याकरीता सेकंद स्कॅन फाइल आदेश वापरले जाते. सेकंद स्कॅनचा उद्देश "
+"विनाक्रमांकीत "
 "फाइली शोधण्याचे आहे.वाईल्डकार्ड '*' व '?' समर्थीत आहे. मुलभूत मुल्य आहे /."
 
 #: ../data/gnome-search-tool.schemas.in.h:57
@@ -200,7 +205,8 @@ msgid ""
 "the search tool between sessions. Setting it to -1 will make the search tool "
 "use the default height."
 msgstr ""
-"ही किल्ली चौकट ऊंची व्याख्यीत करते, व त्याचा वापर सत्र आंतरीक शोध साधनचे आकार लक्षात "
+"ही किल्ली चौकट ऊंची व्याख्यीत करते, व त्याचा वापर सत्र आंतरीक शोध साधनचे आकार "
+"लक्षात "
 "ठेवण्याकरीता वापरले जाते. -1 निश्चित केल्यास शोध साधन मुलभूत ऊंची वापरते."
 
 #: ../data/gnome-search-tool.schemas.in.h:58
@@ -209,7 +215,8 @@ msgid ""
 "search tool between sessions. Setting it to -1 will make the search tool use "
 "the default width."
 msgstr ""
-"ही किल्ली चौकट रूंदी व्याख्यीत करते, व त्याचा वापर सत्र आंतरीक शोध साधनचे आकार लक्षात "
+"ही किल्ली चौकट रूंदी व्याख्यीत करते, व त्याचा वापर सत्र आंतरीक शोध साधनचे "
+"आकार लक्षात "
 "ठेवण्याकरीता वापरले जाते. -1 निश्चित केल्यास शोध साधन मुलभूत रूंदी वापरते."
 
 #: ../data/gnome-search-tool.schemas.in.h:59
@@ -217,7 +224,8 @@ msgid ""
 "This key determines if the \"Contains the text\" search option is selected "
 "when the search tool is started."
 msgstr ""
-"शोध साधन सुरू केल्यावर \"पाठ्य समाविष्टीत\" शोध पर्याय निवडले गेले का हे या कळ द्वारे "
+"शोध साधन सुरू केल्यावर \"पाठ्य समाविष्टीत\" शोध पर्याय निवडले गेले का हे या "
+"कळ द्वारे "
 "निश्चित केले जाते."
 
 #: ../data/gnome-search-tool.schemas.in.h:60
@@ -225,7 +233,8 @@ msgid ""
 "This key determines if the \"Date modified less than\" search option is "
 "selected when the search tool is started."
 msgstr ""
-"शोध साधन सुरू केल्यावर \"यापेक्षा कमीवेळा बदल केलेली दिनांक\" शोध पर्याय निवडले गेले का हे "
+"शोध साधन सुरू केल्यावर \"यापेक्षा कमीवेळा बदल केलेली दिनांक\" शोध पर्याय "
+"निवडले गेले का हे "
 "या कळ द्वारे निश्चित केले जाते."
 
 #: ../data/gnome-search-tool.schemas.in.h:61
@@ -233,7 +242,8 @@ msgid ""
 "This key determines if the \"Date modified more than\" search option is "
 "selected when the search tool is started."
 msgstr ""
-"शोध साधन सुरू केल्यावर \"यापेक्षा अधिकवेळा बदल केलेली दिनांक\" शोध पर्याय निवडले गेले का हे "
+"शोध साधन सुरू केल्यावर \"यापेक्षा अधिकवेळा बदल केलेली दिनांक\" शोध पर्याय "
+"निवडले गेले का हे "
 "या कळ द्वारे निश्चित केले जाते."
 
 #: ../data/gnome-search-tool.schemas.in.h:62
@@ -241,7 +251,8 @@ msgid ""
 "This key determines if the \"Exclude other filesystems\" search option is "
 "selected when the search tool is started."
 msgstr ""
-"शोध उपकरन सुरू केल्यावर \"Exclude other filesystem\" शोध पर्याय नीवडयाचे, हे ही कि "
+"शोध उपकरन सुरू केल्यावर \"Exclude other filesystem\" शोध पर्याय नीवडयाचे, हे "
+"ही कि "
 "ओळखले."
 
 #: ../data/gnome-search-tool.schemas.in.h:63
@@ -249,7 +260,8 @@ msgid ""
 "This key determines if the \"File is empty\" search option is selected when "
 "the search tool is started."
 msgstr ""
-"शोध साधन सुरू केल्यावर \"फाइल रिकामी आहे\" शोध पर्याय निवडले गेले का हे या कळ द्वारे "
+"शोध साधन सुरू केल्यावर \"फाइल रिकामी आहे\" शोध पर्याय निवडले गेले का हे या कळ "
+"द्वारे "
 "निश्चित केले जाते."
 
 #: ../data/gnome-search-tool.schemas.in.h:64
@@ -257,7 +269,8 @@ msgid ""
 "This key determines if the \"Follow symbolic links\" search option is "
 "selected when the search tool is started."
 msgstr ""
-"शोध साधन सुरू केल्यावर \"चिन्हांकीत जोडणी अनुसरा\" शोध पर्याय निवडले गेले का हे या कळ "
+"शोध साधन सुरू केल्यावर \"चिन्हांकीत जोडणी अनुसरा\" शोध पर्याय निवडले गेले का "
+"हे या कळ "
 "द्वारे निश्चित केले जाते."
 
 #: ../data/gnome-search-tool.schemas.in.h:65
@@ -265,7 +278,8 @@ msgid ""
 "This key determines if the \"Name does not contain\" search option is "
 "selected when the search tool is started."
 msgstr ""
-"शोध साधन सुरू केल्यावर \"नावत हे समाविष्टीत नाही\" शोध पर्याय निवडले गेले का हे या कळ "
+"शोध साधन सुरू केल्यावर \"नावत हे समाविष्टीत नाही\" शोध पर्याय निवडले गेले का "
+"हे या कळ "
 "द्वारे निश्चित केले जाते."
 
 #: ../data/gnome-search-tool.schemas.in.h:66
@@ -273,7 +287,8 @@ msgid ""
 "This key determines if the \"Name matches regular expression\" search option "
 "is selected when the search tool is started."
 msgstr ""
-"शोध साधन सुरू केल्यावर \"अक्षर माळाशी नाव जुळविले जाते\" शोध पर्याय निवडले गेले का हे या "
+"शोध साधन सुरू केल्यावर \"अक्षर माळाशी नाव जुळविले जाते\" शोध पर्याय निवडले "
+"गेले का हे या "
 "कळ द्वारे निश्चित केले जाते."
 
 #: ../data/gnome-search-tool.schemas.in.h:67
@@ -281,7 +296,8 @@ msgid ""
 "This key determines if the \"Owned by group\" search option is selected when "
 "the search tool is started."
 msgstr ""
-"शोध साधन सुरू केल्यावर \"गट मालकी\" शोध पर्याय निवडले गेले का हे या कळ द्वारे निश्चित केले "
+"शोध साधन सुरू केल्यावर \"गट मालकी\" शोध पर्याय निवडले गेले का हे या कळ द्वारे "
+"निश्चित केले "
 "जाते."
 
 #: ../data/gnome-search-tool.schemas.in.h:68
@@ -289,7 +305,8 @@ msgid ""
 "This key determines if the \"Owned by user\" search option is selected when "
 "the search tool is started."
 msgstr ""
-"शोध साधन सुरू केल्यावर \"वापरकर्त्याची मालकी\" शोध पर्याय निवडले गेले का हे या कळ द्वारे "
+"शोध साधन सुरू केल्यावर \"वापरकर्त्याची मालकी\" शोध पर्याय निवडले गेले का हे "
+"या कळ द्वारे "
 "निश्चित केले जाते."
 
 #: ../data/gnome-search-tool.schemas.in.h:69
@@ -297,7 +314,8 @@ msgid ""
 "This key determines if the \"Owner is unrecognized\" search option is "
 "selected when the search tool is started."
 msgstr ""
-"शोध साधन सुरू केल्यावर \"मालक अपरिचीत आहे\" शोध पर्याय निवडले गेले का हे या कळ द्वारे "
+"शोध साधन सुरू केल्यावर \"मालक अपरिचीत आहे\" शोध पर्याय निवडले गेले का हे या "
+"कळ द्वारे "
 "निश्चित केले जाते."
 
 #. Translators: The quoted text is the label of the additional
@@ -307,7 +325,8 @@ msgid ""
 "This key determines if the \"Select more options\" section is expanded when "
 "the search tool is started."
 msgstr ""
-"शोध साधन सुरू केल्यावर \"अधिक पर्याय निवडा\" विभाग वाढवायचे का हे या कळ द्वारे निश्चित "
+"शोध साधन सुरू केल्यावर \"अधिक पर्याय निवडा\" विभाग वाढवायचे का हे या कळ "
+"द्वारे निश्चित "
 "केले जाते."
 
 #: ../data/gnome-search-tool.schemas.in.h:73
@@ -315,7 +334,8 @@ msgid ""
 "This key determines if the \"Show hidden files and folders\" search option "
 "is selected when the search tool is started."
 msgstr ""
-"शोध साधन सुरू केल्यावर \"लपविलेले फाइल व फोल्डर दर्शवा\" शोध पर्याय निवडले गेले का हे या "
+"शोध साधन सुरू केल्यावर \"लपविलेले फाइल व फोल्डर दर्शवा\" शोध पर्याय निवडले "
+"गेले का हे या "
 "कळ द्वारे निश्चित केले जाते."
 
 #: ../data/gnome-search-tool.schemas.in.h:74
@@ -323,7 +343,8 @@ msgid ""
 "This key determines if the \"Size at least\" search option is selected when "
 "the search tool is started."
 msgstr ""
-"शोध साधन सुरू केल्यावर \"किमान आकार\" शोध पर्याय निवडले गेले का हे या कळ द्वारे निश्चित "
+"शोध साधन सुरू केल्यावर \"किमान आकार\" शोध पर्याय निवडले गेले का हे या कळ "
+"द्वारे निश्चित "
 "केले जाते."
 
 #: ../data/gnome-search-tool.schemas.in.h:75
@@ -331,7 +352,8 @@ msgid ""
 "This key determines if the \"Size at most\" search option is selected when "
 "the search tool is started."
 msgstr ""
-"शोध साधन सुरू केल्यावर \"कमाल आकार\" शोध पर्याय निवडले गेले का हे या कळ द्वारे निश्चित "
+"शोध साधन सुरू केल्यावर \"कमाल आकार\" शोध पर्याय निवडले गेले का हे या कळ "
+"द्वारे निश्चित "
 "केले जाते."
 
 #: ../data/gnome-search-tool.schemas.in.h:76
@@ -339,7 +361,8 @@ msgid ""
 "This key determines if the search tool disables the use of the find command "
 "after performing a quick search."
 msgstr ""
-"जलद शोध केल्यावर शोध साधन find आदेशचा वापर अकार्यान्वीत करते का हे या कळ द्वारे "
+"जलद शोध केल्यावर शोध साधन find आदेशचा वापर अकार्यान्वीत करते का हे या कळ "
+"द्वारे "
 "निश्चित केले जाते."
 
 #: ../data/gnome-search-tool.schemas.in.h:77
@@ -347,14 +370,16 @@ msgid ""
 "This key determines if the search tool disables the use of the locate "
 "command when performing simple file name searches."
 msgstr ""
-"शोध साधन साधारण फाइल नाव शोधतेवेळी शोध आदेशचा वापर अकार्यान्वीत करते का हे या कळ "
+"शोध साधन साधारण फाइल नाव शोधतेवेळी शोध आदेशचा वापर अकार्यान्वीत करते का हे या "
+"कळ "
 "द्वारे निश्चित केले जाते."
 
 #: ../data/gnome-search-tool.schemas.in.h:78
 msgid ""
 "This key determines if the search tool window starts in a maximized state."
 msgstr ""
-"ही कळ शोध साधन चौकट मोठ्यात मोठी स्थिती मध्ये सुरू करायचे की नाही हे निश्चित करते."
+"ही कळ शोध साधन चौकट मोठ्यात मोठी स्थिती मध्ये सुरू करायचे की नाही हे निश्चित "
+"करते."
 
 #: ../src/gsearchtool-callbacks.c:194
 msgid "Could not open help document."
@@ -456,9 +481,8 @@ msgstr "यासह उघडा (_h)"
 
 #. Popup menu item: Open Containing Folder
 #: ../src/gsearchtool-callbacks.c:1155
-#, fuzzy
 msgid "Open Containing _Folder"
-msgstr "फोल्डर उघडा (_F)"
+msgstr "समाविष्टीत फोल्डर उघडा (_F)"
 
 #: ../src/gsearchtool-callbacks.c:1173
 msgid "Mo_ve to Trash"
@@ -492,7 +516,8 @@ msgstr "दस्तऐवज \"%s\" आधिपासूनच अस्ति
 
 #: ../src/gsearchtool-callbacks.c:1669
 msgid "If you replace an existing file, its contents will be overwritten."
-msgstr "अस्तित्वात असलेली फाइल बदलविल्यास, त्यातील आशय खोडून पुन्हा लिहीले जाईल."
+msgstr ""
+"अस्तित्वात असलेली फाइल बदलविल्यास, त्यातील आशय खोडून पुन्हा लिहीले जाईल."
 
 #: ../src/gsearchtool-callbacks.c:1680
 msgid "_Replace"
@@ -700,9 +725,8 @@ msgid "Exclude other filesystems"
 msgstr "इतर फाइलप्रणाली वगळा"
 
 #: ../src/gsearchtool.c:157
-#, fuzzy
 msgid "Show version of the application"
-msgstr "अनुप्रयोगाची आवृत्ती दर्शवा"
+msgstr "ॲप्लिकेशनची आवृत्ती दाखवा"
 
 #: ../src/gsearchtool.c:158 ../src/gsearchtool.c:163 ../src/gsearchtool.c:172
 msgid "STRING"
@@ -794,7 +818,8 @@ msgstr "\"फोल्डर मध्ये पहा\" या शोधा प
 
 #: ../src/gsearchtool.c:1290
 msgid "Sort files by one of the following: name, folder, size, type, or date"
-msgstr "खालीलपैकी एका रीतीने फाइल चाळा: नाव, फोल्डर, आकार, प्रकार, किंवा दिनांक"
+msgstr ""
+"खालीलपैकी एका रीतीने फाइल चाळा: नाव, फोल्डर, आकार, प्रकार, किंवा दिनांक"
 
 #: ../src/gsearchtool.c:1291
 msgid "Set sort order to descending, the default is ascending"
@@ -841,7 +866,8 @@ msgid ""
 "The search results may be out of date or invalid.  Do you want to disable "
 "the quick search feature?"
 msgstr ""
-"शोध परिणाम कालबाह्य किंवा अवैध असतील.  तुम्हाला जलद शोध वैशिष्ट अकार्यान्वीत करायचे?"
+"शोध परिणाम कालबाह्य किंवा अवैध असतील.  तुम्हाला जलद शोध वैशिष्ट अकार्यान्वीत "
+"करायचे?"
 
 #: ../src/gsearchtool.c:1777
 msgid "Disable _Quick Search"
@@ -996,9 +1022,9 @@ msgid "- the GNOME Search Tool"
 msgstr "- GNOME शोध शाधन"
 
 #: ../src/gsearchtool.c:2970
-#, fuzzy, c-format
+#, c-format
 msgid "Failed to parse command line arguments: %s\n"
-msgstr "आदेश ओळ बाबीनुरूप क्रमात लावाला अवैध पर्याय पुरविण्यात आले."
+msgstr "आदेश ओळ घटके वाचण्यास अपयशी: %s\n"
 
 #: ../libeggsmclient/eggdesktopfile.c:165
 #, c-format
@@ -1062,3 +1088,4 @@ msgstr "सत्र व्यवस्थापन पर्याय:"
 #: ../libeggsmclient/eggsmclient.c:253
 msgid "Show session management options"
 msgstr "सत्र व्यवस्थापन पर्याय दाखवा"
+
