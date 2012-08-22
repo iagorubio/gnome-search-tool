@@ -39,7 +39,8 @@ AC_CACHE_SAVE
 
 GLIB_GSETTINGS
 
-GNOME_DOC_INIT
+# User documentation
+YELP_HELP_INIT
 
 dnl strftime extension checks
 msg_strftime=no
