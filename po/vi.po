@@ -6,9 +6,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils GNOME TRUNK\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-10-06 14:36-0400\n"
-"PO-Revision-Date: 2011-04-14 18:42+0700\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
+"search-tool&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2012-08-06 17:31+0000\n"
+"PO-Revision-Date: 2012-09-01 22:21+0700\n"
 "Last-Translator: Nguyễn Thái Ngọc Duy <pclouds@gmail.com>\n"
 "Language-Team: Vietnamese <vi-VN@googlegroups.com>\n"
 "Language: vi\n"
@@ -19,150 +20,44 @@ msgstr ""
 "X-Generator: LocFactoryEditor 1.8\n"
 
 #: ../data/gnome-search-tool.desktop.in.h:1
-msgid "Locate documents and folders on this computer by name or content"
-msgstr "Trên máy tính này, tìm tài liệu và thư mục theo tên hay nội dung"
-
-#: ../data/gnome-search-tool.desktop.in.h:2
 msgid "Search for Files..."
 msgstr "Tìm kiếm tập tin..."
 
-#: ../data/gnome-search-tool.schemas.in.h:1
-msgid "Default Window Height"
-msgstr "Cao cửa sổ mặc định"
+#: ../data/gnome-search-tool.desktop.in.h:2
+msgid "Locate documents and folders on this computer by name or content"
+msgstr "Trên máy tính này, tìm tài liệu và thư mục theo tên hay nội dung"
 
-#: ../data/gnome-search-tool.schemas.in.h:2
-msgid "Default Window Maximized"
-msgstr "Cửa sổ mặc định đã tối đa hóa"
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:1
+#, fuzzy
+#| msgid "Search for Files"
+msgid "Search history"
+msgstr "Tìm tập tin"
 
-#: ../data/gnome-search-tool.schemas.in.h:3
-msgid "Default Window Width"
-msgstr "Độ rộng cửa sổ mặc định"
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:2
+msgid "This key defines the items which were searched for in the past."
+msgstr ""
 
-#: ../data/gnome-search-tool.schemas.in.h:4
-msgid "Disable Quick Search"
-msgstr "Tắt Tìm nhanh"
-
-#: ../data/gnome-search-tool.schemas.in.h:5
-msgid "Disable Quick Search Second Scan"
-msgstr "Tắt Việc Ra Quét Thứ hai Tìm Nhanh"
-
-#: ../data/gnome-search-tool.schemas.in.h:6
-msgid "Look in Folder"
-msgstr "Tìm trong thư mục"
-
-#: ../data/gnome-search-tool.schemas.in.h:7
-msgid "Quick Search Excluded Paths"
-msgstr "Đường dẫn bị Loại trừ Tìm nhanh"
-
-#: ../data/gnome-search-tool.schemas.in.h:8
-msgid "Quick Search Second Scan Excluded Paths"
-msgstr "Đường dẫn bị Loại trừ Việc Ra Quét Thứ hai Tìm Nhanh"
-
-#: ../data/gnome-search-tool.schemas.in.h:9
-msgid "Search Result Columns Order"
-msgstr "Thứ tự cột kết quả tìm kiếm"
-
-#. Translators: The quoted text is the label of an available
-#. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:12
-msgid "Select the search option \"Contains the text\""
-msgstr "Dùng tùy chọn tìm kiếm « Chứa đoạn »"
-
-#. Translators: The quoted text is the label of an available
-#. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:15
-msgid "Select the search option \"Date modified less than\""
-msgstr "Dùng tùy chọn tìm kiếm « Có ngày sửa đổi trước »"
-
-#. Translators: The quoted text is the label of an available
-#. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:18
-msgid "Select the search option \"Date modified more than\""
-msgstr "Dùng tùy chọn tìm kiếm « Có ngày sửa đổi sau »"
-
-#. Translators: The quoted text is the label of an available
-#. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:21
-msgid "Select the search option \"Exclude other filesystems\""
-msgstr "Dùng tùy chọn tìm kiếm \"Loại hệ thống tập tin khác\""
-
-#. Translators: The quoted text is the label of an available
-#. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:24
-msgid "Select the search option \"File is empty\""
-msgstr "Dùng tùy chọn tìm kiếm « Tập tin rỗng »"
-
-#. Translators: The quoted text is the label of an available
-#. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:27
-msgid "Select the search option \"Follow symbolic links\""
-msgstr "Dùng tùy chọn tìm kiếm « Theo liên kết biểu tượng »"
-
-#. Translators: The quoted text is the label of an available
-#. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:30
-msgid "Select the search option \"Name does not contain\""
-msgstr "Dùng tùy chọn tìm kiếm « Tên không chứa »"
-
-#. Translators: The quoted text is the label of an available
-#. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:33
-msgid "Select the search option \"Name matches regular expression\""
-msgstr "Dùng tùy chọn tìm kiếm « Tên khớp biểu thức chính quy »"
-
-#. Translators: The quoted text is the label of an available
-#. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:36
-msgid "Select the search option \"Owned by group\""
-msgstr "Dùng tùy chọn tìm kiếm « Sở hữu bởi nhóm »"
-
-#. Translators: The quoted text is the label of an available
-#. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:39
-msgid "Select the search option \"Owned by user\""
-msgstr "Dùng tùy chọn tìm kiếm « Sở hữu bởi người dùng »"
-
-#. Translators: The quoted text is the label of an available
-#. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:42
-msgid "Select the search option \"Owner is unrecognized\""
-msgstr "Dùng tùy chọn tìm kiếm « Người sở hữu không nhận diện được »"
-
-#. Translators: The quoted text is the label of an available
-#. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:45
-msgid "Select the search option \"Show hidden files and folders\""
-msgstr "Dùng tùy chọn tìm kiếm « Hiện các tập tin và thư mục bị ẩn »"
-
-#. Translators: The quoted text is the label of an available
-#. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:48
-msgid "Select the search option \"Size at least\""
-msgstr "Dùng tùy chọn tìm kiếm « Kích cỡ ít nhất »"
-
-#. Translators: The quoted text is the label of an available
-#. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:51
-msgid "Select the search option \"Size at most\""
-msgstr "Dùng tùy chọn tìm kiếm « Kích cỡ lớn nhất »"
-
-#: ../data/gnome-search-tool.schemas.in.h:52
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:3
 msgid "Show Additional Options"
 msgstr "Hiện tùy chọn thêm"
 
-#: ../data/gnome-search-tool.schemas.in.h:53
-msgid "This key defines the default value of the \"Look in Folder\" widget."
-msgstr "Khoá này định nghĩa giá trị mặc định của ô \"Tìm trong thư mục\"."
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:4
+msgid "Disable Quick Search"
+msgstr "Tắt Tìm nhanh"
 
-#: ../data/gnome-search-tool.schemas.in.h:54
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:5
 msgid ""
-"This key defines the order of the columns in the search results. This key "
-"should not be modified by the user."
+"This key determines if the search tool disables the use of the locate "
+"command when performing simple file name searches."
 msgstr ""
-"Khóa này định nghĩa thứ tự các cột trong kết quả tìm kiếm. Người dùng không "
-"nên sửa đổi khóa này."
+"Khóa này định nghĩa nếu công cụ tìm kiếm vô hiệu hóa sử dụng lệnh « Locate  "
+"» (định vị) sau khi tìm kiếm tên tập tin cách đơn giản."
 
-#: ../data/gnome-search-tool.schemas.in.h:55
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:6
+msgid "Quick Search Excluded Paths"
+msgstr "Đường dẫn bị Loại trừ Tìm nhanh"
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:7
 msgid ""
 "This key defines the paths the search tool will exclude from a quick search. "
 "The wildcards '*' and '?' are supported. The default values are /mnt/*, /"
@@ -173,7 +68,23 @@ msgstr ""
 "trị mặc định là /mnt/* (gắn), /media/* (môi giới), /dev/* (phát hiện), /tmp/"
 "* (tạm thơi), /proc/* (tiến trình), và /var/* (biến)."
 
-#: ../data/gnome-search-tool.schemas.in.h:56
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:8
+msgid "Disable Quick Search Second Scan"
+msgstr "Tắt Việc Ra Quét Thứ hai Tìm Nhanh"
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:9
+msgid ""
+"This key determines if the search tool disables the use of the find command "
+"after performing a quick search."
+msgstr ""
+"Khóa này định nghĩa nếu công cụ tìm kiếm vô hiệu hóa sử dụng lệnh « Find  "
+"» (tìm) sau khi Tìm nhanh."
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:10
+msgid "Quick Search Second Scan Excluded Paths"
+msgstr "Đường dẫn bị Loại trừ Việc Ra Quét Thứ hai Tìm Nhanh"
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:11
 msgid ""
 "This key defines the paths the search tool will exclude from a second scan "
 "when performing a quick search. The second scan uses the find command to "
@@ -187,17 +98,23 @@ msgstr ""
 "trợ hai ký tự đại diện « * » (dấu sao) và « ? » (dấu hỏi). Giá trị mặc định "
 "là /."
 
-#: ../data/gnome-search-tool.schemas.in.h:57
-msgid ""
-"This key defines the window height, and it's used to remember the size of "
-"the search tool between sessions. Setting it to -1 will make the search tool "
-"use the default height."
-msgstr ""
-"Khóa này định nghĩa độ cao của cửa sổ, và nó dùng để nhớ kích cỡ của công cụ "
-"tìm kiếm giữa hai phiên chạy. Lập nó thành -1 sẽ làm cho công cụ tìm kiếm "
-"dùng độ cao mặc định."
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:12
+msgid "Search Result Columns Order"
+msgstr "Thứ tự cột kết quả tìm kiếm"
 
-#: ../data/gnome-search-tool.schemas.in.h:58
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:13
+msgid ""
+"This key defines the order of the columns in the search results. This key "
+"should not be modified by the user."
+msgstr ""
+"Khóa này định nghĩa thứ tự các cột trong kết quả tìm kiếm. Người dùng không "
+"nên sửa đổi khóa này."
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:14
+msgid "Default Window Width"
+msgstr "Độ rộng cửa sổ mặc định"
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:15
 msgid ""
 "This key defines the window width, and it's used to remember the size of the "
 "search tool between sessions. Setting it to -1 will make the search tool use "
@@ -207,7 +124,40 @@ msgstr ""
 "cụ tìm kiếm giữa hai phiên chạy. Lập nó thành -1 sẽ làm cho công cụ tìm kiếm "
 "dùng độ rộng mặc định."
 
-#: ../data/gnome-search-tool.schemas.in.h:59
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:16
+msgid "Default Window Height"
+msgstr "Cao cửa sổ mặc định"
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:17
+msgid ""
+"This key defines the window height, and it's used to remember the size of "
+"the search tool between sessions. Setting it to -1 will make the search tool "
+"use the default height."
+msgstr ""
+"Khóa này định nghĩa độ cao của cửa sổ, và nó dùng để nhớ kích cỡ của công cụ "
+"tìm kiếm giữa hai phiên chạy. Lập nó thành -1 sẽ làm cho công cụ tìm kiếm "
+"dùng độ cao mặc định."
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:18
+msgid "Default Window Maximized"
+msgstr "Cửa sổ mặc định đã tối đa hóa"
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:19
+msgid ""
+"This key determines if the search tool window starts in a maximized state."
+msgstr ""
+"Khóa này định nghĩa nếu công cụ tìm kiếm bắt đầu trong tính trạng đã tối đa "
+"hóa."
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:20
+msgid "Look in Folder"
+msgstr "Tìm trong thư mục"
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:21
+msgid "This key defines the default value of the \"Look in Folder\" widget."
+msgstr "Khoá này định nghĩa giá trị mặc định của ô \"Tìm trong thư mục\"."
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:22
 msgid ""
 "This key determines if the \"Contains the text\" search option is selected "
 "when the search tool is started."
@@ -215,7 +165,7 @@ msgstr ""
 "Khi công cụ tìm kiếm được khởi chạy, khóa này định nghĩa nếu tùy chọn tìm "
 "kiếm « Chứa đoạn » được chọn chưa."
 
-#: ../data/gnome-search-tool.schemas.in.h:60
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:23
 msgid ""
 "This key determines if the \"Date modified less than\" search option is "
 "selected when the search tool is started."
@@ -223,7 +173,7 @@ msgstr ""
 "Khi công cụ tìm kiếm được khởi chạy, khóa này định nghĩa nếu tùy chọn tìm "
 "kiếm « Có ngày sửa đổi trước » được chọn chưa."
 
-#: ../data/gnome-search-tool.schemas.in.h:61
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:24
 msgid ""
 "This key determines if the \"Date modified more than\" search option is "
 "selected when the search tool is started."
@@ -231,89 +181,7 @@ msgstr ""
 "Khi công cụ tìm kiếm được khởi chạy, khóa này định nghĩa nếu tùy chọn tìm "
 "kiếm « Có ngày sửa đổi sau » được chọn chưa."
 
-#: ../data/gnome-search-tool.schemas.in.h:62
-msgid ""
-"This key determines if the \"Exclude other filesystems\" search option is "
-"selected when the search tool is started."
-msgstr ""
-"Khoá này xác định có dùng tuỳ chọn \"Loại hệ thống tập tin khác\" khi bắt "
-"đầu tìm kiếm."
-
-#: ../data/gnome-search-tool.schemas.in.h:63
-msgid ""
-"This key determines if the \"File is empty\" search option is selected when "
-"the search tool is started."
-msgstr ""
-"Khi công cụ tìm kiếm được khởi chạy, khóa này định nghĩa nếu tùy chọn tìm "
-"kiếm « Tập tin rỗng » được chọn chưa."
-
-#: ../data/gnome-search-tool.schemas.in.h:64
-msgid ""
-"This key determines if the \"Follow symbolic links\" search option is "
-"selected when the search tool is started."
-msgstr ""
-"Khi công cụ tìm kiếm được khởi chạy, khóa này định nghĩa nếu tùy chọn tìm "
-"kiếm « Theo liên kết biểu tượng » được chọn chưa."
-
-#: ../data/gnome-search-tool.schemas.in.h:65
-msgid ""
-"This key determines if the \"Name does not contain\" search option is "
-"selected when the search tool is started."
-msgstr ""
-"Khi công cụ tìm kiếm được khởi chạy, khóa này định nghĩa nếu tùy chọn tìm "
-"kiếm « Tên không chứa » được chọn chưa."
-
-#: ../data/gnome-search-tool.schemas.in.h:66
-msgid ""
-"This key determines if the \"Name matches regular expression\" search option "
-"is selected when the search tool is started."
-msgstr ""
-"Khi công cụ tìm kiếm được khởi chạy, khóa này định nghĩa nếu tùy chọn tìm "
-"kiếm « Tên khớp biểu thức chính quy » được chọn chưa."
-
-#: ../data/gnome-search-tool.schemas.in.h:67
-msgid ""
-"This key determines if the \"Owned by group\" search option is selected when "
-"the search tool is started."
-msgstr ""
-"Khi công cụ tìm kiếm được khởi chạy, khóa này định nghĩa nếu tùy chọn tìm "
-"kiếm « Sở hữu bởi nhóm » được chọn chưa."
-
-#: ../data/gnome-search-tool.schemas.in.h:68
-msgid ""
-"This key determines if the \"Owned by user\" search option is selected when "
-"the search tool is started."
-msgstr ""
-"Khi công cụ tìm kiếm được khởi chạy, khóa này định nghĩa nếu tùy chọn tìm "
-"kiếm « Sở hữu bởi người dùng » được chọn chưa."
-
-#: ../data/gnome-search-tool.schemas.in.h:69
-msgid ""
-"This key determines if the \"Owner is unrecognized\" search option is "
-"selected when the search tool is started."
-msgstr ""
-"Khi công cụ tìm kiếm được khởi chạy, khóa này định nghĩa nếu tùy chọn tìm "
-"kiếm « Người sở hữu không nhận diện được » được chọn chưa."
-
-#. Translators: The quoted text is the label of the additional
-#. options expander that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:72
-msgid ""
-"This key determines if the \"Select more options\" section is expanded when "
-"the search tool is started."
-msgstr ""
-"Khi công cụ tìm kiếm được khởi chạy, khóa này định nghĩa nếu tùy chọn tìm "
-"kiếm « Hiển thị tùy chọn bổ sung » được chọn chưa."
-
-#: ../data/gnome-search-tool.schemas.in.h:73
-msgid ""
-"This key determines if the \"Show hidden files and folders\" search option "
-"is selected when the search tool is started."
-msgstr ""
-"Khi công cụ tìm kiếm được khởi chạy, khóa này định nghĩa nếu tùy chọn tìm "
-"kiếm « Hiển thị các tập tin và thư mục bị ẩn » được chọn chưa."
-
-#: ../data/gnome-search-tool.schemas.in.h:74
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:25
 msgid ""
 "This key determines if the \"Size at least\" search option is selected when "
 "the search tool is started."
@@ -321,7 +189,7 @@ msgstr ""
 "Khi công cụ tìm kiếm được khởi chạy, khóa này định nghĩa nếu tùy chọn tìm "
 "kiếm « Kích thước ít nhất » được chọn chưa."
 
-#: ../data/gnome-search-tool.schemas.in.h:75
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:26
 msgid ""
 "This key determines if the \"Size at most\" search option is selected when "
 "the search tool is started."
@@ -329,303 +197,77 @@ msgstr ""
 "Khi công cụ tìm kiếm được khởi chạy, khóa này định nghĩa nếu tùy chọn tìm "
 "kiếm « Kích thước lớn nhất » được chọn chưa."
 
-#: ../data/gnome-search-tool.schemas.in.h:76
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:27
 msgid ""
-"This key determines if the search tool disables the use of the find command "
-"after performing a quick search."
+"This key determines if the \"File is empty\" search option is selected when "
+"the search tool is started."
 msgstr ""
-"Khóa này định nghĩa nếu công cụ tìm kiếm vô hiệu hóa sử dụng lệnh « Find  "
-"» (tìm) sau khi Tìm nhanh."
+"Khi công cụ tìm kiếm được khởi chạy, khóa này định nghĩa nếu tùy chọn tìm "
+"kiếm « Tập tin rỗng » được chọn chưa."
 
-#: ../data/gnome-search-tool.schemas.in.h:77
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:28
 msgid ""
-"This key determines if the search tool disables the use of the locate "
-"command when performing simple file name searches."
+"This key determines if the \"Owned by user\" search option is selected when "
+"the search tool is started."
 msgstr ""
-"Khóa này định nghĩa nếu công cụ tìm kiếm vô hiệu hóa sử dụng lệnh « Locate  "
-"» (định vị) sau khi tìm kiếm tên tập tin cách đơn giản."
+"Khi công cụ tìm kiếm được khởi chạy, khóa này định nghĩa nếu tùy chọn tìm "
+"kiếm « Sở hữu bởi người dùng » được chọn chưa."
 
-#: ../data/gnome-search-tool.schemas.in.h:78
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:29
 msgid ""
-"This key determines if the search tool window starts in a maximized state."
+"This key determines if the \"Owned by group\" search option is selected when "
+"the search tool is started."
 msgstr ""
-"Khóa này định nghĩa nếu công cụ tìm kiếm bắt đầu trong tính trạng đã tối đa "
-"hóa."
+"Khi công cụ tìm kiếm được khởi chạy, khóa này định nghĩa nếu tùy chọn tìm "
+"kiếm « Sở hữu bởi nhóm » được chọn chưa."
 
-#: ../src/gsearchtool-callbacks.c:194
-msgid "Could not open help document."
-msgstr "Không mở được tài liệu trợ giúp."
-
-#: ../src/gsearchtool-callbacks.c:341
-#, c-format
-msgid "Are you sure you want to open %d document?"
-msgid_plural "Are you sure you want to open %d documents?"
-msgstr[0] "Bạn có chắc muốn mở %d tài liệu không?"
-
-#: ../src/gsearchtool-callbacks.c:346 ../src/gsearchtool-callbacks.c:531
-#, c-format
-msgid "This will open %d separate window."
-msgid_plural "This will open %d separate windows."
-msgstr[0] "Hành động này sẽ mở %d cửa sổ riêng."
-
-#: ../src/gsearchtool-callbacks.c:382
-#, c-format
-msgid "Could not open document \"%s\"."
-msgstr "Không mở được tài liệu « %s »."
-
-#: ../src/gsearchtool-callbacks.c:407
-#, c-format
-msgid "Could not open folder \"%s\"."
-msgstr "Không mở được thư mục « %s »."
-
-#: ../src/gsearchtool-callbacks.c:415
-msgid "The nautilus file manager is not running."
-msgstr "Trình quản lý tập tin Nautilus chưa chạy."
-
-#: ../src/gsearchtool-callbacks.c:488 ../src/gsearchtool-callbacks.c:811
-msgid "The document does not exist."
-msgstr "Tài liệu này không tồn tại."
-
-#: ../src/gsearchtool-callbacks.c:503
-msgid "There is no installed viewer capable of displaying the document."
-msgstr "Chưa cài đặt chương trình nào có khả năng hiển thị tài liệu này."
-
-#: ../src/gsearchtool-callbacks.c:526
-#, c-format
-msgid "Are you sure you want to open %d folder?"
-msgid_plural "Are you sure you want to open %d folders?"
-msgstr[0] "Bạn có chắc muốn mở %d thư mục không?"
-
-#: ../src/gsearchtool-callbacks.c:675
-#, c-format
-msgid "Could not move \"%s\" to trash."
-msgstr "Không chuyển được « %s » vào Sọt rác."
-
-#: ../src/gsearchtool-callbacks.c:702
-#, c-format
-msgid "Do you want to delete \"%s\" permanently?"
-msgstr "Bạn có muốn xóa bỏ vĩnh viễn « %s » không?"
-
-#: ../src/gsearchtool-callbacks.c:705
-#, c-format
-msgid "Trash is unavailable.  Could not move \"%s\" to the trash."
-msgstr "Sọt rác không sẵn sàng nên không thể chuyển « %s » vào Sọt rác."
-
-#: ../src/gsearchtool-callbacks.c:740
-#, c-format
-msgid "Could not delete \"%s\"."
-msgstr "Không thể xóa bỏ « %s »."
-
-#: ../src/gsearchtool-callbacks.c:847
-#, c-format
-msgid "Deleting \"%s\" failed: %s."
-msgstr "Lỗi xóa bỏ « %s »: %s."
-
-#: ../src/gsearchtool-callbacks.c:859
-#, c-format
-msgid "Moving \"%s\" failed: %s."
-msgstr "Lỗi di chuyển « %s »: %s."
-
-#. Popup menu item: Open
-#: ../src/gsearchtool-callbacks.c:987 ../src/gsearchtool-callbacks.c:1017
-msgid "_Open"
-msgstr "_Mở"
-
-#. Popup menu item: Open with (default)
-#: ../src/gsearchtool-callbacks.c:1042
-#, c-format
-msgid "_Open with %s"
-msgstr "_Mở bằng %s"
-
-#: ../src/gsearchtool-callbacks.c:1077
-#, c-format
-msgid "Open with %s"
-msgstr "Mở bằng %s"
-
-#. Popup menu item: Open With
-#: ../src/gsearchtool-callbacks.c:1110
-msgid "Open Wit_h"
-msgstr "Mở _bằng"
-
-#. Popup menu item: Open Containing Folder
-#: ../src/gsearchtool-callbacks.c:1155
-msgid "Open Containing _Folder"
-msgstr "_Mở thư mục bên ngoài"
-
-#: ../src/gsearchtool-callbacks.c:1173
-msgid "Mo_ve to Trash"
-msgstr "Chuyển vào Sọt _Rác"
-
-#: ../src/gsearchtool-callbacks.c:1195
-msgid "_Save Results As..."
-msgstr "Lư_u kết quả là..."
-
-#: ../src/gsearchtool-callbacks.c:1577
-msgid "Save Search Results As..."
-msgstr "Lưu kết quả tìm kiếm là..."
-
-#: ../src/gsearchtool-callbacks.c:1608
-msgid "Could not save document."
-msgstr "Không lưu được tài liệu."
-
-#: ../src/gsearchtool-callbacks.c:1609
-msgid "You did not select a document name."
-msgstr "Bạn chưa chọn tên tài liệu."
-
-#: ../src/gsearchtool-callbacks.c:1635
-#, c-format
-msgid "Could not save \"%s\" document to \"%s\"."
-msgstr "Không lưu được tài liệu « %s » vào « %s »."
-
-#: ../src/gsearchtool-callbacks.c:1665
-#, c-format
-msgid "The document \"%s\" already exists.  Would you like to replace it?"
-msgstr "Tài liệu « %s » đã có. Bạn có muốn thay thế nó không?"
-
-#: ../src/gsearchtool-callbacks.c:1669
-msgid "If you replace an existing file, its contents will be overwritten."
-msgstr "Nếu bạn thay thế tài liệu đã có thì sẽ ghi đè lên nội dung nó."
-
-#: ../src/gsearchtool-callbacks.c:1680
-msgid "_Replace"
-msgstr "Tha_y thế"
-
-#: ../src/gsearchtool-callbacks.c:1730
-msgid "The document name you selected is a folder."
-msgstr "Tên tài liệu bạn chọn là một thư mục."
-
-#: ../src/gsearchtool-callbacks.c:1768
-msgid "You may not have write permissions to the document."
-msgstr "Bạn không có quyền ghi vào tài liệu này."
-
-#: ../src/gsearchtool-support.c:63
-#, c-format
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:30
 msgid ""
-"GConf error:\n"
-"  %s"
+"This key determines if the \"Owner is unrecognized\" search option is "
+"selected when the search tool is started."
 msgstr ""
-"Lỗi GConf:\n"
-"  %s"
+"Khi công cụ tìm kiếm được khởi chạy, khóa này định nghĩa nếu tùy chọn tìm "
+"kiếm « Người sở hữu không nhận diện được » được chọn chưa."
 
-#. Translators:  Below are the strings displayed in the 'Date Modified'
-#. column of the list view.  The format of this string can vary depending
-#. on age of a file.  Please modify the format of the timestamp to match
-#. your locale.  For example, to display 24 hour time replace the '%-I'
-#. with '%-H' and remove the '%p'.  (See bugzilla report #120434.)
-#: ../src/gsearchtool-support.c:696
-msgid "today at %-I:%M %p"
-msgstr "hôm nay lúc %-I:%M:%p"
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:31
+msgid ""
+"This key determines if the \"Name does not contain\" search option is "
+"selected when the search tool is started."
+msgstr ""
+"Khi công cụ tìm kiếm được khởi chạy, khóa này định nghĩa nếu tùy chọn tìm "
+"kiếm « Tên không chứa » được chọn chưa."
 
-#: ../src/gsearchtool-support.c:698
-msgid "yesterday at %-I:%M %p"
-msgstr "hôm qua lúc %-I:%M:%p"
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:32
+msgid ""
+"This key determines if the \"Name matches regular expression\" search option "
+"is selected when the search tool is started."
+msgstr ""
+"Khi công cụ tìm kiếm được khởi chạy, khóa này định nghĩa nếu tùy chọn tìm "
+"kiếm « Tên khớp biểu thức chính quy » được chọn chưa."
 
-#: ../src/gsearchtool-support.c:700 ../src/gsearchtool-support.c:702
-msgid "%A, %B %-d %Y at %-I:%M:%S %p"
-msgstr "%A, %-d %B %Y lúc %-I:%M:%S %p"
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:33
+msgid ""
+"This key determines if the \"Show hidden files and folders\" search option "
+"is selected when the search tool is started."
+msgstr ""
+"Khi công cụ tìm kiếm được khởi chạy, khóa này định nghĩa nếu tùy chọn tìm "
+"kiếm « Hiển thị các tập tin và thư mục bị ẩn » được chọn chưa."
 
-#: ../src/gsearchtool-support.c:889
-msgid "link (broken)"
-msgstr "liên kết (bị ngắt)"
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:34
+msgid ""
+"This key determines if the \"Follow symbolic links\" search option is "
+"selected when the search tool is started."
+msgstr ""
+"Khi công cụ tìm kiếm được khởi chạy, khóa này định nghĩa nếu tùy chọn tìm "
+"kiếm « Theo liên kết biểu tượng » được chọn chưa."
 
-#: ../src/gsearchtool-support.c:893
-#, c-format
-msgid "link to %s"
-msgstr "liên kết tới %s"
-
-#. START OF NAUTILUS/EEL FUNCTIONS: USED FOR HANDLING OF DUPLICATE FILENAMES
-#. Localizers:
-#. * Feel free to leave out the st, nd, rd and th suffix or
-#. * make some or all of them match.
-#.
-#. localizers: tag used to detect the first copy of a file
-#: ../src/gsearchtool-support.c:1497
-msgid " (copy)"
-msgstr " (bản sao)"
-
-#. localizers: tag used to detect the second copy of a file
-#: ../src/gsearchtool-support.c:1499
-msgid " (another copy)"
-msgstr " (bản sao khác)"
-
-#. localizers: tag used to detect the x11th copy of a file
-#. localizers: tag used to detect the x12th copy of a file
-#. localizers: tag used to detect the x13th copy of a file
-#. localizers: tag used to detect the xxth copy of a file
-#: ../src/gsearchtool-support.c:1502 ../src/gsearchtool-support.c:1504
-#: ../src/gsearchtool-support.c:1506 ../src/gsearchtool-support.c:1516
-msgid "th copy)"
-msgstr "(bản sao"
-
-#. localizers: tag used to detect the x1st copy of a file
-#: ../src/gsearchtool-support.c:1509
-msgid "st copy)"
-msgstr "(bản sao"
-
-#. localizers: tag used to detect the x2nd copy of a file
-#: ../src/gsearchtool-support.c:1511
-msgid "nd copy)"
-msgstr "(bản sao"
-
-#. localizers: tag used to detect the x3rd copy of a file
-#: ../src/gsearchtool-support.c:1513
-msgid "rd copy)"
-msgstr "(bản sao"
-
-#. localizers: appended to first file copy
-#: ../src/gsearchtool-support.c:1530
-#, c-format
-msgid "%s (copy)%s"
-msgstr "%s (bản sao)%s"
-
-#. localizers: appended to second file copy
-#: ../src/gsearchtool-support.c:1532
-#, c-format
-msgid "%s (another copy)%s"
-msgstr "%s (bản sao khác)%s"
-
-#. localizers: appended to x11th file copy
-#. localizers: appended to x12th file copy
-#. localizers: appended to x13th file copy
-#. localizers: appended to xxth file copy
-#: ../src/gsearchtool-support.c:1535 ../src/gsearchtool-support.c:1537
-#: ../src/gsearchtool-support.c:1539 ../src/gsearchtool-support.c:1548
-#, c-format
-msgid "%s (%dth copy)%s"
-msgstr "%s (bản sao thứ %d)%s"
-
-#. localizers: appended to x1st file copy
-#: ../src/gsearchtool-support.c:1542
-#, c-format
-msgid "%s (%dst copy)%s"
-msgstr "%s (bản sao thứ %d)%s"
-
-#. localizers: appended to x2nd file copy
-#: ../src/gsearchtool-support.c:1544
-#, c-format
-msgid "%s (%dnd copy)%s"
-msgstr "%s (bản sao thứ %d)%s"
-
-#. localizers: appended to x3rd file copy
-#: ../src/gsearchtool-support.c:1546
-#, c-format
-msgid "%s (%drd copy)%s"
-msgstr "%s (bản sao thứ %d)%s"
-
-#: ../src/gsearchtool-support.c:1593
-msgid " (invalid Unicode)"
-msgstr " (Unicode không hợp lệ)"
-
-#. localizers: opening parentheses to match the "th copy)" string
-#: ../src/gsearchtool-support.c:1682
-msgid " ("
-msgstr " ("
-
-#. localizers: opening parentheses of the "th copy)" string
-#: ../src/gsearchtool-support.c:1690
-#, c-format
-msgid " (%d"
-msgstr " (%d"
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:35
+msgid ""
+"This key determines if the \"Exclude other filesystems\" search option is "
+"selected when the search tool is started."
+msgstr ""
+"Khoá này xác định có dùng tuỳ chọn \"Loại hệ thống tập tin khác\" khi bắt "
+"đầu tìm kiếm."
 
 #: ../src/gsearchtool.c:81
 msgid "Contains the _text"
@@ -740,76 +382,76 @@ msgstr "Lỗi chuyển đổi bộ ký tự cho « %s »"
 msgid "Searching..."
 msgstr "Đang tìm kiếm..."
 
-#: ../src/gsearchtool.c:506 ../src/gsearchtool.c:1016
-#: ../src/gsearchtool.c:2976
+#: ../src/gsearchtool.c:506 ../src/gsearchtool.c:1019
+#: ../src/gsearchtool.c:2987
 msgid "Search for Files"
 msgstr "Tìm tập tin"
 
-#: ../src/gsearchtool.c:962 ../src/gsearchtool.c:991
+#: ../src/gsearchtool.c:965 ../src/gsearchtool.c:994
 msgid "No files found"
 msgstr "Không tìm thấy tập tin nào"
 
-#: ../src/gsearchtool.c:984
+#: ../src/gsearchtool.c:987
 msgid "(stopped)"
 msgstr "(dừng)"
 
-#: ../src/gsearchtool.c:990
+#: ../src/gsearchtool.c:993
 msgid "No Files Found"
 msgstr "Không tìm thấy tập tin nào"
 
-#: ../src/gsearchtool.c:995
+#: ../src/gsearchtool.c:998
 #, c-format
 msgid "%'d File Found"
 msgid_plural "%'d Files Found"
 msgstr[0] "Tìm thấy %'d tập tin"
 
-#: ../src/gsearchtool.c:999 ../src/gsearchtool.c:1037
+#: ../src/gsearchtool.c:1002 ../src/gsearchtool.c:1040
 #, c-format
 msgid "%'d file found"
 msgid_plural "%'d files found"
 msgstr[0] "Tìm thấy %'d tập tin"
 
-#: ../src/gsearchtool.c:1128
+#: ../src/gsearchtool.c:1131
 msgid "Entry changed called for a non entry option!"
 msgstr "Mục nhập đã thay đổi gọi tùy chọn không mục nhập."
 
-#: ../src/gsearchtool.c:1288
+#: ../src/gsearchtool.c:1296
 msgid "Set the text of \"Name contains\" search option"
 msgstr "Lập chữ trong tùy chọn « Tên chứa »"
 
-#: ../src/gsearchtool.c:1289
+#: ../src/gsearchtool.c:1297
 msgid "Set the text of \"Look in folder\" search option"
 msgstr "Lập chữ trong tùy chọn « Tìm trong thư mục »"
 
-#: ../src/gsearchtool.c:1290
+#: ../src/gsearchtool.c:1298
 msgid "Sort files by one of the following: name, folder, size, type, or date"
 msgstr ""
 "Sắp xếp tập tin theo một trong những chỉ tiêu sau: tên, thư mục, cỡ, kiểu, "
 "hay ngày tháng"
 
-#: ../src/gsearchtool.c:1291
+#: ../src/gsearchtool.c:1299
 msgid "Set sort order to descending, the default is ascending"
 msgstr "Sắp thứ tự giảm dần. Mặc định là thứ tự tăng dần"
 
-#: ../src/gsearchtool.c:1292
+#: ../src/gsearchtool.c:1300
 msgid "Automatically start a search"
 msgstr "Tự động khởi động tìm kiếm"
 
-#: ../src/gsearchtool.c:1298
+#: ../src/gsearchtool.c:1306
 #, c-format
 msgid "Select the \"%s\" search option"
 msgstr "Dùng tùy chọn tìm kiếm « %s »"
 
-#: ../src/gsearchtool.c:1301
+#: ../src/gsearchtool.c:1309
 #, c-format
 msgid "Select and set the \"%s\" search option"
 msgstr "Chọn và lập tùy chọn « %s »"
 
-#: ../src/gsearchtool.c:1408
+#: ../src/gsearchtool.c:1416
 msgid "Invalid option passed to sortby command line argument."
 msgstr "Chuyển tùy chọn không hợp lệ cho lệnh « sortby » (sắp xếp theo)."
 
-#: ../src/gsearchtool.c:1702
+#: ../src/gsearchtool.c:1710
 msgid ""
 "\n"
 "... Too many errors to display ..."
@@ -817,18 +459,18 @@ msgstr ""
 "\n"
 "... Quá nhiều lỗi, không thể hiển thị hết ..."
 
-#: ../src/gsearchtool.c:1716
+#: ../src/gsearchtool.c:1724
 msgid ""
 "The search results may be invalid.  There were errors while performing this "
 "search."
 msgstr ""
 "Có lẽ kết quả tìm kiếm không hợp lệ. Gặp lỗi khi thực hiện tìm kiếm này."
 
-#: ../src/gsearchtool.c:1725 ../src/gsearchtool.c:1766
+#: ../src/gsearchtool.c:1733 ../src/gsearchtool.c:1774
 msgid "Show more _details"
 msgstr "Hiện chi tiết _hơn"
 
-#: ../src/gsearchtool.c:1755
+#: ../src/gsearchtool.c:1763
 msgid ""
 "The search results may be out of date or invalid.  Do you want to disable "
 "the quick search feature?"
@@ -836,164 +478,430 @@ msgstr ""
 "Có lẽ kết quả tìm kiếm quá hạn hay không hợp lệ. Bạn có muốn vô hiệu hóa "
 "tính năng Tìm nhanh không?"
 
-#: ../src/gsearchtool.c:1777
+#: ../src/gsearchtool.c:1785
 msgid "Disable _Quick Search"
 msgstr "Tắt _Tìm Nhanh"
 
-#: ../src/gsearchtool.c:1804
+#: ../src/gsearchtool.c:1812
 #, c-format
 msgid "Failed to set process group id of child %d: %s.\n"
 msgstr "Lỗi lập ID nhóm tiến trình của tiến trình con %d: %s.\n"
 
-#: ../src/gsearchtool.c:1829
+#: ../src/gsearchtool.c:1837
 msgid "Error parsing the search command."
 msgstr "Gặp lỗi khi phân tách lệnh tìm kiếm."
 
-#: ../src/gsearchtool.c:1858
+#: ../src/gsearchtool.c:1866
 msgid "Error running the search command."
 msgstr "Gặp lỗi khi thực hiện lệnh tìm kiếm."
 
-#: ../src/gsearchtool.c:1974
+#: ../src/gsearchtool.c:1982
 #, c-format
 msgid "Enter a text value for the \"%s\" search option."
 msgstr "Hãy nhập giá trị chữ cho tùy chọn « %s »."
 
 #. Translators:  Below is a string displaying the search options name
 #. and unit value.  For example, "\"Date modified less than\" in days".
-#: ../src/gsearchtool.c:1979
+#: ../src/gsearchtool.c:1987
 #, c-format
 msgid "\"%s\" in %s"
 msgstr "« %s » theo « %s »"
 
-#: ../src/gsearchtool.c:1981
+#: ../src/gsearchtool.c:1989
 #, c-format
 msgid "Enter a value in %s for the \"%s\" search option."
 msgstr "Hãy nhập giá trị theo « %s » cho tùy chọn « %s »."
 
-#: ../src/gsearchtool.c:2039
+#: ../src/gsearchtool.c:2047
 #, c-format
 msgid "Remove \"%s\""
 msgstr "Gỡ bỏ « %s »"
 
-#: ../src/gsearchtool.c:2040
+#: ../src/gsearchtool.c:2048
 #, c-format
 msgid "Click to remove the \"%s\" search option."
 msgstr "Nhấn để gỡ bỏ tùy chọn tìm kiếm  « %s »."
 
-#: ../src/gsearchtool.c:2133
+#: ../src/gsearchtool.c:2141
 msgid "A_vailable options:"
 msgstr "Tùy chọn _sẵn sàng:"
 
-#: ../src/gsearchtool.c:2162
+#: ../src/gsearchtool.c:2170
 msgid "Available options"
 msgstr "Tùy chọn hiện có"
 
-#: ../src/gsearchtool.c:2163
+#: ../src/gsearchtool.c:2171
 msgid "Select a search option from the drop-down list."
 msgstr "Hãy chọn một tùy chọn tìm kiếm trong danh sách liệt kê thả."
 
-#: ../src/gsearchtool.c:2175
+#: ../src/gsearchtool.c:2183
 msgid "Add search option"
 msgstr "Thêm tùy chọn tìm kiếm"
 
-#: ../src/gsearchtool.c:2176
+#: ../src/gsearchtool.c:2184
 msgid "Click to add the selected available search option."
 msgstr "Nhấn để thêm tùy chọn hiện thời đã chọn."
 
-#: ../src/gsearchtool.c:2265
+#: ../src/gsearchtool.c:2273
 msgid "S_earch results:"
 msgstr "_Kết quả tìm kiếm:"
 
-#: ../src/gsearchtool.c:2309
+#: ../src/gsearchtool.c:2317
 msgid "List View"
 msgstr "Ô xem danh sách"
 
-#: ../src/gsearchtool.c:2369
+#: ../src/gsearchtool.c:2377
 msgid "Name"
 msgstr "Tên"
 
-#: ../src/gsearchtool.c:2393
+#: ../src/gsearchtool.c:2401
 msgid "Folder"
 msgstr "Thư mục"
 
-#: ../src/gsearchtool.c:2406
+#: ../src/gsearchtool.c:2414
 msgid "Size"
 msgstr "Cỡ"
 
-#: ../src/gsearchtool.c:2418
+#: ../src/gsearchtool.c:2426
 msgid "Type"
 msgstr "Kiểu"
 
-#: ../src/gsearchtool.c:2430
+#: ../src/gsearchtool.c:2438
 msgid "Date Modified"
 msgstr "Ngày sửa đổi"
 
-#: ../src/gsearchtool.c:2746
+#: ../src/gsearchtool.c:2757
 msgid "_Name contains:"
 msgstr "Tê_n chứa:"
 
-#: ../src/gsearchtool.c:2760 ../src/gsearchtool.c:2761
+#: ../src/gsearchtool.c:2771 ../src/gsearchtool.c:2772
 msgid "Enter a filename or partial filename with or without wildcards."
 msgstr ""
 "Hãy nhập một tên tập tin hay tên tập tin cục bộ, có ký tự đại diện hay không "
 "có chúng."
 
-#: ../src/gsearchtool.c:2761
+#: ../src/gsearchtool.c:2772
 msgid "Name contains"
 msgstr "Tên chứa"
 
-#: ../src/gsearchtool.c:2767
+#: ../src/gsearchtool.c:2778
 msgid "_Look in folder:"
 msgstr "_Tìm trong thư mục:"
 
-#: ../src/gsearchtool.c:2773
+#: ../src/gsearchtool.c:2784
 msgid "Browse"
 msgstr "Duyệt"
 
-#: ../src/gsearchtool.c:2782
+#: ../src/gsearchtool.c:2793
 msgid "Look in folder"
 msgstr "Tìm trong thư mục"
 
-#: ../src/gsearchtool.c:2782
+#: ../src/gsearchtool.c:2793
 msgid "Select the folder or device from which you want to begin the search."
 msgstr "Hãy chọn thư mục hay thiết bị, nơi bạn muốn bắt đầu tìm kiếm."
 
-#: ../src/gsearchtool.c:2800
+#: ../src/gsearchtool.c:2811
 msgid "Select more _options"
 msgstr "Dùng nhiều _tùy chọn hơn"
 
-#: ../src/gsearchtool.c:2809
+#: ../src/gsearchtool.c:2820
 msgid "Select more options"
 msgstr "Dùng nhiều tùy chọn hơn"
 
-#: ../src/gsearchtool.c:2809
+#: ../src/gsearchtool.c:2820
 msgid "Click to expand or collapse the list of available options."
 msgstr "Nhắp để mở rộng hay co lại danh sách các tùy chọn hiện có."
 
-#: ../src/gsearchtool.c:2833
+#: ../src/gsearchtool.c:2844
 msgid "Click to display the help manual."
 msgstr "Nhắp để hiển thị tập tin hướng dẫn trợ giúp."
 
-#: ../src/gsearchtool.c:2841
+#: ../src/gsearchtool.c:2852
 msgid "Click to close \"Search for Files\"."
 msgstr "Nhấn để đóng « Tìm tập tin »."
 
-#: ../src/gsearchtool.c:2867
+#: ../src/gsearchtool.c:2878
 msgid "Click to perform a search."
 msgstr "Nhấn để tìm kiếm."
 
-#: ../src/gsearchtool.c:2868
+#: ../src/gsearchtool.c:2879
 msgid "Click to stop a search."
 msgstr "Nhấn để ngừng tìm."
 
-#: ../src/gsearchtool.c:2961
+#: ../src/gsearchtool.c:2972
 msgid "- the GNOME Search Tool"
 msgstr "— Công cụ Tìm kiếm GNOME"
 
-#: ../src/gsearchtool.c:2970
+#: ../src/gsearchtool.c:2981
 #, c-format
 msgid "Failed to parse command line arguments: %s\n"
 msgstr "Không phân tích được đối số dòng lệnh: %s\n"
+
+#: ../src/gsearchtool-callbacks.c:197
+msgid "Could not open help document."
+msgstr "Không mở được tài liệu trợ giúp."
+
+#: ../src/gsearchtool-callbacks.c:344
+#, c-format
+msgid "Are you sure you want to open %d document?"
+msgid_plural "Are you sure you want to open %d documents?"
+msgstr[0] "Bạn có chắc muốn mở %d tài liệu không?"
+
+#: ../src/gsearchtool-callbacks.c:349 ../src/gsearchtool-callbacks.c:534
+#, c-format
+msgid "This will open %d separate window."
+msgid_plural "This will open %d separate windows."
+msgstr[0] "Hành động này sẽ mở %d cửa sổ riêng."
+
+#: ../src/gsearchtool-callbacks.c:385
+#, c-format
+msgid "Could not open document \"%s\"."
+msgstr "Không mở được tài liệu « %s »."
+
+#: ../src/gsearchtool-callbacks.c:410
+#, c-format
+msgid "Could not open folder \"%s\"."
+msgstr "Không mở được thư mục « %s »."
+
+#: ../src/gsearchtool-callbacks.c:418
+msgid "The nautilus file manager is not running."
+msgstr "Trình quản lý tập tin Nautilus chưa chạy."
+
+#: ../src/gsearchtool-callbacks.c:491 ../src/gsearchtool-callbacks.c:814
+msgid "The document does not exist."
+msgstr "Tài liệu này không tồn tại."
+
+#: ../src/gsearchtool-callbacks.c:506
+msgid "There is no installed viewer capable of displaying the document."
+msgstr "Chưa cài đặt chương trình nào có khả năng hiển thị tài liệu này."
+
+#: ../src/gsearchtool-callbacks.c:529
+#, c-format
+msgid "Are you sure you want to open %d folder?"
+msgid_plural "Are you sure you want to open %d folders?"
+msgstr[0] "Bạn có chắc muốn mở %d thư mục không?"
+
+#: ../src/gsearchtool-callbacks.c:678
+#, c-format
+msgid "Could not move \"%s\" to trash."
+msgstr "Không chuyển được « %s » vào Sọt rác."
+
+#: ../src/gsearchtool-callbacks.c:705
+#, c-format
+msgid "Do you want to delete \"%s\" permanently?"
+msgstr "Bạn có muốn xóa bỏ vĩnh viễn « %s » không?"
+
+#: ../src/gsearchtool-callbacks.c:708
+#, c-format
+msgid "Trash is unavailable.  Could not move \"%s\" to the trash."
+msgstr "Sọt rác không sẵn sàng nên không thể chuyển « %s » vào Sọt rác."
+
+#: ../src/gsearchtool-callbacks.c:743
+#, c-format
+msgid "Could not delete \"%s\"."
+msgstr "Không thể xóa bỏ « %s »."
+
+#: ../src/gsearchtool-callbacks.c:850
+#, c-format
+msgid "Deleting \"%s\" failed: %s."
+msgstr "Lỗi xóa bỏ « %s »: %s."
+
+#: ../src/gsearchtool-callbacks.c:862
+#, c-format
+msgid "Moving \"%s\" failed: %s."
+msgstr "Lỗi di chuyển « %s »: %s."
+
+#. Popup menu item: Open
+#: ../src/gsearchtool-callbacks.c:990 ../src/gsearchtool-callbacks.c:1020
+msgid "_Open"
+msgstr "_Mở"
+
+#. Popup menu item: Open with (default)
+#: ../src/gsearchtool-callbacks.c:1045
+#, c-format
+msgid "_Open with %s"
+msgstr "_Mở bằng %s"
+
+#: ../src/gsearchtool-callbacks.c:1080
+#, c-format
+msgid "Open with %s"
+msgstr "Mở bằng %s"
+
+#. Popup menu item: Open With
+#: ../src/gsearchtool-callbacks.c:1113
+msgid "Open Wit_h"
+msgstr "Mở _bằng"
+
+#. Popup menu item: Open Containing Folder
+#: ../src/gsearchtool-callbacks.c:1158
+msgid "Open Containing _Folder"
+msgstr "_Mở thư mục bên ngoài"
+
+#: ../src/gsearchtool-callbacks.c:1176
+msgid "Mo_ve to Trash"
+msgstr "Chuyển vào Sọt _Rác"
+
+#: ../src/gsearchtool-callbacks.c:1198
+msgid "_Save Results As..."
+msgstr "Lư_u kết quả là..."
+
+#: ../src/gsearchtool-callbacks.c:1580
+msgid "Save Search Results As..."
+msgstr "Lưu kết quả tìm kiếm là..."
+
+#: ../src/gsearchtool-callbacks.c:1611
+msgid "Could not save document."
+msgstr "Không lưu được tài liệu."
+
+#: ../src/gsearchtool-callbacks.c:1612
+msgid "You did not select a document name."
+msgstr "Bạn chưa chọn tên tài liệu."
+
+#: ../src/gsearchtool-callbacks.c:1638
+#, c-format
+msgid "Could not save \"%s\" document to \"%s\"."
+msgstr "Không lưu được tài liệu « %s » vào « %s »."
+
+#: ../src/gsearchtool-callbacks.c:1668
+#, c-format
+msgid "The document \"%s\" already exists.  Would you like to replace it?"
+msgstr "Tài liệu « %s » đã có. Bạn có muốn thay thế nó không?"
+
+#: ../src/gsearchtool-callbacks.c:1672
+msgid "If you replace an existing file, its contents will be overwritten."
+msgstr "Nếu bạn thay thế tài liệu đã có thì sẽ ghi đè lên nội dung nó."
+
+#: ../src/gsearchtool-callbacks.c:1683
+msgid "_Replace"
+msgstr "Tha_y thế"
+
+#: ../src/gsearchtool-callbacks.c:1733
+msgid "The document name you selected is a folder."
+msgstr "Tên tài liệu bạn chọn là một thư mục."
+
+#: ../src/gsearchtool-callbacks.c:1771
+msgid "You may not have write permissions to the document."
+msgstr "Bạn không có quyền ghi vào tài liệu này."
+
+#. Translators:  Below are the strings displayed in the 'Date Modified'
+#. column of the list view.  The format of this string can vary depending
+#. on age of a file.  Please modify the format of the timestamp to match
+#. your locale.  For example, to display 24 hour time replace the '%-I'
+#. with '%-H' and remove the '%p'.  (See bugzilla report #120434.)
+#: ../src/gsearchtool-support.c:452
+msgid "today at %-I:%M %p"
+msgstr "hôm nay lúc %-I:%M:%p"
+
+#: ../src/gsearchtool-support.c:454
+msgid "yesterday at %-I:%M %p"
+msgstr "hôm qua lúc %-I:%M:%p"
+
+#: ../src/gsearchtool-support.c:456 ../src/gsearchtool-support.c:458
+msgid "%A, %B %-d %Y at %-I:%M:%S %p"
+msgstr "%A, %-d %B %Y lúc %-I:%M:%S %p"
+
+#: ../src/gsearchtool-support.c:645
+msgid "link (broken)"
+msgstr "liên kết (bị ngắt)"
+
+#: ../src/gsearchtool-support.c:649
+#, c-format
+msgid "link to %s"
+msgstr "liên kết tới %s"
+
+#. START OF NAUTILUS/EEL FUNCTIONS: USED FOR HANDLING OF DUPLICATE FILENAMES
+#. Localizers:
+#. * Feel free to leave out the st, nd, rd and th suffix or
+#. * make some or all of them match.
+#.
+#. localizers: tag used to detect the first copy of a file
+#: ../src/gsearchtool-support.c:1268
+msgid " (copy)"
+msgstr " (bản sao)"
+
+#. localizers: tag used to detect the second copy of a file
+#: ../src/gsearchtool-support.c:1270
+msgid " (another copy)"
+msgstr " (bản sao khác)"
+
+#. localizers: tag used to detect the x11th copy of a file
+#. localizers: tag used to detect the x12th copy of a file
+#. localizers: tag used to detect the x13th copy of a file
+#. localizers: tag used to detect the xxth copy of a file
+#: ../src/gsearchtool-support.c:1273 ../src/gsearchtool-support.c:1275
+#: ../src/gsearchtool-support.c:1277 ../src/gsearchtool-support.c:1287
+msgid "th copy)"
+msgstr "(bản sao"
+
+#. localizers: tag used to detect the x1st copy of a file
+#: ../src/gsearchtool-support.c:1280
+msgid "st copy)"
+msgstr "(bản sao"
+
+#. localizers: tag used to detect the x2nd copy of a file
+#: ../src/gsearchtool-support.c:1282
+msgid "nd copy)"
+msgstr "(bản sao"
+
+#. localizers: tag used to detect the x3rd copy of a file
+#: ../src/gsearchtool-support.c:1284
+msgid "rd copy)"
+msgstr "(bản sao"
+
+#. localizers: appended to first file copy
+#: ../src/gsearchtool-support.c:1301
+#, c-format
+msgid "%s (copy)%s"
+msgstr "%s (bản sao)%s"
+
+#. localizers: appended to second file copy
+#: ../src/gsearchtool-support.c:1303
+#, c-format
+msgid "%s (another copy)%s"
+msgstr "%s (bản sao khác)%s"
+
+#. localizers: appended to x11th file copy
+#. localizers: appended to x12th file copy
+#. localizers: appended to x13th file copy
+#. localizers: appended to xxth file copy
+#: ../src/gsearchtool-support.c:1306 ../src/gsearchtool-support.c:1308
+#: ../src/gsearchtool-support.c:1310 ../src/gsearchtool-support.c:1319
+#, c-format
+msgid "%s (%dth copy)%s"
+msgstr "%s (bản sao thứ %d)%s"
+
+#. localizers: appended to x1st file copy
+#: ../src/gsearchtool-support.c:1313
+#, c-format
+msgid "%s (%dst copy)%s"
+msgstr "%s (bản sao thứ %d)%s"
+
+#. localizers: appended to x2nd file copy
+#: ../src/gsearchtool-support.c:1315
+#, c-format
+msgid "%s (%dnd copy)%s"
+msgstr "%s (bản sao thứ %d)%s"
+
+#. localizers: appended to x3rd file copy
+#: ../src/gsearchtool-support.c:1317
+#, c-format
+msgid "%s (%drd copy)%s"
+msgstr "%s (bản sao thứ %d)%s"
+
+#: ../src/gsearchtool-support.c:1364
+msgid " (invalid Unicode)"
+msgstr " (Unicode không hợp lệ)"
+
+#. localizers: opening parentheses to match the "th copy)" string
+#: ../src/gsearchtool-support.c:1453
+msgid " ("
+msgstr " ("
+
+#. localizers: opening parentheses of the "th copy)" string
+#: ../src/gsearchtool-support.c:1461
+#, c-format
+msgid " (%d"
+msgstr " (%d"
 
 #: ../libeggsmclient/eggdesktopfile.c:165
 #, c-format
@@ -1057,3 +965,59 @@ msgstr "Tuỳ chọn quản lý phiên làm việc:"
 #: ../libeggsmclient/eggsmclient.c:253
 msgid "Show session management options"
 msgstr "Hiện tuỳ chọn quản lý phiên làm việc"
+
+#~ msgid "Select the search option \"Contains the text\""
+#~ msgstr "Dùng tùy chọn tìm kiếm « Chứa đoạn »"
+
+#~ msgid "Select the search option \"Date modified less than\""
+#~ msgstr "Dùng tùy chọn tìm kiếm « Có ngày sửa đổi trước »"
+
+#~ msgid "Select the search option \"Date modified more than\""
+#~ msgstr "Dùng tùy chọn tìm kiếm « Có ngày sửa đổi sau »"
+
+#~ msgid "Select the search option \"Exclude other filesystems\""
+#~ msgstr "Dùng tùy chọn tìm kiếm \"Loại hệ thống tập tin khác\""
+
+#~ msgid "Select the search option \"File is empty\""
+#~ msgstr "Dùng tùy chọn tìm kiếm « Tập tin rỗng »"
+
+#~ msgid "Select the search option \"Follow symbolic links\""
+#~ msgstr "Dùng tùy chọn tìm kiếm « Theo liên kết biểu tượng »"
+
+#~ msgid "Select the search option \"Name does not contain\""
+#~ msgstr "Dùng tùy chọn tìm kiếm « Tên không chứa »"
+
+#~ msgid "Select the search option \"Name matches regular expression\""
+#~ msgstr "Dùng tùy chọn tìm kiếm « Tên khớp biểu thức chính quy »"
+
+#~ msgid "Select the search option \"Owned by group\""
+#~ msgstr "Dùng tùy chọn tìm kiếm « Sở hữu bởi nhóm »"
+
+#~ msgid "Select the search option \"Owned by user\""
+#~ msgstr "Dùng tùy chọn tìm kiếm « Sở hữu bởi người dùng »"
+
+#~ msgid "Select the search option \"Owner is unrecognized\""
+#~ msgstr "Dùng tùy chọn tìm kiếm « Người sở hữu không nhận diện được »"
+
+#~ msgid "Select the search option \"Show hidden files and folders\""
+#~ msgstr "Dùng tùy chọn tìm kiếm « Hiện các tập tin và thư mục bị ẩn »"
+
+#~ msgid "Select the search option \"Size at least\""
+#~ msgstr "Dùng tùy chọn tìm kiếm « Kích cỡ ít nhất »"
+
+#~ msgid "Select the search option \"Size at most\""
+#~ msgstr "Dùng tùy chọn tìm kiếm « Kích cỡ lớn nhất »"
+
+#~ msgid ""
+#~ "This key determines if the \"Select more options\" section is expanded "
+#~ "when the search tool is started."
+#~ msgstr ""
+#~ "Khi công cụ tìm kiếm được khởi chạy, khóa này định nghĩa nếu tùy chọn tìm "
+#~ "kiếm « Hiển thị tùy chọn bổ sung » được chọn chưa."
+
+#~ msgid ""
+#~ "GConf error:\n"
+#~ "  %s"
+#~ msgstr ""
+#~ "Lỗi GConf:\n"
+#~ "  %s"
