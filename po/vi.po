@@ -1,6 +1,6 @@
 # Vietnamese Translation for GNOME Utils.
 # Copyright © 2009 GNOME i18n Project for Vietnamese.
-# Nguyễn Thái Ngọc Duy <pclouds@gmail.com>, 2002,2007,2011.
+# Nguyễn Thái Ngọc Duy <pclouds@gmail.com>, 2002,2007,2011-2012.
 # Clytie Siddall <clytie@riverland.net.au>, 2005-2009.
 #
 msgid ""
@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "search-tool&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2012-08-06 17:31+0000\n"
-"PO-Revision-Date: 2012-09-01 22:21+0700\n"
+"PO-Revision-Date: 2012-09-01 22:22+0700\n"
 "Last-Translator: Nguyễn Thái Ngọc Duy <pclouds@gmail.com>\n"
 "Language-Team: Vietnamese <vi-VN@googlegroups.com>\n"
 "Language: vi\n"
@@ -28,14 +28,13 @@ msgid "Locate documents and folders on this computer by name or content"
 msgstr "Trên máy tính này, tìm tài liệu và thư mục theo tên hay nội dung"
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:1
-#, fuzzy
 #| msgid "Search for Files"
 msgid "Search history"
-msgstr "Tìm tập tin"
+msgstr "Lịch sử tìm"
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:2
 msgid "This key defines the items which were searched for in the past."
-msgstr ""
+msgstr "Khoá này định nghĩa mục được tìm trước đây"
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:3
 msgid "Show Additional Options"
