@@ -1,18 +1,18 @@
-# Swedish messages for gnome-utils.
-# Copyright (C) 2000-2011 Free Software Foundation, Inc.
+# Swedish messages for gnome-search-tool.
+# Copyright (C) 2000-2012 Free Software Foundation, Inc.
 # Martin Norbäck <d95mback@dtek.chalmers.se>, 2000.
 # Andreas Hyden <a.hyden@cyberpoint.se>.
 # Christian Rose <menthos@menthos.com>, 2001, 2002, 2003, 2004, 2005.
-# Daniel Nylander <po@danielnylander.se>, 2006, 2007, 2008, 2009, 2010, 2011.
+# Daniel Nylander <po@danielnylander.se>, 2006, 2007, 2008, 2009, 2010, 2011, 2012.
 #
 # $Id: sv.po,v 1.161 2006/12/11 21:18:20 dnylande Exp $
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-utils\n"
+"Project-Id-Version: gnome-search-tool\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-10-06 14:36-0400\n"
-"PO-Revision-Date: 2011-08-02 00:26+0100\n"
+"POT-Creation-Date: 2012-09-02 11:36+0200\n"
+"PO-Revision-Date: 2012-09-02 11:37+0100\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
 "Language: sv\n"
@@ -22,620 +22,155 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../data/gnome-search-tool.desktop.in.h:1
-msgid "Locate documents and folders on this computer by name or content"
-msgstr ""
-"Lokalisera dokument och mappar på denna dator efter namn eller innehåll"
-
-#: ../data/gnome-search-tool.desktop.in.h:2
 msgid "Search for Files..."
 msgstr "Sök efter filer..."
 
-#: ../data/gnome-search-tool.schemas.in.h:1
-msgid "Default Window Height"
-msgstr "Standard fönsterhöjd"
+#: ../data/gnome-search-tool.desktop.in.h:2
+msgid "Locate documents and folders on this computer by name or content"
+msgstr "Lokalisera dokument och mappar på denna dator efter namn eller innehåll"
 
-# Intressant engelska
-#: ../data/gnome-search-tool.schemas.in.h:2
-msgid "Default Window Maximized"
-msgstr "Maximerat standardfönster"
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:1
+msgid "Search history"
+msgstr "Sökhistorik"
 
-#: ../data/gnome-search-tool.schemas.in.h:3
-msgid "Default Window Width"
-msgstr "Standard fönsterbredd"
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:2
+msgid "This key defines the items which were searched for in the past."
+msgstr "Denna nyckel definierar objektet som tidigare söktes efter."
 
-#: ../data/gnome-search-tool.schemas.in.h:4
-msgid "Disable Quick Search"
-msgstr "Inaktivera snabbsökning"
-
-#: ../data/gnome-search-tool.schemas.in.h:5
-msgid "Disable Quick Search Second Scan"
-msgstr "Inaktivera andra genomsökning i snabbsökning"
-
-#: ../data/gnome-search-tool.schemas.in.h:6
-msgid "Look in Folder"
-msgstr "Leta i mapp"
-
-#: ../data/gnome-search-tool.schemas.in.h:7
-msgid "Quick Search Excluded Paths"
-msgstr "Exkluderade sökvägar vid snabbsökning"
-
-# Jippi, här stackar vi substantiv allt vad vi kan!
-#
-#: ../data/gnome-search-tool.schemas.in.h:8
-msgid "Quick Search Second Scan Excluded Paths"
-msgstr "Exkluderade sökvägar vid andra genomsökningen i snabbsökning"
-
-#: ../data/gnome-search-tool.schemas.in.h:9
-msgid "Search Result Columns Order"
-msgstr "Ordning för sökresultatkolumner"
-
-#. Translators: The quoted text is the label of an available
-#. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:12
-msgid "Select the search option \"Contains the text\""
-msgstr "Markera sökalternativet \"Innehåller texten\""
-
-#. Translators: The quoted text is the label of an available
-#. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:15
-msgid "Select the search option \"Date modified less than\""
-msgstr "Markera sökalternativet \"Ändringsdatum mindre än\""
-
-#. Translators: The quoted text is the label of an available
-#. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:18
-msgid "Select the search option \"Date modified more than\""
-msgstr "Markera sökalternativet \"Ändringsdatum större än\""
-
-#. Translators: The quoted text is the label of an available
-#. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:21
-msgid "Select the search option \"Exclude other filesystems\""
-msgstr "Markera sökalternativet \"Exkludera andra filsystem\""
-
-#. Translators: The quoted text is the label of an available
-#. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:24
-msgid "Select the search option \"File is empty\""
-msgstr "Markera sökalternativet \"Filen är tom\""
-
-#. Translators: The quoted text is the label of an available
-#. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:27
-msgid "Select the search option \"Follow symbolic links\""
-msgstr "Markera sökalternativet \"Följ symboliska länkar\""
-
-#. Translators: The quoted text is the label of an available
-#. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:30
-msgid "Select the search option \"Name does not contain\""
-msgstr "Markera sökalternativet \"Namnet innehåller inte\""
-
-#. Translators: The quoted text is the label of an available
-#. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:33
-msgid "Select the search option \"Name matches regular expression\""
-msgstr "Markera sökalternativet \"Namnet matchar reguljärt uttryck\""
-
-#. Translators: The quoted text is the label of an available
-#. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:36
-msgid "Select the search option \"Owned by group\""
-msgstr "Markera sökalternativet \"Ägs av gruppen\""
-
-#. Translators: The quoted text is the label of an available
-#. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:39
-msgid "Select the search option \"Owned by user\""
-msgstr "Markera sökalternativet \"Ägs av användaren\""
-
-#. Translators: The quoted text is the label of an available
-#. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:42
-msgid "Select the search option \"Owner is unrecognized\""
-msgstr "Markera sökalternativet \"Ägaren är okänd\""
-
-#. Translators: The quoted text is the label of an available
-#. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:45
-msgid "Select the search option \"Show hidden files and folders\""
-msgstr "Markera sökalternativet \"Visa dolda filer och mappar\""
-
-#. Translators: The quoted text is the label of an available
-#. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:48
-msgid "Select the search option \"Size at least\""
-msgstr "Markera sökalternativet \"Storleken är minst\""
-
-#. Translators: The quoted text is the label of an available
-#. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:51
-msgid "Select the search option \"Size at most\""
-msgstr "Markera sökalternativet \"Storleken som mest\""
-
-#: ../data/gnome-search-tool.schemas.in.h:52
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:3
 msgid "Show Additional Options"
 msgstr "Visa ytterligare alternativ"
 
-#: ../data/gnome-search-tool.schemas.in.h:53
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:4
+msgid "Disable Quick Search"
+msgstr "Inaktivera snabbsökning"
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:5
+msgid "This key determines if the search tool disables the use of the locate command when performing simple file name searches."
+msgstr "Denna nyckel avgör om sökverktyget inaktiverar användningen av locate-kommandot då enkla filnamnssökningar genomförs."
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:6
+msgid "Quick Search Excluded Paths"
+msgstr "Exkluderade sökvägar vid snabbsökning"
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:7
+msgid "This key defines the paths the search tool will exclude from a quick search. The wildcards '*' and '?' are supported. The default values are /mnt/*, /media/*, /dev/*, /tmp/*, /proc/*, and /var/*."
+msgstr "Denna nyckel anger de sökvägar som sökverktyget kommer att undanta från en snabbsökning. Jokertecknen \"*\" och \"?\" stöds. Standardvärdena är /mnt/*, /media/*, /dev/*, /tmp/*, /proc/* och /var/*."
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:8
+msgid "Disable Quick Search Second Scan"
+msgstr "Inaktivera andra genomsökning i snabbsökning"
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:9
+msgid "This key determines if the search tool disables the use of the find command after performing a quick search."
+msgstr "Denna nyckel avgör om sökverktyget inaktiverar användningen av find-kommandot efter det att en snabbsökning genomförts."
+
+# Jippi, här stackar vi substantiv allt vad vi kan!
+#
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:10
+msgid "Quick Search Second Scan Excluded Paths"
+msgstr "Exkluderade sökvägar vid andra genomsökningen i snabbsökning"
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:11
+msgid "This key defines the paths the search tool will exclude from a second scan when performing a quick search. The second scan uses the find command to search for files. The purpose of the second scan is to find files that have not been indexed. The wildcards '*' and '?' are supported. The default value is /."
+msgstr "Denna nyckel anger de sökvägar som sökverktyget kommer att undanta från en andra genomsökning då en snabbsökning genomförs. Den andra genomsökningen använder find-kommandot för att söka efter filer. Syftet med den andra genomsökningen är att hitta filer som inte har indexerats. Jokertecknen \"*\" och \"?\" stöds. Standardvärdet är /."
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:12
+msgid "Search Result Columns Order"
+msgstr "Ordning för sökresultatkolumner"
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:13
+msgid "This key defines the order of the columns in the search results. This key should not be modified by the user."
+msgstr "Denna nyckel definierar ordningen på kolumner i sökresultaten. Denna nyckel bör inte ändras av användaren."
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:14
+msgid "Default Window Width"
+msgstr "Standard fönsterbredd"
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:15
+msgid "This key defines the window width, and it's used to remember the size of the search tool between sessions. Setting it to -1 will make the search tool use the default width."
+msgstr "Denna nyckel definierar fönstrets bredd och den används för att komma ihåg storleken på sökverktyget mellan sessioner. Ställa in det till -1 gör att sökverktyget använder standardbredden."
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:16
+msgid "Default Window Height"
+msgstr "Standard fönsterhöjd"
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:17
+msgid "This key defines the window height, and it's used to remember the size of the search tool between sessions. Setting it to -1 will make the search tool use the default height."
+msgstr "Denna nyckel definierar fönstrets höjd och den används för att komma ihåg storleken på sökverktyget mellan sessioner. Ställa in det till -1 gör att sökverktyget använder standardhöjden."
+
+# Intressant engelska
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:18
+msgid "Default Window Maximized"
+msgstr "Maximerat standardfönster"
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:19
+msgid "This key determines if the search tool window starts in a maximized state."
+msgstr "Denna nyckel bestämmer om sökverktygsfönstret startar i ett maximerat läge."
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:20
+msgid "Look in Folder"
+msgstr "Leta i mapp"
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:21
 msgid "This key defines the default value of the \"Look in Folder\" widget."
 msgstr "Denna nyckel definierar standardvärdet för widgeten \"Sök i mapp\"."
 
-#: ../data/gnome-search-tool.schemas.in.h:54
-msgid ""
-"This key defines the order of the columns in the search results. This key "
-"should not be modified by the user."
-msgstr ""
-"Denna nyckel definierar ordningen på kolumner i sökresultaten. Denna nyckel "
-"bör inte ändras av användaren."
-
-#: ../data/gnome-search-tool.schemas.in.h:55
-msgid ""
-"This key defines the paths the search tool will exclude from a quick search. "
-"The wildcards '*' and '?' are supported. The default values are /mnt/*, /"
-"media/*, /dev/*, /tmp/*, /proc/*, and /var/*."
-msgstr ""
-"Denna nyckel anger de sökvägar som sökverktyget kommer att undanta från en "
-"snabbsökning. Jokertecknen \"*\" och \"?\" stöds. Standardvärdena är /mnt/"
-"*, /media/*, /dev/*, /tmp/*, /proc/* och /var/*."
-
-#: ../data/gnome-search-tool.schemas.in.h:56
-msgid ""
-"This key defines the paths the search tool will exclude from a second scan "
-"when performing a quick search. The second scan uses the find command to "
-"search for files. The purpose of the second scan is to find files that have "
-"not been indexed. The wildcards '*' and '?' are supported. The default value "
-"is /."
-msgstr ""
-"Denna nyckel anger de sökvägar som sökverktyget kommer att undanta från en "
-"andra genomsökning då en snabbsökning genomförs. Den andra genomsökningen "
-"använder find-kommandot för att söka efter filer. Syftet med den andra "
-"genomsökningen är att hitta filer som inte har indexerats. Jokertecknen \"*"
-"\" och \"?\" stöds. Standardvärdet är /."
-
-#: ../data/gnome-search-tool.schemas.in.h:57
-msgid ""
-"This key defines the window height, and it's used to remember the size of "
-"the search tool between sessions. Setting it to -1 will make the search tool "
-"use the default height."
-msgstr ""
-"Denna nyckel definierar fönstrets höjd och den används för att komma ihåg "
-"storleken på sökverktyget mellan sessioner. Ställa in det till -1 gör att "
-"sökverktyget använder standardhöjden."
-
-#: ../data/gnome-search-tool.schemas.in.h:58
-msgid ""
-"This key defines the window width, and it's used to remember the size of the "
-"search tool between sessions. Setting it to -1 will make the search tool use "
-"the default width."
-msgstr ""
-"Denna nyckel definierar fönstrets bredd och den används för att komma ihåg "
-"storleken på sökverktyget mellan sessioner. Ställa in det till -1 gör att "
-"sökverktyget använder standardbredden."
-
-#: ../data/gnome-search-tool.schemas.in.h:59
-msgid ""
-"This key determines if the \"Contains the text\" search option is selected "
-"when the search tool is started."
-msgstr ""
-"Denna nyckel avgör om sökalternativet \"Innehåller texten\" är markerat då "
-"sökverktyget startas."
-
-#: ../data/gnome-search-tool.schemas.in.h:60
-msgid ""
-"This key determines if the \"Date modified less than\" search option is "
-"selected when the search tool is started."
-msgstr ""
-"Denna nyckel avgör om sökalternativet \"Ändringsdatum mindre än\" är "
-"markerat då sökverktyget startas."
-
-#: ../data/gnome-search-tool.schemas.in.h:61
-msgid ""
-"This key determines if the \"Date modified more than\" search option is "
-"selected when the search tool is started."
-msgstr ""
-"Denna nyckel avgör om sökalternativet \"Ändringsdatum större än\" är "
-"markerat då sökverktyget startas."
-
-#: ../data/gnome-search-tool.schemas.in.h:62
-msgid ""
-"This key determines if the \"Exclude other filesystems\" search option is "
-"selected when the search tool is started."
-msgstr ""
-"Denna nyckel avgör om sökalternativet \"Exkludera andra filsystem\" är "
-"markerat då sökverktyget startas."
-
-#: ../data/gnome-search-tool.schemas.in.h:63
-msgid ""
-"This key determines if the \"File is empty\" search option is selected when "
-"the search tool is started."
-msgstr ""
-"Denna nyckel avgör om sökalternativet \"Filen är tom\" är markerat då "
-"sökverktyget startas."
-
-#: ../data/gnome-search-tool.schemas.in.h:64
-msgid ""
-"This key determines if the \"Follow symbolic links\" search option is "
-"selected when the search tool is started."
-msgstr ""
-"Denna nyckel avgör om sökalternativet \"Följ symboliska länkar\" är markerat "
-"då sökverktyget startas."
-
-#: ../data/gnome-search-tool.schemas.in.h:65
-msgid ""
-"This key determines if the \"Name does not contain\" search option is "
-"selected when the search tool is started."
-msgstr ""
-"Denna nyckel avgör om sökalternativet \"Namnet innehåller inte\" är markerat "
-"då sökverktyget startas."
-
-#: ../data/gnome-search-tool.schemas.in.h:66
-msgid ""
-"This key determines if the \"Name matches regular expression\" search option "
-"is selected when the search tool is started."
-msgstr ""
-"Denna nyckel avgör om sökalternativet \"Namnet matchar reguljärt uttryck\" "
-"är markerat då sökverktyget startas."
-
-#: ../data/gnome-search-tool.schemas.in.h:67
-msgid ""
-"This key determines if the \"Owned by group\" search option is selected when "
-"the search tool is started."
-msgstr ""
-"Denna nyckel avgör om sökalternativet \"Ägs av gruppen\" är markerat då "
-"sökverktyget startas."
-
-#: ../data/gnome-search-tool.schemas.in.h:68
-msgid ""
-"This key determines if the \"Owned by user\" search option is selected when "
-"the search tool is started."
-msgstr ""
-"Denna nyckel avgör om sökalternativet \"Ägs av användaren\" är markerat då "
-"sökverktyget startas."
-
-#: ../data/gnome-search-tool.schemas.in.h:69
-msgid ""
-"This key determines if the \"Owner is unrecognized\" search option is "
-"selected when the search tool is started."
-msgstr ""
-"Denna nyckel avgör om sökalternativet \"Ägaren är okänd\" är markerat då "
-"sökverktyget startas."
-
-#. Translators: The quoted text is the label of the additional
-#. options expander that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:72
-msgid ""
-"This key determines if the \"Select more options\" section is expanded when "
-"the search tool is started."
-msgstr ""
-"Denna nyckel avgör om sektionen \"Välj fler alternativ\" är utfälld då "
-"sökverktyget startas."
-
-#: ../data/gnome-search-tool.schemas.in.h:73
-msgid ""
-"This key determines if the \"Show hidden files and folders\" search option "
-"is selected when the search tool is started."
-msgstr ""
-"Denna nyckel avgör om sökalternativet \"Visa dolda filer och mappar\" är "
-"markerat då sökverktyget startas."
-
-#: ../data/gnome-search-tool.schemas.in.h:74
-msgid ""
-"This key determines if the \"Size at least\" search option is selected when "
-"the search tool is started."
-msgstr ""
-"Denna nyckel avgör om sökalternativet \"Storleken är minst\" är markerat då "
-"sökverktyget startas."
-
-#: ../data/gnome-search-tool.schemas.in.h:75
-msgid ""
-"This key determines if the \"Size at most\" search option is selected when "
-"the search tool is started."
-msgstr ""
-"Denna nyckel avgör om sökalternativet \"Storleken är som mest\" är markerat "
-"då sökverktyget startas."
-
-#: ../data/gnome-search-tool.schemas.in.h:76
-msgid ""
-"This key determines if the search tool disables the use of the find command "
-"after performing a quick search."
-msgstr ""
-"Denna nyckel avgör om sökverktyget inaktiverar användningen av find-"
-"kommandot efter det att en snabbsökning genomförts."
-
-#: ../data/gnome-search-tool.schemas.in.h:77
-msgid ""
-"This key determines if the search tool disables the use of the locate "
-"command when performing simple file name searches."
-msgstr ""
-"Denna nyckel avgör om sökverktyget inaktiverar användningen av locate-"
-"kommandot då enkla filnamnssökningar genomförs."
-
-#: ../data/gnome-search-tool.schemas.in.h:78
-msgid ""
-"This key determines if the search tool window starts in a maximized state."
-msgstr ""
-"Denna nyckel bestämmer om sökverktygsfönstret startar i ett maximerat läge."
-
-#: ../src/gsearchtool-callbacks.c:194
-msgid "Could not open help document."
-msgstr "Kunde inte öppna hjälpdokument."
-
-#: ../src/gsearchtool-callbacks.c:341
-#, c-format
-msgid "Are you sure you want to open %d document?"
-msgid_plural "Are you sure you want to open %d documents?"
-msgstr[0] "Är du säker att du vill öppna %d dokument?"
-msgstr[1] "Är du säker att du vill öppna %d dokument?"
-
-#: ../src/gsearchtool-callbacks.c:346 ../src/gsearchtool-callbacks.c:531
-#, c-format
-msgid "This will open %d separate window."
-msgid_plural "This will open %d separate windows."
-msgstr[0] "Detta kommer att öppna %d separat fönster."
-msgstr[1] "Detta kommer att öppna %d separata fönster."
-
-#: ../src/gsearchtool-callbacks.c:382
-#, c-format
-msgid "Could not open document \"%s\"."
-msgstr "Kunde inte öppna dokumentet \"%s\"."
-
-#: ../src/gsearchtool-callbacks.c:407
-#, c-format
-msgid "Could not open folder \"%s\"."
-msgstr "Kunde inte öppna mappen \"%s\"."
-
-#: ../src/gsearchtool-callbacks.c:415
-msgid "The nautilus file manager is not running."
-msgstr "Filhanteraren nautilus körs inte."
-
-#: ../src/gsearchtool-callbacks.c:488 ../src/gsearchtool-callbacks.c:811
-msgid "The document does not exist."
-msgstr "Dokumentet finns inte."
-
-#: ../src/gsearchtool-callbacks.c:503
-msgid "There is no installed viewer capable of displaying the document."
-msgstr "Det finns ingen visare installerad som klarar visning av dokumentet."
-
-#: ../src/gsearchtool-callbacks.c:526
-#, c-format
-msgid "Are you sure you want to open %d folder?"
-msgid_plural "Are you sure you want to open %d folders?"
-msgstr[0] "Är du säker att du vill öppna %d mapp?"
-msgstr[1] "Är du säker att du vill öppna %d mappar?"
-
-#: ../src/gsearchtool-callbacks.c:675
-#, c-format
-msgid "Could not move \"%s\" to trash."
-msgstr "Kunde inte flytta \"%s\" till papperskorgen."
-
-#: ../src/gsearchtool-callbacks.c:702
-#, c-format
-msgid "Do you want to delete \"%s\" permanently?"
-msgstr "Vill du ta bort \"%s\" permanent?"
-
-#: ../src/gsearchtool-callbacks.c:705
-#, c-format
-msgid "Trash is unavailable.  Could not move \"%s\" to the trash."
-msgstr ""
-"Papperskorgen är inte tillgänglig. Kunde inte flytta \"%s\" till "
-"papperskorgen."
-
-#: ../src/gsearchtool-callbacks.c:740
-#, c-format
-msgid "Could not delete \"%s\"."
-msgstr "Kunde inte ta bort \"%s\"."
-
-#: ../src/gsearchtool-callbacks.c:847
-#, c-format
-msgid "Deleting \"%s\" failed: %s."
-msgstr "Borttagning av \"%s\" misslyckades: %s."
-
-#: ../src/gsearchtool-callbacks.c:859
-#, c-format
-msgid "Moving \"%s\" failed: %s."
-msgstr "Flytt av \"%s\" misslyckades: %s."
-
-#. Popup menu item: Open
-#: ../src/gsearchtool-callbacks.c:987 ../src/gsearchtool-callbacks.c:1017
-msgid "_Open"
-msgstr "_Öppna"
-
-#. Popup menu item: Open with (default)
-#: ../src/gsearchtool-callbacks.c:1042
-#, c-format
-msgid "_Open with %s"
-msgstr "_Öppna med %s"
-
-#: ../src/gsearchtool-callbacks.c:1077
-#, c-format
-msgid "Open with %s"
-msgstr "Öppna med %s"
-
-#. Popup menu item: Open With
-#: ../src/gsearchtool-callbacks.c:1110
-msgid "Open Wit_h"
-msgstr "Öppna m_ed"
-
-#. Popup menu item: Open Containing Folder
-#: ../src/gsearchtool-callbacks.c:1155
-msgid "Open Containing _Folder"
-msgstr "Öppna innehållande _mapp"
-
-#: ../src/gsearchtool-callbacks.c:1173
-msgid "Mo_ve to Trash"
-msgstr "_Flytta till papperskorgen"
-
-#: ../src/gsearchtool-callbacks.c:1195
-msgid "_Save Results As..."
-msgstr "_Spara resultat som..."
-
-#: ../src/gsearchtool-callbacks.c:1577
-msgid "Save Search Results As..."
-msgstr "Spara sökresultat som..."
-
-#: ../src/gsearchtool-callbacks.c:1608
-msgid "Could not save document."
-msgstr "Kunde inte spara dokumentet."
-
-#: ../src/gsearchtool-callbacks.c:1609
-msgid "You did not select a document name."
-msgstr "Du valde inte något namn på dokumentet."
-
-#: ../src/gsearchtool-callbacks.c:1635
-#, c-format
-msgid "Could not save \"%s\" document to \"%s\"."
-msgstr "Kunde inte spara dokumentet \"%s\" till \"%s\"."
-
-#: ../src/gsearchtool-callbacks.c:1665
-#, c-format
-msgid "The document \"%s\" already exists.  Would you like to replace it?"
-msgstr "Dokumentet \"%s\" finns redan. Vill du ersätta det?"
-
-#: ../src/gsearchtool-callbacks.c:1669
-msgid "If you replace an existing file, its contents will be overwritten."
-msgstr "Om du ersätter en befintlig fil kommer dess innehåll att skrivas över."
-
-#: ../src/gsearchtool-callbacks.c:1680
-msgid "_Replace"
-msgstr "_Ersätt"
-
-#: ../src/gsearchtool-callbacks.c:1730
-msgid "The document name you selected is a folder."
-msgstr "Dokumentnamnet du valde är en mapp."
-
-#: ../src/gsearchtool-callbacks.c:1768
-msgid "You may not have write permissions to the document."
-msgstr "Du kanske inte har skrivrättigheter till dokumentet."
-
-#: ../src/gsearchtool-support.c:63
-#, c-format
-msgid ""
-"GConf error:\n"
-"  %s"
-msgstr ""
-"GConf-fel:\n"
-"  %s"
-
-#. Translators:  Below are the strings displayed in the 'Date Modified'
-#. column of the list view.  The format of this string can vary depending
-#. on age of a file.  Please modify the format of the timestamp to match
-#. your locale.  For example, to display 24 hour time replace the '%-I'
-#. with '%-H' and remove the '%p'.  (See bugzilla report #120434.)
-#: ../src/gsearchtool-support.c:696
-msgid "today at %-I:%M %p"
-msgstr "idag klockan %H.%M"
-
-#: ../src/gsearchtool-support.c:698
-msgid "yesterday at %-I:%M %p"
-msgstr "igår klockan %H.%M"
-
-#: ../src/gsearchtool-support.c:700 ../src/gsearchtool-support.c:702
-msgid "%A, %B %-d %Y at %-I:%M:%S %p"
-msgstr "%A %-d %B %Y klockan %H.%M.%S"
-
-#: ../src/gsearchtool-support.c:889
-msgid "link (broken)"
-msgstr "länk (trasig)"
-
-#: ../src/gsearchtool-support.c:893
-#, c-format
-msgid "link to %s"
-msgstr "länk till %s"
-
-#. START OF NAUTILUS/EEL FUNCTIONS: USED FOR HANDLING OF DUPLICATE FILENAMES
-#. Localizers:
-#. * Feel free to leave out the st, nd, rd and th suffix or
-#. * make some or all of them match.
-#.
-#. localizers: tag used to detect the first copy of a file
-#: ../src/gsearchtool-support.c:1497
-msgid " (copy)"
-msgstr " (kopia)"
-
-#. localizers: tag used to detect the second copy of a file
-#: ../src/gsearchtool-support.c:1499
-msgid " (another copy)"
-msgstr " (ytterligare kopia)"
-
-#. localizers: tag used to detect the x11th copy of a file
-#. localizers: tag used to detect the x12th copy of a file
-#. localizers: tag used to detect the x13th copy of a file
-#. localizers: tag used to detect the xxth copy of a file
-#: ../src/gsearchtool-support.c:1502 ../src/gsearchtool-support.c:1504
-#: ../src/gsearchtool-support.c:1506 ../src/gsearchtool-support.c:1516
-msgid "th copy)"
-msgstr ":e kopian)"
-
-#. localizers: tag used to detect the x1st copy of a file
-#: ../src/gsearchtool-support.c:1509
-msgid "st copy)"
-msgstr ":a kopian)"
-
-#. localizers: tag used to detect the x2nd copy of a file
-#: ../src/gsearchtool-support.c:1511
-msgid "nd copy)"
-msgstr ":a kopian)"
-
-#. localizers: tag used to detect the x3rd copy of a file
-#: ../src/gsearchtool-support.c:1513
-msgid "rd copy)"
-msgstr ":e kopian)"
-
-#. localizers: appended to first file copy
-#: ../src/gsearchtool-support.c:1530
-#, c-format
-msgid "%s (copy)%s"
-msgstr "%s (kopia)%s"
-
-#. localizers: appended to second file copy
-#: ../src/gsearchtool-support.c:1532
-#, c-format
-msgid "%s (another copy)%s"
-msgstr "%s (ytterligare kopia)%s"
-
-#. localizers: appended to x11th file copy
-#. localizers: appended to x12th file copy
-#. localizers: appended to x13th file copy
-#. localizers: appended to xxth file copy
-#: ../src/gsearchtool-support.c:1535 ../src/gsearchtool-support.c:1537
-#: ../src/gsearchtool-support.c:1539 ../src/gsearchtool-support.c:1548
-#, c-format
-msgid "%s (%dth copy)%s"
-msgstr "%s (%d:e kopian)%s"
-
-#. localizers: appended to x1st file copy
-#: ../src/gsearchtool-support.c:1542
-#, c-format
-msgid "%s (%dst copy)%s"
-msgstr "%s (%d:a kopian)%s"
-
-#. localizers: appended to x2nd file copy
-#: ../src/gsearchtool-support.c:1544
-#, c-format
-msgid "%s (%dnd copy)%s"
-msgstr "%s (%d:a kopian)%s"
-
-#. localizers: appended to x3rd file copy
-#: ../src/gsearchtool-support.c:1546
-#, c-format
-msgid "%s (%drd copy)%s"
-msgstr "%s (%d:e kopian)%s"
-
-#: ../src/gsearchtool-support.c:1593
-msgid " (invalid Unicode)"
-msgstr " (ogiltig Unicode)"
-
-#. localizers: opening parentheses to match the "th copy)" string
-#: ../src/gsearchtool-support.c:1682
-msgid " ("
-msgstr " ("
-
-#. localizers: opening parentheses of the "th copy)" string
-#: ../src/gsearchtool-support.c:1690
-#, c-format
-msgid " (%d"
-msgstr " (%d"
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:22
+msgid "This key determines if the \"Contains the text\" search option is selected when the search tool is started."
+msgstr "Denna nyckel avgör om sökalternativet \"Innehåller texten\" är markerat då sökverktyget startas."
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:23
+msgid "This key determines if the \"Date modified less than\" search option is selected when the search tool is started."
+msgstr "Denna nyckel avgör om sökalternativet \"Ändringsdatum mindre än\" är markerat då sökverktyget startas."
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:24
+msgid "This key determines if the \"Date modified more than\" search option is selected when the search tool is started."
+msgstr "Denna nyckel avgör om sökalternativet \"Ändringsdatum större än\" är markerat då sökverktyget startas."
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:25
+msgid "This key determines if the \"Size at least\" search option is selected when the search tool is started."
+msgstr "Denna nyckel avgör om sökalternativet \"Storleken är minst\" är markerat då sökverktyget startas."
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:26
+msgid "This key determines if the \"Size at most\" search option is selected when the search tool is started."
+msgstr "Denna nyckel avgör om sökalternativet \"Storleken är som mest\" är markerat då sökverktyget startas."
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:27
+msgid "This key determines if the \"File is empty\" search option is selected when the search tool is started."
+msgstr "Denna nyckel avgör om sökalternativet \"Filen är tom\" är markerat då sökverktyget startas."
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:28
+msgid "This key determines if the \"Owned by user\" search option is selected when the search tool is started."
+msgstr "Denna nyckel avgör om sökalternativet \"Ägs av användaren\" är markerat då sökverktyget startas."
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:29
+msgid "This key determines if the \"Owned by group\" search option is selected when the search tool is started."
+msgstr "Denna nyckel avgör om sökalternativet \"Ägs av gruppen\" är markerat då sökverktyget startas."
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:30
+msgid "This key determines if the \"Owner is unrecognized\" search option is selected when the search tool is started."
+msgstr "Denna nyckel avgör om sökalternativet \"Ägaren är okänd\" är markerat då sökverktyget startas."
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:31
+msgid "This key determines if the \"Name does not contain\" search option is selected when the search tool is started."
+msgstr "Denna nyckel avgör om sökalternativet \"Namnet innehåller inte\" är markerat då sökverktyget startas."
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:32
+msgid "This key determines if the \"Name matches regular expression\" search option is selected when the search tool is started."
+msgstr "Denna nyckel avgör om sökalternativet \"Namnet matchar reguljärt uttryck\" är markerat då sökverktyget startas."
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:33
+msgid "This key determines if the \"Show hidden files and folders\" search option is selected when the search tool is started."
+msgstr "Denna nyckel avgör om sökalternativet \"Visa dolda filer och mappar\" är markerat då sökverktyget startas."
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:34
+msgid "This key determines if the \"Follow symbolic links\" search option is selected when the search tool is started."
+msgstr "Denna nyckel avgör om sökalternativet \"Följ symboliska länkar\" är markerat då sökverktyget startas."
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:35
+msgid "This key determines if the \"Exclude other filesystems\" search option is selected when the search tool is started."
+msgstr "Denna nyckel avgör om sökalternativet \"Exkludera andra filsystem\" är markerat då sökverktyget startas."
 
 #: ../src/gsearchtool.c:81
 msgid "Contains the _text"
@@ -645,7 +180,8 @@ msgstr "Innehåller _texten"
 msgid "_Date modified less than"
 msgstr "_Ändringsdatum mindre än"
 
-#: ../src/gsearchtool.c:83 ../src/gsearchtool.c:84
+#: ../src/gsearchtool.c:83
+#: ../src/gsearchtool.c:84
 msgid "days"
 msgstr "dagar"
 
@@ -657,7 +193,8 @@ msgstr "Ändringsdatum större än"
 msgid "S_ize at least"
 msgstr "St_orleken är minst"
 
-#: ../src/gsearchtool.c:86 ../src/gsearchtool.c:87
+#: ../src/gsearchtool.c:86
+#: ../src/gsearchtool.c:87
 msgid "kilobytes"
 msgstr "kilobyte"
 
@@ -705,7 +242,9 @@ msgstr "Exkludera andra filsystem"
 msgid "Show version of the application"
 msgstr "Visa programmets version"
 
-#: ../src/gsearchtool.c:158 ../src/gsearchtool.c:163 ../src/gsearchtool.c:172
+#: ../src/gsearchtool.c:158
+#: ../src/gsearchtool.c:163
+#: ../src/gsearchtool.c:172
 msgid "STRING"
 msgstr "STRÄNG"
 
@@ -717,11 +256,13 @@ msgstr "SÖKVÄG"
 msgid "VALUE"
 msgstr "VÄRDE"
 
-#: ../src/gsearchtool.c:164 ../src/gsearchtool.c:165
+#: ../src/gsearchtool.c:164
+#: ../src/gsearchtool.c:165
 msgid "DAYS"
 msgstr "DAGAR"
 
-#: ../src/gsearchtool.c:166 ../src/gsearchtool.c:167
+#: ../src/gsearchtool.c:166
+#: ../src/gsearchtool.c:167
 msgid "KILOBYTES"
 msgstr "KILOBYTE"
 
@@ -750,78 +291,79 @@ msgstr "Konvertering av teckentabell misslyckades för \"%s\""
 msgid "Searching..."
 msgstr "Söker..."
 
-#: ../src/gsearchtool.c:506 ../src/gsearchtool.c:1016
-#: ../src/gsearchtool.c:2976
+#: ../src/gsearchtool.c:506
+#: ../src/gsearchtool.c:1019
+#: ../src/gsearchtool.c:2987
 msgid "Search for Files"
 msgstr "Sök efter filer"
 
-#: ../src/gsearchtool.c:962 ../src/gsearchtool.c:991
+#: ../src/gsearchtool.c:965
+#: ../src/gsearchtool.c:994
 msgid "No files found"
 msgstr "Inga filer hittades"
 
-#: ../src/gsearchtool.c:984
+#: ../src/gsearchtool.c:987
 msgid "(stopped)"
 msgstr "(stoppad)"
 
-#: ../src/gsearchtool.c:990
+#: ../src/gsearchtool.c:993
 msgid "No Files Found"
 msgstr "Inga filer hittades"
 
-#: ../src/gsearchtool.c:995
+#: ../src/gsearchtool.c:998
 #, c-format
 msgid "%'d File Found"
 msgid_plural "%'d Files Found"
 msgstr[0] "%'d fil hittades"
 msgstr[1] "%'d filer hittades"
 
-#: ../src/gsearchtool.c:999 ../src/gsearchtool.c:1037
+#: ../src/gsearchtool.c:1002
+#: ../src/gsearchtool.c:1040
 #, c-format
 msgid "%'d file found"
 msgid_plural "%'d files found"
 msgstr[0] "%'d fil hittades"
 msgstr[1] "%'d filer hittades"
 
-#: ../src/gsearchtool.c:1128
+#: ../src/gsearchtool.c:1131
 msgid "Entry changed called for a non entry option!"
 msgstr "Poständring anropades för ett alternativ som inte är en post!"
 
-#: ../src/gsearchtool.c:1288
+#: ../src/gsearchtool.c:1296
 msgid "Set the text of \"Name contains\" search option"
 msgstr "Ställ in texten för sökalternativet \"Namnet innehåller\""
 
-#: ../src/gsearchtool.c:1289
+#: ../src/gsearchtool.c:1297
 msgid "Set the text of \"Look in folder\" search option"
 msgstr "Ställ in texten för sökalternativet \"Leta i mappen\""
 
-#: ../src/gsearchtool.c:1290
+#: ../src/gsearchtool.c:1298
 msgid "Sort files by one of the following: name, folder, size, type, or date"
-msgstr ""
-"Sortera filer efter ett av följande: namn, mapp, storlek, typ eller datum"
+msgstr "Sortera filer efter ett av följande: namn, mapp, storlek, typ eller datum"
 
-#: ../src/gsearchtool.c:1291
+#: ../src/gsearchtool.c:1299
 msgid "Set sort order to descending, the default is ascending"
-msgstr ""
-"Ställ in sorteringsordningen till fallande. Standardalternativet är stigande"
+msgstr "Ställ in sorteringsordningen till fallande. Standardalternativet är stigande"
 
-#: ../src/gsearchtool.c:1292
+#: ../src/gsearchtool.c:1300
 msgid "Automatically start a search"
 msgstr "Starta en sökning automatiskt"
 
-#: ../src/gsearchtool.c:1298
+#: ../src/gsearchtool.c:1306
 #, c-format
 msgid "Select the \"%s\" search option"
 msgstr "Markera sökalternativet \"%s\""
 
-#: ../src/gsearchtool.c:1301
+#: ../src/gsearchtool.c:1309
 #, c-format
 msgid "Select and set the \"%s\" search option"
 msgstr "Markera och ställ in sökalternativet \"%s\""
 
-#: ../src/gsearchtool.c:1408
+#: ../src/gsearchtool.c:1416
 msgid "Invalid option passed to sortby command line argument."
 msgstr "Ogiltigt alternativ skickat till sortby-kommandoradsargument."
 
-#: ../src/gsearchtool.c:1702
+#: ../src/gsearchtool.c:1710
 msgid ""
 "\n"
 "... Too many errors to display ..."
@@ -829,184 +371,453 @@ msgstr ""
 "\n"
 "...För många fel för att visa..."
 
-#: ../src/gsearchtool.c:1716
-msgid ""
-"The search results may be invalid.  There were errors while performing this "
-"search."
-msgstr ""
-"Sökresultaten kan vara felaktiga. Det inträffade fel vid utförandet av denna "
-"sökning."
+#: ../src/gsearchtool.c:1724
+msgid "The search results may be invalid.  There were errors while performing this search."
+msgstr "Sökresultaten kan vara felaktiga. Det inträffade fel vid utförandet av denna sökning."
 
-#: ../src/gsearchtool.c:1725 ../src/gsearchtool.c:1766
+#: ../src/gsearchtool.c:1733
+#: ../src/gsearchtool.c:1774
 msgid "Show more _details"
 msgstr "Visa fler _detaljer"
 
-#: ../src/gsearchtool.c:1755
-msgid ""
-"The search results may be out of date or invalid.  Do you want to disable "
-"the quick search feature?"
-msgstr ""
-"Sökresultaten kan vara föråldrade eller ogiltiga. Vill du inaktivera "
-"snabbsökningsfunktionen?"
+#: ../src/gsearchtool.c:1763
+msgid "The search results may be out of date or invalid.  Do you want to disable the quick search feature?"
+msgstr "Sökresultaten kan vara föråldrade eller ogiltiga. Vill du inaktivera snabbsökningsfunktionen?"
 
-#: ../src/gsearchtool.c:1777
+#: ../src/gsearchtool.c:1785
 msgid "Disable _Quick Search"
 msgstr "Inaktivera _snabbsökning"
 
-#: ../src/gsearchtool.c:1804
+#: ../src/gsearchtool.c:1812
 #, c-format
 msgid "Failed to set process group id of child %d: %s.\n"
 msgstr "Misslyckades med att ställa in processgruppid för barn %d: %s.\n"
 
-#: ../src/gsearchtool.c:1829
+#: ../src/gsearchtool.c:1837
 msgid "Error parsing the search command."
 msgstr "Fel vid tolkning av sökkommandot."
 
-#: ../src/gsearchtool.c:1858
+#: ../src/gsearchtool.c:1866
 msgid "Error running the search command."
 msgstr "Fel vid körande av sökkommandot."
 
-#: ../src/gsearchtool.c:1974
+#: ../src/gsearchtool.c:1982
 #, c-format
 msgid "Enter a text value for the \"%s\" search option."
 msgstr "Ange ett textvärde för sökalternativet \"%s\"."
 
 #. Translators:  Below is a string displaying the search options name
 #. and unit value.  For example, "\"Date modified less than\" in days".
-#: ../src/gsearchtool.c:1979
+#: ../src/gsearchtool.c:1987
 #, c-format
 msgid "\"%s\" in %s"
 msgstr "\"%s\" i %s"
 
-#: ../src/gsearchtool.c:1981
+#: ../src/gsearchtool.c:1989
 #, c-format
 msgid "Enter a value in %s for the \"%s\" search option."
 msgstr "Ange ett värde i %s för sökalternativet \"%s\"."
 
-#: ../src/gsearchtool.c:2039
+#: ../src/gsearchtool.c:2047
 #, c-format
 msgid "Remove \"%s\""
 msgstr "Ta bort \"%s\""
 
-#: ../src/gsearchtool.c:2040
+#: ../src/gsearchtool.c:2048
 #, c-format
 msgid "Click to remove the \"%s\" search option."
 msgstr "Klicka för att ta bort sökalternativet \"%s\"."
 
-#: ../src/gsearchtool.c:2133
+#: ../src/gsearchtool.c:2141
 msgid "A_vailable options:"
 msgstr "_Tillgängliga alternativ:"
 
-#: ../src/gsearchtool.c:2162
+#: ../src/gsearchtool.c:2170
 msgid "Available options"
 msgstr "Tillgängliga alternativ"
 
-#: ../src/gsearchtool.c:2163
+#: ../src/gsearchtool.c:2171
 msgid "Select a search option from the drop-down list."
 msgstr "Välj ett sökalternativ från rullgardinslistan."
 
-#: ../src/gsearchtool.c:2175
+#: ../src/gsearchtool.c:2183
 msgid "Add search option"
 msgstr "Lägg till sökalternativet"
 
-#: ../src/gsearchtool.c:2176
+#: ../src/gsearchtool.c:2184
 msgid "Click to add the selected available search option."
 msgstr "Klicka för att lägga till det markerade tillgängliga sökalternativet."
 
-#: ../src/gsearchtool.c:2265
+#: ../src/gsearchtool.c:2273
 msgid "S_earch results:"
 msgstr "S_ökresultat:"
 
-#: ../src/gsearchtool.c:2309
+#: ../src/gsearchtool.c:2317
 msgid "List View"
 msgstr "Listvy"
 
-#: ../src/gsearchtool.c:2369
+#: ../src/gsearchtool.c:2377
 msgid "Name"
 msgstr "Namn"
 
-#: ../src/gsearchtool.c:2393
+#: ../src/gsearchtool.c:2401
 msgid "Folder"
 msgstr "Mapp"
 
-#: ../src/gsearchtool.c:2406
+#: ../src/gsearchtool.c:2414
 msgid "Size"
 msgstr "Storlek"
 
-#: ../src/gsearchtool.c:2418
+#: ../src/gsearchtool.c:2426
 msgid "Type"
 msgstr "Typ"
 
-#: ../src/gsearchtool.c:2430
+#: ../src/gsearchtool.c:2438
 msgid "Date Modified"
 msgstr "Ändringsdatum"
 
-#: ../src/gsearchtool.c:2746
+#: ../src/gsearchtool.c:2757
 msgid "_Name contains:"
 msgstr "_Namnet innehåller:"
 
-#: ../src/gsearchtool.c:2760 ../src/gsearchtool.c:2761
+#: ../src/gsearchtool.c:2771
+#: ../src/gsearchtool.c:2772
 msgid "Enter a filename or partial filename with or without wildcards."
-msgstr ""
-"Ange ett filnamn eller ett ofullständigt filnamn med eller utan jokertecken."
+msgstr "Ange ett filnamn eller ett ofullständigt filnamn med eller utan jokertecken."
 
-#: ../src/gsearchtool.c:2761
+#: ../src/gsearchtool.c:2772
 msgid "Name contains"
 msgstr "Namnet innehåller"
 
-#: ../src/gsearchtool.c:2767
+#: ../src/gsearchtool.c:2778
 msgid "_Look in folder:"
 msgstr "_Leta i mappen:"
 
-#: ../src/gsearchtool.c:2773
+#: ../src/gsearchtool.c:2784
 msgid "Browse"
 msgstr "Bläddra"
 
-#: ../src/gsearchtool.c:2782
+#: ../src/gsearchtool.c:2793
 msgid "Look in folder"
 msgstr "Leta i mappen"
 
-#: ../src/gsearchtool.c:2782
+#: ../src/gsearchtool.c:2793
 msgid "Select the folder or device from which you want to begin the search."
 msgstr "Välj den mapp eller enhet där du vill påbörja sökningen."
 
-#: ../src/gsearchtool.c:2800
+#: ../src/gsearchtool.c:2811
 msgid "Select more _options"
 msgstr "Välj fler _alternativ"
 
-#: ../src/gsearchtool.c:2809
+#: ../src/gsearchtool.c:2820
 msgid "Select more options"
 msgstr "Välj fler alternativ"
 
-#: ../src/gsearchtool.c:2809
+#: ../src/gsearchtool.c:2820
 msgid "Click to expand or collapse the list of available options."
-msgstr ""
-"Klicka för att fälla ut eller fälla in listan med tillgängliga alternativ."
+msgstr "Klicka för att fälla ut eller fälla in listan med tillgängliga alternativ."
 
-#: ../src/gsearchtool.c:2833
+#: ../src/gsearchtool.c:2844
 msgid "Click to display the help manual."
 msgstr "Klicka för att visa hjälpmanualen."
 
-#: ../src/gsearchtool.c:2841
+#: ../src/gsearchtool.c:2852
 msgid "Click to close \"Search for Files\"."
 msgstr "Klicka för att stänga \"Sök efter filer\"."
 
-#: ../src/gsearchtool.c:2867
+#: ../src/gsearchtool.c:2878
 msgid "Click to perform a search."
 msgstr "Klicka för att utföra en sökning."
 
-#: ../src/gsearchtool.c:2868
+#: ../src/gsearchtool.c:2879
 msgid "Click to stop a search."
 msgstr "Klicka för att stoppa en sökning."
 
-#: ../src/gsearchtool.c:2961
+#: ../src/gsearchtool.c:2972
 msgid "- the GNOME Search Tool"
 msgstr "- GNOME-sökverktyget"
 
-#: ../src/gsearchtool.c:2970
+#: ../src/gsearchtool.c:2981
 #, c-format
 msgid "Failed to parse command line arguments: %s\n"
 msgstr "Misslyckades med att tolka kommandoradsargument: %s\n"
+
+#: ../src/gsearchtool-callbacks.c:197
+msgid "Could not open help document."
+msgstr "Kunde inte öppna hjälpdokument."
+
+#: ../src/gsearchtool-callbacks.c:344
+#, c-format
+msgid "Are you sure you want to open %d document?"
+msgid_plural "Are you sure you want to open %d documents?"
+msgstr[0] "Är du säker att du vill öppna %d dokument?"
+msgstr[1] "Är du säker att du vill öppna %d dokument?"
+
+#: ../src/gsearchtool-callbacks.c:349
+#: ../src/gsearchtool-callbacks.c:534
+#, c-format
+msgid "This will open %d separate window."
+msgid_plural "This will open %d separate windows."
+msgstr[0] "Detta kommer att öppna %d separat fönster."
+msgstr[1] "Detta kommer att öppna %d separata fönster."
+
+#: ../src/gsearchtool-callbacks.c:385
+#, c-format
+msgid "Could not open document \"%s\"."
+msgstr "Kunde inte öppna dokumentet \"%s\"."
+
+#: ../src/gsearchtool-callbacks.c:410
+#, c-format
+msgid "Could not open folder \"%s\"."
+msgstr "Kunde inte öppna mappen \"%s\"."
+
+#: ../src/gsearchtool-callbacks.c:418
+msgid "The nautilus file manager is not running."
+msgstr "Filhanteraren nautilus körs inte."
+
+#: ../src/gsearchtool-callbacks.c:491
+#: ../src/gsearchtool-callbacks.c:814
+msgid "The document does not exist."
+msgstr "Dokumentet finns inte."
+
+#: ../src/gsearchtool-callbacks.c:506
+msgid "There is no installed viewer capable of displaying the document."
+msgstr "Det finns ingen visare installerad som klarar visning av dokumentet."
+
+#: ../src/gsearchtool-callbacks.c:529
+#, c-format
+msgid "Are you sure you want to open %d folder?"
+msgid_plural "Are you sure you want to open %d folders?"
+msgstr[0] "Är du säker att du vill öppna %d mapp?"
+msgstr[1] "Är du säker att du vill öppna %d mappar?"
+
+#: ../src/gsearchtool-callbacks.c:678
+#, c-format
+msgid "Could not move \"%s\" to trash."
+msgstr "Kunde inte flytta \"%s\" till papperskorgen."
+
+#: ../src/gsearchtool-callbacks.c:705
+#, c-format
+msgid "Do you want to delete \"%s\" permanently?"
+msgstr "Vill du ta bort \"%s\" permanent?"
+
+#: ../src/gsearchtool-callbacks.c:708
+#, c-format
+msgid "Trash is unavailable.  Could not move \"%s\" to the trash."
+msgstr "Papperskorgen är inte tillgänglig. Kunde inte flytta \"%s\" till papperskorgen."
+
+#: ../src/gsearchtool-callbacks.c:743
+#, c-format
+msgid "Could not delete \"%s\"."
+msgstr "Kunde inte ta bort \"%s\"."
+
+#: ../src/gsearchtool-callbacks.c:850
+#, c-format
+msgid "Deleting \"%s\" failed: %s."
+msgstr "Borttagning av \"%s\" misslyckades: %s."
+
+#: ../src/gsearchtool-callbacks.c:862
+#, c-format
+msgid "Moving \"%s\" failed: %s."
+msgstr "Flytt av \"%s\" misslyckades: %s."
+
+#. Popup menu item: Open
+#: ../src/gsearchtool-callbacks.c:990
+#: ../src/gsearchtool-callbacks.c:1020
+msgid "_Open"
+msgstr "_Öppna"
+
+#. Popup menu item: Open with (default)
+#: ../src/gsearchtool-callbacks.c:1045
+#, c-format
+msgid "_Open with %s"
+msgstr "_Öppna med %s"
+
+#: ../src/gsearchtool-callbacks.c:1080
+#, c-format
+msgid "Open with %s"
+msgstr "Öppna med %s"
+
+#. Popup menu item: Open With
+#: ../src/gsearchtool-callbacks.c:1113
+msgid "Open Wit_h"
+msgstr "Öppna m_ed"
+
+#. Popup menu item: Open Containing Folder
+#: ../src/gsearchtool-callbacks.c:1158
+msgid "Open Containing _Folder"
+msgstr "Öppna innehållande _mapp"
+
+#: ../src/gsearchtool-callbacks.c:1176
+msgid "Mo_ve to Trash"
+msgstr "_Flytta till papperskorgen"
+
+#: ../src/gsearchtool-callbacks.c:1198
+msgid "_Save Results As..."
+msgstr "_Spara resultat som..."
+
+#: ../src/gsearchtool-callbacks.c:1580
+msgid "Save Search Results As..."
+msgstr "Spara sökresultat som..."
+
+#: ../src/gsearchtool-callbacks.c:1611
+msgid "Could not save document."
+msgstr "Kunde inte spara dokumentet."
+
+#: ../src/gsearchtool-callbacks.c:1612
+msgid "You did not select a document name."
+msgstr "Du valde inte något namn på dokumentet."
+
+#: ../src/gsearchtool-callbacks.c:1638
+#, c-format
+msgid "Could not save \"%s\" document to \"%s\"."
+msgstr "Kunde inte spara dokumentet \"%s\" till \"%s\"."
+
+#: ../src/gsearchtool-callbacks.c:1668
+#, c-format
+msgid "The document \"%s\" already exists.  Would you like to replace it?"
+msgstr "Dokumentet \"%s\" finns redan. Vill du ersätta det?"
+
+#: ../src/gsearchtool-callbacks.c:1672
+msgid "If you replace an existing file, its contents will be overwritten."
+msgstr "Om du ersätter en befintlig fil kommer dess innehåll att skrivas över."
+
+#: ../src/gsearchtool-callbacks.c:1683
+msgid "_Replace"
+msgstr "_Ersätt"
+
+#: ../src/gsearchtool-callbacks.c:1733
+msgid "The document name you selected is a folder."
+msgstr "Dokumentnamnet du valde är en mapp."
+
+#: ../src/gsearchtool-callbacks.c:1771
+msgid "You may not have write permissions to the document."
+msgstr "Du kanske inte har skrivrättigheter till dokumentet."
+
+#. Translators:  Below are the strings displayed in the 'Date Modified'
+#. column of the list view.  The format of this string can vary depending
+#. on age of a file.  Please modify the format of the timestamp to match
+#. your locale.  For example, to display 24 hour time replace the '%-I'
+#. with '%-H' and remove the '%p'.  (See bugzilla report #120434.)
+#: ../src/gsearchtool-support.c:452
+msgid "today at %-I:%M %p"
+msgstr "idag klockan %H.%M"
+
+#: ../src/gsearchtool-support.c:454
+msgid "yesterday at %-I:%M %p"
+msgstr "igår klockan %H.%M"
+
+#: ../src/gsearchtool-support.c:456
+#: ../src/gsearchtool-support.c:458
+msgid "%A, %B %-d %Y at %-I:%M:%S %p"
+msgstr "%A %-d %B %Y klockan %H.%M.%S"
+
+#: ../src/gsearchtool-support.c:645
+msgid "link (broken)"
+msgstr "länk (trasig)"
+
+#: ../src/gsearchtool-support.c:649
+#, c-format
+msgid "link to %s"
+msgstr "länk till %s"
+
+#. START OF NAUTILUS/EEL FUNCTIONS: USED FOR HANDLING OF DUPLICATE FILENAMES
+#. Localizers:
+#. * Feel free to leave out the st, nd, rd and th suffix or
+#. * make some or all of them match.
+#.
+#. localizers: tag used to detect the first copy of a file
+#: ../src/gsearchtool-support.c:1268
+msgid " (copy)"
+msgstr " (kopia)"
+
+#. localizers: tag used to detect the second copy of a file
+#: ../src/gsearchtool-support.c:1270
+msgid " (another copy)"
+msgstr " (ytterligare kopia)"
+
+#. localizers: tag used to detect the x11th copy of a file
+#. localizers: tag used to detect the x12th copy of a file
+#. localizers: tag used to detect the x13th copy of a file
+#. localizers: tag used to detect the xxth copy of a file
+#: ../src/gsearchtool-support.c:1273
+#: ../src/gsearchtool-support.c:1275
+#: ../src/gsearchtool-support.c:1277
+#: ../src/gsearchtool-support.c:1287
+msgid "th copy)"
+msgstr ":e kopian)"
+
+#. localizers: tag used to detect the x1st copy of a file
+#: ../src/gsearchtool-support.c:1280
+msgid "st copy)"
+msgstr ":a kopian)"
+
+#. localizers: tag used to detect the x2nd copy of a file
+#: ../src/gsearchtool-support.c:1282
+msgid "nd copy)"
+msgstr ":a kopian)"
+
+#. localizers: tag used to detect the x3rd copy of a file
+#: ../src/gsearchtool-support.c:1284
+msgid "rd copy)"
+msgstr ":e kopian)"
+
+#. localizers: appended to first file copy
+#: ../src/gsearchtool-support.c:1301
+#, c-format
+msgid "%s (copy)%s"
+msgstr "%s (kopia)%s"
+
+#. localizers: appended to second file copy
+#: ../src/gsearchtool-support.c:1303
+#, c-format
+msgid "%s (another copy)%s"
+msgstr "%s (ytterligare kopia)%s"
+
+#. localizers: appended to x11th file copy
+#. localizers: appended to x12th file copy
+#. localizers: appended to x13th file copy
+#. localizers: appended to xxth file copy
+#: ../src/gsearchtool-support.c:1306
+#: ../src/gsearchtool-support.c:1308
+#: ../src/gsearchtool-support.c:1310
+#: ../src/gsearchtool-support.c:1319
+#, c-format
+msgid "%s (%dth copy)%s"
+msgstr "%s (%d:e kopian)%s"
+
+#. localizers: appended to x1st file copy
+#: ../src/gsearchtool-support.c:1313
+#, c-format
+msgid "%s (%dst copy)%s"
+msgstr "%s (%d:a kopian)%s"
+
+#. localizers: appended to x2nd file copy
+#: ../src/gsearchtool-support.c:1315
+#, c-format
+msgid "%s (%dnd copy)%s"
+msgstr "%s (%d:a kopian)%s"
+
+#. localizers: appended to x3rd file copy
+#: ../src/gsearchtool-support.c:1317
+#, c-format
+msgid "%s (%drd copy)%s"
+msgstr "%s (%d:e kopian)%s"
+
+#: ../src/gsearchtool-support.c:1364
+msgid " (invalid Unicode)"
+msgstr " (ogiltig Unicode)"
+
+#. localizers: opening parentheses to match the "th copy)" string
+#: ../src/gsearchtool-support.c:1453
+msgid " ("
+msgstr " ("
+
+#. localizers: opening parentheses of the "th copy)" string
+#: ../src/gsearchtool-support.c:1461
+#, c-format
+msgid " (%d"
+msgstr " (%d"
 
 #: ../libeggsmclient/eggdesktopfile.c:165
 #, c-format
@@ -1070,3 +881,59 @@ msgstr "Flaggor för sessionshantering:"
 #: ../libeggsmclient/eggsmclient.c:253
 msgid "Show session management options"
 msgstr "Visa flaggor för sessionshantering"
+
+#~ msgid "Select the search option \"Contains the text\""
+#~ msgstr "Markera sökalternativet \"Innehåller texten\""
+
+#~ msgid "Select the search option \"Date modified less than\""
+#~ msgstr "Markera sökalternativet \"Ändringsdatum mindre än\""
+
+#~ msgid "Select the search option \"Date modified more than\""
+#~ msgstr "Markera sökalternativet \"Ändringsdatum större än\""
+
+#~ msgid "Select the search option \"Exclude other filesystems\""
+#~ msgstr "Markera sökalternativet \"Exkludera andra filsystem\""
+
+#~ msgid "Select the search option \"File is empty\""
+#~ msgstr "Markera sökalternativet \"Filen är tom\""
+
+#~ msgid "Select the search option \"Follow symbolic links\""
+#~ msgstr "Markera sökalternativet \"Följ symboliska länkar\""
+
+#~ msgid "Select the search option \"Name does not contain\""
+#~ msgstr "Markera sökalternativet \"Namnet innehåller inte\""
+
+#~ msgid "Select the search option \"Name matches regular expression\""
+#~ msgstr "Markera sökalternativet \"Namnet matchar reguljärt uttryck\""
+
+#~ msgid "Select the search option \"Owned by group\""
+#~ msgstr "Markera sökalternativet \"Ägs av gruppen\""
+
+#~ msgid "Select the search option \"Owned by user\""
+#~ msgstr "Markera sökalternativet \"Ägs av användaren\""
+
+#~ msgid "Select the search option \"Owner is unrecognized\""
+#~ msgstr "Markera sökalternativet \"Ägaren är okänd\""
+
+#~ msgid "Select the search option \"Show hidden files and folders\""
+#~ msgstr "Markera sökalternativet \"Visa dolda filer och mappar\""
+
+#~ msgid "Select the search option \"Size at least\""
+#~ msgstr "Markera sökalternativet \"Storleken är minst\""
+
+#~ msgid "Select the search option \"Size at most\""
+#~ msgstr "Markera sökalternativet \"Storleken som mest\""
+
+#~ msgid ""
+#~ "This key determines if the \"Select more options\" section is expanded "
+#~ "when the search tool is started."
+#~ msgstr ""
+#~ "Denna nyckel avgör om sektionen \"Välj fler alternativ\" är utfälld då "
+#~ "sökverktyget startas."
+
+#~ msgid ""
+#~ "GConf error:\n"
+#~ "  %s"
+#~ msgstr ""
+#~ "GConf-fel:\n"
+#~ "  %s"
