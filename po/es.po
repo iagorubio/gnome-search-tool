@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: gnome-utils.master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "search-tool&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2012-08-06 17:31+0000\n"
+"POT-Creation-Date: 2012-08-07 19:05+0000\n"
 "PO-Revision-Date: 2012-08-07 20:20+0200\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Español <gnome-es-list@gnome.org>\n"
@@ -38,7 +38,6 @@ msgstr ""
 "Encuentre documentos y carpetas en este equipo por nombre o por contenido"
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:1
-#| msgid "Search for Files"
 msgid "Search history"
 msgstr "Histórico de búsqueda"
 
@@ -704,7 +703,7 @@ msgstr "No se ha podido mover «%s» a la papelera."
 #: ../src/gsearchtool-callbacks.c:705
 #, c-format
 msgid "Do you want to delete \"%s\" permanently?"
-msgstr "¿Quiere borrar «%s» permanentemente?"
+msgstr "¿Quiere eliminar «%s» permanentemente?"
 
 #: ../src/gsearchtool-callbacks.c:708
 #, c-format
@@ -714,17 +713,17 @@ msgstr "La papelera no está disponible. No se pudo mover «%s» a la papelera."
 #: ../src/gsearchtool-callbacks.c:743
 #, c-format
 msgid "Could not delete \"%s\"."
-msgstr "No se ha podido borrar «%s»."
+msgstr "No se ha podido eliminar «%s»."
 
 #: ../src/gsearchtool-callbacks.c:850
 #, c-format
 msgid "Deleting \"%s\" failed: %s."
-msgstr "Ha fallado el borrado de «%s»: %s."
+msgstr "Falló al eliminar «%s»: %s."
 
 #: ../src/gsearchtool-callbacks.c:862
 #, c-format
 msgid "Moving \"%s\" failed: %s."
-msgstr "Ha fallado el movimiento de «%s»: %s."
+msgstr "Falló al mover «%s»: %s."
 
 #. Popup menu item: Open
 #: ../src/gsearchtool-callbacks.c:990 ../src/gsearchtool-callbacks.c:1020
