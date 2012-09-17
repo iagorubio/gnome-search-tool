@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gsearchtool.HEAD\n"
-"POT-Creation-Date: 2012-08-22 01:31+0000\n"
+"POT-Creation-Date: 2012-08-23 16:27+0000\n"
 "PO-Revision-Date: 2012-08-23 17:49+0200\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Español <gnome-es-list@gnome.org>\n"
@@ -19,7 +19,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
-#| msgid "translator-credits"
 msgctxt "_"
 msgid "translator-credits"
 msgstr ""
@@ -37,9 +36,6 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/index.docbook:240(imagedata)
-#| msgid ""
-#| "@@image: 'figures/gnome-search-tool_window.png'; "
-#| "md5=bb0f097535682e53e6bd43c66f0373c7"
 msgctxt "_"
 msgid ""
 "external ref='figures/gnome-search-tool_window.png' "
@@ -85,13 +81,6 @@ msgid "GNOME Documentation Project"
 msgstr "Proyecto de documentación de GNOME"
 
 #: C/index.docbook:2(legalnotice/para)
-#| msgid ""
-#| "Permission is granted to copy, distribute and/or modify this document "
-#| "under the terms of the GNU Free Documentation License (GFDL), Version 1.1 "
-#| "or any later version published by the Free Software Foundation with no "
-#| "Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts. You "
-#| "can find a copy of the GFDL at this <ulink type=\"help\" url=\"ghelp:fdl"
-#| "\">link</ulink> or in the file COPYING-DOCS distributed with this manual."
 msgid ""
 "Permission is granted to copy, distribute and/or modify this document under "
 "the terms of the GNU Free Documentation License (GFDL), Version 1.1 or any "
@@ -187,10 +176,6 @@ msgstr ""
 "SE PRODUJESEN DICHOS DAÑOS."
 
 #: C/index.docbook:28(legalnotice/para) C/legal.xml:28(legalnotice/para)
-#| msgid ""
-#| "DOCUMENT AND MODIFIED VERSIONS OF THE DOCUMENT ARE PROVIDED UNDER THE "
-#| "TERMS OF THE GNU FREE DOCUMENTATION LICENSE WITH THE FURTHER "
-#| "UNDERSTANDING THAT: <placeholder-1/>"
 msgid ""
 "DOCUMENT AND MODIFIED VERSIONS OF THE DOCUMENT ARE PROVIDED UNDER THE TERMS "
 "OF THE GNU FREE DOCUMENTATION LICENSE WITH THE FURTHER UNDERSTANDING THAT: "
@@ -332,10 +317,6 @@ msgid "Feedback"
 msgstr "Comentarios"
 
 #: C/index.docbook:184(legalnotice/para)
-#| msgid ""
-#| "To report a bug or make a suggestion regarding the Search for Files "
-#| "application or this manual, follow the directions in the <ulink url="
-#| "\"ghelp:gnome-feedback\" type=\"help\">GNOME Feedback Page</ulink>."
 msgid ""
 "To report a bug or make a suggestion regarding the Search for Files "
 "application or this manual, follow the directions in the <ulink url=\"help:"
@@ -858,7 +839,7 @@ msgstr ""
 
 #: C/index.docbook:459(sect2/title)
 msgid "To Delete a Displayed File"
-msgstr "Para borrar archivo mostrado"
+msgstr "Para eliminar el archivo mostrado"
 
 #: C/index.docbook:460(sect2/para)
 msgid ""
@@ -866,7 +847,7 @@ msgid ""
 "box, right-click on the file, then choose <guimenuitem>Move to Trash</"
 "guimenuitem>."
 msgstr ""
-"Para borrar un archivo mostrado en los <guilabel>Resultados de la búsqueda</"
+"Para eliminar un archivo mostrado en los <guilabel>Resultados de la búsqueda</"
 "guilabel>, pulse con el botón derecho en el archivo, después elija "
 "<guimenuitem>Mover a la papelera</guimenuitem>."
 
@@ -1051,13 +1032,6 @@ msgid "link"
 msgstr "enlace"
 
 #: C/legal.xml:2(legalnotice/para)
-#| msgid ""
-#| "Permission is granted to copy, distribute and/or modify this document "
-#| "under the terms of the GNU Free Documentation License (GFDL), Version 1.1 "
-#| "or any later version published by the Free Software Foundation with no "
-#| "Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts. You "
-#| "can find a copy of the GFDL at this <ulink type=\"help\" url=\"ghelp:fdl"
-#| "\">link</ulink> or in the file COPYING-DOCS distributed with this manual."
 msgid ""
 "Permission is granted to copy, distribute and/or modify this document under "
 "the terms of the GNU Free Documentation License (GFDL), Version 1.1 or any "
