@@ -2,21 +2,23 @@
 # Estonian translation of Gnome-utils.
 #
 # Copyright (C) 1999, 2002, 2005, 2006 Free Software Foundation, Inc.
-# Copyright (C) 2007–2011 The GNOME Project.
+# Copyright (C) 2007–2012 The GNOME Project.
 # This file is distributed under the same license as the gnome-utils package.
 #
 # Lauris Kaplinski <lauris ariman ee>, 1999.
 # Tõivo Leedjärv <toivo linux ee>, 2002.
 # Ivar Smolin <okul linux ee>, 2005–2011.
 # Priit Laes <amd store20 com>, 2005.
+# Mattias Põldaru <mahfiaz@gmail.com>, 2012.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils MASTER\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-10-06 14:36-0400\n"
-"PO-Revision-Date: 2011-03-21 10:50+0200\n"
-"Last-Translator: Ivar Smolin <okul@linux.ee>\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
+"search-tool&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2012-08-06 17:31+0000\n"
+"PO-Revision-Date: 2012-09-23 15:26+0300\n"
+"Last-Translator: Mattias Põldaru <mahfiaz@gmail.com>\n"
 "Language-Team: Estonian <gnome-et@linux.ee>\n"
 "Language: et\n"
 "MIME-Version: 1.0\n"
@@ -24,155 +26,37 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../data/gnome-search-tool.desktop.in.h:1
+msgid "Search for Files..."
+msgstr "Otsi faile..."
+
 msgid "Locate documents and folders on this computer by name or content"
 msgstr ""
 "Selles arvutis asuvate dokumentide ja kataloogide asukoha leidmine nende "
 "nime või sisu põhjal"
 
-#: ../data/gnome-search-tool.desktop.in.h:2
-msgid "Search for Files..."
-msgstr "Otsi faile..."
+#| msgid "Search for Files"
+msgid "Search history"
+msgstr "Otsingute ajalugu"
 
-#: ../data/gnome-search-tool.schemas.in.h:1
-msgid "Default Window Height"
-msgstr "Vaikimisi akna kõrgus"
+msgid "This key defines the items which were searched for in the past."
+msgstr "Selles võtmes hoitakse varasemaid otsingud."
 
-#: ../data/gnome-search-tool.schemas.in.h:2
-msgid "Default Window Maximized"
-msgstr "Vaikimisi aken maksimeeritud"
-
-#: ../data/gnome-search-tool.schemas.in.h:3
-msgid "Default Window Width"
-msgstr "Vaikimisi akna laius"
-
-#: ../data/gnome-search-tool.schemas.in.h:4
-msgid "Disable Quick Search"
-msgstr "Keela kiirotsing"
-
-#: ../data/gnome-search-tool.schemas.in.h:5
-msgid "Disable Quick Search Second Scan"
-msgstr "Kiirotsingu teise läbivaatuse keelamine"
-
-#: ../data/gnome-search-tool.schemas.in.h:6
-msgid "Look in Folder"
-msgstr "Alustamiskataloog"
-
-#: ../data/gnome-search-tool.schemas.in.h:7
-msgid "Quick Search Excluded Paths"
-msgstr "Kiirotsinugu vahelejäetavad rajad"
-
-#: ../data/gnome-search-tool.schemas.in.h:8
-msgid "Quick Search Second Scan Excluded Paths"
-msgstr "Kiirotsinugu teisel läbivaatusel vahelejäetavad rajad"
-
-#: ../data/gnome-search-tool.schemas.in.h:9
-msgid "Search Result Columns Order"
-msgstr "Otsingutulemuste veergude järjekord"
-
-#. Translators: The quoted text is the label of an available
-#. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:12
-msgid "Select the search option \"Contains the text\""
-msgstr "Otsinguvaliku \"Sisaldab teksti\" valimine"
-
-#. Translators: The quoted text is the label of an available
-#. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:15
-msgid "Select the search option \"Date modified less than\""
-msgstr "Otsinguvaliku \"Muutmise kuupäev on vähem kui\" valimine"
-
-#. Translators: The quoted text is the label of an available
-#. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:18
-msgid "Select the search option \"Date modified more than\""
-msgstr "Otsinguvaliku \"Muutmise kuupäev on rohkem kui\" valimine"
-
-#. Translators: The quoted text is the label of an available
-#. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:21
-msgid "Select the search option \"Exclude other filesystems\""
-msgstr "Otsinguvaliku \"Jäta teised failisüsteemid välja\" valimine"
-
-#. Translators: The quoted text is the label of an available
-#. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:24
-msgid "Select the search option \"File is empty\""
-msgstr "Otsinguvaliku \"Fail on tühi\" valimine"
-
-#. Translators: The quoted text is the label of an available
-#. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:27
-msgid "Select the search option \"Follow symbolic links\""
-msgstr "Otsinguvaliku \"Järgida nimeviiteid\" valimine"
-
-#. Translators: The quoted text is the label of an available
-#. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:30
-msgid "Select the search option \"Name does not contain\""
-msgstr "Otsinguvaliku \"Nimi ei sisalda\" valimine"
-
-#. Translators: The quoted text is the label of an available
-#. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:33
-msgid "Select the search option \"Name matches regular expression\""
-msgstr "Otsinguvaliku \"Nimi vastab regulaaravaldisele\" valimine"
-
-#. Translators: The quoted text is the label of an available
-#. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:36
-msgid "Select the search option \"Owned by group\""
-msgstr "Otsinguvaliku \"Kuulub grupile\" valimine"
-
-#. Translators: The quoted text is the label of an available
-#. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:39
-msgid "Select the search option \"Owned by user\""
-msgstr "Otsinguvaliku \"Kuulub kasutajale\" valimine"
-
-#. Translators: The quoted text is the label of an available
-#. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:42
-msgid "Select the search option \"Owner is unrecognized\""
-msgstr "Otsinguvaliku \"Omanik on tundmatu\" valimine"
-
-#. Translators: The quoted text is the label of an available
-#. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:45
-msgid "Select the search option \"Show hidden files and folders\""
-msgstr "Otsinguvaliku \"Näidata peidetud ja varufaile\" valimine"
-
-#. Translators: The quoted text is the label of an available
-#. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:48
-msgid "Select the search option \"Size at least\""
-msgstr "Otsinguvaliku \"Suurus vähemalt\" valimine"
-
-#. Translators: The quoted text is the label of an available
-#. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:51
-msgid "Select the search option \"Size at most\""
-msgstr "Otsinguvaliku \"Suurus maksimaalselt\" valimine"
-
-#: ../data/gnome-search-tool.schemas.in.h:52
 msgid "Show Additional Options"
 msgstr "Näita rohkem valikuid"
 
-#: ../data/gnome-search-tool.schemas.in.h:53
-msgid "This key defines the default value of the \"Look in Folder\" widget."
-msgstr ""
-"Selle võtmega kirjeldatakse \"Alustatakse kataloogist\" vidina vaikimisi "
-"väärtus."
+msgid "Disable Quick Search"
+msgstr "Keela kiirotsing"
 
-#: ../data/gnome-search-tool.schemas.in.h:54
 msgid ""
-"This key defines the order of the columns in the search results. This key "
-"should not be modified by the user."
+"This key determines if the search tool disables the use of the locate "
+"command when performing simple file name searches."
 msgstr ""
-"Selle võtme abil kirjeldatakse otsingutulemuste veergude järjestust. "
-"Kasutaja ei peaks seda võtit muutma."
+"Selle võtme abil määratakse, kas otsinguvahend keelab lihtsa "
+"failinimeotsingu teostamiseks locate käsu kasutamise."
 
-#: ../data/gnome-search-tool.schemas.in.h:55
+msgid "Quick Search Excluded Paths"
+msgstr "Kiirotsinugu vahelejäetavad rajad"
+
 msgid ""
 "This key defines the paths the search tool will exclude from a quick search. "
 "The wildcards '*' and '?' are supported. The default values are /mnt/*, /"
@@ -182,7 +66,19 @@ msgstr ""
 "käigus vahele jätab. Toetatavad metasümbolid on '*' ja '?'. Vaikimisi on "
 "väärtusteks /mnt/*, /media/*, /dev/*, /tmp/*, /proc/*, ja /var/*."
 
-#: ../data/gnome-search-tool.schemas.in.h:56
+msgid "Disable Quick Search Second Scan"
+msgstr "Kiirotsingu teise läbivaatuse keelamine"
+
+msgid ""
+"This key determines if the search tool disables the use of the find command "
+"after performing a quick search."
+msgstr ""
+"Selle võtme abil määratakse, kas otsinguvahend keelab pärast kiirotsingu "
+"teostamist find käsu kasutamise."
+
+msgid "Quick Search Second Scan Excluded Paths"
+msgstr "Kiirotsinugu teisel läbivaatusel vahelejäetavad rajad"
+
 msgid ""
 "This key defines the paths the search tool will exclude from a second scan "
 "when performing a quick search. The second scan uses the find command to "
@@ -195,17 +91,19 @@ msgstr ""
 "find käsku. Teise läbivaatus eesmärk on indekseerimata failide leidmine. "
 "Toetatavad metasümbolid on '*' ja '?'. Vaikimisi on väärtuseks /."
 
-#: ../data/gnome-search-tool.schemas.in.h:57
-msgid ""
-"This key defines the window height, and it's used to remember the size of "
-"the search tool between sessions. Setting it to -1 will make the search tool "
-"use the default height."
-msgstr ""
-"See võti määrab otsinguvahendi akna kõrguse ja see on mõeldud akna oleku "
-"meelespidamiseks seansside vahel. Kui selle võtme väärtuseks määrata -1, "
-"siis on otsinguvahendi aken vaikimisi kõrgusega."
+msgid "Search Result Columns Order"
+msgstr "Otsingutulemuste veergude järjekord"
 
-#: ../data/gnome-search-tool.schemas.in.h:58
+msgid ""
+"This key defines the order of the columns in the search results. This key "
+"should not be modified by the user."
+msgstr ""
+"Selle võtme abil kirjeldatakse otsingutulemuste veergude järjestust. "
+"Kasutaja ei peaks seda võtit muutma."
+
+msgid "Default Window Width"
+msgstr "Vaikimisi akna laius"
+
 msgid ""
 "This key defines the window width, and it's used to remember the size of the "
 "search tool between sessions. Setting it to -1 will make the search tool use "
@@ -215,14 +113,41 @@ msgstr ""
 "meelespidamiseks seansside vahel. Kui selle võtme väärtuseks määrata -1, "
 "siis on otsinguvahendi aken vaikimisi laiusega."
 
-#: ../data/gnome-search-tool.schemas.in.h:59
+msgid "Default Window Height"
+msgstr "Vaikimisi akna kõrgus"
+
+msgid ""
+"This key defines the window height, and it's used to remember the size of "
+"the search tool between sessions. Setting it to -1 will make the search tool "
+"use the default height."
+msgstr ""
+"See võti määrab otsinguvahendi akna kõrguse ja see on mõeldud akna oleku "
+"meelespidamiseks seansside vahel. Kui selle võtme väärtuseks määrata -1, "
+"siis on otsinguvahendi aken vaikimisi kõrgusega."
+
+msgid "Default Window Maximized"
+msgstr "Vaikimisi aken maksimeeritud"
+
+msgid ""
+"This key determines if the search tool window starts in a maximized state."
+msgstr ""
+"Selle võtme abil määratakse, kas otsinguvahendi aken on käivitamisel "
+"maksimeeritud."
+
+msgid "Look in Folder"
+msgstr "Alustamiskataloog"
+
+msgid "This key defines the default value of the \"Look in Folder\" widget."
+msgstr ""
+"Selle võtmega kirjeldatakse \"Alustatakse kataloogist\" vidina vaikimisi "
+"väärtus."
+
 msgid ""
 "This key determines if the \"Contains the text\" search option is selected "
 "when the search tool is started."
 msgstr ""
 "See võti määrab käivitamisel otsinguvaliku \"Sisaldab teksti\" valituks."
 
-#: ../data/gnome-search-tool.schemas.in.h:60
 msgid ""
 "This key determines if the \"Date modified less than\" search option is "
 "selected when the search tool is started."
@@ -230,7 +155,6 @@ msgstr ""
 "See võti määrab käivitamisel otsinguvaliku \"Muutmise kuupäev on vähem kui\" "
 "valituks."
 
-#: ../data/gnome-search-tool.schemas.in.h:61
 msgid ""
 "This key determines if the \"Date modified more than\" search option is "
 "selected when the search tool is started."
@@ -238,35 +162,47 @@ msgstr ""
 "See võti määrab käivitamisel otsinguvaliku \"Muutmise kuupäev on rohkem kui"
 "\" valituks."
 
-#: ../data/gnome-search-tool.schemas.in.h:62
 msgid ""
-"This key determines if the \"Exclude other filesystems\" search option is "
-"selected when the search tool is started."
+"This key determines if the \"Size at least\" search option is selected when "
+"the search tool is started."
 msgstr ""
-"See võti määrab käivitamisel otsinguvaliku \"Jäta teised failisüsteemid välja"
-"\" valituks."
+"See võti määrab käivitamisel otsinguvaliku \"Suurus vähemalt\" valituks."
 
-#: ../data/gnome-search-tool.schemas.in.h:63
+msgid ""
+"This key determines if the \"Size at most\" search option is selected when "
+"the search tool is started."
+msgstr ""
+"See võti määrab käivitamisel otsinguvaliku \"Suurus maksimaalselt\" valituks."
+
 msgid ""
 "This key determines if the \"File is empty\" search option is selected when "
 "the search tool is started."
 msgstr "See võti määrab käivitamisel otsinguvaliku \"Fail on tühi\" valituks."
 
-#: ../data/gnome-search-tool.schemas.in.h:64
 msgid ""
-"This key determines if the \"Follow symbolic links\" search option is "
+"This key determines if the \"Owned by user\" search option is selected when "
+"the search tool is started."
+msgstr ""
+"See võti määrab käivitamisel otsinguvaliku \"Kuulub kasutajale\" valituks."
+
+msgid ""
+"This key determines if the \"Owned by group\" search option is selected when "
+"the search tool is started."
+msgstr ""
+"See võti määrab käivitamisel otsinguvaliku \"Kuulub grupile\" valituks."
+
+msgid ""
+"This key determines if the \"Owner is unrecognized\" search option is "
 "selected when the search tool is started."
 msgstr ""
-"See võti määrab käivitamisel otsinguvaliku \"Järgida nimeviiteid\" valituks."
+"See võti määrab käivitamisel otsinguvaliku \"Omanik on tundmatu\" valituks."
 
-#: ../data/gnome-search-tool.schemas.in.h:65
 msgid ""
 "This key determines if the \"Name does not contain\" search option is "
 "selected when the search tool is started."
 msgstr ""
 "See võti määrab käivitamisel otsinguvaliku \"Nimi ei sisalda\" valituks."
 
-#: ../data/gnome-search-tool.schemas.in.h:66
 msgid ""
 "This key determines if the \"Name matches regular expression\" search option "
 "is selected when the search tool is started."
@@ -274,38 +210,6 @@ msgstr ""
 "See võti määrab käivitamisel otsinguvaliku \"Nimi vastab regulaaravaldisele"
 "\" valituks."
 
-#: ../data/gnome-search-tool.schemas.in.h:67
-msgid ""
-"This key determines if the \"Owned by group\" search option is selected when "
-"the search tool is started."
-msgstr ""
-"See võti määrab käivitamisel otsinguvaliku \"Kuulub grupile\" valituks."
-
-#: ../data/gnome-search-tool.schemas.in.h:68
-msgid ""
-"This key determines if the \"Owned by user\" search option is selected when "
-"the search tool is started."
-msgstr ""
-"See võti määrab käivitamisel otsinguvaliku \"Kuulub kasutajale\" valituks."
-
-#: ../data/gnome-search-tool.schemas.in.h:69
-msgid ""
-"This key determines if the \"Owner is unrecognized\" search option is "
-"selected when the search tool is started."
-msgstr ""
-"See võti määrab käivitamisel otsinguvaliku \"Omanik on tundmatu\" valituks."
-
-#. Translators: The quoted text is the label of the additional
-#. options expander that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:72
-msgid ""
-"This key determines if the \"Select more options\" section is expanded when "
-"the search tool is started."
-msgstr ""
-"See võti määrab käivitamisel otsinguvalikute \"Näita rohkem valikuid\" "
-"laiendamise."
-
-#: ../data/gnome-search-tool.schemas.in.h:73
 msgid ""
 "This key determines if the \"Show hidden files and folders\" search option "
 "is selected when the search tool is started."
@@ -313,223 +217,436 @@ msgstr ""
 "See võti määrab käivitamisel otsinguvaliku \"Näidata peidetud ja varufaile\" "
 "valituks."
 
-#: ../data/gnome-search-tool.schemas.in.h:74
 msgid ""
-"This key determines if the \"Size at least\" search option is selected when "
-"the search tool is started."
+"This key determines if the \"Follow symbolic links\" search option is "
+"selected when the search tool is started."
 msgstr ""
-"See võti määrab käivitamisel otsinguvaliku \"Suurus vähemalt\" valituks."
+"See võti määrab käivitamisel otsinguvaliku \"Järgida nimeviiteid\" valituks."
 
-#: ../data/gnome-search-tool.schemas.in.h:75
 msgid ""
-"This key determines if the \"Size at most\" search option is selected when "
-"the search tool is started."
+"This key determines if the \"Exclude other filesystems\" search option is "
+"selected when the search tool is started."
 msgstr ""
-"See võti määrab käivitamisel otsinguvaliku \"Suurus maksimaalselt\" valituks."
+"See võti määrab käivitamisel otsinguvaliku \"Jäta teised failisüsteemid välja"
+"\" valituks."
 
-#: ../data/gnome-search-tool.schemas.in.h:76
+msgid "Contains the _text"
+msgstr "Sisaldab _teksti"
+
+msgid "_Date modified less than"
+msgstr "_Muutmise kuupäev on vähem kui"
+
+msgid "days"
+msgstr "päeva tagasi"
+
+msgid "Date modified more than"
+msgstr "Muutmise kuupäev on rohkem kui"
+
+msgid "S_ize at least"
+msgstr "Suurus _vähemalt"
+
+msgid "kilobytes"
+msgstr "kilobaiti"
+
+msgid "Si_ze at most"
+msgstr "Suurus _maksimaalselt"
+
+msgid "File is empty"
+msgstr "Fail on tühi"
+
+msgid "Owned by _user"
+msgstr "Kuulub _kasutajale"
+
+msgid "Owned by _group"
+msgstr "Kuulub _grupile"
+
+msgid "Owner is unrecognized"
+msgstr "Omanik on tundmatu"
+
+msgid "Na_me does not contain"
+msgstr "Nimi ei _sisalda"
+
+msgid "Name matches regular e_xpression"
+msgstr "Nimi vastab _regulaaravaldisele"
+
+msgid "Show hidden and backup files"
+msgstr "Näidata peidetud ja varufaile"
+
+msgid "Follow symbolic links"
+msgstr "Järgida nimeviiteid (symlinks)"
+
+msgid "Exclude other filesystems"
+msgstr "Jäta teised failisüsteemid välja"
+
+msgid "Show version of the application"
+msgstr "Rakenduse versiooni näitamine"
+
+msgid "STRING"
+msgstr "STRING"
+
+msgid "PATH"
+msgstr "RADA"
+
+msgid "VALUE"
+msgstr "VÄÄRTUS"
+
+msgid "DAYS"
+msgstr "PÄEVI"
+
+msgid "KILOBYTES"
+msgstr "KILOBAITE"
+
+msgid "USER"
+msgstr "KASUTAJA"
+
+msgid "GROUP"
+msgstr "GRUPP"
+
+msgid "PATTERN"
+msgstr "MUSTER"
+
+msgid "A locate database has probably not been created."
+msgstr "Otsingu andmebaasi pole arvatavasti loodud"
+
+#, c-format
+msgid "Character set conversion failed for \"%s\""
+msgstr "Tõrge \"%s\" kooditabeli teisendamisel"
+
+msgid "Searching..."
+msgstr "Otsimine..."
+
+msgid "Search for Files"
+msgstr "Failiotsing"
+
+msgid "No files found"
+msgstr "Ühtegi faili ei leitud"
+
+msgid "(stopped)"
+msgstr "(seisatud)"
+
+msgid "No Files Found"
+msgstr "Ühtegi faili ei leitud"
+
+#, c-format
+msgid "%'d File Found"
+msgid_plural "%'d Files Found"
+msgstr[0] "leitud %'d fail"
+msgstr[1] "leitud %'d faili"
+
+#, c-format
+msgid "%'d file found"
+msgid_plural "%'d files found"
+msgstr[0] "leitud %'d fail"
+msgstr[1] "leitud %'d faili"
+
+msgid "Entry changed called for a non entry option!"
+msgstr "Kirje muutmist on kasutatud ilma valikuta kirje puhul!"
+
+msgid "Set the text of \"Name contains\" search option"
+msgstr "Otsinguvaliku \"Nimi sisaldab\" valimine"
+
+msgid "Set the text of \"Look in folder\" search option"
+msgstr "Otsinguvaliku \"Alustada kataloogist\" valimine"
+
+msgid "Sort files by one of the following: name, folder, size, type, or date"
+msgstr ""
+"Sordi faile järgnevate kriteeriumite alusel: nimi, kaust, suurus, tüüp või "
+"kuupäev"
+
+msgid "Set sort order to descending, the default is ascending"
+msgstr "Sortimisjärjestuse määramine vähenevaks, vaikimisi on see suurenev"
+
+msgid "Automatically start a search"
+msgstr "Otsingu automaatne alustamine"
+
+#, c-format
+msgid "Select the \"%s\" search option"
+msgstr "Otsinguvaliku \"%s\" valimine"
+
+#, c-format
+msgid "Select and set the \"%s\" search option"
+msgstr "\"%s\" võtme valimine ja määramine"
+
+msgid "Invalid option passed to sortby command line argument."
+msgstr "Sortby käsureavõtmele on määratud vigane argument."
+
 msgid ""
-"This key determines if the search tool disables the use of the find command "
-"after performing a quick search."
+"\n"
+"... Too many errors to display ..."
 msgstr ""
-"Selle võtme abil määratakse, kas otsinguvahend keelab pärast kiirotsingu "
-"teostamist find käsu kasutamise."
+"\n"
+"... Liiga palju veateateid kuvamiseks ..."
 
-#: ../data/gnome-search-tool.schemas.in.h:77
 msgid ""
-"This key determines if the search tool disables the use of the locate "
-"command when performing simple file name searches."
-msgstr ""
-"Selle võtme abil määratakse, kas otsinguvahend keelab lihtsa "
-"failinimeotsingu teostamiseks locate käsu kasutamise."
+"The search results may be invalid.  There were errors while performing this "
+"search."
+msgstr "Otsingutulemused võivad olla vigased.  Otsingu käigus tekkis viga."
 
-#: ../data/gnome-search-tool.schemas.in.h:78
+msgid "Show more _details"
+msgstr "_Näita üksikasjalisemalt"
+
 msgid ""
-"This key determines if the search tool window starts in a maximized state."
+"The search results may be out of date or invalid.  Do you want to disable "
+"the quick search feature?"
 msgstr ""
-"Selle võtme abil määratakse, kas otsinguvahendi aken on käivitamisel "
-"maksimeeritud."
+"Otsingutulemused võivad olla aegunud või vigased.  Kas sa soovid keelata "
+"kiirotsingu võimalust?."
 
-#: ../src/gsearchtool-callbacks.c:194
+msgid "Disable _Quick Search"
+msgstr "Keela _kiirotsing"
+
+#, c-format
+msgid "Failed to set process group id of child %d: %s.\n"
+msgstr "Tõrge alamprotsessile grupi id seadmisel %d: %s.\n"
+
+msgid "Error parsing the search command."
+msgstr "Viga otsingukäsu analüüsimisel"
+
+msgid "Error running the search command."
+msgstr "Viga otsingukäsu täitmisel."
+
+#, c-format
+msgid "Enter a text value for the \"%s\" search option."
+msgstr "Sisesta väärtus otsinguvõtme \"%s\"  jaoks."
+
+#. Translators:  Below is a string displaying the search options name
+#. and unit value.  For example, "\"Date modified less than\" in days".
+#, c-format
+msgid "\"%s\" in %s"
+msgstr "\"%s\" on %s"
+
+#, c-format
+msgid "Enter a value in %s for the \"%s\" search option."
+msgstr "%s väärtuse sisestamine otsinguvaliku \"%s\" jaoks."
+
+#, c-format
+msgid "Remove \"%s\""
+msgstr "Eemalda \"%s\""
+
+#, c-format
+msgid "Click to remove the \"%s\" search option."
+msgstr "Klõpsa reegli \"%s\" eemaldamiseks."
+
+msgid "A_vailable options:"
+msgstr "Võimalikud _valikud:"
+
+msgid "Available options"
+msgstr "Võimalikud valikud"
+
+msgid "Select a search option from the drop-down list."
+msgstr "Otsinguvaliku valimine rippnimekirjast."
+
+msgid "Add search option"
+msgstr "Lisa otsinguvalik"
+
+msgid "Click to add the selected available search option."
+msgstr "Klõpsa otsinguvaliku lisamiseks."
+
+msgid "S_earch results:"
+msgstr "O_tsingutulemused:"
+
+msgid "List View"
+msgstr "Nimekirjavaade"
+
+msgid "Name"
+msgstr "Nimi"
+
+msgid "Folder"
+msgstr "Kataloog"
+
+msgid "Size"
+msgstr "Suurus"
+
+msgid "Type"
+msgstr "Liik"
+
+msgid "Date Modified"
+msgstr "Viimase muutmise aeg"
+
+msgid "_Name contains:"
+msgstr "_Nimi sisaldab:"
+
+msgid "Enter a filename or partial filename with or without wildcards."
+msgstr "Sisesta failinimi või failinime osa koos metasümbolitega või ilma."
+
+msgid "Name contains"
+msgstr "Nimi sisaldab"
+
+msgid "_Look in folder:"
+msgstr "_Alustatakse kataloogist:"
+
+msgid "Browse"
+msgstr "Sirvimine"
+
+msgid "Look in folder"
+msgstr "Alustada kataloogist"
+
+msgid "Select the folder or device from which you want to begin the search."
+msgstr "Sisesta kataloogi nimi, kust tahad otsingut alustada."
+
+msgid "Select more _options"
+msgstr "Näita _rohkem valikuid"
+
+msgid "Select more options"
+msgstr "Rohkemate valikute näitamine"
+
+msgid "Click to expand or collapse the list of available options."
+msgstr "Klõpsa võimalike valikute nimekirja laiendamiseks või ahendamiseks"
+
+msgid "Click to display the help manual."
+msgstr "Klõpsa abiteabe kuvamiseks"
+
+msgid "Click to close \"Search for Files\"."
+msgstr "Klõpsa \"Failiotsingu\" sulgemiseks"
+
+msgid "Click to perform a search."
+msgstr "Klõpsa otsingu läbiviimiseks"
+
+msgid "Click to stop a search."
+msgstr "Klõpsa otsingu peatamiseks"
+
+msgid "- the GNOME Search Tool"
+msgstr "- GNOME otsimisvahend"
+
+#, c-format
+msgid "Failed to parse command line arguments: %s\n"
+msgstr "Tõrge käsureavõtmete analüüsimisel: %s\n"
+
 msgid "Could not open help document."
 msgstr "Abidokumenti pole võimalik avada."
 
-#: ../src/gsearchtool-callbacks.c:341
 #, c-format
 msgid "Are you sure you want to open %d document?"
 msgid_plural "Are you sure you want to open %d documents?"
 msgstr[0] "Oled kindel, et soovid avada %d dokumendi?"
 msgstr[1] "Oled kindel, et soovid avada %d dokumenti?"
 
-#: ../src/gsearchtool-callbacks.c:346 ../src/gsearchtool-callbacks.c:531
 #, c-format
 msgid "This will open %d separate window."
 msgid_plural "This will open %d separate windows."
 msgstr[0] "See avaneb %d eraldi aknas."
 msgstr[1] "See avaneb %d eraldi aknas."
 
-#: ../src/gsearchtool-callbacks.c:382
 #, c-format
 msgid "Could not open document \"%s\"."
 msgstr "Dokumenti \"%s\" pole võimalik avada."
 
-#: ../src/gsearchtool-callbacks.c:407
 #, c-format
 msgid "Could not open folder \"%s\"."
 msgstr "Kataloogi \"%s\" pole võimalik avada"
 
-#: ../src/gsearchtool-callbacks.c:415
 msgid "The nautilus file manager is not running."
 msgstr "Nautilus failihaldurit pole käivitatud."
 
-#: ../src/gsearchtool-callbacks.c:488 ../src/gsearchtool-callbacks.c:811
 msgid "The document does not exist."
 msgstr "Dokumenti pole olemas."
 
-#: ../src/gsearchtool-callbacks.c:503
 msgid "There is no installed viewer capable of displaying the document."
 msgstr "Selle dokumendi jaoks pole näitajat paigaldatud."
 
-#: ../src/gsearchtool-callbacks.c:526
 #, c-format
 msgid "Are you sure you want to open %d folder?"
 msgid_plural "Are you sure you want to open %d folders?"
 msgstr[0] "Soovid sa tõesti avada %d kataloogi?"
 msgstr[1] "Soovid sa tõesti avada %d kataloogi?"
 
-#: ../src/gsearchtool-callbacks.c:675
 #, c-format
 msgid "Could not move \"%s\" to trash."
 msgstr "\"%s\" pole võimalik prügikasti visata."
 
-#: ../src/gsearchtool-callbacks.c:702
 #, c-format
 msgid "Do you want to delete \"%s\" permanently?"
 msgstr "Soovid sa tõesti jäädavalt kustutada \"%s\"?"
 
-#: ../src/gsearchtool-callbacks.c:705
 #, c-format
 msgid "Trash is unavailable.  Could not move \"%s\" to the trash."
 msgstr "Prügikasti pole saadaval.  \"%s\" pole võimalik prügikasti visata."
 
-#: ../src/gsearchtool-callbacks.c:740
 #, c-format
 msgid "Could not delete \"%s\"."
 msgstr "\"%s\" pole võimalik kustutada."
 
-#: ../src/gsearchtool-callbacks.c:847
 #, c-format
 msgid "Deleting \"%s\" failed: %s."
 msgstr "Tõrge \"%s\" kustutamisel: %s."
 
-#: ../src/gsearchtool-callbacks.c:859
 #, c-format
 msgid "Moving \"%s\" failed: %s."
 msgstr "Tõrge \"%s\" ümbertõstmisel: %s"
 
 #. Popup menu item: Open
-#: ../src/gsearchtool-callbacks.c:987 ../src/gsearchtool-callbacks.c:1017
 msgid "_Open"
 msgstr "_Ava"
 
 #. Popup menu item: Open with (default)
-#: ../src/gsearchtool-callbacks.c:1042
 #, c-format
 msgid "_Open with %s"
 msgstr "Ava _rakendusega %s"
 
-#: ../src/gsearchtool-callbacks.c:1077
 #, c-format
 msgid "Open with %s"
 msgstr "Ava rakendusega %s"
 
 #. Popup menu item: Open With
-#: ../src/gsearchtool-callbacks.c:1110
 msgid "Open Wit_h"
 msgstr "Ava _rakendusega"
 
 #. Popup menu item: Open Containing Folder
-#: ../src/gsearchtool-callbacks.c:1155
 msgid "Open Containing _Folder"
 msgstr "Ava faili sisaldav _kataloog"
 
-#: ../src/gsearchtool-callbacks.c:1173
 msgid "Mo_ve to Trash"
 msgstr "Tõsta _prügikasti"
 
-#: ../src/gsearchtool-callbacks.c:1195
 msgid "_Save Results As..."
 msgstr "Salvesta tulemused _kui..."
 
-#: ../src/gsearchtool-callbacks.c:1577
 msgid "Save Search Results As..."
 msgstr "Otsingutulemuste salvestamine..."
 
-#: ../src/gsearchtool-callbacks.c:1608
 msgid "Could not save document."
 msgstr "Dokumenti pole võimalik salvestada."
 
-#: ../src/gsearchtool-callbacks.c:1609
 msgid "You did not select a document name."
 msgstr "Sa ei valinud dokumendi nime."
 
-#: ../src/gsearchtool-callbacks.c:1635
 #, c-format
 msgid "Could not save \"%s\" document to \"%s\"."
 msgstr "Dokumenti \"%s\" pole võimalik \"%s\" alla salvestada."
 
-#: ../src/gsearchtool-callbacks.c:1665
 #, c-format
 msgid "The document \"%s\" already exists.  Would you like to replace it?"
 msgstr "Dokument \"%s\" on juba olemas.  Kas sa soovid seda üle kirjutada?"
 
-#: ../src/gsearchtool-callbacks.c:1669
 msgid "If you replace an existing file, its contents will be overwritten."
 msgstr "Olemasolevat faili üle kirjutades kirjutatakse üle ka faili sisu."
 
-#: ../src/gsearchtool-callbacks.c:1680
 msgid "_Replace"
 msgstr "_Kirjuta üle"
 
-#: ../src/gsearchtool-callbacks.c:1730
 msgid "The document name you selected is a folder."
 msgstr "Sinu poolt valitud dokumendinimi on kataloog."
 
-#: ../src/gsearchtool-callbacks.c:1768
 msgid "You may not have write permissions to the document."
 msgstr "Sul puudub selle dokumendi kirjutamisõigus."
-
-#: ../src/gsearchtool-support.c:63
-#, c-format
-msgid ""
-"GConf error:\n"
-"  %s"
-msgstr ""
-"GConf viga:\n"
-"  %s"
 
 #. Translators:  Below are the strings displayed in the 'Date Modified'
 #. column of the list view.  The format of this string can vary depending
 #. on age of a file.  Please modify the format of the timestamp to match
 #. your locale.  For example, to display 24 hour time replace the '%-I'
 #. with '%-H' and remove the '%p'.  (See bugzilla report #120434.)
-#: ../src/gsearchtool-support.c:696
 msgid "today at %-I:%M %p"
 msgstr "täna kell %-H:%M"
 
-#: ../src/gsearchtool-support.c:698
 msgid "yesterday at %-I:%M %p"
 msgstr "eile kell %-H:%M"
 
-#: ../src/gsearchtool-support.c:700 ../src/gsearchtool-support.c:702
 msgid "%A, %B %-d %Y at %-I:%M:%S %p"
 msgstr "%A, %-d. %B %Y kell %-I:%M:%S %p"
 
-#: ../src/gsearchtool-support.c:889
 msgid "link (broken)"
 msgstr "viide (katki)"
 
-#: ../src/gsearchtool-support.c:893
 #, c-format
 msgid "link to %s"
 msgstr "viide -> %s"
@@ -540,12 +657,10 @@ msgstr "viide -> %s"
 #. * make some or all of them match.
 #.
 #. localizers: tag used to detect the first copy of a file
-#: ../src/gsearchtool-support.c:1497
 msgid " (copy)"
 msgstr " (koopia)"
 
 #. localizers: tag used to detect the second copy of a file
-#: ../src/gsearchtool-support.c:1499
 msgid " (another copy)"
 msgstr " (veel üks koopia)"
 
@@ -553,34 +668,27 @@ msgstr " (veel üks koopia)"
 #. localizers: tag used to detect the x12th copy of a file
 #. localizers: tag used to detect the x13th copy of a file
 #. localizers: tag used to detect the xxth copy of a file
-#: ../src/gsearchtool-support.c:1502 ../src/gsearchtool-support.c:1504
-#: ../src/gsearchtool-support.c:1506 ../src/gsearchtool-support.c:1516
 msgid "th copy)"
 msgstr ". koopia)"
 
 #. localizers: tag used to detect the x1st copy of a file
-#: ../src/gsearchtool-support.c:1509
 msgid "st copy)"
 msgstr ". koopia)"
 
 #. localizers: tag used to detect the x2nd copy of a file
-#: ../src/gsearchtool-support.c:1511
 msgid "nd copy)"
 msgstr ". koopia)"
 
 #. localizers: tag used to detect the x3rd copy of a file
-#: ../src/gsearchtool-support.c:1513
 msgid "rd copy)"
 msgstr ". koopia)"
 
 #. localizers: appended to first file copy
-#: ../src/gsearchtool-support.c:1530
 #, c-format
 msgid "%s (copy)%s"
 msgstr "%s (koopia)%s"
 
 #. localizers: appended to second file copy
-#: ../src/gsearchtool-support.c:1532
 #, c-format
 msgid "%s (another copy)%s"
 msgstr "%s (veel üks koopia)%s"
@@ -589,471 +697,82 @@ msgstr "%s (veel üks koopia)%s"
 #. localizers: appended to x12th file copy
 #. localizers: appended to x13th file copy
 #. localizers: appended to xxth file copy
-#: ../src/gsearchtool-support.c:1535 ../src/gsearchtool-support.c:1537
-#: ../src/gsearchtool-support.c:1539 ../src/gsearchtool-support.c:1548
 #, c-format
 msgid "%s (%dth copy)%s"
 msgstr "%s (%d. koopia)%s"
 
 #. localizers: appended to x1st file copy
-#: ../src/gsearchtool-support.c:1542
 #, c-format
 msgid "%s (%dst copy)%s"
 msgstr "%s (%d. koopia)%s"
 
 #. localizers: appended to x2nd file copy
-#: ../src/gsearchtool-support.c:1544
 #, c-format
 msgid "%s (%dnd copy)%s"
 msgstr "%s (%d. koopia)%s"
 
 #. localizers: appended to x3rd file copy
-#: ../src/gsearchtool-support.c:1546
 #, c-format
 msgid "%s (%drd copy)%s"
 msgstr "%s (%d. koopia)%s"
 
-#: ../src/gsearchtool-support.c:1593
 msgid " (invalid Unicode)"
 msgstr " (vigane Unicode)"
 
 #. localizers: opening parentheses to match the "th copy)" string
-#: ../src/gsearchtool-support.c:1682
 msgid " ("
 msgstr " ("
 
 #. localizers: opening parentheses of the "th copy)" string
-#: ../src/gsearchtool-support.c:1690
 #, c-format
 msgid " (%d"
 msgstr " (%d"
 
-#: ../src/gsearchtool.c:81
-msgid "Contains the _text"
-msgstr "Sisaldab _teksti"
-
-#: ../src/gsearchtool.c:83
-msgid "_Date modified less than"
-msgstr "_Muutmise kuupäev on vähem kui"
-
-#: ../src/gsearchtool.c:83 ../src/gsearchtool.c:84
-msgid "days"
-msgstr "päeva tagasi"
-
-#: ../src/gsearchtool.c:84
-msgid "Date modified more than"
-msgstr "Muutmise kuupäev on rohkem kui"
-
-#: ../src/gsearchtool.c:86
-msgid "S_ize at least"
-msgstr "Suurus _vähemalt"
-
-#: ../src/gsearchtool.c:86 ../src/gsearchtool.c:87
-msgid "kilobytes"
-msgstr "kilobaiti"
-
-#: ../src/gsearchtool.c:87
-msgid "Si_ze at most"
-msgstr "Suurus _maksimaalselt"
-
-#: ../src/gsearchtool.c:88
-msgid "File is empty"
-msgstr "Fail on tühi"
-
-#: ../src/gsearchtool.c:90
-msgid "Owned by _user"
-msgstr "Kuulub _kasutajale"
-
-#: ../src/gsearchtool.c:91
-msgid "Owned by _group"
-msgstr "Kuulub _grupile"
-
-#: ../src/gsearchtool.c:92
-msgid "Owner is unrecognized"
-msgstr "Omanik on tundmatu"
-
-#: ../src/gsearchtool.c:94
-msgid "Na_me does not contain"
-msgstr "Nimi ei _sisalda"
-
-#: ../src/gsearchtool.c:95
-msgid "Name matches regular e_xpression"
-msgstr "Nimi vastab _regulaaravaldisele"
-
-#: ../src/gsearchtool.c:97
-msgid "Show hidden and backup files"
-msgstr "Näidata peidetud ja varufaile"
-
-#: ../src/gsearchtool.c:98
-msgid "Follow symbolic links"
-msgstr "Järgida nimeviiteid (symlinks)"
-
-#: ../src/gsearchtool.c:99
-msgid "Exclude other filesystems"
-msgstr "Jäta teised failisüsteemid välja"
-
-#: ../src/gsearchtool.c:157
-msgid "Show version of the application"
-msgstr "Rakenduse versiooni näitamine"
-
-#: ../src/gsearchtool.c:158 ../src/gsearchtool.c:163 ../src/gsearchtool.c:172
-msgid "STRING"
-msgstr "STRING"
-
-#: ../src/gsearchtool.c:159
-msgid "PATH"
-msgstr "RADA"
-
-#: ../src/gsearchtool.c:160
-msgid "VALUE"
-msgstr "VÄÄRTUS"
-
-#: ../src/gsearchtool.c:164 ../src/gsearchtool.c:165
-msgid "DAYS"
-msgstr "PÄEVI"
-
-#: ../src/gsearchtool.c:166 ../src/gsearchtool.c:167
-msgid "KILOBYTES"
-msgstr "KILOBAITE"
-
-#: ../src/gsearchtool.c:169
-msgid "USER"
-msgstr "KASUTAJA"
-
-#: ../src/gsearchtool.c:170
-msgid "GROUP"
-msgstr "GRUPP"
-
-#: ../src/gsearchtool.c:173
-msgid "PATTERN"
-msgstr "MUSTER"
-
-#: ../src/gsearchtool.c:384
-msgid "A locate database has probably not been created."
-msgstr "Otsingu andmebaasi pole arvatavasti loodud"
-
-#: ../src/gsearchtool.c:486
-#, c-format
-msgid "Character set conversion failed for \"%s\""
-msgstr "Tõrge \"%s\" kooditabeli teisendamisel"
-
-#: ../src/gsearchtool.c:506
-msgid "Searching..."
-msgstr "Otsimine..."
-
-#: ../src/gsearchtool.c:506 ../src/gsearchtool.c:1016
-#: ../src/gsearchtool.c:2976
-msgid "Search for Files"
-msgstr "Failiotsing"
-
-#: ../src/gsearchtool.c:962 ../src/gsearchtool.c:991
-msgid "No files found"
-msgstr "Ühtegi faili ei leitud"
-
-#: ../src/gsearchtool.c:984
-msgid "(stopped)"
-msgstr "(seisatud)"
-
-#: ../src/gsearchtool.c:990
-msgid "No Files Found"
-msgstr "Ühtegi faili ei leitud"
-
-#: ../src/gsearchtool.c:995
-#, c-format
-msgid "%'d File Found"
-msgid_plural "%'d Files Found"
-msgstr[0] "leitud %'d fail"
-msgstr[1] "leitud %'d faili"
-
-#: ../src/gsearchtool.c:999 ../src/gsearchtool.c:1037
-#, c-format
-msgid "%'d file found"
-msgid_plural "%'d files found"
-msgstr[0] "leitud %'d fail"
-msgstr[1] "leitud %'d faili"
-
-#: ../src/gsearchtool.c:1128
-msgid "Entry changed called for a non entry option!"
-msgstr "Kirje muutmist on kasutatud ilma valikuta kirje puhul!"
-
-#: ../src/gsearchtool.c:1288
-msgid "Set the text of \"Name contains\" search option"
-msgstr "Otsinguvaliku \"Nimi sisaldab\" valimine"
-
-#: ../src/gsearchtool.c:1289
-msgid "Set the text of \"Look in folder\" search option"
-msgstr "Otsinguvaliku \"Alustada kataloogist\" valimine"
-
-#: ../src/gsearchtool.c:1290
-msgid "Sort files by one of the following: name, folder, size, type, or date"
-msgstr ""
-"Sordi faile järgnevate kriteeriumite alusel: nimi, kaust, suurus, tüüp või "
-"kuupäev"
-
-#: ../src/gsearchtool.c:1291
-msgid "Set sort order to descending, the default is ascending"
-msgstr "Sortimisjärjestuse määramine vähenevaks, vaikimisi on see suurenev"
-
-#: ../src/gsearchtool.c:1292
-msgid "Automatically start a search"
-msgstr "Otsingu automaatne alustamine"
-
-#: ../src/gsearchtool.c:1298
-#, c-format
-msgid "Select the \"%s\" search option"
-msgstr "Otsinguvaliku \"%s\" valimine"
-
-#: ../src/gsearchtool.c:1301
-#, c-format
-msgid "Select and set the \"%s\" search option"
-msgstr "\"%s\" võtme valimine ja määramine"
-
-#: ../src/gsearchtool.c:1408
-msgid "Invalid option passed to sortby command line argument."
-msgstr "Sortby käsureavõtmele on määratud vigane argument."
-
-#: ../src/gsearchtool.c:1702
-msgid ""
-"\n"
-"... Too many errors to display ..."
-msgstr ""
-"\n"
-"... Liiga palju veateateid kuvamiseks ..."
-
-#: ../src/gsearchtool.c:1716
-msgid ""
-"The search results may be invalid.  There were errors while performing this "
-"search."
-msgstr "Otsingutulemused võivad olla vigased.  Otsingu käigus tekkis viga."
-
-#: ../src/gsearchtool.c:1725 ../src/gsearchtool.c:1766
-msgid "Show more _details"
-msgstr "_Näita üksikasjalisemalt"
-
-#: ../src/gsearchtool.c:1755
-msgid ""
-"The search results may be out of date or invalid.  Do you want to disable "
-"the quick search feature?"
-msgstr ""
-"Otsingutulemused võivad olla aegunud või vigased.  Kas sa soovid keelata "
-"kiirotsingu võimalust?."
-
-#: ../src/gsearchtool.c:1777
-msgid "Disable _Quick Search"
-msgstr "Keela _kiirotsing"
-
-#: ../src/gsearchtool.c:1804
-#, c-format
-msgid "Failed to set process group id of child %d: %s.\n"
-msgstr "Tõrge alamprotsessile grupi id seadmisel %d: %s.\n"
-
-#: ../src/gsearchtool.c:1829
-msgid "Error parsing the search command."
-msgstr "Viga otsingukäsu analüüsimisel"
-
-#: ../src/gsearchtool.c:1858
-msgid "Error running the search command."
-msgstr "Viga otsingukäsu täitmisel."
-
-#: ../src/gsearchtool.c:1974
-#, c-format
-msgid "Enter a text value for the \"%s\" search option."
-msgstr "Sisesta väärtus otsinguvõtme \"%s\"  jaoks."
-
-#. Translators:  Below is a string displaying the search options name
-#. and unit value.  For example, "\"Date modified less than\" in days".
-#: ../src/gsearchtool.c:1979
-#, c-format
-msgid "\"%s\" in %s"
-msgstr "\"%s\" on %s"
-
-#: ../src/gsearchtool.c:1981
-#, c-format
-msgid "Enter a value in %s for the \"%s\" search option."
-msgstr "%s väärtuse sisestamine otsinguvaliku \"%s\" jaoks."
-
-#: ../src/gsearchtool.c:2039
-#, c-format
-msgid "Remove \"%s\""
-msgstr "Eemalda \"%s\""
-
-#: ../src/gsearchtool.c:2040
-#, c-format
-msgid "Click to remove the \"%s\" search option."
-msgstr "Klõpsa reegli \"%s\" eemaldamiseks."
-
-#: ../src/gsearchtool.c:2133
-msgid "A_vailable options:"
-msgstr "Võimalikud _valikud:"
-
-#: ../src/gsearchtool.c:2162
-msgid "Available options"
-msgstr "Võimalikud valikud"
-
-#: ../src/gsearchtool.c:2163
-msgid "Select a search option from the drop-down list."
-msgstr "Otsinguvaliku valimine rippnimekirjast."
-
-#: ../src/gsearchtool.c:2175
-msgid "Add search option"
-msgstr "Lisa otsinguvalik"
-
-#: ../src/gsearchtool.c:2176
-msgid "Click to add the selected available search option."
-msgstr "Klõpsa otsinguvaliku lisamiseks."
-
-#: ../src/gsearchtool.c:2265
-msgid "S_earch results:"
-msgstr "O_tsingutulemused:"
-
-#: ../src/gsearchtool.c:2309
-msgid "List View"
-msgstr "Nimekirjavaade"
-
-#: ../src/gsearchtool.c:2369
-msgid "Name"
-msgstr "Nimi"
-
-#: ../src/gsearchtool.c:2393
-msgid "Folder"
-msgstr "Kataloog"
-
-#: ../src/gsearchtool.c:2406
-msgid "Size"
-msgstr "Suurus"
-
-#: ../src/gsearchtool.c:2418
-msgid "Type"
-msgstr "Liik"
-
-#: ../src/gsearchtool.c:2430
-msgid "Date Modified"
-msgstr "Viimase muutmise aeg"
-
-#: ../src/gsearchtool.c:2746
-msgid "_Name contains:"
-msgstr "_Nimi sisaldab:"
-
-#: ../src/gsearchtool.c:2760 ../src/gsearchtool.c:2761
-msgid "Enter a filename or partial filename with or without wildcards."
-msgstr "Sisesta failinimi või failinime osa koos metasümbolitega või ilma."
-
-#: ../src/gsearchtool.c:2761
-msgid "Name contains"
-msgstr "Nimi sisaldab"
-
-#: ../src/gsearchtool.c:2767
-msgid "_Look in folder:"
-msgstr "_Alustatakse kataloogist:"
-
-#: ../src/gsearchtool.c:2773
-msgid "Browse"
-msgstr "Sirvimine"
-
-#: ../src/gsearchtool.c:2782
-msgid "Look in folder"
-msgstr "Alustada kataloogist"
-
-#: ../src/gsearchtool.c:2782
-msgid "Select the folder or device from which you want to begin the search."
-msgstr "Sisesta kataloogi nimi, kust tahad otsingut alustada."
-
-#: ../src/gsearchtool.c:2800
-msgid "Select more _options"
-msgstr "Näita _rohkem valikuid"
-
-#: ../src/gsearchtool.c:2809
-msgid "Select more options"
-msgstr "Rohkemate valikute näitamine"
-
-#: ../src/gsearchtool.c:2809
-msgid "Click to expand or collapse the list of available options."
-msgstr "Klõpsa võimalike valikute nimekirja laiendamiseks või ahendamiseks"
-
-#: ../src/gsearchtool.c:2833
-msgid "Click to display the help manual."
-msgstr "Klõpsa abiteabe kuvamiseks"
-
-#: ../src/gsearchtool.c:2841
-msgid "Click to close \"Search for Files\"."
-msgstr "Klõpsa \"Failiotsingu\" sulgemiseks"
-
-#: ../src/gsearchtool.c:2867
-msgid "Click to perform a search."
-msgstr "Klõpsa otsingu läbiviimiseks"
-
-#: ../src/gsearchtool.c:2868
-msgid "Click to stop a search."
-msgstr "Klõpsa otsingu peatamiseks"
-
-#: ../src/gsearchtool.c:2961
-msgid "- the GNOME Search Tool"
-msgstr "- GNOME otsimisvahend"
-
-#: ../src/gsearchtool.c:2970
-#, c-format
-msgid "Failed to parse command line arguments: %s\n"
-msgstr "Tõrge käsureavõtmete analüüsimisel: %s\n"
-
-#: ../libeggsmclient/eggdesktopfile.c:165
 #, c-format
 msgid "File is not a valid .desktop file"
 msgstr "Fail pole korrektne .desktop fail"
 
-#: ../libeggsmclient/eggdesktopfile.c:188
 #, c-format
 msgid "Unrecognized desktop file Version '%s'"
 msgstr "Töölauafaili tundmatu versioon '%s'"
 
-#: ../libeggsmclient/eggdesktopfile.c:958
 #, c-format
 msgid "Starting %s"
 msgstr "Käivitamine: %s"
 
-#: ../libeggsmclient/eggdesktopfile.c:1100
 #, c-format
 msgid "Application does not accept documents on command line"
 msgstr "Rakendus ei toeta käsurealt määratud dokumente"
 
-#: ../libeggsmclient/eggdesktopfile.c:1168
 #, c-format
 msgid "Unrecognized launch option: %d"
 msgstr "Tundmatu käivitusvalik: %d"
 
-#: ../libeggsmclient/eggdesktopfile.c:1373
 #, c-format
 msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
 msgstr "Dokumendi URI-sid pole võimalik 'Liik=Viit' töölauakirjele edastada"
 
-#: ../libeggsmclient/eggdesktopfile.c:1392
 #, c-format
 msgid "Not a launchable item"
 msgstr "Pole käivitatav kirje"
 
-#: ../libeggsmclient/eggsmclient.c:225
 msgid "Disable connection to session manager"
 msgstr "Seansihalduriga ühendumise keelamine"
 
-#: ../libeggsmclient/eggsmclient.c:228
 msgid "Specify file containing saved configuration"
 msgstr "Määra salvestatud seadistuse fail"
 
-#: ../libeggsmclient/eggsmclient.c:228
 msgid "FILE"
 msgstr "FAIL"
 
-#: ../libeggsmclient/eggsmclient.c:231
 msgid "Specify session management ID"
 msgstr "Seansihalduse ID määramine"
 
-#: ../libeggsmclient/eggsmclient.c:231
 msgid "ID"
 msgstr "ID"
 
-#: ../libeggsmclient/eggsmclient.c:252
 msgid "Session management options:"
 msgstr "Session management options:"
 
-#: ../libeggsmclient/eggsmclient.c:253
 msgid "Show session management options"
 msgstr "Seansihalduse valikute näitamine"
