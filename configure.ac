@@ -1,7 +1,7 @@
 dnl -*- mode: m4 -*-
 AC_PREREQ([2.63])
 AC_INIT([gnome-search-tool],
-        [3.6.0],
+        [3.6.1],
         [http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-search-tools],
         [gnome-search-tool])
 
