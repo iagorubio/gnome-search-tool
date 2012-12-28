@@ -1,14 +1,13 @@
 # Czech translation of gsearchtool help.
 # Copyright (C) 2009 the author(s) of gnome-utils.
 # This file is distributed under the same license as the gsearchtool help.
-#
 # Marek Černocký <marek@manet.cz>, 2009, 2011, 2012.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils master\n"
 "POT-Creation-Date: 2012-08-22 01:31+0000\n"
-"PO-Revision-Date: 2012-12-28 22:57+0100\n"
+"PO-Revision-Date: 2012-12-28 23:38+0100\n"
 "Last-Translator: Marek Černocký <marek@manet.cz>\n"
 "Language-Team: čeština <gnome-cs-list@gnome.org>\n"
 "Language: cs\n"
@@ -90,8 +89,8 @@ msgstr ""
 "Free Documentation License, verze 1.1 nebo jakékoli další verze vydané "
 "nadací Free Software Foundation; bez neměnných oddílů, bez textů předních "
 "desek a bez textů zadních desek. Kopie této licence je zahrnuta v oddílu "
-"jménem <ulink type=\"help\" url=\"help:fdl\">GNU Free Documentation "
-"License</ulink> nebo v souboru COPYING-DOCS dodávaném s touto příručkou."
+"jménem <ulink type=\"help\" url=\"help:fdl\">GNU Free Documentation License</"
+"ulink> nebo v souboru COPYING-DOCS dodávaném s touto příručkou."
 
 #: C/index.docbook:12(legalnotice/para) C/legal.xml:12(legalnotice/para)
 msgid ""
@@ -186,6 +185,9 @@ msgid ""
 "<firstname>Dennis</firstname> <surname>Cranston</surname> <affiliation> "
 "<orgname>Search for Files Maintainer</orgname> <_:address-1/> </affiliation>"
 msgstr ""
+"<firstname>Dennis</firstname> <surname>Cranston</surname> <affiliation> "
+"<orgname>správce aplikace Hledat soubory</orgname> <_:address-1/> </"
+"affiliation>"
 
 #: C/index.docbook:68(authorgroup/author)
 msgid ""
@@ -193,6 +195,9 @@ msgid ""
 "<affiliation> <orgname>Sun Microsystems</orgname> <_:address-1/> </"
 "affiliation>"
 msgstr ""
+"<firstname>Sun</firstname> <surname>dokumentační tým GNOME</surname> "
+"<affiliation> <orgname>Sun Microsystems</orgname> <_:address-1/> </"
+"affiliation>"
 
 #: C/index.docbook:76(authorgroup/author)
 msgid ""
@@ -200,6 +205,9 @@ msgid ""
 "<orgname>GNOME Documentation Project</orgname> <address> "
 "<email>kirillov@math.sunysb.edu</email> </address> </affiliation>"
 msgstr ""
+"<firstname>Alexander</firstname> <surname>Kirillov</surname> <affiliation> "
+"<orgname>dokumentační projekt GNOME</orgname> <address> <email>kirillov@math."
+"sunysb.edu</email> </address> </affiliation>"
 
 #: C/index.docbook:112(revdescription/para)
 msgid "Joachim Noreiko <email>jnoreiko@yahoo.com</email>"
@@ -227,6 +235,8 @@ msgid ""
 "<revnumber>Search for Files Manual V2.6</revnumber> <date>January 2005</"
 "date> <_:revdescription-1/>"
 msgstr ""
+"<revnumber>Příručka k aplikaci Hledat soubory V2.6</revnumber> <date>leden "
+"2005</date> <_:revdescription-1/>"
 
 #: C/index.docbook:132(revdescription/para)
 #: C/index.docbook:140(revdescription/para)
@@ -415,6 +425,9 @@ msgid ""
 "format=\"PNG\"/> </imageobject> <textobject> <phrase>Shows Search for Files "
 "main window. </phrase> </textobject>"
 msgstr ""
+"<imageobject><imagedata fileref=\"figures/gnome-search-tool_window.png\" "
+"format=\"PNG\"/> </imageobject> <textobject> <phrase>Ukazuje hlavní okno "
+"aplikace Hledat soubory. </phrase> </textobject>"
 
 #: C/index.docbook:255(sect1/title)
 msgid "Usage"
@@ -842,8 +855,8 @@ msgid ""
 "modify some of its behavior. The gsettings values can be changed by starting "
 "the <application>Configuration Editor</application> in the following ways:"
 msgstr ""
-"Aplikace <application>Hledat soubory</application> využívá klíče gsettings ke "
-"změně svého chování. Hodnoty gsettings můžete upravit pomocí aplikace "
+"Aplikace <application>Hledat soubory</application> využívá klíče gsettings "
+"ke změně svého chování. Hodnoty gsettings můžete upravit pomocí aplikace "
 "<application>Editor nastavení</application>. Tu lze spustit následujícími "
 "způsoby:"
 
@@ -950,8 +963,8 @@ msgstr "Vynechání cest při druhém průchodu rychlého vyhledávání"
 msgid ""
 "Key name: org.gnome.gnome-search-tool.quick-search-second-scan-excluded-paths"
 msgstr ""
-"Název klíče: "
-"org.gnome.gnome-search-tool.quick-search-second-scan-excluded-paths"
+"Název klíče: org.gnome.gnome-search-tool.quick-search-second-scan-excluded-"
+"paths"
 
 #: C/index.docbook:523(sect2/para)
 msgid "Default values: [/]"
@@ -1001,5 +1014,5 @@ msgstr ""
 "Je povoleno kopírovat, šířit a/nebo upravovat tento dokument za podmínek GNU "
 "Free Documentation License, verze 1.1 nebo jakékoli další verze vydané "
 "nadací Free Software Foundation; bez neměnných oddílů, bez textů předních "
-"desek a bez textů zadních desek. Kopie této licence najdete pod tímto "
-"<_:ulink-1/> nebo v souboru COPYING-DOCS dodávaném s touto příručkou."
+"desek a bez textů zadních desek. Kopie této licence najdete pod tímto <_:"
+"ulink-1/> nebo v souboru COPYING-DOCS dodávaném s touto příručkou."
