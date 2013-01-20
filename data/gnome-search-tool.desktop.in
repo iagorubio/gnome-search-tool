@@ -1,6 +1,7 @@
 [Desktop Entry]
 _Name=Search for Files...
 _Comment=Locate documents and folders on this computer by name or content
+_Keywords=find;locate;look for;seek;
 Exec=gnome-search-tool
 Icon=system-search
 Terminal=false
