@@ -20,11 +20,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils master\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
-"search-tool&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2012-08-27 18:45+0000\n"
-"PO-Revision-Date: 2012-08-16 20:02+0100\n"
-"Last-Translator: Christian Kirbach <Christian.Kirbach@googlemail.com>\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-01-20 23:30+0100\n"
+"PO-Revision-Date: 2013-01-20 23:32+0100\n"
+"Last-Translator: Christian Kirbach <christian.kirbach@gmail.com>\n"
 "Language-Team: Deutsch <gnome-de@gnome.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
@@ -40,15 +39,17 @@ msgstr "Nach Dateien suchen …"
 msgid "Locate documents and folders on this computer by name or content"
 msgstr "Dateien und Ordner auf diesem Computer nach Namen oder Inhalt suchen"
 
+#: ../data/gnome-search-tool.desktop.in.h:3
+msgid "find;locate;look for;seek;"
+msgstr "finden;suchen;lokalisieren;"
+
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:1
 msgid "Search history"
 msgstr "Suchchronik"
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:2
 msgid "This key defines the items which were searched for in the past."
-msgstr ""
-"Dieser Schlüssel legt die Objekte fest, nach welchen in der Vergangenheit "
-"gesucht wurde."
+msgstr "Dieser Schlüssel legt die Objekte fest, nach welchen in der Vergangenheit gesucht wurde."
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:3
 msgid "Show Additional Options"
@@ -59,103 +60,63 @@ msgid "Disable Quick Search"
 msgstr "Schnellsuche deaktivieren"
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:5
-msgid ""
-"This key determines if the search tool disables the use of the locate "
-"command when performing simple file name searches."
-msgstr ""
-"Dieser Schlüssel deaktiviert die Verwendung des locate-Befehls wenn eine "
-"einfache Suche nach Dateinamen durchgeführt wird."
+msgid "This key determines if the search tool disables the use of the locate command when performing simple file name searches."
+msgstr "Dieser Schlüssel deaktiviert die Verwendung des locate-Befehls wenn eine einfache Suche nach Dateinamen durchgeführt wird."
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:6
 msgid "Quick Search Excluded Paths"
 msgstr "Ausgelassene Pfade bei schneller Suche"
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:7
-msgid ""
-"This key defines the paths the search tool will exclude from a quick search. "
-"The wildcards '*' and '?' are supported. The default values are /mnt/*, /"
-"media/*, /dev/*, /tmp/*, /proc/*, and /var/*."
-msgstr ""
-"Dieser Schlüssel legt die Pfade fest, welche bei einer schnellen Suche "
-"ausgelassen werden. Die Joker-Zeichen »*« und »?« werden unterstützt. Der "
-"Standardwert ist »/mnt/*, /media/*, /dev/*, /tmp/*, /proc/*, /var/*«."
+msgid "This key defines the paths the search tool will exclude from a quick search. The wildcards '*' and '?' are supported. The default values are /mnt/*, /media/*, /dev/*, /tmp/*, /proc/*, and /var/*."
+msgstr "Dieser Schlüssel legt die Pfade fest, welche bei einer schnellen Suche ausgelassen werden. Die Joker-Zeichen »*« und »?« werden unterstützt. Der Standardwert ist »/mnt/*, /media/*, /dev/*, /tmp/*, /proc/*, /var/*«."
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:8
 msgid "Disable Quick Search Second Scan"
 msgstr "Zweiten Durchlauf der Schnellsuche deaktivieren"
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:9
-msgid ""
-"This key determines if the search tool disables the use of the find command "
-"after performing a quick search."
-msgstr ""
-"Dieser Schlüssel deaktiviert die Verwendung des find-Befehls nach einer "
-"Schnellsuche."
+msgid "This key determines if the search tool disables the use of the find command after performing a quick search."
+msgstr "Dieser Schlüssel deaktiviert die Verwendung des find-Befehls nach einer Schnellsuche."
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:10
 msgid "Quick Search Second Scan Excluded Paths"
 msgstr "Ausgelassene Pfade beim zweiten Suchlauf einer schnellen Suche"
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:11
-msgid ""
-"This key defines the paths the search tool will exclude from a second scan "
-"when performing a quick search. The second scan uses the find command to "
-"search for files. The purpose of the second scan is to find files that have "
-"not been indexed. The wildcards '*' and '?' are supported. The default value "
-"is /."
-msgstr ""
-"Dieser Schlüssel legt die Pfade fest, welche beim zweiten Suchvorgang einer "
-"schnellen Suche ausgelassen werden. Der zweite Suchvorgang verwendet das "
-"find-Kommando, um auch Dateien zu finden, die nicht indiziert wurden. Die "
-"Joker-Zeichen »*« und »?« werden unterstützt. Der Standardwerte ist »/«."
+msgid "This key defines the paths the search tool will exclude from a second scan when performing a quick search. The second scan uses the find command to search for files. The purpose of the second scan is to find files that have not been indexed. The wildcards '*' and '?' are supported. The default value is /."
+msgstr "Dieser Schlüssel legt die Pfade fest, welche beim zweiten Suchvorgang einer schnellen Suche ausgelassen werden. Der zweite Suchvorgang verwendet das find-Kommando, um auch Dateien zu finden, die nicht indiziert wurden. Die Joker-Zeichen »*« und »?« werden unterstützt. Der Standardwerte ist »/«."
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:12
 msgid "Search Result Columns Order"
 msgstr "Reihenfolge der Spalten der Suchergebnisse"
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:13
-msgid ""
-"This key defines the order of the columns in the search results. This key "
-"should not be modified by the user."
-msgstr ""
-"Dieser Schlüssel legt die Reihenfolge der Spalten der Suchergebnisse fest. "
-"Dieser Schlüssel sollte nicht von Benutzern geändert werden."
+msgid "This key defines the order of the columns in the search results. This key should not be modified by the user."
+msgstr "Dieser Schlüssel legt die Reihenfolge der Spalten der Suchergebnisse fest. Dieser Schlüssel sollte nicht von Benutzern geändert werden."
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:14
 msgid "Default Window Width"
 msgstr "Vorgabebreite des Fensters"
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:15
-msgid ""
-"This key defines the window width, and it's used to remember the size of the "
-"search tool between sessions. Setting it to -1 will make the search tool use "
-"the default width."
-msgstr ""
-"Dieser Schlüssel legt die Breite des Suchfunktion-Fensters fest, damit diese "
-"bei weiteren Starts wiederhergestellt werden kann. Bei einem Wert von »-1« "
-"wird die Vorgabebreite verwendet."
+msgid "This key defines the window width, and it's used to remember the size of the search tool between sessions. Setting it to -1 will make the search tool use the default width."
+msgstr "Dieser Schlüssel legt die Breite des Suchfunktion-Fensters fest, damit diese bei weiteren Starts wiederhergestellt werden kann. Bei einem Wert von »-1« wird die Vorgabebreite verwendet."
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:16
 msgid "Default Window Height"
 msgstr "Vorgabehöhe des Fensters"
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:17
-msgid ""
-"This key defines the window height, and it's used to remember the size of "
-"the search tool between sessions. Setting it to -1 will make the search tool "
-"use the default height."
-msgstr ""
-"Dieser Schlüssel legt die Höhe des Suchfunktion-Fensters fest, damit diese "
-"bei weiteren Starts wiederhergestellt werden kann. Bei einem Wert von »-1« "
-"wird die Vorgabehöhe verwendet."
+msgid "This key defines the window height, and it's used to remember the size of the search tool between sessions. Setting it to -1 will make the search tool use the default height."
+msgstr "Dieser Schlüssel legt die Höhe des Suchfunktion-Fensters fest, damit diese bei weiteren Starts wiederhergestellt werden kann. Bei einem Wert von »-1« wird die Vorgabehöhe verwendet."
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:18
 msgid "Default Window Maximized"
 msgstr "Fenster maximiert öffnen"
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:19
-msgid ""
-"This key determines if the search tool window starts in a maximized state."
+msgid "This key determines if the search tool window starts in a maximized state."
 msgstr "Dieser Schlüssel legt fest ob die Suchfunktion maximiert startet."
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:20
@@ -164,120 +125,63 @@ msgstr "Ordner durchsuchen"
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:21
 msgid "This key defines the default value of the \"Look in Folder\" widget."
-msgstr ""
-"Dieser Schlüssel definiert den Vorgabewert des »Ordner durchsuchen«-Widgets."
+msgstr "Dieser Schlüssel definiert den Vorgabewert des »Ordner durchsuchen«-Widgets."
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:22
-msgid ""
-"This key determines if the \"Contains the text\" search option is selected "
-"when the search tool is started."
-msgstr ""
-"Dieser Schlüssel legt fest, ob die Option »Enthält den Text« ausgewählt ist, "
-"wenn das Suchwerkzeug gestartet wird."
+msgid "This key determines if the \"Contains the text\" search option is selected when the search tool is started."
+msgstr "Dieser Schlüssel legt fest, ob die Option »Enthält den Text« ausgewählt ist, wenn das Suchwerkzeug gestartet wird."
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:23
-msgid ""
-"This key determines if the \"Date modified less than\" search option is "
-"selected when the search tool is started."
-msgstr ""
-"Dieser Schlüssel legt fest, ob die Option »Geändert vor weniger als« "
-"ausgewählt ist, wenn das Suchwerkzeug gestartet wird."
+msgid "This key determines if the \"Date modified less than\" search option is selected when the search tool is started."
+msgstr "Dieser Schlüssel legt fest, ob die Option »Geändert vor weniger als« ausgewählt ist, wenn das Suchwerkzeug gestartet wird."
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:24
-msgid ""
-"This key determines if the \"Date modified more than\" search option is "
-"selected when the search tool is started."
-msgstr ""
-"Dieser Schlüssel legt fest, ob die Option »Geändert vor mehr als« ausgewählt "
-"ist, wenn das Suchwerkzeug gestartet wird."
+msgid "This key determines if the \"Date modified more than\" search option is selected when the search tool is started."
+msgstr "Dieser Schlüssel legt fest, ob die Option »Geändert vor mehr als« ausgewählt ist, wenn das Suchwerkzeug gestartet wird."
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:25
-msgid ""
-"This key determines if the \"Size at least\" search option is selected when "
-"the search tool is started."
-msgstr ""
-"Dieser Schlüssel legt fest, ob die Option »Mindestgröße« ausgewählt ist, "
-"wenn das Suchwerkzeug gestartet wird."
+msgid "This key determines if the \"Size at least\" search option is selected when the search tool is started."
+msgstr "Dieser Schlüssel legt fest, ob die Option »Mindestgröße« ausgewählt ist, wenn das Suchwerkzeug gestartet wird."
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:26
-msgid ""
-"This key determines if the \"Size at most\" search option is selected when "
-"the search tool is started."
-msgstr ""
-"Dieser Schlüssel legt fest, ob die Option »Maximale Größe« ausgewählt ist, "
-"wenn das Suchwerkzeug gestartet wird."
+msgid "This key determines if the \"Size at most\" search option is selected when the search tool is started."
+msgstr "Dieser Schlüssel legt fest, ob die Option »Maximale Größe« ausgewählt ist, wenn das Suchwerkzeug gestartet wird."
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:27
-msgid ""
-"This key determines if the \"File is empty\" search option is selected when "
-"the search tool is started."
-msgstr ""
-"Dieser Schlüssel legt fest, ob die Option »Datei ist leer« ausgewählt ist, "
-"wenn das Suchwerkzeug gestartet wird."
+msgid "This key determines if the \"File is empty\" search option is selected when the search tool is started."
+msgstr "Dieser Schlüssel legt fest, ob die Option »Datei ist leer« ausgewählt ist, wenn das Suchwerkzeug gestartet wird."
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:28
-msgid ""
-"This key determines if the \"Owned by user\" search option is selected when "
-"the search tool is started."
-msgstr ""
-"Dieser Schlüssel legt fest, ob die Option »Gehört Benutzer« ausgewählt ist, "
-"wenn das Suchwerkzeug gestartet wird."
+msgid "This key determines if the \"Owned by user\" search option is selected when the search tool is started."
+msgstr "Dieser Schlüssel legt fest, ob die Option »Gehört Benutzer« ausgewählt ist, wenn das Suchwerkzeug gestartet wird."
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:29
-msgid ""
-"This key determines if the \"Owned by group\" search option is selected when "
-"the search tool is started."
-msgstr ""
-"Dieser Schlüssel legt fest, ob die Option »Gehört Gruppe« ausgewählt ist, "
-"wenn das Suchwerkzeug gestartet wird."
+msgid "This key determines if the \"Owned by group\" search option is selected when the search tool is started."
+msgstr "Dieser Schlüssel legt fest, ob die Option »Gehört Gruppe« ausgewählt ist, wenn das Suchwerkzeug gestartet wird."
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:30
-msgid ""
-"This key determines if the \"Owner is unrecognized\" search option is "
-"selected when the search tool is started."
-msgstr ""
-"Dieser Schlüssel legt fest, ob die Option »Besitzer ist unbekannt« "
-"ausgewählt ist, wenn das Suchwerkzeug gestartet wird."
+msgid "This key determines if the \"Owner is unrecognized\" search option is selected when the search tool is started."
+msgstr "Dieser Schlüssel legt fest, ob die Option »Besitzer ist unbekannt« ausgewählt ist, wenn das Suchwerkzeug gestartet wird."
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:31
-msgid ""
-"This key determines if the \"Name does not contain\" search option is "
-"selected when the search tool is started."
-msgstr ""
-"Dieser Schlüssel legt fest, ob die Option »Name enthält nicht« ausgewählt "
-"ist, wenn das Suchwerkzeug gestartet wird."
+msgid "This key determines if the \"Name does not contain\" search option is selected when the search tool is started."
+msgstr "Dieser Schlüssel legt fest, ob die Option »Name enthält nicht« ausgewählt ist, wenn das Suchwerkzeug gestartet wird."
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:32
-msgid ""
-"This key determines if the \"Name matches regular expression\" search option "
-"is selected when the search tool is started."
-msgstr ""
-"Dieser Schlüssel legt fest, ob die Option »Dateiname stimmt mit regulärem "
-"Ausdruck überein« ausgewählt ist, wenn das Suchwerkzeug gestartet wird."
+msgid "This key determines if the \"Name matches regular expression\" search option is selected when the search tool is started."
+msgstr "Dieser Schlüssel legt fest, ob die Option »Dateiname stimmt mit regulärem Ausdruck überein« ausgewählt ist, wenn das Suchwerkzeug gestartet wird."
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:33
-msgid ""
-"This key determines if the \"Show hidden files and folders\" search option "
-"is selected when the search tool is started."
-msgstr ""
-"Dieser Schlüssel legt fest, ob die Option »Versteckte Dateien und Ordner "
-"anzeigen« ausgewählt ist, wenn das Suchwerkzeug gestartet wird."
+msgid "This key determines if the \"Show hidden files and folders\" search option is selected when the search tool is started."
+msgstr "Dieser Schlüssel legt fest, ob die Option »Versteckte Dateien und Ordner anzeigen« ausgewählt ist, wenn das Suchwerkzeug gestartet wird."
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:34
-msgid ""
-"This key determines if the \"Follow symbolic links\" search option is "
-"selected when the search tool is started."
-msgstr ""
-"Dieser Schlüssel legt fest, ob die Option »Symbolischen Verknüpfungen "
-"folgen« ausgewählt ist, wenn das Suchwerkzeug gestartet wird."
+msgid "This key determines if the \"Follow symbolic links\" search option is selected when the search tool is started."
+msgstr "Dieser Schlüssel legt fest, ob die Option »Symbolischen Verknüpfungen folgen« ausgewählt ist, wenn das Suchwerkzeug gestartet wird."
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:35
-msgid ""
-"This key determines if the \"Exclude other filesystems\" search option is "
-"selected when the search tool is started."
-msgstr ""
-"Dieser Schlüssel legt fest, ob die Option »Andere Dateisysteme ausschließen« "
-"ausgewählt ist, wenn das Suchwerkzeug gestartet wird."
+msgid "This key determines if the \"Exclude other filesystems\" search option is selected when the search tool is started."
+msgstr "Dieser Schlüssel legt fest, ob die Option »Andere Dateisysteme ausschließen« ausgewählt ist, wenn das Suchwerkzeug gestartet wird."
 
 #: ../src/gsearchtool.c:81
 msgid "Contains the _text"
@@ -287,7 +191,8 @@ msgstr "Enthält den _Text"
 msgid "_Date modified less than"
 msgstr "Geändert vor _weniger als"
 
-#: ../src/gsearchtool.c:83 ../src/gsearchtool.c:84
+#: ../src/gsearchtool.c:83
+#: ../src/gsearchtool.c:84
 msgid "days"
 msgstr "Tagen"
 
@@ -299,7 +204,8 @@ msgstr "Geändert vor mehr als"
 msgid "S_ize at least"
 msgstr "Mindest_größe"
 
-#: ../src/gsearchtool.c:86 ../src/gsearchtool.c:87
+#: ../src/gsearchtool.c:86
+#: ../src/gsearchtool.c:87
 msgid "kilobytes"
 msgstr "Kilobyte"
 
@@ -347,7 +253,9 @@ msgstr "Andere Dateisysteme ausschließen"
 msgid "Show version of the application"
 msgstr "Die Version der Anwendung anzeigen"
 
-#: ../src/gsearchtool.c:158 ../src/gsearchtool.c:163 ../src/gsearchtool.c:172
+#: ../src/gsearchtool.c:158
+#: ../src/gsearchtool.c:163
+#: ../src/gsearchtool.c:172
 msgid "STRING"
 msgstr "ZEICHENKETTE"
 
@@ -359,11 +267,13 @@ msgstr "PFAD"
 msgid "VALUE"
 msgstr "WERT"
 
-#: ../src/gsearchtool.c:164 ../src/gsearchtool.c:165
+#: ../src/gsearchtool.c:164
+#: ../src/gsearchtool.c:165
 msgid "DAYS"
 msgstr "TAGE"
 
-#: ../src/gsearchtool.c:166 ../src/gsearchtool.c:167
+#: ../src/gsearchtool.c:166
+#: ../src/gsearchtool.c:167
 msgid "KILOBYTES"
 msgstr "KILOBYTES"
 
@@ -392,12 +302,14 @@ msgstr "Zeichenkonvertierung war für »%s« nicht möglich"
 msgid "Searching..."
 msgstr "Suche läuft …"
 
-#: ../src/gsearchtool.c:506 ../src/gsearchtool.c:1019
+#: ../src/gsearchtool.c:506
+#: ../src/gsearchtool.c:1019
 #: ../src/gsearchtool.c:2987
 msgid "Search for Files"
 msgstr "Nach Dateien suchen"
 
-#: ../src/gsearchtool.c:965 ../src/gsearchtool.c:994
+#: ../src/gsearchtool.c:965
+#: ../src/gsearchtool.c:994
 msgid "No files found"
 msgstr "Keine Dateien gefunden"
 
@@ -416,7 +328,8 @@ msgid_plural "%'d Files Found"
 msgstr[0] "%d Datei gefunden"
 msgstr[1] "%d Dateien gefunden"
 
-#: ../src/gsearchtool.c:1002 ../src/gsearchtool.c:1040
+#: ../src/gsearchtool.c:1002
+#: ../src/gsearchtool.c:1040
 #, c-format
 msgid "%'d file found"
 msgid_plural "%'d files found"
@@ -425,8 +338,7 @@ msgstr[1] "%d Dateien gefunden"
 
 #: ../src/gsearchtool.c:1131
 msgid "Entry changed called for a non entry option!"
-msgstr ""
-"»Eintrag geändert« wurde für eine Option aufgerufen, die kein Eintrag ist!"
+msgstr "»Eintrag geändert« wurde für eine Option aufgerufen, die kein Eintrag ist!"
 
 #: ../src/gsearchtool.c:1296
 msgid "Set the text of \"Name contains\" search option"
@@ -438,9 +350,7 @@ msgstr "Den Text von »Ordner durchsuchen« festlegen"
 
 #: ../src/gsearchtool.c:1298
 msgid "Sort files by one of the following: name, folder, size, type, or date"
-msgstr ""
-"Dateien nach einem der folgenden Kriterien sortieren: Name, Ordner, Größe, "
-"Typ oder Datum"
+msgstr "Dateien nach einem der folgenden Kriterien sortieren: Name, Ordner, Größe, Typ oder Datum"
 
 #: ../src/gsearchtool.c:1299
 msgid "Set sort order to descending, the default is ascending"
@@ -473,24 +383,17 @@ msgstr ""
 "... Mehr Fehler aufgetreten als angezeigt werden können …"
 
 #: ../src/gsearchtool.c:1724
-msgid ""
-"The search results may be invalid.  There were errors while performing this "
-"search."
-msgstr ""
-"Möglicherweise ist das Suchergebnis ungültig. Beim Ausführen der Suche sind "
-"Fehler aufgetreten."
+msgid "The search results may be invalid.  There were errors while performing this search."
+msgstr "Möglicherweise ist das Suchergebnis ungültig. Beim Ausführen der Suche sind Fehler aufgetreten."
 
-#: ../src/gsearchtool.c:1733 ../src/gsearchtool.c:1774
+#: ../src/gsearchtool.c:1733
+#: ../src/gsearchtool.c:1774
 msgid "Show more _details"
 msgstr "Weitere _Details anzeigen"
 
 #: ../src/gsearchtool.c:1763
-msgid ""
-"The search results may be out of date or invalid.  Do you want to disable "
-"the quick search feature?"
-msgstr ""
-"Möglicherweise ist das Suchergebnis nicht mehr aktuell. Wollen Sie die "
-"Schnellsuche in deaktivieren?"
+msgid "The search results may be out of date or invalid.  Do you want to disable the quick search feature?"
+msgstr "Möglicherweise ist das Suchergebnis nicht mehr aktuell. Wollen Sie die Schnellsuche in deaktivieren?"
 
 #: ../src/gsearchtool.c:1785
 msgid "Disable _Quick Search"
@@ -499,8 +402,7 @@ msgstr "_Schnellsuche deaktivieren"
 #: ../src/gsearchtool.c:1812
 #, c-format
 msgid "Failed to set process group id of child %d: %s.\n"
-msgstr ""
-"Die ID für die Prozessgruppe des Kindes %d konnte nicht gesetzt werden: %s.\n"
+msgstr "Die ID für die Prozessgruppe des Kindes %d konnte nicht gesetzt werden: %s.\n"
 
 #: ../src/gsearchtool.c:1837
 msgid "Error parsing the search command."
@@ -589,11 +491,10 @@ msgstr "Geändert am"
 msgid "_Name contains:"
 msgstr "_Name enthält:"
 
-#: ../src/gsearchtool.c:2771 ../src/gsearchtool.c:2772
+#: ../src/gsearchtool.c:2771
+#: ../src/gsearchtool.c:2772
 msgid "Enter a filename or partial filename with or without wildcards."
-msgstr ""
-"Geben Sie einen Dateinamen ganz oder teilweise, mit oder ohne Platzhalter "
-"ein."
+msgstr "Geben Sie einen Dateinamen ganz oder teilweise, mit oder ohne Platzhalter ein."
 
 #: ../src/gsearchtool.c:2772
 msgid "Name contains"
@@ -613,9 +514,7 @@ msgstr "Ordner durchsuchen"
 
 #: ../src/gsearchtool.c:2793
 msgid "Select the folder or device from which you want to begin the search."
-msgstr ""
-"Wählen Sie den Ordnernamen oder das Gerät, in dem mit der Suche begonnen "
-"werden soll."
+msgstr "Wählen Sie den Ordnernamen oder das Gerät, in dem mit der Suche begonnen werden soll."
 
 #: ../src/gsearchtool.c:2811
 msgid "Select more _options"
@@ -627,9 +526,7 @@ msgstr "Weitere Einstellungen auswählen"
 
 #: ../src/gsearchtool.c:2820
 msgid "Click to expand or collapse the list of available options."
-msgstr ""
-"Klicken Sie hier, um eine Liste weiterer verfügbarer Kriterien aus- bzw. "
-"einzuklappen"
+msgstr "Klicken Sie hier, um eine Liste weiterer verfügbarer Kriterien aus- bzw. einzuklappen"
 
 #: ../src/gsearchtool.c:2844
 msgid "Click to display the help manual."
@@ -667,7 +564,8 @@ msgid_plural "Are you sure you want to open %d documents?"
 msgstr[0] "Sind Sie sicher, dass Sie %d Dokument öffnen wollen?"
 msgstr[1] "Sind Sie sicher, dass Sie %d Dokumente öffnen wollen?"
 
-#: ../src/gsearchtool-callbacks.c:349 ../src/gsearchtool-callbacks.c:534
+#: ../src/gsearchtool-callbacks.c:349
+#: ../src/gsearchtool-callbacks.c:534
 #, c-format
 msgid "This will open %d separate window."
 msgid_plural "This will open %d separate windows."
@@ -688,14 +586,14 @@ msgstr "Der Ordner »%s« konnte nicht geöffnet werden"
 msgid "The nautilus file manager is not running."
 msgstr "Der Dateimanager Nautilus läuft nicht."
 
-#: ../src/gsearchtool-callbacks.c:491 ../src/gsearchtool-callbacks.c:814
+#: ../src/gsearchtool-callbacks.c:491
+#: ../src/gsearchtool-callbacks.c:814
 msgid "The document does not exist."
 msgstr "Das Dokument existiert nicht."
 
 #: ../src/gsearchtool-callbacks.c:506
 msgid "There is no installed viewer capable of displaying the document."
-msgstr ""
-"Kein installierter Betrachter ist in der Lage, das Dokument anzuzeigen."
+msgstr "Kein installierter Betrachter ist in der Lage, das Dokument anzuzeigen."
 
 #: ../src/gsearchtool-callbacks.c:529
 #, c-format
@@ -717,9 +615,7 @@ msgstr "Wollen Sie »%s« dauerhaft löschen?"
 #: ../src/gsearchtool-callbacks.c:708
 #, c-format
 msgid "Trash is unavailable.  Could not move \"%s\" to the trash."
-msgstr ""
-"Der Müll ist nicht verfügbar. »%s« konnte nicht in den Müll verschoben "
-"werden."
+msgstr "Der Müll ist nicht verfügbar. »%s« konnte nicht in den Müll verschoben werden."
 
 #: ../src/gsearchtool-callbacks.c:743
 #, c-format
@@ -737,7 +633,8 @@ msgid "Moving \"%s\" failed: %s."
 msgstr "Verschieben von »%s« ist gescheitert: %s."
 
 #. Popup menu item: Open
-#: ../src/gsearchtool-callbacks.c:990 ../src/gsearchtool-callbacks.c:1020
+#: ../src/gsearchtool-callbacks.c:990
+#: ../src/gsearchtool-callbacks.c:1020
 msgid "_Open"
 msgstr "Ö_ffnen"
 
@@ -795,8 +692,7 @@ msgstr "Das Dokument »%s« existiert bereits. Soll es ersetzt werden?"
 
 #: ../src/gsearchtool-callbacks.c:1672
 msgid "If you replace an existing file, its contents will be overwritten."
-msgstr ""
-"Wenn Sie eine vorhandene Datei ersetzen, wird ihr Inhalt überschrieben."
+msgstr "Wenn Sie eine vorhandene Datei ersetzen, wird ihr Inhalt überschrieben."
 
 #: ../src/gsearchtool-callbacks.c:1683
 msgid "_Replace"
@@ -823,7 +719,8 @@ msgstr "Heute, %k:%M"
 msgid "yesterday at %-I:%M %p"
 msgstr "Gestern, %k:%M"
 
-#: ../src/gsearchtool-support.c:456 ../src/gsearchtool-support.c:458
+#: ../src/gsearchtool-support.c:456
+#: ../src/gsearchtool-support.c:458
 msgid "%A, %B %-d %Y at %-I:%M:%S %p"
 msgstr "%A, %-d. %B %Y, %k:%M:%S"
 
@@ -855,8 +752,10 @@ msgstr " (noch eine Kopie)"
 #. localizers: tag used to detect the x12th copy of a file
 #. localizers: tag used to detect the x13th copy of a file
 #. localizers: tag used to detect the xxth copy of a file
-#: ../src/gsearchtool-support.c:1273 ../src/gsearchtool-support.c:1275
-#: ../src/gsearchtool-support.c:1277 ../src/gsearchtool-support.c:1287
+#: ../src/gsearchtool-support.c:1273
+#: ../src/gsearchtool-support.c:1275
+#: ../src/gsearchtool-support.c:1277
+#: ../src/gsearchtool-support.c:1287
 msgid "th copy)"
 msgstr ". Kopie)"
 
@@ -891,8 +790,10 @@ msgstr "%s (noch eine Kopie)%s"
 #. localizers: appended to x12th file copy
 #. localizers: appended to x13th file copy
 #. localizers: appended to xxth file copy
-#: ../src/gsearchtool-support.c:1306 ../src/gsearchtool-support.c:1308
-#: ../src/gsearchtool-support.c:1310 ../src/gsearchtool-support.c:1319
+#: ../src/gsearchtool-support.c:1306
+#: ../src/gsearchtool-support.c:1308
+#: ../src/gsearchtool-support.c:1310
+#: ../src/gsearchtool-support.c:1319
 #, c-format
 msgid "%s (%dth copy)%s"
 msgstr "%s (%d. Kopie)%s"
@@ -958,9 +859,7 @@ msgstr "Nicht erkannte Startoption: %d"
 #: ../libeggsmclient/eggdesktopfile.c:1373
 #, c-format
 msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
-msgstr ""
-"Dokumentadressen können nicht auf einen Desktopeintrag des Typs »Link« "
-"angewendet werden"
+msgstr "Dokumentadressen können nicht auf einen Desktopeintrag des Typs »Link« angewendet werden"
 
 #: ../libeggsmclient/eggdesktopfile.c:1392
 #, c-format
