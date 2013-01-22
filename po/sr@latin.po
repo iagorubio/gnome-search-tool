@@ -1,12 +1,12 @@
 # Miloš Popović <gpopac@gmail.com>, 2011.
-# Miroslav Nikolić <miroslavnikolic@rocketmail.com>, 2011, 2012.
+# Miroslav Nikolić <miroslavnikolic@rocketmail.com>, 2011, 2012, 2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils-2.0\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "search-tool&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2012-08-06 17:31+0000\n"
-"PO-Revision-Date: 2012-08-08 08:39+0200\n"
+"POT-Creation-Date: 2013-01-20 20:10+0000\n"
+"PO-Revision-Date: 2013-01-22 20:37+0200\n"
 "Last-Translator: Miroslav Nikolić <miroslavnikolic@rocketmail.com>\n"
 "Language-Team: Serbian <gnom@prevod.org>\n"
 "Language: sr\n"
@@ -25,6 +25,10 @@ msgstr "Traži datoteke..."
 msgid "Locate documents and folders on this computer by name or content"
 msgstr ""
 "Pronađite dokumente i fascikle na ovom računaru prema nazivu ili sadržaju"
+
+#: ../data/gnome-search-tool.desktop.in.h:3
+msgid "find;locate;look for;seek;"
+msgstr "nađi;pronađi;potraži;pregledaj;"
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:1
 msgid "Search history"
@@ -61,8 +65,8 @@ msgid ""
 "media/*, /dev/*, /tmp/*, /proc/*, and /var/*."
 msgstr ""
 "Ovaj ključ određuje putanje koje će alat za pretragu izbaciti iz brze "
-"pretrage. Zamene „*“ i „?“ su podržane. Podrazumevane vrednosti su: /mnt/*, "
-"/media/*, /dev/*, /tmp/*, /proc/*, i /var/*."
+"pretrage. Zamene „*“ i „?“ su podržane. Podrazumevane vrednosti su: /mnt/*, /"
+"media/*, /dev/*, /tmp/*, /proc/*, i /var/*."
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:8
 msgid "Disable Quick Search Second Scan"
