@@ -6,20 +6,24 @@
 # Tomas Kuliavas <tokul@users.sourceforge.net>, 2003.
 # Žygimantas Beručka <zygis@gnome.org>, 2003-2006, 2009, 2010.
 # Gintautas Miliauskas <gintas@akl.lt>, 2006, 2007, 2008.
+# Aurimas Černius <aurisc4@gmail.com>, 2013.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: lt\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-search-tool&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2012-08-06 17:31+0000\n"
-"PO-Revision-Date: 2012-08-29 23:06+0300\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
+"search-tool&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2013-01-20 20:10+0000\n"
+"PO-Revision-Date: 2013-01-23 21:45+0200\n"
 "Last-Translator: Aurimas Černius <aurisc4@gmail.com>\n"
-"Language-Team: Lithuanian <gnome-lt@lists.akl.lt>\n"
+"Language-Team: Lietuvių <gnome-lt@lists.akl.lt>\n"
 "Language: lt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Virtaal 0.5.2\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n"
+"%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Gtranslator 2.91.6\n"
 
 #: ../data/gnome-search-tool.desktop.in.h:1
 msgid "Search for Files..."
@@ -29,8 +33,11 @@ msgstr "Ieškoti failų..."
 msgid "Locate documents and folders on this computer by name or content"
 msgstr "Rasti kompiuteryje esančius dokumentus pagal pavadinimą ar turinį"
 
+#: ../data/gnome-search-tool.desktop.in.h:3
+msgid "find;locate;look for;seek;"
+msgstr "rasti;ieškoti;"
+
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:1
-#| msgid "Search for Files"
 msgid "Search history"
 msgstr "Paieškos istorija"
 
@@ -47,63 +54,104 @@ msgid "Disable Quick Search"
 msgstr "Išjungti sparčiąją paiešką"
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:5
-msgid "This key determines if the search tool disables the use of the locate command when performing simple file name searches."
-msgstr "Šis raktas nurodo ar paieškos įrankis atjungia „locate“ komandos naudojimą vykdant paprastas failų vardų paieškas."
+msgid ""
+"This key determines if the search tool disables the use of the locate "
+"command when performing simple file name searches."
+msgstr ""
+"Šis raktas nurodo ar paieškos įrankis atjungia „locate“ komandos naudojimą "
+"vykdant paprastas failų vardų paieškas."
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:6
 msgid "Quick Search Excluded Paths"
 msgstr "Sparčiosios paieškos išskirti keliai"
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:7
-msgid "This key defines the paths the search tool will exclude from a quick search. The wildcards '*' and '?' are supported. The default values are /mnt/*, /media/*, /dev/*, /tmp/*, /proc/*, and /var/*."
-msgstr "Šis raktas nurodo kelius, kuriuos paieškos įrankis išskirs iš sparčiosios paieškos. Žymės „*“ ir „?“ yra palaikomos. Įprastos reikšmės yra /mnt/*, /media/*, /dev/*, /tmp/*, /proc/* ir /var/*."
+msgid ""
+"This key defines the paths the search tool will exclude from a quick search. "
+"The wildcards '*' and '?' are supported. The default values are /mnt/*, /"
+"media/*, /dev/*, /tmp/*, /proc/*, and /var/*."
+msgstr ""
+"Šis raktas nurodo kelius, kuriuos paieškos įrankis išskirs iš sparčiosios "
+"paieškos. Žymės „*“ ir „?“ yra palaikomos. Įprastos reikšmės yra /mnt/*, /"
+"media/*, /dev/*, /tmp/*, /proc/* ir /var/*."
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:8
 msgid "Disable Quick Search Second Scan"
 msgstr "Išjungti sparčiosios paieškos antrą skaitymą"
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:9
-msgid "This key determines if the search tool disables the use of the find command after performing a quick search."
-msgstr "Šis raktas nurodo ar paieškos įrankis išjungia „find“ komandos naudojimą po sparčiosios paieškos įvykdymo."
+msgid ""
+"This key determines if the search tool disables the use of the find command "
+"after performing a quick search."
+msgstr ""
+"Šis raktas nurodo ar paieškos įrankis išjungia „find“ komandos naudojimą po "
+"sparčiosios paieškos įvykdymo."
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:10
 msgid "Quick Search Second Scan Excluded Paths"
 msgstr "Sparčiosios paieškos antro skaitymo išskirti keliai"
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:11
-msgid "This key defines the paths the search tool will exclude from a second scan when performing a quick search. The second scan uses the find command to search for files. The purpose of the second scan is to find files that have not been indexed. The wildcards '*' and '?' are supported. The default value is /."
-msgstr "Šiame rakte nurodomi keliai, kuriuos paieškos įrankis sparčiosios paieškos metu išskirs iš antrojo perskaitymo. Antrasis perskaitymas failų paieškai naudoja „find“ komandą. Antrojo perskaitymo paskirtis yra surasti failus, kurie nebuvo suindeksuoti. Žymės „*“ ir „?“ yra palaikomos. Įprasta reikšmė yra /."
+msgid ""
+"This key defines the paths the search tool will exclude from a second scan "
+"when performing a quick search. The second scan uses the find command to "
+"search for files. The purpose of the second scan is to find files that have "
+"not been indexed. The wildcards '*' and '?' are supported. The default value "
+"is /."
+msgstr ""
+"Šiame rakte nurodomi keliai, kuriuos paieškos įrankis sparčiosios paieškos "
+"metu išskirs iš antrojo perskaitymo. Antrasis perskaitymas failų paieškai "
+"naudoja „find“ komandą. Antrojo perskaitymo paskirtis yra surasti failus, "
+"kurie nebuvo suindeksuoti. Žymės „*“ ir „?“ yra palaikomos. Įprasta reikšmė "
+"yra /."
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:12
 msgid "Search Result Columns Order"
 msgstr "Paieškos rezultatų stulpelių tvarka"
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:13
-msgid "This key defines the order of the columns in the search results. This key should not be modified by the user."
-msgstr "Šis raktas nurodo paieškos rezultatų stulpelių tvarką. Naudotojas šio rakto neturėtų keisti."
+msgid ""
+"This key defines the order of the columns in the search results. This key "
+"should not be modified by the user."
+msgstr ""
+"Šis raktas nurodo paieškos rezultatų stulpelių tvarką. Naudotojas šio rakto "
+"neturėtų keisti."
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:14
 msgid "Default Window Width"
 msgstr "Numatytasis lango plotis"
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:15
-msgid "This key defines the window width, and it's used to remember the size of the search tool between sessions. Setting it to -1 will make the search tool use the default width."
-msgstr "Šiame rakte nurodomas lango plotis, jis naudojamas atsiminti paieškos įrankio dydžiui tarp seansų. Nustačius jį į -1, paieškos įrankis naudos numatytąjį plotį."
+msgid ""
+"This key defines the window width, and it's used to remember the size of the "
+"search tool between sessions. Setting it to -1 will make the search tool use "
+"the default width."
+msgstr ""
+"Šiame rakte nurodomas lango plotis, jis naudojamas atsiminti paieškos "
+"įrankio dydžiui tarp seansų. Nustačius jį į -1, paieškos įrankis naudos "
+"numatytąjį plotį."
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:16
 msgid "Default Window Height"
 msgstr "Numatytasis lango aukštis"
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:17
-msgid "This key defines the window height, and it's used to remember the size of the search tool between sessions. Setting it to -1 will make the search tool use the default height."
-msgstr "Šiame rakte nurodomas lango aukštis, jis naudojamas atsiminti paieškos įrankio dydžiui tarp seansų. Nustačius jį į -1, paieškos įrankis naudos numatytąjį aukštį."
+msgid ""
+"This key defines the window height, and it's used to remember the size of "
+"the search tool between sessions. Setting it to -1 will make the search tool "
+"use the default height."
+msgstr ""
+"Šiame rakte nurodomas lango aukštis, jis naudojamas atsiminti paieškos "
+"įrankio dydžiui tarp seansų. Nustačius jį į -1, paieškos įrankis naudos "
+"numatytąjį aukštį."
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:18
 msgid "Default Window Maximized"
 msgstr "Numatytasis langas išdidintas"
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:19
-msgid "This key determines if the search tool window starts in a maximized state."
+msgid ""
+"This key determines if the search tool window starts in a maximized state."
 msgstr "Šis raktas nurodo ar paieškos įrankio langas paleidžiamas išdidintas."
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:20
@@ -112,63 +160,120 @@ msgstr "Ieškoti aplanke"
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:21
 msgid "This key defines the default value of the \"Look in Folder\" widget."
-msgstr "Šis raktas apibrėžia numatytąją „Ieškoti aplanke“ valdymo elemento reikšmę."
+msgstr ""
+"Šis raktas apibrėžia numatytąją „Ieškoti aplanke“ valdymo elemento reikšmę."
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:22
-msgid "This key determines if the \"Contains the text\" search option is selected when the search tool is started."
-msgstr "Šis raktas nurodo ar paleidus paieškos įrankį yra pažymėtas parametras „yra tekstas“."
+msgid ""
+"This key determines if the \"Contains the text\" search option is selected "
+"when the search tool is started."
+msgstr ""
+"Šis raktas nurodo ar paleidus paieškos įrankį yra pažymėtas parametras „yra "
+"tekstas“."
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:23
-msgid "This key determines if the \"Date modified less than\" search option is selected when the search tool is started."
-msgstr "Šis raktas nurodo ar „pakeista prieš mažiau nei“ parametras yra pažymėtas, kai paleidžiamas paieškos įrankis."
+msgid ""
+"This key determines if the \"Date modified less than\" search option is "
+"selected when the search tool is started."
+msgstr ""
+"Šis raktas nurodo ar „pakeista prieš mažiau nei“ parametras yra pažymėtas, "
+"kai paleidžiamas paieškos įrankis."
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:24
-msgid "This key determines if the \"Date modified more than\" search option is selected when the search tool is started."
-msgstr "Šis raktas nurodo ar „pakeista prieš daugiau nei“ parametras yra pažymėtas, kai paleidžiamas paieškos įrankis."
+msgid ""
+"This key determines if the \"Date modified more than\" search option is "
+"selected when the search tool is started."
+msgstr ""
+"Šis raktas nurodo ar „pakeista prieš daugiau nei“ parametras yra pažymėtas, "
+"kai paleidžiamas paieškos įrankis."
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:25
-msgid "This key determines if the \"Size at least\" search option is selected when the search tool is started."
-msgstr "Šis raktas nurodo ar „dydis nemažesnis kaip“ parametras yra pažymėtas, kai paleidžiamas paieškos įrankis."
+msgid ""
+"This key determines if the \"Size at least\" search option is selected when "
+"the search tool is started."
+msgstr ""
+"Šis raktas nurodo ar „dydis nemažesnis kaip“ parametras yra pažymėtas, kai "
+"paleidžiamas paieškos įrankis."
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:26
-msgid "This key determines if the \"Size at most\" search option is selected when the search tool is started."
-msgstr "Šis raktas nurodo ar „dydis nedidesnis kaip“ parametras yra pažymėtas, kai paleidžiamas paieškos įrankis."
+msgid ""
+"This key determines if the \"Size at most\" search option is selected when "
+"the search tool is started."
+msgstr ""
+"Šis raktas nurodo ar „dydis nedidesnis kaip“ parametras yra pažymėtas, kai "
+"paleidžiamas paieškos įrankis."
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:27
-msgid "This key determines if the \"File is empty\" search option is selected when the search tool is started."
-msgstr "Šis raktas nurodo ar „failas yra tuščias“ parametras yra pažymėtas, kai paleidžiamas paieškos įrankis."
+msgid ""
+"This key determines if the \"File is empty\" search option is selected when "
+"the search tool is started."
+msgstr ""
+"Šis raktas nurodo ar „failas yra tuščias“ parametras yra pažymėtas, kai "
+"paleidžiamas paieškos įrankis."
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:28
-msgid "This key determines if the \"Owned by user\" search option is selected when the search tool is started."
-msgstr "Šis raktas nurodo ar „priklauso vartotojui“ parametras yra pažymėtas, kai paleidžiamas paieškos įrankis."
+msgid ""
+"This key determines if the \"Owned by user\" search option is selected when "
+"the search tool is started."
+msgstr ""
+"Šis raktas nurodo ar „priklauso vartotojui“ parametras yra pažymėtas, kai "
+"paleidžiamas paieškos įrankis."
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:29
-msgid "This key determines if the \"Owned by group\" search option is selected when the search tool is started."
-msgstr "Šis raktas nurodo ar „priklauso grupei“ parametras yra pažymėtas, kai paleidžiamas paieškos įrankis."
+msgid ""
+"This key determines if the \"Owned by group\" search option is selected when "
+"the search tool is started."
+msgstr ""
+"Šis raktas nurodo ar „priklauso grupei“ parametras yra pažymėtas, kai "
+"paleidžiamas paieškos įrankis."
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:30
-msgid "This key determines if the \"Owner is unrecognized\" search option is selected when the search tool is started."
-msgstr "Šis raktas nurodo ar „nežinomas savininkas“ parametras yra pažymėtas, kai paleidžiamas paieškos įrankis."
+msgid ""
+"This key determines if the \"Owner is unrecognized\" search option is "
+"selected when the search tool is started."
+msgstr ""
+"Šis raktas nurodo ar „nežinomas savininkas“ parametras yra pažymėtas, kai "
+"paleidžiamas paieškos įrankis."
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:31
-msgid "This key determines if the \"Name does not contain\" search option is selected when the search tool is started."
-msgstr "Šis raktas nurodo ar „varde nėra“ parametras yra pažymėtas, kai paleidžiamas paieškos įrankis."
+msgid ""
+"This key determines if the \"Name does not contain\" search option is "
+"selected when the search tool is started."
+msgstr ""
+"Šis raktas nurodo ar „varde nėra“ parametras yra pažymėtas, kai paleidžiamas "
+"paieškos įrankis."
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:32
-msgid "This key determines if the \"Name matches regular expression\" search option is selected when the search tool is started."
-msgstr "Šis raktas nurodo ar „vardas atitinka reguliarią išraišką“ parametras yra pažymėtas, kai paleidžiamas paieškos įrankis."
+msgid ""
+"This key determines if the \"Name matches regular expression\" search option "
+"is selected when the search tool is started."
+msgstr ""
+"Šis raktas nurodo ar „vardas atitinka reguliarią išraišką“ parametras yra "
+"pažymėtas, kai paleidžiamas paieškos įrankis."
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:33
-msgid "This key determines if the \"Show hidden files and folders\" search option is selected when the search tool is started."
-msgstr "Šis raktas nurodo ar „rodyti paslėptus failus ir aplankus“ parametras yra pažymėtas, kai paleidžiamas paieškos įrankis."
+msgid ""
+"This key determines if the \"Show hidden files and folders\" search option "
+"is selected when the search tool is started."
+msgstr ""
+"Šis raktas nurodo ar „rodyti paslėptus failus ir aplankus“ parametras yra "
+"pažymėtas, kai paleidžiamas paieškos įrankis."
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:34
-msgid "This key determines if the \"Follow symbolic links\" search option is selected when the search tool is started."
-msgstr "Šis raktas nurodo ar „sekti simbolines nuorodas“ parametras yra pažymėtas, kai paleidžiamas paieškos įrankis."
+msgid ""
+"This key determines if the \"Follow symbolic links\" search option is "
+"selected when the search tool is started."
+msgstr ""
+"Šis raktas nurodo ar „sekti simbolines nuorodas“ parametras yra pažymėtas, "
+"kai paleidžiamas paieškos įrankis."
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:35
-msgid "This key determines if the \"Exclude other filesystems\" search option is selected when the search tool is started."
-msgstr "Šis raktas nurodo, ar paieškos parinktis „Neieškoti kitose failų sistemose“ yra pažymėta, kai paleidžiamas paieškos įrankis."
+msgid ""
+"This key determines if the \"Exclude other filesystems\" search option is "
+"selected when the search tool is started."
+msgstr ""
+"Šis raktas nurodo, ar paieškos parinktis „Neieškoti kitose failų sistemose“ "
+"yra pažymėta, kai paleidžiamas paieškos įrankis."
 
 #: ../src/gsearchtool.c:81
 msgid "Contains the _text"
@@ -178,8 +283,7 @@ msgstr "_Turi tekstą"
 msgid "_Date modified less than"
 msgstr "Pakeista prieš _mažiau nei"
 
-#: ../src/gsearchtool.c:83
-#: ../src/gsearchtool.c:84
+#: ../src/gsearchtool.c:83 ../src/gsearchtool.c:84
 msgid "days"
 msgstr "dienų"
 
@@ -191,8 +295,7 @@ msgstr "Pakeista prieš daugiau nei"
 msgid "S_ize at least"
 msgstr "Mažiausias galimas _dydis"
 
-#: ../src/gsearchtool.c:86
-#: ../src/gsearchtool.c:87
+#: ../src/gsearchtool.c:86 ../src/gsearchtool.c:87
 msgid "kilobytes"
 msgstr "kilobaitų"
 
@@ -240,9 +343,7 @@ msgstr "Neieškoti kitose failų sistemose"
 msgid "Show version of the application"
 msgstr "Rodyti programos versiją"
 
-#: ../src/gsearchtool.c:158
-#: ../src/gsearchtool.c:163
-#: ../src/gsearchtool.c:172
+#: ../src/gsearchtool.c:158 ../src/gsearchtool.c:163 ../src/gsearchtool.c:172
 msgid "STRING"
 msgstr "SEKA"
 
@@ -254,13 +355,11 @@ msgstr "KELIAS"
 msgid "VALUE"
 msgstr "REIKŠMĖ"
 
-#: ../src/gsearchtool.c:164
-#: ../src/gsearchtool.c:165
+#: ../src/gsearchtool.c:164 ../src/gsearchtool.c:165
 msgid "DAYS"
 msgstr "DIENOS"
 
-#: ../src/gsearchtool.c:166
-#: ../src/gsearchtool.c:167
+#: ../src/gsearchtool.c:166 ../src/gsearchtool.c:167
 msgid "KILOBYTES"
 msgstr "KILOBAITAI"
 
@@ -289,14 +388,12 @@ msgstr "Nepavyko konvertuoti „%s“ simbolių koduotės"
 msgid "Searching..."
 msgstr "Ieškoma..."
 
-#: ../src/gsearchtool.c:506
-#: ../src/gsearchtool.c:1019
+#: ../src/gsearchtool.c:506 ../src/gsearchtool.c:1019
 #: ../src/gsearchtool.c:2987
 msgid "Search for Files"
 msgstr "Ieškoti failų"
 
-#: ../src/gsearchtool.c:965
-#: ../src/gsearchtool.c:994
+#: ../src/gsearchtool.c:965 ../src/gsearchtool.c:994
 msgid "No files found"
 msgstr "Failų nerasta"
 
@@ -316,8 +413,7 @@ msgstr[0] "Rastas %'d failas"
 msgstr[1] "Rasti %'d failai"
 msgstr[2] "Rasta %'d failų"
 
-#: ../src/gsearchtool.c:1002
-#: ../src/gsearchtool.c:1040
+#: ../src/gsearchtool.c:1002 ../src/gsearchtool.c:1040
 #, c-format
 msgid "%'d file found"
 msgid_plural "%'d files found"
@@ -339,7 +435,9 @@ msgstr "Nustatyti paieškos parametro „Ieškoti aplanke“ tekstą"
 
 #: ../src/gsearchtool.c:1298
 msgid "Sort files by one of the following: name, folder, size, type, or date"
-msgstr "Rikiuoti failus pagal vieną iš šių požymių: vardą, aplanką, dydį, tipą ar datą"
+msgstr ""
+"Rikiuoti failus pagal vieną iš šių požymių: vardą, aplanką, dydį, tipą ar "
+"datą"
 
 #: ../src/gsearchtool.c:1299
 msgid "Set sort order to descending, the default is ascending"
@@ -372,17 +470,23 @@ msgstr ""
 "... Per daug rodytinų klaidų ..."
 
 #: ../src/gsearchtool.c:1724
-msgid "The search results may be invalid.  There were errors while performing this search."
-msgstr "Paieškos rezultatai gali būti neteisingi. Vykdant šią paiešką, iškilo klaidų."
+msgid ""
+"The search results may be invalid.  There were errors while performing this "
+"search."
+msgstr ""
+"Paieškos rezultatai gali būti neteisingi. Vykdant šią paiešką, iškilo klaidų."
 
-#: ../src/gsearchtool.c:1733
-#: ../src/gsearchtool.c:1774
+#: ../src/gsearchtool.c:1733 ../src/gsearchtool.c:1774
 msgid "Show more _details"
 msgstr "Ro_dyti išsamesnę informaciją"
 
 #: ../src/gsearchtool.c:1763
-msgid "The search results may be out of date or invalid.  Do you want to disable the quick search feature?"
-msgstr "Paieškos rezultatai gali būti pasenę arba neteisingi. Ar norite atjungti sparčiosios paieškos funkciją?"
+msgid ""
+"The search results may be out of date or invalid.  Do you want to disable "
+"the quick search feature?"
+msgstr ""
+"Paieškos rezultatai gali būti pasenę arba neteisingi. Ar norite atjungti "
+"sparčiosios paieškos funkciją?"
 
 #: ../src/gsearchtool.c:1785
 msgid "Disable _Quick Search"
@@ -480,10 +584,10 @@ msgstr "Keitimo data"
 msgid "_Name contains:"
 msgstr "_Varde yra:"
 
-#: ../src/gsearchtool.c:2771
-#: ../src/gsearchtool.c:2772
+#: ../src/gsearchtool.c:2771 ../src/gsearchtool.c:2772
 msgid "Enter a filename or partial filename with or without wildcards."
-msgstr "Įveskite visą arba dalinį failo vardą (galima naudoti pakaitos simbolius)."
+msgstr ""
+"Įveskite visą arba dalinį failo vardą (galima naudoti pakaitos simbolius)."
 
 #: ../src/gsearchtool.c:2772
 msgid "Name contains"
@@ -515,7 +619,8 @@ msgstr "Pasirinkti daugiau parinkčių"
 
 #: ../src/gsearchtool.c:2820
 msgid "Click to expand or collapse the list of available options."
-msgstr "Spustelėkite, norėdami išskleisti arba sutraukti galimų parinkčių sąrašą."
+msgstr ""
+"Spustelėkite, norėdami išskleisti arba sutraukti galimų parinkčių sąrašą."
 
 #: ../src/gsearchtool.c:2844
 msgid "Click to display the help manual."
@@ -554,8 +659,7 @@ msgstr[0] "Ar tikrai norite atverti %d dokumentą?"
 msgstr[1] "Ar tikrai norite atverti %d dokumentus?"
 msgstr[2] "Ar tikrai norite atverti %d dokumentų?"
 
-#: ../src/gsearchtool-callbacks.c:349
-#: ../src/gsearchtool-callbacks.c:534
+#: ../src/gsearchtool-callbacks.c:349 ../src/gsearchtool-callbacks.c:534
 #, c-format
 msgid "This will open %d separate window."
 msgid_plural "This will open %d separate windows."
@@ -577,8 +681,7 @@ msgstr "Nepavyko atverti aplanko „%s“."
 msgid "The nautilus file manager is not running."
 msgstr "Nautilus failų tvarkyklė nepaleista."
 
-#: ../src/gsearchtool-callbacks.c:491
-#: ../src/gsearchtool-callbacks.c:814
+#: ../src/gsearchtool-callbacks.c:491 ../src/gsearchtool-callbacks.c:814
 msgid "The document does not exist."
 msgstr "Toks dokumentas neegzistuoja."
 
@@ -625,8 +728,7 @@ msgid "Moving \"%s\" failed: %s."
 msgstr "Perkelti „%s“ nepavyko: %s."
 
 #. Popup menu item: Open
-#: ../src/gsearchtool-callbacks.c:990
-#: ../src/gsearchtool-callbacks.c:1020
+#: ../src/gsearchtool-callbacks.c:990 ../src/gsearchtool-callbacks.c:1020
 msgid "_Open"
 msgstr "_Atverti"
 
@@ -710,8 +812,7 @@ msgstr "šiandien %-H:%M"
 msgid "yesterday at %-I:%M %p"
 msgstr "vakar %-H:%M"
 
-#: ../src/gsearchtool-support.c:456
-#: ../src/gsearchtool-support.c:458
+#: ../src/gsearchtool-support.c:456 ../src/gsearchtool-support.c:458
 msgid "%A, %B %-d %Y at %-I:%M:%S %p"
 msgstr "%Y %B %-d, %A  %H:%M:%S"
 
@@ -743,10 +844,8 @@ msgstr " (kita kopija)"
 #. localizers: tag used to detect the x12th copy of a file
 #. localizers: tag used to detect the x13th copy of a file
 #. localizers: tag used to detect the xxth copy of a file
-#: ../src/gsearchtool-support.c:1273
-#: ../src/gsearchtool-support.c:1275
-#: ../src/gsearchtool-support.c:1277
-#: ../src/gsearchtool-support.c:1287
+#: ../src/gsearchtool-support.c:1273 ../src/gsearchtool-support.c:1275
+#: ../src/gsearchtool-support.c:1277 ../src/gsearchtool-support.c:1287
 msgid "th copy)"
 msgstr "-oji kopija)"
 
@@ -781,10 +880,8 @@ msgstr "%s (kita kopija)%s"
 #. localizers: appended to x12th file copy
 #. localizers: appended to x13th file copy
 #. localizers: appended to xxth file copy
-#: ../src/gsearchtool-support.c:1306
-#: ../src/gsearchtool-support.c:1308
-#: ../src/gsearchtool-support.c:1310
-#: ../src/gsearchtool-support.c:1319
+#: ../src/gsearchtool-support.c:1306 ../src/gsearchtool-support.c:1308
+#: ../src/gsearchtool-support.c:1310 ../src/gsearchtool-support.c:1319
 #, c-format
 msgid "%s (%dth copy)%s"
 msgstr "%s (%d-oji kopija)%s"
@@ -884,4 +981,3 @@ msgstr "Seanso valdymo parinktys:"
 #: ../libeggsmclient/eggsmclient.c:253
 msgid "Show session management options"
 msgstr "Rodyti seanso valdymo parinktis"
-
