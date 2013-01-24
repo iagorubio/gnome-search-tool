@@ -10,15 +10,15 @@
 # Pablo Saratxaga <srtxg@chanae.alphanet.ch> 1999.
 # Manuel de Vega Barreiro <barreiro@arrakis.es> 2000-2001.
 # Jorge González <jorgegonz@svn.gnome.org>, 2007, 2008, 2009, 2010, 2011.
-# Daniel Mustieles <daniel.mustieles@gmail.com>, 2011, 2012.
+# Daniel Mustieles <daniel.mustieles@gmail.com>, 2011, 2012, 2013.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils.master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "search-tool&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2012-08-07 19:05+0000\n"
-"PO-Revision-Date: 2012-08-07 20:20+0200\n"
+"POT-Creation-Date: 2013-01-20 20:10+0000\n"
+"PO-Revision-Date: 2013-01-24 16:34+0100\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Español <gnome-es-list@gnome.org>\n"
 "Language: \n"
@@ -26,7 +26,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Gtranslator 2.91.5\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
 
 #: ../data/gnome-search-tool.desktop.in.h:1
 msgid "Search for Files..."
@@ -36,6 +36,10 @@ msgstr "Buscar archivos…"
 msgid "Locate documents and folders on this computer by name or content"
 msgstr ""
 "Encuentre documentos y carpetas en este equipo por nombre o por contenido"
+
+#: ../data/gnome-search-tool.desktop.in.h:3
+msgid "find;locate;look for;seek;"
+msgstr "buscar;búsqueda;encontrar;localizar;"
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:1
 msgid "Search history"
@@ -210,8 +214,8 @@ msgid ""
 "This key determines if the \"File is empty\" search option is selected when "
 "the search tool is started."
 msgstr ""
-"Esta clave determina si la opción «Archivo vacío» está seleccionada cuando "
-"se inicia la herramienta de búsqueda."
+"Esta clave determina si la opción «Archivo vacío» está seleccionada cuando se "
+"inicia la herramienta de búsqueda."
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:28
 msgid ""
@@ -458,8 +462,8 @@ msgstr "Selecciona y establece la opción de búsqueda «%s»"
 #: ../src/gsearchtool.c:1416
 msgid "Invalid option passed to sortby command line argument."
 msgstr ""
-"Se ha pasado una opción no válida para el argumento «ordenar por» de la "
-"línea de comandos."
+"Se ha pasado una opción no válida para el argumento «ordenar por» de la línea "
+"de comandos."
 
 #: ../src/gsearchtool.c:1710
 msgid ""
@@ -988,8 +992,7 @@ msgstr "Mostrar opciones de gestión de sesión"
 #~ msgstr "Seleccione la opción de búsqueda «Fecha de modificación anterior a»"
 
 #~ msgid "Select the search option \"Date modified more than\""
-#~ msgstr ""
-#~ "Seleccione la opción de búsqueda «Fecha de modificación posterior a»"
+#~ msgstr "Seleccione la opción de búsqueda «Fecha de modificación posterior a»"
 
 #~ msgid "Select the search option \"Exclude other filesystems\""
 #~ msgstr ""
