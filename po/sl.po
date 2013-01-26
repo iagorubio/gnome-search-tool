@@ -4,24 +4,24 @@
 #
 # Andraž Tori <andraz.tori1@guest.arnes.si>, 2000.
 # Matic Žgur <mr.zgur@gmail.com>, 2006.
-# Matej Urbančič <mateju@svn.gnome.org>, 2007 - 2012.
+# Matej Urbančič <mateju@svn.gnome.org>, 2007 - 2013.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-search-tool master\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-search-tool&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2012-08-06 17:31+0000\n"
-"PO-Revision-Date: 2012-08-07 08:11+0100\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
+"search-tool&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2013-01-24 15:41+0000\n"
+"PO-Revision-Date: 2013-01-26 19:50+0100\n"
 "Last-Translator: Matej Urbančič <mateju@svn.gnome.org>\n"
 "Language-Team: Slovenian GNOME Translation Team <gnome-si@googlegroups.com>\n"
-"Language: \n"
+"Language: sl_SI\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n%100==4 ? 3 : 0);\n"
-"X-Poedit-Language: Slovenian\n"
-"X-Poedit-Country: SLOVENIA\n"
 "X-Poedit-SourceCharset: utf-8\n"
+"X-Generator: Poedit 1.5.4\n"
 
 #: ../data/gnome-search-tool.desktop.in.h:1
 msgid "Search for Files..."
@@ -31,8 +31,11 @@ msgstr "Poišči datoteke ..."
 msgid "Locate documents and folders on this computer by name or content"
 msgstr "Krajevno iskanje dokumentov in map po imenu ali vsebini"
 
+#: ../data/gnome-search-tool.desktop.in.h:3
+msgid "find;locate;look for;seek;"
+msgstr "najdi;iskanje;lociraj;poišči;"
+
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:1
-#| msgid "Search for Files"
 msgid "Search history"
 msgstr "Zgodovina iskanja"
 
@@ -49,64 +52,105 @@ msgid "Disable Quick Search"
 msgstr "Onemogoči hitro iskanje"
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:5
-msgid "This key determines if the search tool disables the use of the locate command when performing simple file name searches."
-msgstr "Ključ določa, ali naj orodje za iskanje izključi uporabo ukaza locate po izvedenem enostavnem iskanju imena datoteke."
+msgid ""
+"This key determines if the search tool disables the use of the locate "
+"command when performing simple file name searches."
+msgstr ""
+"Ključ določa, ali naj orodje za iskanje izključi uporabo ukaza locate po "
+"izvedenem enostavnem iskanju imena datoteke."
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:6
 msgid "Quick Search Excluded Paths"
 msgstr "Iz hitrega iskanja izločene poti"
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:7
-msgid "This key defines the paths the search tool will exclude from a quick search. The wildcards '*' and '?' are supported. The default values are /mnt/*, /media/*, /dev/*, /tmp/*, /proc/*, and /var/*."
-msgstr "Ključ določa poti, ki jih bo orodje za iskanje izločilo iz hitrega iskanja. Podprta sta nadomestna znaka '*' in '?'.  Privzete vrednosti so /mnt/*, /media/*, /dev/*, /tmp/*, /proc/* in /var/*."
+msgid ""
+"This key defines the paths the search tool will exclude from a quick search. "
+"The wildcards '*' and '?' are supported. The default values are /mnt/*, /"
+"media/*, /dev/*, /tmp/*, /proc/*, and /var/*."
+msgstr ""
+"Ključ določa poti, ki jih bo orodje za iskanje izločilo iz hitrega iskanja. "
+"Podprta sta nadomestna znaka '*' in '?'.  Privzete vrednosti so /mnt/*, /"
+"media/*, /dev/*, /tmp/*, /proc/* in /var/*."
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:8
 msgid "Disable Quick Search Second Scan"
 msgstr "Onemogoči drugo preiskovanje med hitrim iskanjem"
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:9
-msgid "This key determines if the search tool disables the use of the find command after performing a quick search."
-msgstr "Ključ določa, ali naj orodje za iskanje izključi uporabo ukaza find po izvedenem hitrem iskanju."
+msgid ""
+"This key determines if the search tool disables the use of the find command "
+"after performing a quick search."
+msgstr ""
+"Ključ določa, ali naj orodje za iskanje izključi uporabo ukaza find po "
+"izvedenem hitrem iskanju."
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:10
 msgid "Quick Search Second Scan Excluded Paths"
 msgstr "Iz drugega preiskovanja hitrega iskanja izločene poti"
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:11
-msgid "This key defines the paths the search tool will exclude from a second scan when performing a quick search. The second scan uses the find command to search for files. The purpose of the second scan is to find files that have not been indexed. The wildcards '*' and '?' are supported. The default value is /."
-msgstr "Ključ določa poti, ki jih bo orodje za iskanje izločilo iz drugega preiskovanja pri opravljanju hitrega iskanja. Drugo preiskovanje uporablja ukaz find za iskanje datotek. Namen drugega preiskovanja je poiskati nove datoteke. Podprta sta nadomestna znaka '*' in '?'. Privzeta vrednost je /."
+msgid ""
+"This key defines the paths the search tool will exclude from a second scan "
+"when performing a quick search. The second scan uses the find command to "
+"search for files. The purpose of the second scan is to find files that have "
+"not been indexed. The wildcards '*' and '?' are supported. The default value "
+"is /."
+msgstr ""
+"Ključ določa poti, ki jih bo orodje za iskanje izločilo iz drugega "
+"preiskovanja pri opravljanju hitrega iskanja. Drugo preiskovanje uporablja "
+"ukaz find za iskanje datotek. Namen drugega preiskovanja je poiskati nove "
+"datoteke. Podprta sta nadomestna znaka '*' in '?'. Privzeta vrednost je /."
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:12
 msgid "Search Result Columns Order"
 msgstr "Vrstni red stolpcev z rezultati iskanja"
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:13
-msgid "This key defines the order of the columns in the search results. This key should not be modified by the user."
-msgstr "Ključ določa vrstni red stolpcev v rezultatih iskanja. Uporabniku tega ključa ni priporočljivo spreminjati."
+msgid ""
+"This key defines the order of the columns in the search results. This key "
+"should not be modified by the user."
+msgstr ""
+"Ključ določa vrstni red stolpcev v rezultatih iskanja. Uporabniku tega "
+"ključa ni priporočljivo spreminjati."
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:14
 msgid "Default Window Width"
 msgstr "Privzeta širina okna"
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:15
-msgid "This key defines the window width, and it's used to remember the size of the search tool between sessions. Setting it to -1 will make the search tool use the default width."
-msgstr "Ključ določa širino okna in se uporablja, da ostane velikost orodja za iskanje enaka med sejami. Če jo nastavite na -1, bo orodje za iskanje uporabilo privzeto širino."
+msgid ""
+"This key defines the window width, and it's used to remember the size of the "
+"search tool between sessions. Setting it to -1 will make the search tool use "
+"the default width."
+msgstr ""
+"Ključ določa širino okna in se uporablja, da ostane velikost orodja za "
+"iskanje enaka med sejami. Če jo nastavite na -1, bo orodje za iskanje "
+"uporabilo privzeto širino."
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:16
 msgid "Default Window Height"
 msgstr "Privzeta višina okna"
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:17
-msgid "This key defines the window height, and it's used to remember the size of the search tool between sessions. Setting it to -1 will make the search tool use the default height."
-msgstr "Ključ določa višino okna in se uporablja, da ostane velikost orodja za iskanje enaka med sejami. Če jo nastavite na -1, bo orodje za iskanje uporabilo privzeto višino."
+msgid ""
+"This key defines the window height, and it's used to remember the size of "
+"the search tool between sessions. Setting it to -1 will make the search tool "
+"use the default height."
+msgstr ""
+"Ključ določa višino okna in se uporablja, da ostane velikost orodja za "
+"iskanje enaka med sejami. Če jo nastavite na -1, bo orodje za iskanje "
+"uporabilo privzeto višino."
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:18
 msgid "Default Window Maximized"
 msgstr "Razpeto privzeto okno"
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:19
-msgid "This key determines if the search tool window starts in a maximized state."
-msgstr "Ključ določa, ali naj bo okno orodja za iskanje zagnano v razpetem stanju."
+msgid ""
+"This key determines if the search tool window starts in a maximized state."
+msgstr ""
+"Ključ določa, ali naj bo okno orodja za iskanje zagnano v razpetem stanju."
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:20
 msgid "Look in Folder"
@@ -117,60 +161,116 @@ msgid "This key defines the default value of the \"Look in Folder\" widget."
 msgstr "Ključ določa vrednost gradnika \"Poglej v mapo\"."
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:22
-msgid "This key determines if the \"Contains the text\" search option is selected when the search tool is started."
-msgstr "Ključ določa, ali naj bo vključena možnost iskanja \"Vsebuje besedilo\", ko je zagnano orodje za iskanje."
+msgid ""
+"This key determines if the \"Contains the text\" search option is selected "
+"when the search tool is started."
+msgstr ""
+"Ključ določa, ali naj bo vključena možnost iskanja \"Vsebuje besedilo\", ko "
+"je zagnano orodje za iskanje."
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:23
-msgid "This key determines if the \"Date modified less than\" search option is selected when the search tool is started."
-msgstr "Ključ določa, ali naj bo vključena možnost iskanja \"Datum spremembe mlajši kot\", ko je zagnano orodje za iskanje."
+msgid ""
+"This key determines if the \"Date modified less than\" search option is "
+"selected when the search tool is started."
+msgstr ""
+"Ključ določa, ali naj bo vključena možnost iskanja \"Datum spremembe mlajši "
+"kot\", ko je zagnano orodje za iskanje."
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:24
-msgid "This key determines if the \"Date modified more than\" search option is selected when the search tool is started."
-msgstr "Ključ določa, ali naj bo vključena možnost iskanja \"Datum spremembe starejši kot\", ko je zagnano orodje za iskanje."
+msgid ""
+"This key determines if the \"Date modified more than\" search option is "
+"selected when the search tool is started."
+msgstr ""
+"Ključ določa, ali naj bo vključena možnost iskanja \"Datum spremembe "
+"starejši kot\", ko je zagnano orodje za iskanje."
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:25
-msgid "This key determines if the \"Size at least\" search option is selected when the search tool is started."
-msgstr "Ključ določa, ali naj bo vključena možnost iskanja \"Velikost najmanj\", ko je zagnano orodje za iskanje."
+msgid ""
+"This key determines if the \"Size at least\" search option is selected when "
+"the search tool is started."
+msgstr ""
+"Ključ določa, ali naj bo vključena možnost iskanja \"Velikost najmanj\", ko "
+"je zagnano orodje za iskanje."
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:26
-msgid "This key determines if the \"Size at most\" search option is selected when the search tool is started."
-msgstr "Ključ določa, ali naj bo vključena možnost iskanja \"Velikost največ\", ko je zagnano orodje za iskanje."
+msgid ""
+"This key determines if the \"Size at most\" search option is selected when "
+"the search tool is started."
+msgstr ""
+"Ključ določa, ali naj bo vključena možnost iskanja \"Velikost največ\", ko "
+"je zagnano orodje za iskanje."
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:27
-msgid "This key determines if the \"File is empty\" search option is selected when the search tool is started."
-msgstr "Ključ določa, ali naj bo vključena možnost iskanja \"Datoteka je prazna\", ko je zagnano orodje za iskanje."
+msgid ""
+"This key determines if the \"File is empty\" search option is selected when "
+"the search tool is started."
+msgstr ""
+"Ključ določa, ali naj bo vključena možnost iskanja \"Datoteka je prazna\", "
+"ko je zagnano orodje za iskanje."
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:28
-msgid "This key determines if the \"Owned by user\" search option is selected when the search tool is started."
-msgstr "Ključ določa, ali naj bo vključena možnost iskanja \"Lastnik je uporabnik\", ko je zagnano orodje za iskanje."
+msgid ""
+"This key determines if the \"Owned by user\" search option is selected when "
+"the search tool is started."
+msgstr ""
+"Ključ določa, ali naj bo vključena možnost iskanja \"Lastnik je uporabnik\", "
+"ko je zagnano orodje za iskanje."
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:29
-msgid "This key determines if the \"Owned by group\" search option is selected when the search tool is started."
-msgstr "Ključ določa, ali naj bo vključena možnost iskanja \"Lastnik je skupina\", ko je zagnano orodje za iskanje."
+msgid ""
+"This key determines if the \"Owned by group\" search option is selected when "
+"the search tool is started."
+msgstr ""
+"Ključ določa, ali naj bo vključena možnost iskanja \"Lastnik je skupina\", "
+"ko je zagnano orodje za iskanje."
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:30
-msgid "This key determines if the \"Owner is unrecognized\" search option is selected when the search tool is started."
-msgstr "Ključ določa, ali naj bo vključena možnost iskanja \"Lastnik ni prepoznan\", ko je zagnano orodje za iskanje."
+msgid ""
+"This key determines if the \"Owner is unrecognized\" search option is "
+"selected when the search tool is started."
+msgstr ""
+"Ključ določa, ali naj bo vključena možnost iskanja \"Lastnik ni prepoznan\", "
+"ko je zagnano orodje za iskanje."
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:31
-msgid "This key determines if the \"Name does not contain\" search option is selected when the search tool is started."
-msgstr "Ključ določa, ali naj bo vključena možnost iskanja \"Ime ne vsebuje\", ko je zagnano orodje za iskanje."
+msgid ""
+"This key determines if the \"Name does not contain\" search option is "
+"selected when the search tool is started."
+msgstr ""
+"Ključ določa, ali naj bo vključena možnost iskanja \"Ime ne vsebuje\", ko je "
+"zagnano orodje za iskanje."
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:32
-msgid "This key determines if the \"Name matches regular expression\" search option is selected when the search tool is started."
-msgstr "Ključ določa, ali naj bo vključena možnost iskanja \"Ime ustreza logičnemu izrazu\", ko je zagnano orodje za iskanje."
+msgid ""
+"This key determines if the \"Name matches regular expression\" search option "
+"is selected when the search tool is started."
+msgstr ""
+"Ključ določa, ali naj bo vključena možnost iskanja \"Ime ustreza logičnemu "
+"izrazu\", ko je zagnano orodje za iskanje."
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:33
-msgid "This key determines if the \"Show hidden files and folders\" search option is selected when the search tool is started."
-msgstr "Ključ določa, ali naj bo vključena možnost iskanja \"Pokaži skrite datoteke in mape\", ko je zagnano orodje za iskanje."
+msgid ""
+"This key determines if the \"Show hidden files and folders\" search option "
+"is selected when the search tool is started."
+msgstr ""
+"Ključ določa, ali naj bo vključena možnost iskanja \"Pokaži skrite datoteke "
+"in mape\", ko je zagnano orodje za iskanje."
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:34
-msgid "This key determines if the \"Follow symbolic links\" search option is selected when the search tool is started."
-msgstr "Ključ določa, ali naj bo vključena možnost iskanja \"Sledi simboličnim povezavam\", ko je zagnano orodje za iskanje."
+msgid ""
+"This key determines if the \"Follow symbolic links\" search option is "
+"selected when the search tool is started."
+msgstr ""
+"Ključ določa, ali naj bo vključena možnost iskanja \"Sledi simboličnim "
+"povezavam\", ko je zagnano orodje za iskanje."
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:35
-msgid "This key determines if the \"Exclude other filesystems\" search option is selected when the search tool is started."
-msgstr "Ključ določa, ali naj bo omogočena možnost iskanja \"Izključi druge datotečne sisteme\", ko je zagnano orodje za iskanje."
+msgid ""
+"This key determines if the \"Exclude other filesystems\" search option is "
+"selected when the search tool is started."
+msgstr ""
+"Ključ določa, ali naj bo omogočena možnost iskanja \"Izključi druge "
+"datotečne sisteme\", ko je zagnano orodje za iskanje."
 
 #: ../src/gsearchtool.c:81
 msgid "Contains the _text"
@@ -180,8 +280,7 @@ msgstr "Vsebuje _besedilo"
 msgid "_Date modified less than"
 msgstr "_Datum spremembe mlajši kot"
 
-#: ../src/gsearchtool.c:83
-#: ../src/gsearchtool.c:84
+#: ../src/gsearchtool.c:83 ../src/gsearchtool.c:84
 msgid "days"
 msgstr "dni"
 
@@ -193,8 +292,7 @@ msgstr "Datum spremembe starejši kot"
 msgid "S_ize at least"
 msgstr "Velikost naj_manj"
 
-#: ../src/gsearchtool.c:86
-#: ../src/gsearchtool.c:87
+#: ../src/gsearchtool.c:86 ../src/gsearchtool.c:87
 msgid "kilobytes"
 msgstr "kilobajtov"
 
@@ -242,9 +340,7 @@ msgstr "Izključi druge datotečne sisteme"
 msgid "Show version of the application"
 msgstr "Pokaži različico programa"
 
-#: ../src/gsearchtool.c:158
-#: ../src/gsearchtool.c:163
-#: ../src/gsearchtool.c:172
+#: ../src/gsearchtool.c:158 ../src/gsearchtool.c:163 ../src/gsearchtool.c:172
 msgid "STRING"
 msgstr "NIZ"
 
@@ -256,13 +352,11 @@ msgstr "POT"
 msgid "VALUE"
 msgstr "VREDNOST"
 
-#: ../src/gsearchtool.c:164
-#: ../src/gsearchtool.c:165
+#: ../src/gsearchtool.c:164 ../src/gsearchtool.c:165
 msgid "DAYS"
 msgstr "DNEVI"
 
-#: ../src/gsearchtool.c:166
-#: ../src/gsearchtool.c:167
+#: ../src/gsearchtool.c:166 ../src/gsearchtool.c:167
 msgid "KILOBYTES"
 msgstr "KILOBAJTI"
 
@@ -291,14 +385,12 @@ msgstr "Pretvorba nabora znakov ni uspela za \"%s\""
 msgid "Searching..."
 msgstr "Iskanje ..."
 
-#: ../src/gsearchtool.c:506
-#: ../src/gsearchtool.c:1019
+#: ../src/gsearchtool.c:506 ../src/gsearchtool.c:1019
 #: ../src/gsearchtool.c:2987
 msgid "Search for Files"
 msgstr "Iskanje datotek"
 
-#: ../src/gsearchtool.c:965
-#: ../src/gsearchtool.c:994
+#: ../src/gsearchtool.c:965 ../src/gsearchtool.c:994
 msgid "No files found"
 msgstr "Ni najdenih datotek"
 
@@ -319,8 +411,7 @@ msgstr[1] "%'d najdena datoteka"
 msgstr[2] "%'d najdeni datoteki"
 msgstr[3] "%'d najdene datoteke"
 
-#: ../src/gsearchtool.c:1002
-#: ../src/gsearchtool.c:1040
+#: ../src/gsearchtool.c:1002 ../src/gsearchtool.c:1040
 #, c-format
 msgid "%'d file found"
 msgid_plural "%'d files found"
@@ -343,7 +434,8 @@ msgstr "Nastavite besedilo možnosti iskanja \"Poglej v mapo\""
 
 #: ../src/gsearchtool.c:1298
 msgid "Sort files by one of the following: name, folder, size, type, or date"
-msgstr "Razvrsti datoteke po enem od sledečega: ime, mapa, velikost, vrsta ali datum"
+msgstr ""
+"Razvrsti datoteke po enem od sledečega: ime, mapa, velikost, vrsta ali datum"
 
 #: ../src/gsearchtool.c:1299
 msgid "Set sort order to descending, the default is ascending"
@@ -365,7 +457,8 @@ msgstr "Izberi in nastavi možnost iskanja \"%s\""
 
 #: ../src/gsearchtool.c:1416
 msgid "Invalid option passed to sortby command line argument."
-msgstr "Argumentu ukazne vrstice razvrstitve je bila podana neveljavna možnost."
+msgstr ""
+"Argumentu ukazne vrstice razvrstitve je bila podana neveljavna možnost."
 
 #: ../src/gsearchtool.c:1710
 msgid ""
@@ -376,17 +469,24 @@ msgstr ""
 "... Preveč napak za prikaz ..."
 
 #: ../src/gsearchtool.c:1724
-msgid "The search results may be invalid.  There were errors while performing this search."
-msgstr "Mogoče je, da so rezultati iskanja neveljavni. Med izvajanjem iskanja je prišlo do napak."
+msgid ""
+"The search results may be invalid.  There were errors while performing this "
+"search."
+msgstr ""
+"Mogoče je, da so rezultati iskanja neveljavni. Med izvajanjem iskanja je "
+"prišlo do napak."
 
-#: ../src/gsearchtool.c:1733
-#: ../src/gsearchtool.c:1774
+#: ../src/gsearchtool.c:1733 ../src/gsearchtool.c:1774
 msgid "Show more _details"
 msgstr "Pokaži več _podrobnosti"
 
 #: ../src/gsearchtool.c:1763
-msgid "The search results may be out of date or invalid.  Do you want to disable the quick search feature?"
-msgstr "Mogoče je, da so ti rezultati iskanja zastareli ali neveljavni. Ali želite onemogočiti zmožnost hitrega iskanja?"
+msgid ""
+"The search results may be out of date or invalid.  Do you want to disable "
+"the quick search feature?"
+msgstr ""
+"Mogoče je, da so ti rezultati iskanja zastareli ali neveljavni. Ali želite "
+"onemogočiti zmožnost hitrega iskanja?"
 
 #: ../src/gsearchtool.c:1785
 msgid "Disable _Quick Search"
@@ -395,7 +495,8 @@ msgstr "Onemogoči _hitro iskanje"
 #: ../src/gsearchtool.c:1812
 #, c-format
 msgid "Failed to set process group id of child %d: %s.\n"
-msgstr "Nastavljanje ID opravilne skupine podrejenega opravila %d ni uspelo: %s.\n"
+msgstr ""
+"Nastavljanje ID opravilne skupine podrejenega opravila %d ni uspelo: %s.\n"
 
 #: ../src/gsearchtool.c:1837
 msgid "Error parsing the search command."
@@ -484,10 +585,10 @@ msgstr "Datum spremembe:"
 msgid "_Name contains:"
 msgstr "_Ime vsebuje:"
 
-#: ../src/gsearchtool.c:2771
-#: ../src/gsearchtool.c:2772
+#: ../src/gsearchtool.c:2771 ../src/gsearchtool.c:2772
 msgid "Enter a filename or partial filename with or without wildcards."
-msgstr "Vpišite ime datoteke ali delno ime datoteke z ali brez nadomestnih znakov."
+msgstr ""
+"Vpišite ime datoteke ali delno ime datoteke z ali brez nadomestnih znakov."
 
 #: ../src/gsearchtool.c:2772
 msgid "Name contains"
@@ -519,7 +620,8 @@ msgstr "Izberi več možnosti"
 
 #: ../src/gsearchtool.c:2820
 msgid "Click to expand or collapse the list of available options."
-msgstr "Kliknite, če želite razširiti ali zložiti seznam možnosti, ki so na voljo."
+msgstr ""
+"Kliknite, če želite razširiti ali zložiti seznam možnosti, ki so na voljo."
 
 #: ../src/gsearchtool.c:2844
 msgid "Click to display the help manual."
@@ -559,8 +661,7 @@ msgstr[1] "Ali ste prepričani, da želite odpreti %d dokument?"
 msgstr[2] "Ali ste prepričani, da želite odpreti %d dokumenta?"
 msgstr[3] "Ali ste prepričani, da želite odpreti %d dokumente?"
 
-#: ../src/gsearchtool-callbacks.c:349
-#: ../src/gsearchtool-callbacks.c:534
+#: ../src/gsearchtool-callbacks.c:349 ../src/gsearchtool-callbacks.c:534
 #, c-format
 msgid "This will open %d separate window."
 msgid_plural "This will open %d separate windows."
@@ -583,8 +684,7 @@ msgstr "Ni mogoče odpreti mape \"%s\"."
 msgid "The nautilus file manager is not running."
 msgstr "Upravljalnik datotek Nautilus ne teče."
 
-#: ../src/gsearchtool-callbacks.c:491
-#: ../src/gsearchtool-callbacks.c:814
+#: ../src/gsearchtool-callbacks.c:491 ../src/gsearchtool-callbacks.c:814
 msgid "The document does not exist."
 msgstr "Dokument ne obstaja."
 
@@ -632,8 +732,7 @@ msgid "Moving \"%s\" failed: %s."
 msgstr "Premikanje \"%s\" ni uspelo: %s."
 
 #. Popup menu item: Open
-#: ../src/gsearchtool-callbacks.c:990
-#: ../src/gsearchtool-callbacks.c:1020
+#: ../src/gsearchtool-callbacks.c:990 ../src/gsearchtool-callbacks.c:1020
 msgid "_Open"
 msgstr "_Odpri"
 
@@ -717,8 +816,7 @@ msgstr "danes ob %-H:%M"
 msgid "yesterday at %-I:%M %p"
 msgstr "včeraj ob %-H:%M"
 
-#: ../src/gsearchtool-support.c:456
-#: ../src/gsearchtool-support.c:458
+#: ../src/gsearchtool-support.c:456 ../src/gsearchtool-support.c:458
 msgid "%A, %B %-d %Y at %-I:%M:%S %p"
 msgstr "%A, %-d. %B %Y ob %-H:%M:%S"
 
@@ -750,10 +848,8 @@ msgstr "(druga kopija)"
 #. localizers: tag used to detect the x12th copy of a file
 #. localizers: tag used to detect the x13th copy of a file
 #. localizers: tag used to detect the xxth copy of a file
-#: ../src/gsearchtool-support.c:1273
-#: ../src/gsearchtool-support.c:1275
-#: ../src/gsearchtool-support.c:1277
-#: ../src/gsearchtool-support.c:1287
+#: ../src/gsearchtool-support.c:1273 ../src/gsearchtool-support.c:1275
+#: ../src/gsearchtool-support.c:1277 ../src/gsearchtool-support.c:1287
 msgid "th copy)"
 msgstr ". kopija)"
 
@@ -788,10 +884,8 @@ msgstr "%s (druga kopija)%s"
 #. localizers: appended to x12th file copy
 #. localizers: appended to x13th file copy
 #. localizers: appended to xxth file copy
-#: ../src/gsearchtool-support.c:1306
-#: ../src/gsearchtool-support.c:1308
-#: ../src/gsearchtool-support.c:1310
-#: ../src/gsearchtool-support.c:1319
+#: ../src/gsearchtool-support.c:1306 ../src/gsearchtool-support.c:1308
+#: ../src/gsearchtool-support.c:1310 ../src/gsearchtool-support.c:1319
 #, c-format
 msgid "%s (%dth copy)%s"
 msgstr "%s (%d. kopija)%s"
@@ -857,7 +951,9 @@ msgstr "Nepoznana možnost zagona: %d"
 #: ../libeggsmclient/eggdesktopfile.c:1373
 #, c-format
 msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
-msgstr "Ni mogoče poslati naslova URI dokumenta na vnos 'Vrsta=Povezava' predmeta namizja"
+msgstr ""
+"Ni mogoče poslati naslova URI dokumenta na vnos 'Vrsta=Povezava' predmeta "
+"namizja"
 
 #: ../libeggsmclient/eggdesktopfile.c:1392
 #, c-format
