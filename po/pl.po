@@ -15,8 +15,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-search-tool\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-01-20 21:32+0100\n"
-"PO-Revision-Date: 2013-01-20 21:33+0100\n"
+"POT-Creation-Date: 2013-02-17 18:22+0100\n"
+"PO-Revision-Date: 2013-02-17 18:23+0100\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <gnomepl@aviary.pl>\n"
 "Language: pl\n"
@@ -724,7 +724,7 @@ msgstr "Kosz jest niedostępny. Nie można przenieść \"%s\" do kosza."
 #: ../src/gsearchtool-callbacks.c:743
 #, c-format
 msgid "Could not delete \"%s\"."
-msgstr "Nie można usunąć \"%s\""
+msgstr "Nie można usunąć \"%s\"."
 
 #: ../src/gsearchtool-callbacks.c:850
 #, c-format
