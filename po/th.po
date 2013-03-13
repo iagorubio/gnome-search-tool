@@ -1,18 +1,18 @@
 # Thai translation for gnome-utils.
-# Copyright (C) 2004-2012 Free Software Foundation, Inc.
+# Copyright (C) 2004-2013 Free Software Foundation, Inc.
 # This file is distributed under the same license as the gnome-utils package.
 # Khunti Yeesoon <sc445138@bucc3.buu.ac.th>, 2003.
 # Paisa Seeluangsawat <paisa@users.sf.net>, 2004.
 # Supranee Thirawatthanasuk <supranee@opentle.org>, 2004.
-# Theppitak Karoonboonyanan <thep@linux.thai.net>, 2005-2012.
+# Theppitak Karoonboonyanan <thep@linux.thai.net>, 2005-2013.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "search-tool&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2012-08-06 17:31+0000\n"
-"PO-Revision-Date: 2012-09-07 16:20+0700\n"
+"POT-Creation-Date: 2013-01-20 20:10+0000\n"
+"PO-Revision-Date: 2013-03-13 19:53+0700\n"
 "Last-Translator: Theppitak Karoonboonyanan <thep@linux.thai.net>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
 "Language: th\n"
@@ -28,6 +28,10 @@ msgstr "ค้นหาแฟ้ม..."
 #: ../data/gnome-search-tool.desktop.in.h:2
 msgid "Locate documents and folders on this computer by name or content"
 msgstr "ค้นหาเอกสารและโฟลเดอร์ในคอมพิวเตอร์นี้ด้วยชื่อหรือเนื้อหา"
+
+#: ../data/gnome-search-tool.desktop.in.h:3
+msgid "find;locate;look for;seek;"
+msgstr "หา;ค้นหา;"
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:1
 msgid "Search history"
