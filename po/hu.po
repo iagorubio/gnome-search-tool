@@ -9,20 +9,22 @@
 # Laszlo Dvornik <dvornik at gnome dot hu>, 2004.
 # Gabor Kelemen <kelemeng at gnome dot hu>, 2004, 2006, 2007, 2008, 2009, 2010, 2011, 2012.
 # Mate ORY <orymate at gmail d0t com>, 2006.
+# Balázs Úr <urbalazs at gmail dot com>, 2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-search-tool master\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-09-04 15:28+0200\n"
-"PO-Revision-Date: 2012-09-04 15:29+0200\n"
-"Last-Translator: Gabor Kelemen <kelemeng at gnome dot hu>\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
+"search-tool&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2013-01-20 20:10+0000\n"
+"PO-Revision-Date: 2013-03-16 19:17+0100\n"
+"Last-Translator: Balázs Úr <urbalazs at gmail dot com>\n"
 "Language-Team: Hungarian <gnome-hu-list at gnome dot org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms:  nplurals=2; plural=(n != 1);\n"
-"X-Generator: KBabel 1.11.4\n"
+"X-Generator: Lokalize 1.2\n"
 
 #: ../data/gnome-search-tool.desktop.in.h:1
 msgid "Search for Files..."
@@ -30,7 +32,12 @@ msgstr "Fájlok keresése…"
 
 #: ../data/gnome-search-tool.desktop.in.h:2
 msgid "Locate documents and folders on this computer by name or content"
-msgstr "Dokumentumok és mappák keresése név vagy tartalom szerint a számítógépen"
+msgstr ""
+"Dokumentumok és mappák keresése név vagy tartalom szerint a számítógépen"
+
+#: ../data/gnome-search-tool.desktop.in.h:3
+msgid "find;locate;look for;seek;"
+msgstr "keresés;találat;kutatás;tekerés;"
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:1
 msgid "Search history"
@@ -144,8 +151,10 @@ msgid "Default Window Maximized"
 msgstr "Az alapértelmezett ablak teljes méretű"
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:19
-msgid "This key determines if the search tool window starts in a maximized state."
-msgstr "Ez a kulcs meghatározza, hogy a keresőeszköz teljes méretben induljon-e."
+msgid ""
+"This key determines if the search tool window starts in a maximized state."
+msgstr ""
+"Ez a kulcs meghatározza, hogy a keresőeszköz teljes méretben induljon-e."
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:20
 msgid "Look in Folder"
@@ -466,7 +475,8 @@ msgstr ""
 msgid ""
 "The search results may be invalid.  There were errors while performing this "
 "search."
-msgstr "A keresés eredménye érvénytelen. Hiba történt a keresés végrehajtása közben."
+msgstr ""
+"A keresés eredménye érvénytelen. Hiba történt a keresés végrehajtása közben."
 
 #: ../src/gsearchtool.c:1733 ../src/gsearchtool.c:1774
 msgid "Show more _details"
@@ -487,7 +497,8 @@ msgstr "_Gyors keresés kikapcsolása"
 #: ../src/gsearchtool.c:1812
 #, c-format
 msgid "Failed to set process group id of child %d: %s.\n"
-msgstr "Nem sikerült beállítani a(z) %d gyermekfolyamat csoportazonosítóját: %s.\n"
+msgstr ""
+"Nem sikerült beállítani a(z) %d gyermekfolyamat csoportazonosítóját: %s.\n"
 
 #: ../src/gsearchtool.c:1837
 msgid "Error parsing the search command."
