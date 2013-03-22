@@ -4,14 +4,14 @@
 #
 # Subhransu Behera <arya_subhransu@yahoo.co.in>, 2006.
 # Manoj Kumar Giri <giri.manojkr@gmail.com>, 2008.
-# Manoj Kumar Giri <mgiri@redhat.com>, 2009, 2010, 2012.
+# Manoj Kumar Giri <mgiri@redhat.com>, 2009, 2010, 2012, 2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils.master.or\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "search-tool&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2012-08-06 17:31+0000\n"
-"PO-Revision-Date: 2012-11-28 20:24+0530\n"
+"POT-Creation-Date: 2013-01-20 20:10+0000\n"
+"PO-Revision-Date: 2013-03-22 19:19+0530\n"
 "Last-Translator: Manoj Kumar Giri <mgiri@redhat.com>\n"
 "Language-Team: Oriya <oriya-it@googlegroups.com>\n"
 "Language: or\n"
@@ -39,8 +39,11 @@ msgstr ""
 "ନାମ କିମ୍ବା ସୂଚୀ ଅନୁସାରେ ଏହି କମ୍ପୁଟରରେ ଦଲିଲ ଏବଂ ଫୋଲଡର୍ ମାନଙ୍କର ଅବସ୍ଥିତି "
 "ନିର୍ଣ୍ଣୟ କରନ୍ତୁ"
 
+#: ../data/gnome-search-tool.desktop.in.h:3
+msgid "find;locate;look for;seek;"
+msgstr "find;locate;look for;seek;"
+
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:1
-#| msgid "Search for Files"
 msgid "Search history"
 msgstr "ପୁରୁଣା ତଥ୍ଯକୁ ଖୋଜନ୍ତୁ"
 
