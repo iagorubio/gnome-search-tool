@@ -15,8 +15,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-search-tool\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-02-17 18:22+0100\n"
-"PO-Revision-Date: 2013-02-17 18:23+0100\n"
+"POT-Creation-Date: 2013-08-20 23:37+0200\n"
+"PO-Revision-Date: 2013-08-20 23:38+0200\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <gnomepl@aviary.pl>\n"
 "Language: pl\n"
@@ -815,15 +815,15 @@ msgstr "Brak uprawnień do zapisu do tego dokumentu."
 #. with '%-H' and remove the '%p'.  (See bugzilla report #120434.)
 #: ../src/gsearchtool-support.c:452
 msgid "today at %-I:%M %p"
-msgstr "dziś o %-H:%M"
+msgstr "dzisiaj o %-H∶%M"
 
 #: ../src/gsearchtool-support.c:454
 msgid "yesterday at %-I:%M %p"
-msgstr "wczoraj o %-H:%M"
+msgstr "wczoraj o %-H∶%M"
 
 #: ../src/gsearchtool-support.c:456 ../src/gsearchtool-support.c:458
 msgid "%A, %B %-d %Y at %-I:%M:%S %p"
-msgstr "%A, %-d %B %Y o %-H:%M:%S"
+msgstr "%A, %-d %B %Y o %-H∶%M∶%S"
 
 #: ../src/gsearchtool-support.c:645
 msgid "link (broken)"
