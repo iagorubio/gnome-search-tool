@@ -11,14 +11,14 @@
 # Hideki Yamane (Debian-JP) <henrich@debian.or.jp>, 2009, 2010.
 # Yasumichi Akahoshi <yasumichi@vinelinux.org>, 2010, 2011.
 # Takayoshi OKANO <kano@na.rim.or.jp>, 2011.
-# Noriko Mizumoto <noriko@fedoraproject.org>, 2012.
+# Noriko Mizumoto <noriko@fedoraproject.org>, 2012, 2013.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-utils master\n"
+"Project-Id-Version: gnome-search-tool master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-search-tool&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2012-09-18 05:19+0000\n"
-"PO-Revision-Date: 2012-09-19 13:32+0000\n"
+"POT-Creation-Date: 2013-08-20 21:38+0000\n"
+"PO-Revision-Date: 2013-09-19 13:19+0000\n"
 "Last-Translator: Noriko Mizumoto <noriko@fedoraproject.org>\n"
 "Language-Team: Japanese <gnome-translation@gnome.gr.jp>\n"
 "Language: ja\n"
@@ -34,6 +34,10 @@ msgstr "ファイルの検索..."
 #: ../data/gnome-search-tool.desktop.in.h:2
 msgid "Locate documents and folders on this computer by name or content"
 msgstr "このコンピューターから名前や内容でドキュメントとフォルダーの場所を特定します"
+
+#: ../data/gnome-search-tool.desktop.in.h:3
+msgid "find;locate;look for;seek;"
+msgstr "find;locate;look for;seek;search;検索;探索;サーチ;検出;"
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:1
 msgid "Search history"
