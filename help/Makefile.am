@@ -6,4 +6,4 @@ HELP_FILES = \
 	index.docbook \
 	legal.xml
 
-HELP_LINGUAS = ca cs de el en_GB es eu fi fr it ja ko oc ru sl sv te uk zh_CN
+HELP_LINGUAS = ca cs de el en_GB es eu fi fr it ja ko oc pt_BR ru sl sv te uk zh_CN
