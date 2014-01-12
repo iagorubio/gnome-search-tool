@@ -15,9 +15,9 @@ msgstr ""
 "Project-Id-Version: gnome-utils master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "search-tool&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2012-08-06 17:31+0000\n"
-"PO-Revision-Date: 2012-09-23 04:30+0800\n"
-"Last-Translator: YunQiang Su <wzssyqa@gmail.com>\n"
+"POT-Creation-Date: 2013-12-18 21:31+0000\n"
+"PO-Revision-Date: 2014-01-12 19:46+0800\n"
+"Last-Translator: Wylmer Wang <wantinghard@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -34,8 +34,11 @@ msgstr "搜索文件..."
 msgid "Locate documents and folders on this computer by name or content"
 msgstr "按照名称或内容定位此计算机中的文档和文件夹"
 
+#: ../data/gnome-search-tool.desktop.in.h:3
+msgid "find;locate;look for;seek;"
+msgstr "find;locate;look for;seek;查找;搜索;搜寻;寻找"
+
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:1
-#| msgid "Search for Files"
 msgid "Search history"
 msgstr "搜索历史"
 
