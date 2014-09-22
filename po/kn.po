@@ -1,23 +1,24 @@
 # translation of gnome-utils.master.kn.po to Kannada
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# 
-# Shankar Prasad <svenkate@redhat.com>, 2008, 2009.
-# Shankar <svenkate@redhat.com>, 2013. #zanata
+#
+# Shankar Prasad <svenkate@redhat.com>, 2008, 2009, 2014.
+# Shankar <svenkate@redhat.com>, 2013. #zanata.
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils.master.kn\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-10-06 14:36-0400\n"
-"PO-Revision-Date: 2013-10-23 02:23-0400\n"
-"Last-Translator: Shankar <svenkate@redhat.com>\n"
-"Language-Team: Kannada <en@li.org>\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
+"search-tool&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2014-02-03 07:20+0000\n"
+"PO-Revision-Date: 2014-09-22 12:29+0530\n"
+"Last-Translator: Shankar Prasad <svenkate AT redhat Dot com>\n"
+"Language-Team: Kannada <kde-i18n-doc@kde.org>\n"
+"Language: kn\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: kn\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Zanata 3.2.3\n"
+"X-Generator: Lokalize 1.5\n"
 
 #: ../data/gnome-search-tool.desktop.in.h:1
 msgid "Search for Files..."
@@ -27,238 +28,44 @@ msgstr "ಕಡತಗಳಿಗಾಗಿ ಹುಡುಕು..."
 msgid "Locate documents and folders on this computer by name or content"
 msgstr ""
 "ಹೆಸರು ಅಥವ ವಿಷಯಗಳ ಆಧಾರದ ಮೇಲೆ ಈ ಗಣಕ ಯಂತ್ರದಲ್ಲಿನ ದಸ್ತಾವೇಜುಗಳನ್ನು ಮತ್ತು "
-"ಕಡತಕೋಶಗಳನ್ನು ಹುಡುಕಿ"
+"ಕಡತಕೋಶಗಳನ್ನು "
+"ಹುಡುಕಿ"
 
-#: ../data/gnome-search-tool.schemas.in.h:1
+#: ../data/gnome-search-tool.desktop.in.h:3
+msgid "find;locate;look for;seek;"
+msgstr "ಹುಡುಕು;ಪತ್ತೆಮಾಡು;ಶೋಧಿಸು;ಕೋರು;"
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:1
+#| msgid "Search for Files"
+msgid "Search history"
+msgstr "ಹುಡುಕು ಇತಿಹಾಸ"
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:2
+msgid "This key defines the items which were searched for in the past."
+msgstr "ಈ ಕೀಲಿಯು ಈ ಹಿಂದೆ ಹುಡುಕಲಾದ ಅಂಶಗಳನ್ನು ಸೂಚಿಸುತ್ತದೆ."
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:3
 msgid "Show Additional Options"
 msgstr "ಹೆಚ್ಚುವರಿ ಆಯ್ಕೆಗಳನ್ನು ತೋರಿಸು"
 
-#. Translators: The quoted text is the label of the additional
-#. options expander that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:4
-msgid ""
-"This key determines if the \"Select more options\" section is expanded when "
-"the search tool is started."
-msgstr ""
-"ಹುಡುಕು ಉಪಕರಣವನ್ನು ಆರಂಭಿಸಿದಾಗ \"ಇನ್ನಷ್ಟು ಆಯ್ಕೆಗಳನ್ನು ಆರಿಸು\" ಹುಡುಕು "
-"ಆಯ್ಕೆಯನ್ನು ಆರಿಸಲಾಗಿದೆಯೆ ಎಂದು ಈ ಕೀಲಿಯು ನಿರ್ಧರಿಸುತ್ತದೆ."
-
-#. Translators: The quoted text is the label of an available
-#. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:7
-msgid "Select the search option \"Contains the text\""
-msgstr "\"ಈ ಪಠ್ಯವನ್ನು ಹೊಂದಿರುವ\" ಎನ್ನುವ ಹುಡುಕು ಆಯ್ಕೆಯನ್ನು ಆರಿಸಿ"
-
-#: ../data/gnome-search-tool.schemas.in.h:8
-msgid ""
-"This key determines if the \"Contains the text\" search option is selected "
-"when the search tool is started."
-msgstr ""
-"ಹುಡುಕು ಉಪಕರಣವನ್ನು ಆರಂಭಿಸಿದಾಗ \"ಈ ಪಠ್ಯವನ್ನು ಹೊಂದಿರುವ\" ಹುಡುಕು ಆಯ್ಕೆಯನ್ನು "
-"ಆರಿಸಲಾಗಿದೆಯೆ ಎಂದು ಈ ಕೀಲಿಯು ನಿರ್ಧರಿಸುತ್ತದೆ."
-
-#. Translators: The quoted text is the label of an available
-#. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:11
-msgid "Select the search option \"Date modified less than\""
-msgstr ""
-"\"ಈ ದಿನಾಂಕಕ್ಕಿಂತ ಮೊದಲು ಮಾರ್ಪಡಿಸಲಾಗಿದ್ದು\" ಎನ್ನುವ ಹುಡುಕು ಆಯ್ಕೆಯನ್ನು ಆರಿಸಿ"
-
-#: ../data/gnome-search-tool.schemas.in.h:12
-msgid ""
-"This key determines if the \"Date modified less than\" search option is "
-"selected when the search tool is started."
-msgstr ""
-"ಹುಡುಕು ಉಪಕರಣವನ್ನು ಆರಂಭಿಸಿದಾಗ \"ಈ ದಿನಾಂಕಕ್ಕಿಂತ ಮೊದಲು ಮಾರ್ಪಡಿಸಲಾಗಿದ್ದು\" "
-"ಹುಡುಕು ಆಯ್ಕೆಯನ್ನು ಆರಿಸಲಾಗಿದೆಯೆ ಎಂದು ಈ ಕೀಲಿಯು ನಿರ್ಧರಿಸುತ್ತದೆ."
-
-#. Translators: The quoted text is the label of an available
-#. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:15
-msgid "Select the search option \"Date modified more than\""
-msgstr "\"ಈ ದಿನಾಂಕಕ್ಕಿಂತ ನಂತರ ಮಾರ್ಪಡಿಸಲಾಗಿದ್ದು\" ಎನ್ನುವ ಹುಡುಕು ಆಯ್ಕೆಯನ್ನು ಆರಿಸಿ"
-
-#: ../data/gnome-search-tool.schemas.in.h:16
-msgid ""
-"This key determines if the \"Date modified more than\" search option is "
-"selected when the search tool is started."
-msgstr ""
-"ಹುಡುಕು ಉಪಕರಣವನ್ನು ಆರಂಭಿಸಿದಾಗ \"ಈ ದಿನಾಂಕಕ್ಕಿಂತ ನಂತರ ಮಾರ್ಪಡಿಸಲಾಗಿದ್ದು\" ಹುಡುಕು "
-"ಆಯ್ಕೆಯನ್ನು ಆರಿಸಲಾಗಿದೆಯೆ ಎಂದು ಈ ಕೀಲಿಯು ನಿರ್ಧರಿಸುತ್ತದೆ."
-
-#. Translators: The quoted text is the label of an available
-#. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:19
-msgid "Select the search option \"Size at least\""
-msgstr "\"ಕನಿಷ್ಟ ಗಾತ್ರ\" ಎನ್ನುವ ಹುಡುಕು ಆಯ್ಕೆಯನ್ನು ಆರಿಸಿ"
-
-#: ../data/gnome-search-tool.schemas.in.h:20
-msgid ""
-"This key determines if the \"Size at least\" search option is selected when "
-"the search tool is started."
-msgstr ""
-"ಹುಡುಕು ಉಪಕರಣವನ್ನು ಆರಂಭಿಸಿದಾಗ \"ಕನಿಷ್ಟ ಗಾತ್ರ\" ಹುಡುಕು ಆಯ್ಕೆಯನ್ನು ಆರಿಸಲಾಗಿದೆಯೆ "
-"ಎಂದು ಈ ಕೀಲಿಯು ನಿರ್ಧರಿಸುತ್ತದೆ."
-
-#. Translators: The quoted text is the label of an available
-#. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:23
-msgid "Select the search option \"Size at most\""
-msgstr "\"ಗರಿಷ್ಟ ಗಾತ್ರ\" ಎನ್ನುವ ಹುಡುಕು ಆಯ್ಕೆಯನ್ನು ಆರಿಸಿ"
-
-#: ../data/gnome-search-tool.schemas.in.h:24
-msgid ""
-"This key determines if the \"Size at most\" search option is selected when "
-"the search tool is started."
-msgstr ""
-"ಹುಡುಕು ಉಪಕರಣವನ್ನು ಆರಂಭಿಸಿದಾಗ \"ಗರಿಷ್ಟ ಗಾತ್ರ\" ಹುಡುಕು ಆಯ್ಕೆಯನ್ನು ಆರಿಸಲಾಗಿದೆಯೆ "
-"ಎಂದು ಈ ಕೀಲಿಯು ನಿರ್ಧರಿಸುತ್ತದೆ."
-
-#. Translators: The quoted text is the label of an available
-#. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:27
-msgid "Select the search option \"File is empty\""
-msgstr "\"ಕಡತವು ಖಾಲಿ ಇದೆ\" ಎನ್ನುವ ಹುಡುಕು ಆಯ್ಕೆಯನ್ನು ಆರಿಸಿ"
-
-#: ../data/gnome-search-tool.schemas.in.h:28
-msgid ""
-"This key determines if the \"File is empty\" search option is selected when "
-"the search tool is started."
-msgstr ""
-"ಹುಡುಕು ಉಪಕರಣವನ್ನು ಆರಂಭಿಸಿದಾಗ \"ಕಡತವು ಖಾಲಿ ಇದೆ\" ಹುಡುಕು ಆಯ್ಕೆಯನ್ನು "
-"ಆರಿಸಲಾಗಿದೆಯೆ ಎಂದು ಈ ಕೀಲಿಯು ನಿರ್ಧರಿಸುತ್ತದೆ."
-
-#. Translators: The quoted text is the label of an available
-#. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:31
-msgid "Select the search option \"Owned by user\""
-msgstr "\"ಬಳಕೆದಾರಿಂದ ಮಾಲಿಕತ್ವವನ್ನು ಹೊಂದಿರುವ\" ಎನ್ನುವ ಹುಡುಕು ಆಯ್ಕೆಯನ್ನು ಆರಿಸಿ"
-
-#: ../data/gnome-search-tool.schemas.in.h:32
-msgid ""
-"This key determines if the \"Owned by user\" search option is selected when "
-"the search tool is started."
-msgstr ""
-"ಹುಡುಕು ಉಪಕರಣವನ್ನು ಆರಂಭಿಸಿದಾಗ \"ಬಳಕೆದಾರರಿಂದ ಮಾಲಿಕತ್ವವನ್ನು ಹೊಂದಿರುವ\" ಹುಡುಕು "
-"ಆಯ್ಕೆಯನ್ನು ಆರಿಸಲಾಗಿದೆಯೆ ಎಂದು ಈ ಕೀಲಿಯು ನಿರ್ಧರಿಸುತ್ತದೆ."
-
-#. Translators: The quoted text is the label of an available
-#. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:35
-msgid "Select the search option \"Owned by group\""
-msgstr "\"ಸಮೂಹದಿಂದ ಮಾಲಿಕತ್ವವನ್ನು ಹೊಂದಿರುವ\" ಎನ್ನುವ ಹುಡುಕು ಆಯ್ಕೆಯನ್ನು ಆರಿಸಿ"
-
-#: ../data/gnome-search-tool.schemas.in.h:36
-msgid ""
-"This key determines if the \"Owned by group\" search option is selected when "
-"the search tool is started."
-msgstr ""
-"ಹುಡುಕು ಉಪಕರಣವನ್ನು ಆರಂಭಿಸಿದಾಗ \"ಸಮೂಹದಿಂದ ಮಾಲಿಕತ್ವವನ್ನು ಹೊಂದಿರುವ\" ಹುಡುಕು "
-"ಆಯ್ಕೆಯನ್ನು ಆರಿಸಲಾಗಿದೆಯೆ ಎಂದು ಈ ಕೀಲಿಯು ನಿರ್ಧರಿಸುತ್ತದೆ."
-
-#. Translators: The quoted text is the label of an available
-#. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:39
-msgid "Select the search option \"Owner is unrecognized\""
-msgstr "\"ಗುರುತಿಸಲಾಗದ ಮಾಲಿಕತ್ವವನ್ನು ಹೊಂದಿರುವ\" ಎನ್ನುವ ಹುಡುಕು ಆಯ್ಕೆಯನ್ನು ಆರಿಸಿ"
-
-#: ../data/gnome-search-tool.schemas.in.h:40
-msgid ""
-"This key determines if the \"Owner is unrecognized\" search option is "
-"selected when the search tool is started."
-msgstr ""
-"ಹುಡುಕು ಉಪಕರಣವನ್ನು ಆರಂಭಿಸಿದಾಗ \"ಗುರುತಿಸಲಾಗದ ಮಾಲಿಕತ್ವವನ್ನು ಹೊಂದಿರುವ\" ಹುಡುಕು "
-"ಆಯ್ಕೆಯನ್ನು ಆರಿಸಲಾಗಿದೆಯೆ ಎಂದು ಈ ಕೀಲಿಯು ನಿರ್ಧರಿಸುತ್ತದೆ."
-
-#. Translators: The quoted text is the label of an available
-#. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:43
-msgid "Select the search option \"Name does not contain\""
-msgstr "\"ಹೆಸರು ಇದನ್ನು ಹೊಂದಿಲ್ಲ\" ಎನ್ನುವ ಹುಡುಕು ಆಯ್ಕೆಯನ್ನು ಆರಿಸಿ"
-
-#: ../data/gnome-search-tool.schemas.in.h:44
-msgid ""
-"This key determines if the \"Name does not contain\" search option is "
-"selected when the search tool is started."
-msgstr ""
-"ಹುಡುಕು ಉಪಕರಣವನ್ನು ಆರಂಭಿಸಿದಾಗ \"ಹೆಸರು ಇದನ್ನು ಹೊಂದಿಲ್ಲ\" ಹುಡುಕು ಆಯ್ಕೆಯನ್ನು "
-"ಆರಿಸಲಾಗಿದೆಯೆ ಎಂದು ಈ ಕೀಲಿಯು ನಿರ್ಧರಿಸುತ್ತದೆ."
-
-#. Translators: The quoted text is the label of an available
-#. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:47
-msgid "Select the search option \"Name matches regular expression\""
-msgstr "ಹುಡುಕು ಆಯ್ಕೆ \"ಸಾಮಾನ್ಯ ಗಣಿತೋಕ್ತಿಗೆ ತಾಳೆಯಾಗುವ ಹೆಸರು\" ಅನ್ನು ಆಯ್ಕೆ ಮಾಡಿ"
-
-#: ../data/gnome-search-tool.schemas.in.h:48
-msgid ""
-"This key determines if the \"Name matches regular expression\" search option "
-"is selected when the search tool is started."
-msgstr ""
-"ಹುಡುಕು ಉಪಕರಣವನ್ನು ಆರಂಭಿಸಿದಾಗ \"ಸಾಮಾನ್ಯ ಗಣಿತೋಕ್ತಿಗೆ ತಾಳೆಯಾಗುವ ಹೆಸರು\" ಹುಡುಕು "
-"ಆಯ್ಕೆಯನ್ನು ಆರಿಸಲಾಗಿದೆಯೆ ಎಂದು ಈ ಕೀಲಿಯು ನಿರ್ಧರಿಸುತ್ತದೆ."
-
-#. Translators: The quoted text is the label of an available
-#. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:51
-msgid "Select the search option \"Show hidden files and folders\""
-msgstr ""
-"\"ಅಡಗಿಸಲಾದ ಕಡತಗಳು ಹಾಗು ಕಡತಕೋಶಗಳನ್ನು ತೋರಿಸು\" ಎನ್ನುವ ಹುಡುಕು ಆಯ್ಕೆಯನ್ನು ಆರಿಸಿ"
-
-#: ../data/gnome-search-tool.schemas.in.h:52
-msgid ""
-"This key determines if the \"Show hidden files and folders\" search option "
-"is selected when the search tool is started."
-msgstr ""
-"ಹುಡುಕು ಉಪಕರಣವನ್ನು ಆರಂಭಿಸಿದಾಗ \"ಅಡಗಿಸಲಾದ ಕಡತಗಳು ಹಾಗು ಕಡತಕೋಶಗಳನ್ನು ತೋರಿಸು\" "
-"ಹುಡುಕು ಆಯ್ಕೆಯನ್ನು ಆರಿಸಲಾಗಿದೆಯೆ ಎಂದು ಈ ಕೀಲಿಯು ನಿರ್ಧರಿಸುತ್ತದೆ."
-
-#. Translators: The quoted text is the label of an available
-#. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:55
-msgid "Select the search option \"Follow symbolic links\""
-msgstr "\"ಸಾಂಕೇತಿಕ ಕೊಂಡಿಗಳನ್ನು ಅನುಸರಿಸು\" ಎನ್ನುವ ಹುಡುಕು ಆಯ್ಕೆಯನ್ನು ಆರಿಸಿ"
-
-#: ../data/gnome-search-tool.schemas.in.h:56
-msgid ""
-"This key determines if the \"Follow symbolic links\" search option is "
-"selected when the search tool is started."
-msgstr ""
-"ಹುಡುಕು ಉಪಕರಣವನ್ನು ಆರಂಭಿಸಿದಾಗ \"ಸಾಂಕೇತಿಕ ಕೊಂಡಿಗಳನ್ನು ಅನುಸರಿಸು\" ಹುಡುಕು "
-"ಆಯ್ಕೆಯನ್ನು ಆರಿಸಲಾಗಿದೆಯೆ ಎಂದು ಈ ಕೀಲಿಯು ನಿರ್ಧರಿಸುತ್ತದೆ."
-
-#. Translators: The quoted text is the label of an available
-#. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:59
-msgid "Select the search option \"Exclude other filesystems\""
-msgstr "\"ಇತರೆ ಕಡತವ್ಯವಸ್ಥೆಗಳನ್ನು ಹೊರತುಪಡಿಸು\" ಎನ್ನುವ ಹುಡುಕು ಆಯ್ಕೆಯನ್ನು ಆರಿಸಿ"
-
-#: ../data/gnome-search-tool.schemas.in.h:60
-msgid ""
-"This key determines if the \"Exclude other filesystems\" search option is "
-"selected when the search tool is started."
-msgstr ""
-"ಹುಡುಕು ಉಪಕರಣವನ್ನು ಆರಂಭಿಸಿದಾಗ \"ಇತರೆ ಕಡತವ್ಯವಸ್ಥೆಗಳನ್ನು ಹೊರತುಪಡಿಸು\" ಹುಡುಕು "
-"ಆಯ್ಕೆಯನ್ನು ಆರಿಸಲಾಗಿದೆಯೆ ಎಂದು ಈ ಕೀಲಿಯು ನಿರ್ಧರಿಸುತ್ತದೆ."
-
-#: ../data/gnome-search-tool.schemas.in.h:61
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:4
 msgid "Disable Quick Search"
 msgstr "ಕ್ಷಿಪ್ರ ಹುಡುಕನ್ನು ಅಶಕ್ತಗೊಳಿಸು"
 
-#: ../data/gnome-search-tool.schemas.in.h:62
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:5
 msgid ""
 "This key determines if the search tool disables the use of the locate "
 "command when performing simple file name searches."
 msgstr ""
 "ಸರಳವಾದ ಕಡತದ ಹೆಸರಿನ ಹುಡುಕಾಟಗಳನ್ನು ನಿರ್ವಹಿಸಿದ ನಂತರ ಪತ್ತೆ ಮಾಡು ಆಜ್ಞೆಯನ್ನು "
-"ಬಳಸದಂತೆ ಹುಡುಕು ಉಪಕರಣವನ್ನು ಅಶಕ್ತಗೊಳಿಸುತ್ತದೆ ಎನ್ನುವುದನ್ನು ಈ ಕೀಲಿಯು "
-"ನಿರ್ಧರಿಸುತ್ತದೆ."
+"ಬಳಸದಂತೆ "
+"ಹುಡುಕು ಉಪಕರಣವನ್ನು ಅಶಕ್ತಗೊಳಿಸುತ್ತದೆ ಎನ್ನುವುದನ್ನು ಈ ಕೀಲಿಯು ನಿರ್ಧರಿಸುತ್ತದೆ."
 
-#: ../data/gnome-search-tool.schemas.in.h:63
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:6
 msgid "Quick Search Excluded Paths"
 msgstr "ಕ್ಷಿಪ್ರ ಹುಡುಕುವಿಕೆಯಿಂದ ಹೊರತಾಗಿಸಬೇಕಾದ ಮಾರ್ಗಗಳು"
 
-#: ../data/gnome-search-tool.schemas.in.h:64
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:7
 msgid ""
 "This key defines the paths the search tool will exclude from a quick search. "
 "The wildcards '*' and '?' are supported. The default values are /mnt/*, /"
@@ -266,26 +73,26 @@ msgid ""
 msgstr ""
 "ಕ್ಷಿಪ್ರ ಹುಡುಕಾಟದಿಂದ ಹುಡುಕು ಉಪಕರಣವು ಹೊರತಾಗಿಸಬೇಕಿರುವ ಮಾರ್ಗವನ್ನು ಈ ಕೀಲಿಯು "
 "ಸೂಚಿಸುತ್ತದೆ. '*' ಹಾಗು '?' ನಂತಹ ವೈಲ್ಡ್‌ಕಾರ್ಡುಗಳಿಗೆ ಇಲ್ಲಿ ಬೆಂಬಲವಿದೆ. "
-"ಪೂರ್ವನಿಯೋಜಿತ ಮೌಲ್ಯಗಳು /mnt/*, /media/*, /dev/*, /tmp/*, /proc/*, and /var/* "
-"ಆಗಿರುತ್ತವೆ."
+"ಪೂರ್ವನಿಯೋಜಿತ "
+"ಮೌಲ್ಯಗಳು /mnt/*, /media/*, /dev/*, /tmp/*, /proc/*, and /var/* ಆಗಿರುತ್ತವೆ."
 
-#: ../data/gnome-search-tool.schemas.in.h:65
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:8
 msgid "Disable Quick Search Second Scan"
 msgstr "ಕ್ಷಿಪ್ರ ಹುಡುಕು ಎರಡನೆಯ ಶೋಧನೆಯನ್ನು ಅಶಕ್ತಗೊಳಿಸು"
 
-#: ../data/gnome-search-tool.schemas.in.h:66
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:9
 msgid ""
 "This key determines if the search tool disables the use of the find command "
 "after performing a quick search."
 msgstr ""
-"ಒಂದು ಕ್ಷಿಪ್ರವಾದ ಹುಡುಕಾಟವನ್ನು ನಿರ್ವಹಿಸಿದ ನಂತರ ಹುಡುಕು ಆಜ್ಞೆಯನ್ನು ಬಳಸದಂತೆ "
-"ಹುಡುಕು ಉಪಕರಣವನ್ನು ಅಶಕ್ತಗೊಳಿಸುತ್ತದೆ ಎನ್ನುವುದನ್ನು ಈ ಕೀಲಿಯು ನಿರ್ಧರಿಸುತ್ತದೆ."
+"ಒಂದು ಕ್ಷಿಪ್ರವಾದ ಹುಡುಕಾಟವನ್ನು ನಿರ್ವಹಿಸಿದ ನಂತರ ಹುಡುಕು ಆಜ್ಞೆಯನ್ನು ಬಳಸದಂತೆ ಹುಡುಕು "
+"ಉಪಕರಣವನ್ನು ಅಶಕ್ತಗೊಳಿಸುತ್ತದೆ ಎನ್ನುವುದನ್ನು ಈ ಕೀಲಿಯು ನಿರ್ಧರಿಸುತ್ತದೆ."
 
-#: ../data/gnome-search-tool.schemas.in.h:67
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:10
 msgid "Quick Search Second Scan Excluded Paths"
 msgstr "ಕ್ಷಿಪ್ರ ಹುಡುಕುವಿಕೆಯ ಎರಡನೆ ಬಾರಿ ಶೋಧಿಸುವಿಕೆಯಿಂದ ಹೊರತಾಗಿಸಬೇಕಾದ ಮಾರ್ಗಗಳು"
 
-#: ../data/gnome-search-tool.schemas.in.h:68
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:11
 msgid ""
 "This key defines the paths the search tool will exclude from a second scan "
 "when performing a quick search. The second scan uses the find command to "
@@ -297,14 +104,15 @@ msgstr ""
 "ಹೊರತಾಗಿಸಬೇಕಿರುವ ಮಾರ್ಗವನ್ನು ಈ ಕೀಲಿಯು ಸೂಚಿಸುತ್ತದೆ. ಎರಡನೆ ಬಾರಿಯು ಶೋಧನೆಯು "
 "ಕಡತಗಳಿಗಾಗಿ ಹುಡುಕಲು ಹುಡುಕು ಆಜ್ಞೆಯನ್ನು ಬಳಸುತ್ತದೆ. ಎರಡನೇ ಬಾರಿ ಶೋಧಿಸುವ "
 "ಉದ್ದೇಶವೇನೆಂದರೆ ಸೂಚಿಯಲ್ಲಿ ಸೇರಿಸದೆ ಇರುವ ಕಡತಗಳನ್ನೂ ಸಹ ಸೇರಿಸುವುದಾಗಿರುತ್ತದೆ. '*' "
-"ಹಾಗು '?' ನಂತಹ ವೈಲ್ಡ್‌ಕಾರ್ಡುಗಳಿಗೆ ಇಲ್ಲಿ ಬೆಂಬಲವಿದೆ. ಪೂರ್ವನಿಯೋಜಿತ ಮೌಲ್ಯವು / "
+"ಹಾಗು "
+"'?' ನಂತಹ ವೈಲ್ಡ್‌ಕಾರ್ಡುಗಳಿಗೆ ಇಲ್ಲಿ ಬೆಂಬಲವಿದೆ. ಪೂರ್ವನಿಯೋಜಿತ ಮೌಲ್ಯವು / "
 "ಆಗಿರುತ್ತದೆ."
 
-#: ../data/gnome-search-tool.schemas.in.h:69
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:12
 msgid "Search Result Columns Order"
 msgstr "ಫಲಿತಾಂಶದ ಲಂಬಸಾಲುಗಳ ಕ್ರಮವನ್ನು ಹುಡುಕು"
 
-#: ../data/gnome-search-tool.schemas.in.h:70
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:13
 msgid ""
 "This key defines the order of the columns in the search results. This key "
 "should not be modified by the user."
@@ -312,11 +120,11 @@ msgstr ""
 "ಹುಡುಕು ಫಲಿತಾಂಶಗಳಲ್ಲಿನ ಲಂಬಸಾಲುಗಳ ಕ್ರಮವನ್ನು ಈ ಕೀಲಿಯು ಸೂಚಿಸುತ್ತದೆ. ಈ ಕೀಲಿಯನ್ನು "
 "ಬಳಕೆದಾರರು ಮಾರ್ಪಡಿಸಬಾರದು."
 
-#: ../data/gnome-search-tool.schemas.in.h:71
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:14
 msgid "Default Window Width"
 msgstr "ವಿಂಡೋವಿನ ಪೂರ್ವನಿಯೋಜಿತ ಅಗಲ"
 
-#: ../data/gnome-search-tool.schemas.in.h:72
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:15
 msgid ""
 "This key defines the window width, and it's used to remember the size of the "
 "search tool between sessions. Setting it to -1 will make the search tool use "
@@ -324,13 +132,14 @@ msgid ""
 msgstr ""
 "ಈ ಕೀಲಿಯು ವಿಂಡೋದ ಅಗಲವನ್ನು ಸೂಚಿಸುತ್ತದೆ, ಹಾಗು ಅಧಿವೇಶನಗಳ ನಡುವೆ ಹುಡುಕು ಉಪಕರಣದ "
 "ಗಾತ್ರವನ್ನು ನೆನಪಿಟ್ಟುಕೊಳ್ಳಲು ಇದನ್ನು ಬಳಸಲಾಗುತ್ತದೆ. ಇದನ್ನು -1 ಗೆ ಬದಲಾಯಿಸಿದಲ್ಲಿ "
-"ಉಪಕರಣವು ಪೂರ್ವನಿಯೋಜಿತ ಅಗಲವನ್ನು ಬಳಸುತ್ತದೆ."
+"ಉಪಕರಣವು "
+"ಪೂರ್ವನಿಯೋಜಿತ ಅಗಲವನ್ನು ಬಳಸುತ್ತದೆ."
 
-#: ../data/gnome-search-tool.schemas.in.h:73
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:16
 msgid "Default Window Height"
 msgstr "ವಿಂಡೋವಿನ ಪೂರ್ವನಿಯೋಜಿತ ಉದ್ದ"
 
-#: ../data/gnome-search-tool.schemas.in.h:74
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:17
 msgid ""
 "This key defines the window height, and it's used to remember the size of "
 "the search tool between sessions. Setting it to -1 will make the search tool "
@@ -338,215 +147,695 @@ msgid ""
 msgstr ""
 "ಈ ಕೀಲಿಯು ವಿಂಡೋದ ಎತ್ತರವನ್ನು ಸೂಚಿಸುತ್ತದೆ, ಹಾಗು ಅಧಿವೇಶನಗಳ ನಡುವೆ ಹುಡುಕು ಉಪಕರಣದ "
 "ಗಾತ್ರವನ್ನು ನೆನಪಿಟ್ಟುಕೊಳ್ಳಲು ಇದನ್ನು ಬಳಸಲಾಗುತ್ತದೆ. ಇದನ್ನು -1 ಗೆ ಬದಲಾಯಿಸಿದಲ್ಲಿ "
-"ಉಪಕರಣವು ಪೂರ್ವನಿಯೋಜಿತ ಎತ್ತರವನ್ನು ಬಳಸುತ್ತದೆ."
+"ಉಪಕರಣವು "
+"ಪೂರ್ವನಿಯೋಜಿತ ಎತ್ತರವನ್ನು ಬಳಸುತ್ತದೆ."
 
-#: ../data/gnome-search-tool.schemas.in.h:75
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:18
 msgid "Default Window Maximized"
 msgstr "ಪೂರ್ವನಿಯೋಜಿತ ವಿಂಡೋವನ್ನು ಹಿಗ್ಗಿಸಲಾಗಿದೆ"
 
-#: ../data/gnome-search-tool.schemas.in.h:76
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:19
 msgid ""
 "This key determines if the search tool window starts in a maximized state."
 msgstr ""
 "ಹುಡುಕು ಉಪಕರಣ ವಿಂಡೋವು ಒಂದು ಹಿಗ್ಗಿಸಲಾದ ಸ್ಥಿತಿಯಲ್ಲಿ ಆರಂಭಗೊಳ್ಳುತ್ತದೆಯೆ ಎಂದು ಈ "
-"ಕೀಲಿಯು ನಿರ್ಧರಿಸುತ್ತದೆ."
+"ಕೀಲಿಯು "
+"ನಿರ್ಧರಿಸುತ್ತದೆ."
 
-#: ../data/gnome-search-tool.schemas.in.h:77
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:20
 msgid "Look in Folder"
 msgstr "ಕಡತಕೋಶದಲ್ಲಿ ನೋಡು"
 
-#: ../data/gnome-search-tool.schemas.in.h:78
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:21
 msgid "This key defines the default value of the \"Look in Folder\" widget."
 msgstr ""
 "ಈ ಕೀಲಿಯು \"ಕಡತಕೋಶದಲ್ಲಿ ಹುಡುಕು\" ವಿಜೆಟ್‌ನ ಪೂರ್ವನಿಯೋಜಿತ ಮೌಲ್ಯವನ್ನು ಸೂಚಿಸುತ್ತದೆ."
-""
 
-#: ../src/gsearchtool-callbacks.c:194
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:22
+msgid ""
+"This key determines if the \"Contains the text\" search option is selected "
+"when the search tool is started."
+msgstr ""
+"ಹುಡುಕು ಉಪಕರಣವನ್ನು ಆರಂಭಿಸಿದಾಗ \"ಈ ಪಠ್ಯವನ್ನು ಹೊಂದಿರುವ\" ಹುಡುಕು ಆಯ್ಕೆಯನ್ನು "
+"ಆರಿಸಲಾಗಿದೆಯೆ ಎಂದು ಈ ಕೀಲಿಯು ನಿರ್ಧರಿಸುತ್ತದೆ."
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:23
+msgid ""
+"This key determines if the \"Date modified less than\" search option is "
+"selected when the search tool is started."
+msgstr ""
+"ಹುಡುಕು ಉಪಕರಣವನ್ನು ಆರಂಭಿಸಿದಾಗ \"ಈ ದಿನಾಂಕಕ್ಕಿಂತ ಮೊದಲು ಮಾರ್ಪಡಿಸಲಾಗಿದ್ದು\" ಹುಡುಕು "
+"ಆಯ್ಕೆಯನ್ನು ಆರಿಸಲಾಗಿದೆಯೆ ಎಂದು ಈ ಕೀಲಿಯು ನಿರ್ಧರಿಸುತ್ತದೆ."
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:24
+msgid ""
+"This key determines if the \"Date modified more than\" search option is "
+"selected when the search tool is started."
+msgstr ""
+"ಹುಡುಕು ಉಪಕರಣವನ್ನು ಆರಂಭಿಸಿದಾಗ \"ಈ ದಿನಾಂಕಕ್ಕಿಂತ ನಂತರ ಮಾರ್ಪಡಿಸಲಾಗಿದ್ದು\" ಹುಡುಕು "
+"ಆಯ್ಕೆಯನ್ನು ಆರಿಸಲಾಗಿದೆಯೆ ಎಂದು ಈ ಕೀಲಿಯು ನಿರ್ಧರಿಸುತ್ತದೆ."
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:25
+msgid ""
+"This key determines if the \"Size at least\" search option is selected when "
+"the search tool is started."
+msgstr ""
+"ಹುಡುಕು ಉಪಕರಣವನ್ನು ಆರಂಭಿಸಿದಾಗ \"ಕನಿಷ್ಟ ಗಾತ್ರ\" ಹುಡುಕು ಆಯ್ಕೆಯನ್ನು ಆರಿಸಲಾಗಿದೆಯೆ "
+"ಎಂದು "
+"ಈ ಕೀಲಿಯು ನಿರ್ಧರಿಸುತ್ತದೆ."
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:26
+msgid ""
+"This key determines if the \"Size at most\" search option is selected when "
+"the search tool is started."
+msgstr ""
+"ಹುಡುಕು ಉಪಕರಣವನ್ನು ಆರಂಭಿಸಿದಾಗ \"ಗರಿಷ್ಟ ಗಾತ್ರ\" ಹುಡುಕು ಆಯ್ಕೆಯನ್ನು ಆರಿಸಲಾಗಿದೆಯೆ "
+"ಎಂದು "
+"ಈ ಕೀಲಿಯು ನಿರ್ಧರಿಸುತ್ತದೆ."
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:27
+msgid ""
+"This key determines if the \"File is empty\" search option is selected when "
+"the search tool is started."
+msgstr ""
+"ಹುಡುಕು ಉಪಕರಣವನ್ನು ಆರಂಭಿಸಿದಾಗ \"ಕಡತವು ಖಾಲಿ ಇದೆ\" ಹುಡುಕು ಆಯ್ಕೆಯನ್ನು "
+"ಆರಿಸಲಾಗಿದೆಯೆ "
+"ಎಂದು ಈ ಕೀಲಿಯು ನಿರ್ಧರಿಸುತ್ತದೆ."
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:28
+msgid ""
+"This key determines if the \"Owned by user\" search option is selected when "
+"the search tool is started."
+msgstr ""
+"ಹುಡುಕು ಉಪಕರಣವನ್ನು ಆರಂಭಿಸಿದಾಗ \"ಬಳಕೆದಾರರಿಂದ ಮಾಲಿಕತ್ವವನ್ನು ಹೊಂದಿರುವ\" ಹುಡುಕು "
+"ಆಯ್ಕೆಯನ್ನು ಆರಿಸಲಾಗಿದೆಯೆ ಎಂದು ಈ ಕೀಲಿಯು ನಿರ್ಧರಿಸುತ್ತದೆ."
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:29
+msgid ""
+"This key determines if the \"Owned by group\" search option is selected when "
+"the search tool is started."
+msgstr ""
+"ಹುಡುಕು ಉಪಕರಣವನ್ನು ಆರಂಭಿಸಿದಾಗ \"ಸಮೂಹದಿಂದ ಮಾಲಿಕತ್ವವನ್ನು ಹೊಂದಿರುವ\" ಹುಡುಕು "
+"ಆಯ್ಕೆಯನ್ನು ಆರಿಸಲಾಗಿದೆಯೆ ಎಂದು ಈ ಕೀಲಿಯು ನಿರ್ಧರಿಸುತ್ತದೆ."
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:30
+msgid ""
+"This key determines if the \"Owner is unrecognized\" search option is "
+"selected when the search tool is started."
+msgstr ""
+"ಹುಡುಕು ಉಪಕರಣವನ್ನು ಆರಂಭಿಸಿದಾಗ \"ಗುರುತಿಸಲಾಗದ ಮಾಲಿಕತ್ವವನ್ನು ಹೊಂದಿರುವ\" ಹುಡುಕು "
+"ಆಯ್ಕೆಯನ್ನು ಆರಿಸಲಾಗಿದೆಯೆ ಎಂದು ಈ ಕೀಲಿಯು ನಿರ್ಧರಿಸುತ್ತದೆ."
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:31
+msgid ""
+"This key determines if the \"Name does not contain\" search option is "
+"selected when the search tool is started."
+msgstr ""
+"ಹುಡುಕು ಉಪಕರಣವನ್ನು ಆರಂಭಿಸಿದಾಗ \"ಹೆಸರು ಇದನ್ನು ಹೊಂದಿಲ್ಲ\" ಹುಡುಕು ಆಯ್ಕೆಯನ್ನು "
+"ಆರಿಸಲಾಗಿದೆಯೆ ಎಂದು ಈ ಕೀಲಿಯು ನಿರ್ಧರಿಸುತ್ತದೆ."
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:32
+msgid ""
+"This key determines if the \"Name matches regular expression\" search option "
+"is selected when the search tool is started."
+msgstr ""
+"ಹುಡುಕು ಉಪಕರಣವನ್ನು ಆರಂಭಿಸಿದಾಗ \"ಸಾಮಾನ್ಯ ಗಣಿತೋಕ್ತಿಗೆ ತಾಳೆಯಾಗುವ ಹೆಸರು\" ಹುಡುಕು "
+"ಆಯ್ಕೆಯನ್ನು ಆರಿಸಲಾಗಿದೆಯೆ ಎಂದು ಈ ಕೀಲಿಯು ನಿರ್ಧರಿಸುತ್ತದೆ."
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:33
+msgid ""
+"This key determines if the \"Show hidden files and folders\" search option "
+"is selected when the search tool is started."
+msgstr ""
+"ಹುಡುಕು ಉಪಕರಣವನ್ನು ಆರಂಭಿಸಿದಾಗ \"ಅಡಗಿಸಲಾದ ಕಡತಗಳು ಹಾಗು ಕಡತಕೋಶಗಳನ್ನು ತೋರಿಸು\" "
+"ಹುಡುಕು ಆಯ್ಕೆಯನ್ನು ಆರಿಸಲಾಗಿದೆಯೆ ಎಂದು ಈ ಕೀಲಿಯು ನಿರ್ಧರಿಸುತ್ತದೆ."
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:34
+msgid ""
+"This key determines if the \"Follow symbolic links\" search option is "
+"selected when the search tool is started."
+msgstr ""
+"ಹುಡುಕು ಉಪಕರಣವನ್ನು ಆರಂಭಿಸಿದಾಗ \"ಸಾಂಕೇತಿಕ ಕೊಂಡಿಗಳನ್ನು ಅನುಸರಿಸು\" ಹುಡುಕು "
+"ಆಯ್ಕೆಯನ್ನು "
+"ಆರಿಸಲಾಗಿದೆಯೆ ಎಂದು ಈ ಕೀಲಿಯು ನಿರ್ಧರಿಸುತ್ತದೆ."
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:35
+msgid ""
+"This key determines if the \"Exclude other filesystems\" search option is "
+"selected when the search tool is started."
+msgstr ""
+"ಹುಡುಕು ಉಪಕರಣವನ್ನು ಆರಂಭಿಸಿದಾಗ \"ಇತರೆ ಕಡತವ್ಯವಸ್ಥೆಗಳನ್ನು ಹೊರತುಪಡಿಸು\" ಹುಡುಕು "
+"ಆಯ್ಕೆಯನ್ನು ಆರಿಸಲಾಗಿದೆಯೆ ಎಂದು ಈ ಕೀಲಿಯು ನಿರ್ಧರಿಸುತ್ತದೆ."
+
+#: ../src/gsearchtool.c:80
+msgid "Contains the _text"
+msgstr "ಈ ಪಠ್ಯವನ್ನು ಹೊಂದಿದೆ(_t)"
+
+#: ../src/gsearchtool.c:82
+msgid "_Date modified less than"
+msgstr "ಈ ದಿನಾಂಕಕ್ಕಿಂತ ಮೊದಲು ಮಾರ್ಪಡಿಸಲಾಗಿದ್ದು(_D)"
+
+#: ../src/gsearchtool.c:82 ../src/gsearchtool.c:83
+msgid "days"
+msgstr "ದಿನಗಳು"
+
+#: ../src/gsearchtool.c:83
+msgid "Date modified more than"
+msgstr "ಈ ದಿನಾಂಕಕ್ಕಿಂತ ನಂತರ ಮಾರ್ಪಡಿಸಲಾಗಿದ್ದು"
+
+#: ../src/gsearchtool.c:85
+msgid "S_ize at least"
+msgstr "ಕನಿಷ್ಟ ಗಾತ್ರ(_i)"
+
+#: ../src/gsearchtool.c:85 ../src/gsearchtool.c:86
+msgid "kilobytes"
+msgstr "ಕಿಲೋಬೈಟ್‌ಗಳು"
+
+#: ../src/gsearchtool.c:86
+msgid "Si_ze at most"
+msgstr "ಗರಿಷ್ಟ ಗಾತ್ರ(_z)"
+
+#: ../src/gsearchtool.c:87
+msgid "File is empty"
+msgstr "ಕಡತವು ಖಾಲಿ ಇದೆ"
+
+#: ../src/gsearchtool.c:89
+msgid "Owned by _user"
+msgstr "ಬಳಕೆದಾರರು ಮಾಲಿಕತ್ವವನ್ನು ಹೊಂದಿರುವ(_u)"
+
+#: ../src/gsearchtool.c:90
+msgid "Owned by _group"
+msgstr "ಸಮೂಹವು ಮಾಲಿಕತ್ವವನ್ನು ಹೊಂದಿರುವ(_g)"
+
+#: ../src/gsearchtool.c:91
+msgid "Owner is unrecognized"
+msgstr "ಗುರುತಿಸಲಾಗದ ಮಾಲಿಕತ್ವವನ್ನು ಹೊಂದಿರುವ"
+
+#: ../src/gsearchtool.c:93
+msgid "Na_me does not contain"
+msgstr "ಹೆಸರು ಇದನ್ನು ಹೊಂದಿಲ್ಲ(_m)"
+
+#: ../src/gsearchtool.c:94
+msgid "Name matches regular e_xpression"
+msgstr "ಸಾಮಾನ್ಯ ಗಣಿತೋಕ್ತಿಗೆ ತಾಳೆಯಾಗುವ ಹೆಸರು(_x)"
+
+#: ../src/gsearchtool.c:96
+msgid "Show hidden and backup files"
+msgstr "ಅಡಗಿಸಲಾದ ಹಾಗು ಬ್ಯಾಕ್ಅಪ್‌ ಕಡತಗಳನ್ನು ತೋರಿಸು"
+
+#: ../src/gsearchtool.c:97
+msgid "Follow symbolic links"
+msgstr "ಸಾಂಕೇತಿಕ ಕೊಂಡಿಗಳನ್ನು ಅನುಸರಿಸು"
+
+#: ../src/gsearchtool.c:98
+msgid "Exclude other filesystems"
+msgstr "ಇತರೆ ಕಡತವ್ಯವಸ್ಥೆಗಳನ್ನು ಹೊರತುಪಡಿಸಿ"
+
+#: ../src/gsearchtool.c:156
+msgid "Show version of the application"
+msgstr "ಅನ್ವಯದ ಆವೃತ್ತಿಯನ್ನು ತೋರಿಸು"
+
+#: ../src/gsearchtool.c:157 ../src/gsearchtool.c:162 ../src/gsearchtool.c:171
+msgid "STRING"
+msgstr "STRING"
+
+#: ../src/gsearchtool.c:158
+msgid "PATH"
+msgstr "PATH"
+
+#: ../src/gsearchtool.c:159
+msgid "VALUE"
+msgstr "VALUE"
+
+#: ../src/gsearchtool.c:163 ../src/gsearchtool.c:164
+msgid "DAYS"
+msgstr "DAYS"
+
+#: ../src/gsearchtool.c:165 ../src/gsearchtool.c:166
+msgid "KILOBYTES"
+msgstr "KILOBYTES"
+
+#: ../src/gsearchtool.c:168
+msgid "USER"
+msgstr "USER"
+
+#: ../src/gsearchtool.c:169
+msgid "GROUP"
+msgstr "GROUP"
+
+#: ../src/gsearchtool.c:172
+msgid "PATTERN"
+msgstr "PATTERN"
+
+#: ../src/gsearchtool.c:383
+msgid "A locate database has probably not been created."
+msgstr "ದತ್ತಸಂಚಯ ಹುಡುಕುವಿಕೆಯನ್ನು ಬಹುಷಃ ರಚಿಸಲಾಗಿಲ್ಲ."
+
+#: ../src/gsearchtool.c:485
+#, c-format
+msgid "Character set conversion failed for \"%s\""
+msgstr "\"%s\" ಗಾಗಿನ ಅಕ್ಷರ ಸೆಟ್ ಪರಿವರ್ತನೆಯು ವಿಫಲಗೊಂಡಿದೆ"
+
+#: ../src/gsearchtool.c:505
+msgid "Searching..."
+msgstr "ಹುಡುಕಲಾಗುತ್ತಿದೆ..."
+
+#: ../src/gsearchtool.c:505 ../src/gsearchtool.c:1018
+#: ../src/gsearchtool.c:2986
+msgid "Search for Files"
+msgstr "ಕಡತಗಳಿಗಾಗಿ ಹುಡುಕು"
+
+#: ../src/gsearchtool.c:964 ../src/gsearchtool.c:993
+msgid "No files found"
+msgstr "ಯಾವುದೆ ಕಡತಗಳು ಕಂಡು ಬಂದಿಲ್ಲ"
+
+#: ../src/gsearchtool.c:986
+msgid "(stopped)"
+msgstr "(ನಿಲ್ಲಿಸಲಾಗಿದೆ)"
+
+#: ../src/gsearchtool.c:992
+msgid "No Files Found"
+msgstr "ಯಾವುದೆ ಕಡತಗಳು ಕಂಡು ಬಂದಿಲ್ಲ"
+
+#: ../src/gsearchtool.c:997
+#, c-format
+msgid "%'d File Found"
+msgid_plural "%'d Files Found"
+msgstr[0] "%'d ಕಡತವು ಕಂಡು ಬಂದಿದೆ"
+msgstr[1] "%'d ಕಡತಗಳು ಕಂಡು ಬಂದಿದೆ"
+
+#: ../src/gsearchtool.c:1001 ../src/gsearchtool.c:1039
+#, c-format
+msgid "%'d file found"
+msgid_plural "%'d files found"
+msgstr[0] "%'d ಕಡತವು ಕಂಡು ಬಂದಿದೆ"
+msgstr[1] "%'d ಕಡತಗಳು ಕಂಡು ಬಂದಿದೆ"
+
+#: ../src/gsearchtool.c:1130
+msgid "Entry changed called for a non entry option!"
+msgstr "ನಮೂದು ಅಲ್ಲದ ಆಯ್ಕೆಗಾಗಿನ ನಮೂದಿನ ಬದಲಾವಣೆಗಾಗಿ ಕೋರಲಾಗಿದೆ!"
+
+#: ../src/gsearchtool.c:1295
+msgid "Set the text of \"Name contains\" search option"
+msgstr "\"ಹೆಸರು ಇದನ್ನು ಹೊಂದಿದೆ\" ಹುಡುಕು ಆಯ್ಕೆಯ ಪಠ್ಯವನ್ನು ಸಿದ್ದಗೊಳಿಸು"
+
+#: ../src/gsearchtool.c:1296
+msgid "Set the text of \"Look in folder\" search option"
+msgstr "\"ಕಡತಕೋಶದಲ್ಲಿ ನೋಡು\" ಹುಡುಕು ಆಯ್ಕೆಯ ಪಠ್ಯವನ್ನು ಸಿದ್ದಗೊಳಿಸು"
+
+#: ../src/gsearchtool.c:1297
+msgid "Sort files by one of the following: name, folder, size, type, or date"
+msgstr ""
+"ಈ ಕೆಳಗಿನವುಗಳಲ್ಲಿ ಒಂದರ ಆಧಾರದ ಮೇಲೆ ಕಡತಗಳನ್ನು ವಿಂಗಡಿಸಿ: ಹೆಸರು, ಕಡತಕೋಶ, ಗಾತ್ರ, "
+"ಬಗೆ "
+"ಅಥವ ದಿನಾಂಕ"
+
+#: ../src/gsearchtool.c:1298
+msgid "Set sort order to descending, the default is ascending"
+msgstr ""
+"ವಿಂಗಡಣಾ ಕ್ರಮವನ್ನು ಇಳಿಕೆ ಕ್ರಮದಲ್ಲಿ ಜೋಡಿಸಿ, ಏರಿಕೆ ಕ್ರಮವು ಪೂರ್ವನಿಯೋಜಿತ ಆಗಿರುತ್ತದೆ"
+
+#: ../src/gsearchtool.c:1299
+msgid "Automatically start a search"
+msgstr "ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಹುಡುಕನ್ನು ಆರಂಭಿಸು"
+
+#: ../src/gsearchtool.c:1305
+#, c-format
+msgid "Select the \"%s\" search option"
+msgstr "\"%s\" ಹುಡುಕು ಆಯ್ಕೆಯನ್ನು ಆರಿಸಿ"
+
+#: ../src/gsearchtool.c:1308
+#, c-format
+msgid "Select and set the \"%s\" search option"
+msgstr "\"%s\" ಹುಡುಕು ಆಯ್ಕೆಯನ್ನು ಆರಿಸಿ ಹಾಗು ಹೊಂದಿಸಿ"
+
+#: ../src/gsearchtool.c:1415
+msgid "Invalid option passed to sortby command line argument."
+msgstr "sortby ಆಜ್ಞಾಸಾಲಿನ ಆರ್ಗುಮೆಂಟಿಗೆ ಅಮಾನ್ಯವಾದ ಆಯ್ಕೆಯನ್ನು ರವಾನಿಸಲಾಗಿದೆ."
+
+#: ../src/gsearchtool.c:1709
+msgid ""
+"\n"
+"... Too many errors to display ..."
+msgstr ""
+"\n"
+"... ತೋರಿಸಲಾಗದಷ್ಟು ದೋಷಗಳಿವೆ ..."
+
+#: ../src/gsearchtool.c:1723
+msgid ""
+"The search results may be invalid.  There were errors while performing this "
+"search."
+msgstr ""
+"ಹುಡುಕು ಫಲಿತಾಂಶವು ಅಮಾನ್ಯವಾಗಿರಬಹುದು.  ಈ ಹುಡುಕನ್ನು ನಿರ್ವಹಿಸುವಾಗ ಕೆಲವು ದೋಷಗಳಾಗಿವೆ."
+
+#: ../src/gsearchtool.c:1732 ../src/gsearchtool.c:1773
+msgid "Show more _details"
+msgstr "ಹೆಚ್ಚಿನ ವಿವರಗಳನ್ನು ತೋರಿಸು(_d)"
+
+#: ../src/gsearchtool.c:1762
+msgid ""
+"The search results may be out of date or invalid.  Do you want to disable "
+"the quick search feature?"
+msgstr ""
+"ಹುಡುಕು ಫಲಿತಾಂಶಗಳು ಹಳೆಯದಾಗಿರಬಹುದು ಅಥವ ಅಮಾನ್ಯವಾಗಿದೆ.  ನೀವು ತಕ್ಷಣದ ಹುಡುಕನ್ನು "
+"ಅಶಕ್ತಗೊಳಿಸಲು ಬಯಸುತ್ತೀರೆ?"
+
+#: ../src/gsearchtool.c:1784
+msgid "Disable _Quick Search"
+msgstr "ತಕ್ಷಣದ ಹುಡುಕನ್ನು ಅಶಕ್ತಗೊಳಿಸು(_Q)"
+
+#: ../src/gsearchtool.c:1811
+#, c-format
+msgid "Failed to set process group id of child %d: %s.\n"
+msgstr ""
+"ಚೈಲ್ಡ್‌ %d ನ ಪ್ರಕ್ರಿಯೆಯ ಗುಂಪು id ಅನ್ನು ಸಿದ್ಧಗೊಳಿಸುವಲ್ಲಿ ವಿಫಲಗೊಂಡಿದೆ: %s.\n"
+
+#: ../src/gsearchtool.c:1836
+msgid "Error parsing the search command."
+msgstr "ಹುಡುಕು ಆಜ್ಞೆಯನ್ನು ಪಾರ್ಸಿಂಗ್ ಮಾಡುವಲ್ಲಿ ದೋಷ."
+
+#: ../src/gsearchtool.c:1865
+msgid "Error running the search command."
+msgstr "ಹುಡುಕು ಆಜ್ಞೆಯನ್ನು ಚಲಾಯಿಸುವಾಗ ದೋಷ."
+
+#: ../src/gsearchtool.c:1981
+#, c-format
+msgid "Enter a text value for the \"%s\" search option."
+msgstr "\"%s\" ಹುಡುಕು ಆಯ್ಕೆಗಾಗಿ ಒಂದು ಪಠ್ಯ ಮೌಲ್ಯವನ್ನು ನಮೂದಿಸಿ."
+
+#. Translators:  Below is a string displaying the search options name
+#. and unit value.  For example, "\"Date modified less than\" in days".
+#: ../src/gsearchtool.c:1986
+#, c-format
+msgid "\"%s\" in %s"
+msgstr "\"%s\", %s ನಲ್ಲಿ"
+
+#: ../src/gsearchtool.c:1988
+#, c-format
+msgid "Enter a value in %s for the \"%s\" search option."
+msgstr "%s ನಲ್ಲಿ \"%s\" ಹುಡುಕು ಆಯ್ಕೆಗಾಗಿ ಒಂದು ಮೌಲ್ಯವನ್ನು ನಮೂದಿಸಿ."
+
+#: ../src/gsearchtool.c:2046
+#, c-format
+msgid "Remove \"%s\""
+msgstr "\"%s\" ಅನ್ನು ತೆಗೆದು ಹಾಕು"
+
+#: ../src/gsearchtool.c:2047
+#, c-format
+msgid "Click to remove the \"%s\" search option."
+msgstr "\"%s\" ಹುಡುಕು ಆಯ್ಕೆಗಳನ್ನು ತೆಗೆದುಹಾಕಲು ಕ್ಕಿಕ್ ಮಾಡಿ."
+
+#: ../src/gsearchtool.c:2140
+msgid "A_vailable options:"
+msgstr "ಲಭ್ಯವಿರುವ ಆಯ್ಕೆಗಳು(_v):"
+
+#: ../src/gsearchtool.c:2169
+msgid "Available options"
+msgstr "ಲಭ್ಯವಿರುವ ಆಯ್ಕೆಗಳು"
+
+#: ../src/gsearchtool.c:2170
+msgid "Select a search option from the drop-down list."
+msgstr "ಬೀಳಿಕೆ ಪಟ್ಟಿಯಿಂದ ಒಂದು ಹುಡುಕು ಆಯ್ಕೆಯನ್ನು ಆರಿಸಿ."
+
+#: ../src/gsearchtool.c:2182
+msgid "Add search option"
+msgstr "ಹುಡುಕು ಆಯ್ಕೆಯನ್ನು ಸೇರಿಸಿ"
+
+#: ../src/gsearchtool.c:2183
+msgid "Click to add the selected available search option."
+msgstr "ಆರಿಸಲಾದ ಲಭ್ಯ ಹುಡುಕು ಆಯ್ಕೆಯನ್ನು ಸೇರಿಸಲು ಕ್ಲಿಕ್ ಮಾಡಿ."
+
+#: ../src/gsearchtool.c:2272
+msgid "S_earch results:"
+msgstr "ಹುಡುಕು ಫಲಿತಾಂಶಗಳು(_e):"
+
+#: ../src/gsearchtool.c:2316
+msgid "List View"
+msgstr "ಪಟ್ಟಿ ನೋಟ"
+
+#: ../src/gsearchtool.c:2376
+msgid "Name"
+msgstr "ಹೆಸರು"
+
+#: ../src/gsearchtool.c:2400
+msgid "Folder"
+msgstr "ಕಡತಕೋಶ"
+
+#: ../src/gsearchtool.c:2413
+msgid "Size"
+msgstr "ಗಾತ್ರ"
+
+#: ../src/gsearchtool.c:2425
+msgid "Type"
+msgstr "ಶೈಲಿ"
+
+#: ../src/gsearchtool.c:2437
+msgid "Date Modified"
+msgstr "ದಿನಾಂಕ ಮಾರ್ಪಡಿಸಲಾದ"
+
+#: ../src/gsearchtool.c:2756
+msgid "_Name contains:"
+msgstr "ಇದನ್ನು ಹೊಂದಿರುವ ಹೆಸರು(_N):"
+
+#: ../src/gsearchtool.c:2770 ../src/gsearchtool.c:2771
+msgid "Enter a filename or partial filename with or without wildcards."
+msgstr ""
+"ವೈಲ್ಡ್‌ಕಾರ್ಡುಗಳೊಂದಿಗೆ ಅಥವ ವೈಲ್ಡ್‌ಕಾರ್ಡುಗಳಿಲ್ಲದೆ ಒಂದು ಕಡತದ ಹೆಸರು ಅಥವ ಆಂಶಿಕ "
+"ಕಡತದ "
+"ಹೆಸರನ್ನು ನಮೂದಿಸಿ."
+
+#: ../src/gsearchtool.c:2771
+msgid "Name contains"
+msgstr "ಇದನ್ನು ಹೊಂದಿರುವ ಹೆಸರು"
+
+#: ../src/gsearchtool.c:2777
+msgid "_Look in folder:"
+msgstr "ಕಡತಕೋಶದಲ್ಲಿ ನೋಡು(_L):"
+
+#: ../src/gsearchtool.c:2783
+msgid "Browse"
+msgstr "ವೀಕ್ಷಿಸು"
+
+#: ../src/gsearchtool.c:2792
+msgid "Look in folder"
+msgstr "ಕಡತಕೋಶದಲ್ಲಿ ನೋಡು"
+
+#: ../src/gsearchtool.c:2792
+msgid "Select the folder or device from which you want to begin the search."
+msgstr "ಯಾವ ಕಡತಕೋಶ ಅಥವ ಸಾಧನದಿಂದ ಹುಡುಕನ್ನು ಆರಂಭಿಸಬೇಕು ಎನ್ನುವುದನ್ನು ಆರಿಸಿ."
+
+#: ../src/gsearchtool.c:2810
+msgid "Select more _options"
+msgstr "ಇನ್ನಷ್ಟು ಆಯ್ಕೆಗಳನ್ನು ಆರಿಸಿ(_o)"
+
+#: ../src/gsearchtool.c:2819
+msgid "Select more options"
+msgstr "ಇನ್ನಷ್ಟು ಆಯ್ಕೆಗಳನ್ನು ಆರಿಸು"
+
+#: ../src/gsearchtool.c:2819
+msgid "Click to expand or collapse the list of available options."
+msgstr "ಲಭ್ಯವಿರುವ ಆಯ್ಕೆಗಳನ್ನು ದೊಡ್ಡದಾಗಿಸಲು ಅಥವ ಕಿರಿದಾಗಿಸಲು ಕ್ಲಿಕ್ ಮಾಡಿ."
+
+#: ../src/gsearchtool.c:2843
+msgid "Click to display the help manual."
+msgstr "ನೆರವು ಕೈಪಿಡಿಯನ್ನು ತೋರಿಸಲು ಕ್ಲಿಕ್ ಮಾಡಿ."
+
+#: ../src/gsearchtool.c:2851
+msgid "Click to close \"Search for Files\"."
+msgstr "\"ಕಡತಗಳಿಗಾಗಿ ಹುಡುಕು\" ಅನ್ನು ಮುಚ್ಚಲು ಕ್ಲಿಕ್ ಮಾಡಿ."
+
+#: ../src/gsearchtool.c:2877
+msgid "Click to perform a search."
+msgstr "ಒಂದು ಹುಡುಕನ್ನು ನಿರ್ವಹಿಸಲು ಕ್ಲಿಕ್ ಮಾಡಿ."
+
+#: ../src/gsearchtool.c:2878
+msgid "Click to stop a search."
+msgstr "ಒಂದು ಹುಡುಕನ್ನು ನಿಲ್ಲಿಸಲು ಕ್ಲಿಕ್ ಮಾಡಿ."
+
+#: ../src/gsearchtool.c:2971
+msgid "- the GNOME Search Tool"
+msgstr "- GNOME ಹುಡುಕು ಉಪಕರಣ"
+
+#: ../src/gsearchtool.c:2980
+#, c-format
+msgid "Failed to parse command line arguments: %s\n"
+msgstr "ಆದೇಶ ಸಾಲಿನ ಆರ್ಗ್ಯುಮೆಂಟ್‌ಗಳನ್ನು ಪಾರ್ಸ್ ಮಾಡುವಲ್ಲಿ ವಿಫಲಗೊಂಡಿದೆ: %s\n"
+
+#: ../src/gsearchtool-callbacks.c:196
 msgid "Could not open help document."
 msgstr "ನೆರವಿನ ದಸ್ತಾವೇಜನ್ನು ತೆರೆಯಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ."
 
-#: ../src/gsearchtool-callbacks.c:341
+#: ../src/gsearchtool-callbacks.c:343
 #, c-format
 msgid "Are you sure you want to open %d document?"
 msgid_plural "Are you sure you want to open %d documents?"
 msgstr[0] "ನೀವು %d ದಸ್ತಾವೇಜನ್ನು ಖಚಿತವಾಗಿಯೂ ತೆರೆಯಲು ಬಯಸುತ್ತೀರೆ?"
 msgstr[1] "ನೀವು %d ದಸ್ತಾವೇಜುಗಳನ್ನು ಖಚಿತವಾಗಿಯೂ ತೆರೆಯಲು ಬಯಸುತ್ತೀರೆ?"
 
-#: ../src/gsearchtool-callbacks.c:346
-#: ../src/gsearchtool-callbacks.c:531
+#: ../src/gsearchtool-callbacks.c:348 ../src/gsearchtool-callbacks.c:533
 #, c-format
 msgid "This will open %d separate window."
 msgid_plural "This will open %d separate windows."
 msgstr[0] "ಇದು %d ಪ್ರತ್ಯೇಕ ವಿಂಡೋವನ್ನು ತೆಗೆಯುತ್ತದೆ."
 msgstr[1] "ಇದು %d ಪ್ರತ್ಯೇಕ ವಿಂಡೋಗಳನ್ನು ತೆಗೆಯುತ್ತದೆ."
 
-#: ../src/gsearchtool-callbacks.c:382
+#: ../src/gsearchtool-callbacks.c:384
 #, c-format
 msgid "Could not open document \"%s\"."
 msgstr "\"%s\" ದಸ್ತಾವೇಜನ್ನು ತೆಗೆಯಲಾಗಿಲ್ಲ."
 
-#: ../src/gsearchtool-callbacks.c:407
+#: ../src/gsearchtool-callbacks.c:409
 #, c-format
 msgid "Could not open folder \"%s\"."
 msgstr "\"%s\" ಕಡತಕೋಶವನ್ನು ತೆಗೆಯಲಾಗಿಲ್ಲ."
 
-#: ../src/gsearchtool-callbacks.c:415
+#: ../src/gsearchtool-callbacks.c:417
 msgid "The nautilus file manager is not running."
 msgstr "ನಾಟಿಲಸ್ ಕಡತ ವ್ಯವಸ್ಥಾಪಕವು ಚಾಲನೆಯಲ್ಲಿಲ್ಲ."
 
-#: ../src/gsearchtool-callbacks.c:488
-#: ../src/gsearchtool-callbacks.c:811
+#: ../src/gsearchtool-callbacks.c:490 ../src/gsearchtool-callbacks.c:813
 msgid "The document does not exist."
 msgstr "ದಸ್ತಾವೇಜು ಅಸ್ತಿತ್ವದಲ್ಲಿಲ್ಲ."
 
-#: ../src/gsearchtool-callbacks.c:503
+#: ../src/gsearchtool-callbacks.c:505
 msgid "There is no installed viewer capable of displaying the document."
 msgstr ""
 "ದಸ್ತಾವೇಜನ್ನು ತೋರಿಸಲು ಸಾಮರ್ಥ್ಯವನ್ನು ಹೊಂದಿರುವ ಯಾವುದೆ ವೀಕ್ಷಕವು "
 "ಅನುಸ್ಥಾಪಿತಗೊಂಡಿಲ್ಲ."
 
-#: ../src/gsearchtool-callbacks.c:526
+#: ../src/gsearchtool-callbacks.c:528
 #, c-format
 msgid "Are you sure you want to open %d folder?"
 msgid_plural "Are you sure you want to open %d folders?"
 msgstr[0] "%d ಕಡತಕೋಶವನ್ನು ನೀವು ಖಚಿತವಾಗಿಯೂ ತೆರೆಯಬೇಕೆ?"
 msgstr[1] "%d ಕಡತಕೋಶಗಳನ್ನು ನೀವು ಖಚಿತವಾಗಿಯೂ ತೆರೆಯಬೇಕೆ?"
 
-#: ../src/gsearchtool-callbacks.c:675
+#: ../src/gsearchtool-callbacks.c:677
 #, c-format
 msgid "Could not move \"%s\" to trash."
 msgstr "\"%s\" ಅನ್ನು ಕಸದಬುಟ್ಟಿಗೆ ವರ್ಗಾಯಿಸಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ."
 
-#: ../src/gsearchtool-callbacks.c:702
+#: ../src/gsearchtool-callbacks.c:704
 #, c-format
 msgid "Do you want to delete \"%s\" permanently?"
 msgstr "\"%s\" ಅನ್ನು ನೀವು ಶಾಶ್ವತವಾಗಿ ಅಳಿಸಲು ಬಯಸುತ್ತೀರಾ?"
 
-#: ../src/gsearchtool-callbacks.c:705
+#: ../src/gsearchtool-callbacks.c:707
 #, c-format
 msgid "Trash is unavailable.  Could not move \"%s\" to the trash."
 msgstr "ಕಸದ ಬುಟ್ಟಿಯು ಲಭ್ಯವಿಲ್ಲ.  \"%s\" ಅನ್ನು ಕಸದ ಬುಟ್ಟಿಗೆ ವರ್ಗಾಯಿಸಲಾಗಿಲ್ಲ."
 
-#: ../src/gsearchtool-callbacks.c:740
+#: ../src/gsearchtool-callbacks.c:742
 #, c-format
 msgid "Could not delete \"%s\"."
 msgstr "\"%s\" ಅನ್ನು ಅಳಿಸಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ."
 
-#: ../src/gsearchtool-callbacks.c:847
+#: ../src/gsearchtool-callbacks.c:849
 #, c-format
 msgid "Deleting \"%s\" failed: %s."
 msgstr "\"%s\" ಅನ್ನು ಅಳಿಸುವಲ್ಲಿ ವಿಫಲಗೊಂಡಿದೆ: %s."
 
-#: ../src/gsearchtool-callbacks.c:859
+#: ../src/gsearchtool-callbacks.c:861
 #, c-format
 msgid "Moving \"%s\" failed: %s."
 msgstr "\"%s\" ಅನ್ನು ವರ್ಗಾಯಿಸುವಲ್ಲಿ ವಿಫಲಗೊಂಡಿದೆ: %s."
 
 #. Popup menu item: Open
-#: ../src/gsearchtool-callbacks.c:987
-#: ../src/gsearchtool-callbacks.c:1017
+#: ../src/gsearchtool-callbacks.c:989 ../src/gsearchtool-callbacks.c:1019
 msgid "_Open"
 msgstr "ತೆರೆ(_O)"
 
 #. Popup menu item: Open with (default)
-#: ../src/gsearchtool-callbacks.c:1042
+#: ../src/gsearchtool-callbacks.c:1044
 #, c-format
 msgid "_Open with %s"
 msgstr "%s ಎಂಬುದರೊಂದಿಗೆ ತೆರೆ(_O)"
 
-#: ../src/gsearchtool-callbacks.c:1077
+#: ../src/gsearchtool-callbacks.c:1079
 #, c-format
 msgid "Open with %s"
 msgstr "%s ಎಂಬುದರೊಂದಿಗೆ ತೆರೆ"
 
 #. Popup menu item: Open With
-#: ../src/gsearchtool-callbacks.c:1110
+#: ../src/gsearchtool-callbacks.c:1112
 msgid "Open Wit_h"
 msgstr "ಇದರಿಂದ ತೆರೆ(_h)"
 
 #. Popup menu item: Open Containing Folder
-#: ../src/gsearchtool-callbacks.c:1155
+#: ../src/gsearchtool-callbacks.c:1157
 msgid "Open Containing _Folder"
 msgstr "ಇದನ್ನು ಹೊಂದಿರುವ ಕಡತಕೋಶವನ್ನು ತೆರೆ (_F)"
 
-#: ../src/gsearchtool-callbacks.c:1173
+#: ../src/gsearchtool-callbacks.c:1175
 msgid "Mo_ve to Trash"
 msgstr "ಕಸದಬುಟ್ಟಿಗೆ ವರ್ಗಾಯಿಸು(_v)"
 
-#: ../src/gsearchtool-callbacks.c:1195
+#: ../src/gsearchtool-callbacks.c:1197
 msgid "_Save Results As..."
 msgstr "ಫಲಿತಾಂಶಗಳನ್ನು ಹೀಗೆ ಉಳಿಸು(_S)..."
 
-#: ../src/gsearchtool-callbacks.c:1577
+#: ../src/gsearchtool-callbacks.c:1579
 msgid "Save Search Results As..."
 msgstr "ಹುಡುಕು ಫಲಿತಾಂಶಗಳನ್ನು ಹೀಗೆ ಉಳಿಸು..."
 
-#: ../src/gsearchtool-callbacks.c:1608
+#: ../src/gsearchtool-callbacks.c:1610
 msgid "Could not save document."
 msgstr "ದಸ್ತಾವೇಜನ್ನು ಉಳಿಸಲಾಗಿಲ್ಲ."
 
-#: ../src/gsearchtool-callbacks.c:1609
+#: ../src/gsearchtool-callbacks.c:1611
 msgid "You did not select a document name."
 msgstr "ನೀವು ಒಂದು ದಸ್ತಾವೇಜಿನ ಹೆಸರನ್ನು ಆಯ್ಕೆ ಮಾಡಿಲ್ಲ."
 
-#: ../src/gsearchtool-callbacks.c:1635
+#: ../src/gsearchtool-callbacks.c:1637
 #, c-format
 msgid "Could not save \"%s\" document to \"%s\"."
 msgstr "\"%s\" ದಸ್ತಾವೇಜನ್ನು \"%s\" ಗೆ ಉಳಿಸಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ."
 
-#: ../src/gsearchtool-callbacks.c:1665
+#: ../src/gsearchtool-callbacks.c:1667
 #, c-format
 msgid "The document \"%s\" already exists.  Would you like to replace it?"
 msgstr ""
 "\"%s\" ಎಂಬ ಹೆಸರಿನ ಒಂದು ದಸ್ತಾವೇಜು ಈಗಾಗಲೆ ಅಸ್ತಿತ್ವದಲ್ಲಿದೆ.  ನೀವದನ್ನು ಬದಲಾಯಿಸಲು "
 "ಬಯಸುತ್ತೀರಾ?"
 
-#: ../src/gsearchtool-callbacks.c:1669
+#: ../src/gsearchtool-callbacks.c:1671
 msgid "If you replace an existing file, its contents will be overwritten."
 msgstr "ಈಗಿನ ಕಡತಗಳನ್ನು ಬದಲಾಯಿಸಿದರೆ, ಅದರೊಳಗಿನ ವಿಷಯಗಳು ತಿದ್ದಿ ಬರೆಯಲ್ಪಡುತ್ತದೆ."
 
-#: ../src/gsearchtool-callbacks.c:1680
+#: ../src/gsearchtool-callbacks.c:1682
 msgid "_Replace"
 msgstr "ಬದಲಾಯಿಸು(_R)"
 
-#: ../src/gsearchtool-callbacks.c:1730
+#: ../src/gsearchtool-callbacks.c:1732
 msgid "The document name you selected is a folder."
 msgstr "ನೀವು ಆಯ್ಕೆ ಮಾಡಲಾದ ದಸ್ತಾವೇಜಿನ ಹೆಸರು ಒಂದು ಕಡತಕೋಶವಾಗಿದೆ."
 
-#: ../src/gsearchtool-callbacks.c:1768
+#: ../src/gsearchtool-callbacks.c:1770
 msgid "You may not have write permissions to the document."
 msgstr "ಈ ದಸ್ತಾವೇಜಿಗೆ ಬರೆಯುವ ಅನುಮತಿಗಳನ್ನು ಬಹುಷಃ ನೀವು ಹೊಂದಿಲ್ಲ."
-
-#: ../src/gsearchtool-support.c:63
-#, c-format
-msgid "GConf error:\n"
-"  %s"
-msgstr "GConf ದೋಷ:\n"
-"  %s"
 
 #. Translators:  Below are the strings displayed in the 'Date Modified'
 #. column of the list view.  The format of this string can vary depending
 #. on age of a file.  Please modify the format of the timestamp to match
 #. your locale.  For example, to display 24 hour time replace the '%-I'
 #. with '%-H' and remove the '%p'.  (See bugzilla report #120434.)
-#: ../src/gsearchtool-support.c:696
+#: ../src/gsearchtool-support.c:451
 msgid "today at %-I:%M %p"
 msgstr "ಇಂದು %-I:%M %p"
 
-#: ../src/gsearchtool-support.c:698
+#: ../src/gsearchtool-support.c:453
 msgid "yesterday at %-I:%M %p"
 msgstr "ನಿನ್ನೆ %-I:%M %p"
 
-#: ../src/gsearchtool-support.c:700
-#: ../src/gsearchtool-support.c:702
+#: ../src/gsearchtool-support.c:455 ../src/gsearchtool-support.c:457
 msgid "%A, %B %-d %Y at %-I:%M:%S %p"
 msgstr "%A, %B %-d %Y at %-I:%M:%S %p"
 
-#: ../src/gsearchtool-support.c:889
+#: ../src/gsearchtool-support.c:644
 msgid "link (broken)"
 msgstr "ಕೊಂಡಿ (ಮುರಿದಿದೆ)"
 
-#: ../src/gsearchtool-support.c:893
+#: ../src/gsearchtool-support.c:648
 #, c-format
 msgid "link to %s"
 msgstr "%s ಗಾಗಿನ ಕೊಂಡಿ"
@@ -555,13 +844,14 @@ msgstr "%s ಗಾಗಿನ ಕೊಂಡಿ"
 #. Localizers:
 #. * Feel free to leave out the st, nd, rd and th suffix or
 #. * make some or all of them match.
+#.
 #. localizers: tag used to detect the first copy of a file
-#: ../src/gsearchtool-support.c:1497
+#: ../src/gsearchtool-support.c:1267
 msgid " (copy)"
 msgstr " (ಪ್ರತಿ)"
 
 #. localizers: tag used to detect the second copy of a file
-#: ../src/gsearchtool-support.c:1499
+#: ../src/gsearchtool-support.c:1269
 msgid " (another copy)"
 msgstr " (ಇನ್ನೊಂದು ಪ್ರತಿ)"
 
@@ -569,36 +859,34 @@ msgstr " (ಇನ್ನೊಂದು ಪ್ರತಿ)"
 #. localizers: tag used to detect the x12th copy of a file
 #. localizers: tag used to detect the x13th copy of a file
 #. localizers: tag used to detect the xxth copy of a file
-#: ../src/gsearchtool-support.c:1502
-#: ../src/gsearchtool-support.c:1504
-#: ../src/gsearchtool-support.c:1506
-#: ../src/gsearchtool-support.c:1516
+#: ../src/gsearchtool-support.c:1272 ../src/gsearchtool-support.c:1274
+#: ../src/gsearchtool-support.c:1276 ../src/gsearchtool-support.c:1286
 msgid "th copy)"
 msgstr "ನೇ ಪ್ರತಿ)"
 
 #. localizers: tag used to detect the x1st copy of a file
-#: ../src/gsearchtool-support.c:1509
+#: ../src/gsearchtool-support.c:1279
 msgid "st copy)"
 msgstr "ನೇ ಪ್ರತಿ)"
 
 #. localizers: tag used to detect the x2nd copy of a file
-#: ../src/gsearchtool-support.c:1511
+#: ../src/gsearchtool-support.c:1281
 msgid "nd copy)"
 msgstr "ನೇ ಪ್ರತಿ)"
 
 #. localizers: tag used to detect the x3rd copy of a file
-#: ../src/gsearchtool-support.c:1513
+#: ../src/gsearchtool-support.c:1283
 msgid "rd copy)"
 msgstr "ನೇ ಪ್ರತಿ)"
 
 #. localizers: appended to first file copy
-#: ../src/gsearchtool-support.c:1530
+#: ../src/gsearchtool-support.c:1300
 #, c-format
 msgid "%s (copy)%s"
 msgstr "%s (ಪ್ರತಿ)%s"
 
 #. localizers: appended to second file copy
-#: ../src/gsearchtool-support.c:1532
+#: ../src/gsearchtool-support.c:1302
 #, c-format
 msgid "%s (another copy)%s"
 msgstr "%s (ಇನ್ನೊಂದು ಪ್ರತಿ)%s"
@@ -607,490 +895,162 @@ msgstr "%s (ಇನ್ನೊಂದು ಪ್ರತಿ)%s"
 #. localizers: appended to x12th file copy
 #. localizers: appended to x13th file copy
 #. localizers: appended to xxth file copy
-#: ../src/gsearchtool-support.c:1535
-#: ../src/gsearchtool-support.c:1537
-#: ../src/gsearchtool-support.c:1539
-#: ../src/gsearchtool-support.c:1548
+#: ../src/gsearchtool-support.c:1305 ../src/gsearchtool-support.c:1307
+#: ../src/gsearchtool-support.c:1309 ../src/gsearchtool-support.c:1318
 #, c-format
 msgid "%s (%dth copy)%s"
 msgstr "%s (%dನೇ ಪ್ರತಿ)%s"
 
 #. localizers: appended to x1st file copy
-#: ../src/gsearchtool-support.c:1542
+#: ../src/gsearchtool-support.c:1312
 #, c-format
 msgid "%s (%dst copy)%s"
 msgstr "%s (%dನೇ ಪ್ರತಿ)%s"
 
 #. localizers: appended to x2nd file copy
-#: ../src/gsearchtool-support.c:1544
+#: ../src/gsearchtool-support.c:1314
 #, c-format
 msgid "%s (%dnd copy)%s"
 msgstr "%s (%dನೇ ಪ್ರತಿ)%s"
 
 #. localizers: appended to x3rd file copy
-#: ../src/gsearchtool-support.c:1546
+#: ../src/gsearchtool-support.c:1316
 #, c-format
 msgid "%s (%drd copy)%s"
 msgstr "%s (%dನೇ ಪ್ರತಿ)%s"
 
-#: ../src/gsearchtool-support.c:1593
+#: ../src/gsearchtool-support.c:1363
 msgid " (invalid Unicode)"
 msgstr " (ಅಮಾನ್ಯವಾದ ಯೂನಿಕೋಡ್)"
 
 #. localizers: opening parentheses to match the "th copy)" string
-#: ../src/gsearchtool-support.c:1682
+#: ../src/gsearchtool-support.c:1452
 msgid " ("
 msgstr " ("
 
 #. localizers: opening parentheses of the "th copy)" string
-#: ../src/gsearchtool-support.c:1690
+#: ../src/gsearchtool-support.c:1460
 #, c-format
 msgid " (%d"
 msgstr " (%d"
 
-#: ../src/gsearchtool.c:81
-msgid "Contains the _text"
-msgstr "ಈ ಪಠ್ಯವನ್ನು ಹೊಂದಿದೆ(_t)"
-
-#: ../src/gsearchtool.c:83
-msgid "_Date modified less than"
-msgstr "ಈ ದಿನಾಂಕಕ್ಕಿಂತ ಮೊದಲು ಮಾರ್ಪಡಿಸಲಾಗಿದ್ದು(_D)"
-
-#: ../src/gsearchtool.c:83
-#: ../src/gsearchtool.c:84
-msgid "days"
-msgstr "ದಿನಗಳು"
-
-#: ../src/gsearchtool.c:84
-msgid "Date modified more than"
-msgstr "ಈ ದಿನಾಂಕಕ್ಕಿಂತ ನಂತರ ಮಾರ್ಪಡಿಸಲಾಗಿದ್ದು"
-
-#: ../src/gsearchtool.c:86
-msgid "S_ize at least"
-msgstr "ಕನಿಷ್ಟ ಗಾತ್ರ(_i)"
-
-#: ../src/gsearchtool.c:86
-#: ../src/gsearchtool.c:87
-msgid "kilobytes"
-msgstr "ಕಿಲೋಬೈಟ್‌ಗಳು"
-
-#: ../src/gsearchtool.c:87
-msgid "Si_ze at most"
-msgstr "ಗರಿಷ್ಟ ಗಾತ್ರ(_z)"
-
-#: ../src/gsearchtool.c:88
-msgid "File is empty"
-msgstr "ಕಡತವು ಖಾಲಿ ಇದೆ"
-
-#: ../src/gsearchtool.c:90
-msgid "Owned by _user"
-msgstr "ಬಳಕೆದಾರರು ಮಾಲಿಕತ್ವವನ್ನು ಹೊಂದಿರುವ(_u)"
-
-#: ../src/gsearchtool.c:91
-msgid "Owned by _group"
-msgstr "ಸಮೂಹವು ಮಾಲಿಕತ್ವವನ್ನು ಹೊಂದಿರುವ(_g)"
-
-#: ../src/gsearchtool.c:92
-msgid "Owner is unrecognized"
-msgstr "ಗುರುತಿಸಲಾಗದ ಮಾಲಿಕತ್ವವನ್ನು ಹೊಂದಿರುವ"
-
-#: ../src/gsearchtool.c:94
-msgid "Na_me does not contain"
-msgstr "ಹೆಸರು ಇದನ್ನು ಹೊಂದಿಲ್ಲ(_m)"
-
-#: ../src/gsearchtool.c:95
-msgid "Name matches regular e_xpression"
-msgstr "ಸಾಮಾನ್ಯ ಗಣಿತೋಕ್ತಿಗೆ ತಾಳೆಯಾಗುವ ಹೆಸರು(_x)"
-
-#: ../src/gsearchtool.c:97
-msgid "Show hidden and backup files"
-msgstr "ಅಡಗಿಸಲಾದ ಹಾಗು ಬ್ಯಾಕ್ಅಪ್‌ ಕಡತಗಳನ್ನು ತೋರಿಸು"
-
-#: ../src/gsearchtool.c:98
-msgid "Follow symbolic links"
-msgstr "ಸಾಂಕೇತಿಕ ಕೊಂಡಿಗಳನ್ನು ಅನುಸರಿಸು"
-
-#: ../src/gsearchtool.c:99
-msgid "Exclude other filesystems"
-msgstr "ಇತರೆ ಕಡತವ್ಯವಸ್ಥೆಗಳನ್ನು ಹೊರತುಪಡಿಸಿ"
-
-#: ../src/gsearchtool.c:157
-msgid "Show version of the application"
-msgstr "ಅನ್ವಯದ ಆವೃತ್ತಿಯನ್ನು ತೋರಿಸು"
-
-#: ../src/gsearchtool.c:158
-#: ../src/gsearchtool.c:163
-#: ../src/gsearchtool.c:172
-msgid "STRING"
-msgstr "STRING"
-
-#: ../src/gsearchtool.c:159
-msgid "PATH"
-msgstr "PATH"
-
-#: ../src/gsearchtool.c:160
-msgid "VALUE"
-msgstr "VALUE"
-
-#: ../src/gsearchtool.c:164
-#: ../src/gsearchtool.c:165
-msgid "DAYS"
-msgstr "DAYS"
-
-#: ../src/gsearchtool.c:166
-#: ../src/gsearchtool.c:167
-msgid "KILOBYTES"
-msgstr "KILOBYTES"
-
-#: ../src/gsearchtool.c:169
-msgid "USER"
-msgstr "USER"
-
-#: ../src/gsearchtool.c:170
-msgid "GROUP"
-msgstr "GROUP"
-
-#: ../src/gsearchtool.c:173
-msgid "PATTERN"
-msgstr "PATTERN"
-
-#: ../src/gsearchtool.c:384
-msgid "A locate database has probably not been created."
-msgstr "ದತ್ತಸಂಚಯ ಹುಡುಕುವಿಕೆಯನ್ನು ಬಹುಷಃ ರಚಿಸಲಾಗಿಲ್ಲ."
-
-#: ../src/gsearchtool.c:486
-#, c-format
-msgid "Character set conversion failed for \"%s\""
-msgstr "\"%s\" ಗಾಗಿನ ಅಕ್ಷರ ಸೆಟ್ ಪರಿವರ್ತನೆಯು ವಿಫಲಗೊಂಡಿದೆ"
-
-#: ../src/gsearchtool.c:506
-msgid "Searching..."
-msgstr "ಹುಡುಕಲಾಗುತ್ತಿದೆ..."
-
-#: ../src/gsearchtool.c:506
-#: ../src/gsearchtool.c:1016
-#: ../src/gsearchtool.c:2976
-msgid "Search for Files"
-msgstr "ಕಡತಗಳಿಗಾಗಿ ಹುಡುಕು"
-
-#: ../src/gsearchtool.c:962
-#: ../src/gsearchtool.c:991
-msgid "No files found"
-msgstr "ಯಾವುದೆ ಕಡತಗಳು ಕಂಡು ಬಂದಿಲ್ಲ"
-
-#: ../src/gsearchtool.c:984
-msgid "(stopped)"
-msgstr "(ನಿಲ್ಲಿಸಲಾಗಿದೆ)"
-
-#: ../src/gsearchtool.c:990
-msgid "No Files Found"
-msgstr "ಯಾವುದೆ ಕಡತಗಳು ಕಂಡು ಬಂದಿಲ್ಲ"
-
-#: ../src/gsearchtool.c:995
-#, c-format
-msgid "%'d File Found"
-msgid_plural "%'d Files Found"
-msgstr[0] "%'d ಕಡತವು ಕಂಡು ಬಂದಿದೆ"
-msgstr[1] "%'d ಕಡತಗಳು ಕಂಡು ಬಂದಿದೆ"
-
-#: ../src/gsearchtool.c:999
-#: ../src/gsearchtool.c:1037
-#, c-format
-msgid "%'d file found"
-msgid_plural "%'d files found"
-msgstr[0] "%'d ಕಡತವು ಕಂಡು ಬಂದಿದೆ"
-msgstr[1] "%'d ಕಡತಗಳು ಕಂಡು ಬಂದಿದೆ"
-
-#: ../src/gsearchtool.c:1128
-msgid "Entry changed called for a non entry option!"
-msgstr "ನಮೂದು ಅಲ್ಲದ ಆಯ್ಕೆಗಾಗಿನ ನಮೂದಿನ ಬದಲಾವಣೆಗಾಗಿ ಕೋರಲಾಗಿದೆ!"
-
-#: ../src/gsearchtool.c:1288
-msgid "Set the text of \"Name contains\" search option"
-msgstr "\"ಹೆಸರು ಇದನ್ನು ಹೊಂದಿದೆ\" ಹುಡುಕು ಆಯ್ಕೆಯ ಪಠ್ಯವನ್ನು ಸಿದ್ದಗೊಳಿಸು"
-
-#: ../src/gsearchtool.c:1289
-msgid "Set the text of \"Look in folder\" search option"
-msgstr "\"ಕಡತಕೋಶದಲ್ಲಿ ನೋಡು\" ಹುಡುಕು ಆಯ್ಕೆಯ ಪಠ್ಯವನ್ನು ಸಿದ್ದಗೊಳಿಸು"
-
-#: ../src/gsearchtool.c:1290
-msgid "Sort files by one of the following: name, folder, size, type, or date"
-msgstr ""
-"ಈ ಕೆಳಗಿನವುಗಳಲ್ಲಿ ಒಂದರ ಆಧಾರದ ಮೇಲೆ ಕಡತಗಳನ್ನು ವಿಂಗಡಿಸಿ: ಹೆಸರು, ಕಡತಕೋಶ, ಗಾತ್ರ, "
-"ಬಗೆ ಅಥವ ದಿನಾಂಕ"
-
-#: ../src/gsearchtool.c:1291
-msgid "Set sort order to descending, the default is ascending"
-msgstr ""
-"ವಿಂಗಡಣಾ ಕ್ರಮವನ್ನು ಇಳಿಕೆ ಕ್ರಮದಲ್ಲಿ ಜೋಡಿಸಿ, ಏರಿಕೆ ಕ್ರಮವು ಪೂರ್ವನಿಯೋಜಿತ "
-"ಆಗಿರುತ್ತದೆ"
-
-#: ../src/gsearchtool.c:1292
-msgid "Automatically start a search"
-msgstr "ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಹುಡುಕನ್ನು ಆರಂಭಿಸು"
-
-#: ../src/gsearchtool.c:1298
-#, c-format
-msgid "Select the \"%s\" search option"
-msgstr "\"%s\" ಹುಡುಕು ಆಯ್ಕೆಯನ್ನು ಆರಿಸಿ"
-
-#: ../src/gsearchtool.c:1301
-#, c-format
-msgid "Select and set the \"%s\" search option"
-msgstr "\"%s\" ಹುಡುಕು ಆಯ್ಕೆಯನ್ನು ಆರಿಸಿ ಹಾಗು ಹೊಂದಿಸಿ"
-
-#: ../src/gsearchtool.c:1408
-msgid "Invalid option passed to sortby command line argument."
-msgstr "sortby ಆಜ್ಞಾಸಾಲಿನ ಆರ್ಗುಮೆಂಟಿಗೆ ಅಮಾನ್ಯವಾದ ಆಯ್ಕೆಯನ್ನು ರವಾನಿಸಲಾಗಿದೆ."
-
-#: ../src/gsearchtool.c:1702
-msgid "\n"
-"... Too many errors to display ..."
-msgstr "\n"
-"... ತೋರಿಸಲಾಗದಷ್ಟು ದೋಷಗಳಿವೆ ..."
-
-#: ../src/gsearchtool.c:1716
-msgid ""
-"The search results may be invalid.  There were errors while performing this "
-"search."
-msgstr ""
-"ಹುಡುಕು ಫಲಿತಾಂಶವು ಅಮಾನ್ಯವಾಗಿರಬಹುದು.  ಈ ಹುಡುಕನ್ನು ನಿರ್ವಹಿಸುವಾಗ ಕೆಲವು "
-"ದೋಷಗಳಾಗಿವೆ."
-
-#: ../src/gsearchtool.c:1725
-#: ../src/gsearchtool.c:1766
-msgid "Show more _details"
-msgstr "ಹೆಚ್ಚಿನ ವಿವರಗಳನ್ನು ತೋರಿಸು(_d)"
-
-#: ../src/gsearchtool.c:1755
-msgid ""
-"The search results may be out of date or invalid.  Do you want to disable "
-"the quick search feature?"
-msgstr ""
-"ಹುಡುಕು ಫಲಿತಾಂಶಗಳು ಹಳೆಯದಾಗಿರಬಹುದು ಅಥವ ಅಮಾನ್ಯವಾಗಿದೆ.  ನೀವು ತಕ್ಷಣದ ಹುಡುಕನ್ನು "
-"ಅಶಕ್ತಗೊಳಿಸಲು ಬಯಸುತ್ತೀರೆ?"
-
-#: ../src/gsearchtool.c:1777
-msgid "Disable _Quick Search"
-msgstr "ತಕ್ಷಣದ ಹುಡುಕನ್ನು ಅಶಕ್ತಗೊಳಿಸು(_Q)"
-
-#: ../src/gsearchtool.c:1804
-#, c-format
-msgid "Failed to set process group id of child %d: %s.\n"
-msgstr ""
-"ಚೈಲ್ಡ್‌ %d ನ ಪ್ರಕ್ರಿಯೆಯ ಗುಂಪು id ಅನ್ನು ಸಿದ್ಧಗೊಳಿಸುವಲ್ಲಿ ವಿಫಲಗೊಂಡಿದೆ: %s.\n"
-
-#: ../src/gsearchtool.c:1829
-msgid "Error parsing the search command."
-msgstr "ಹುಡುಕು ಆಜ್ಞೆಯನ್ನು ಪಾರ್ಸಿಂಗ್ ಮಾಡುವಲ್ಲಿ ದೋಷ."
-
-#: ../src/gsearchtool.c:1858
-msgid "Error running the search command."
-msgstr "ಹುಡುಕು ಆಜ್ಞೆಯನ್ನು ಚಲಾಯಿಸುವಾಗ ದೋಷ."
-
-#: ../src/gsearchtool.c:1974
-#, c-format
-msgid "Enter a text value for the \"%s\" search option."
-msgstr "\"%s\" ಹುಡುಕು ಆಯ್ಕೆಗಾಗಿ ಒಂದು ಪಠ್ಯ ಮೌಲ್ಯವನ್ನು ನಮೂದಿಸಿ."
-
-#. Translators:  Below is a string displaying the search options name
-#. and unit value.  For example, "\"Date modified less than\" in days".
-#: ../src/gsearchtool.c:1979
-#, c-format
-msgid "\"%s\" in %s"
-msgstr "\"%s\", %s ನಲ್ಲಿ"
-
-#: ../src/gsearchtool.c:1981
-#, c-format
-msgid "Enter a value in %s for the \"%s\" search option."
-msgstr "%s ನಲ್ಲಿ \"%s\" ಹುಡುಕು ಆಯ್ಕೆಗಾಗಿ ಒಂದು ಮೌಲ್ಯವನ್ನು ನಮೂದಿಸಿ."
-
-#: ../src/gsearchtool.c:2039
-#, c-format
-msgid "Remove \"%s\""
-msgstr "\"%s\" ಅನ್ನು ತೆಗೆದು ಹಾಕು"
-
-#: ../src/gsearchtool.c:2040
-#, c-format
-msgid "Click to remove the \"%s\" search option."
-msgstr "\"%s\" ಹುಡುಕು ಆಯ್ಕೆಗಳನ್ನು ತೆಗೆದುಹಾಕಲು ಕ್ಕಿಕ್ ಮಾಡಿ."
-
-#: ../src/gsearchtool.c:2133
-msgid "A_vailable options:"
-msgstr "ಲಭ್ಯವಿರುವ ಆಯ್ಕೆಗಳು(_v):"
-
-#: ../src/gsearchtool.c:2162
-msgid "Available options"
-msgstr "ಲಭ್ಯವಿರುವ ಆಯ್ಕೆಗಳು"
-
-#: ../src/gsearchtool.c:2163
-msgid "Select a search option from the drop-down list."
-msgstr "ಬೀಳಿಕೆ ಪಟ್ಟಿಯಿಂದ ಒಂದು ಹುಡುಕು ಆಯ್ಕೆಯನ್ನು ಆರಿಸಿ."
-
-#: ../src/gsearchtool.c:2175
-msgid "Add search option"
-msgstr "ಹುಡುಕು ಆಯ್ಕೆಯನ್ನು ಸೇರಿಸಿ"
-
-#: ../src/gsearchtool.c:2176
-msgid "Click to add the selected available search option."
-msgstr "ಆರಿಸಲಾದ ಲಭ್ಯ ಹುಡುಕು ಆಯ್ಕೆಯನ್ನು ಸೇರಿಸಲು ಕ್ಲಿಕ್ ಮಾಡಿ."
-
-#: ../src/gsearchtool.c:2265
-msgid "S_earch results:"
-msgstr "ಹುಡುಕು ಫಲಿತಾಂಶಗಳು(_e):"
-
-#: ../src/gsearchtool.c:2309
-msgid "List View"
-msgstr "ಪಟ್ಟಿ ನೋಟ"
-
-#: ../src/gsearchtool.c:2369
-msgid "Name"
-msgstr "ಹೆಸರು"
-
-#: ../src/gsearchtool.c:2393
-msgid "Folder"
-msgstr "ಕಡತಕೋಶ"
-
-#: ../src/gsearchtool.c:2406
-msgid "Size"
-msgstr "ಗಾತ್ರ"
-
-#: ../src/gsearchtool.c:2418
-msgid "Type"
-msgstr "ಶೈಲಿ"
-
-#: ../src/gsearchtool.c:2430
-msgid "Date Modified"
-msgstr "ದಿನಾಂಕ ಮಾರ್ಪಡಿಸಲಾದ"
-
-#: ../src/gsearchtool.c:2746
-msgid "_Name contains:"
-msgstr "ಇದನ್ನು ಹೊಂದಿರುವ ಹೆಸರು(_N):"
-
-#: ../src/gsearchtool.c:2760
-#: ../src/gsearchtool.c:2761
-msgid "Enter a filename or partial filename with or without wildcards."
-msgstr ""
-"ವೈಲ್ಡ್‌ಕಾರ್ಡುಗಳೊಂದಿಗೆ ಅಥವ ವೈಲ್ಡ್‌ಕಾರ್ಡುಗಳಿಲ್ಲದೆ ಒಂದು ಕಡತದ ಹೆಸರು ಅಥವ ಆಂಶಿಕ "
-"ಕಡತದ ಹೆಸರನ್ನು ನಮೂದಿಸಿ."
-
-#: ../src/gsearchtool.c:2761
-msgid "Name contains"
-msgstr "ಇದನ್ನು ಹೊಂದಿರುವ ಹೆಸರು"
-
-#: ../src/gsearchtool.c:2767
-msgid "_Look in folder:"
-msgstr "ಕಡತಕೋಶದಲ್ಲಿ ನೋಡು(_L):"
-
-#: ../src/gsearchtool.c:2773
-msgid "Browse"
-msgstr "ವೀಕ್ಷಿಸು"
-
-#: ../src/gsearchtool.c:2782
-msgid "Look in folder"
-msgstr "ಕಡತಕೋಶದಲ್ಲಿ ನೋಡು"
-
-#: ../src/gsearchtool.c:2782
-msgid "Select the folder or device from which you want to begin the search."
-msgstr "ಯಾವ ಕಡತಕೋಶ ಅಥವ ಸಾಧನದಿಂದ ಹುಡುಕನ್ನು ಆರಂಭಿಸಬೇಕು ಎನ್ನುವುದನ್ನು ಆರಿಸಿ."
-
-#: ../src/gsearchtool.c:2800
-msgid "Select more _options"
-msgstr "ಇನ್ನಷ್ಟು ಆಯ್ಕೆಗಳನ್ನು ಆರಿಸಿ(_o)"
-
-#: ../src/gsearchtool.c:2809
-msgid "Select more options"
-msgstr "ಇನ್ನಷ್ಟು ಆಯ್ಕೆಗಳನ್ನು ಆರಿಸು"
-
-#: ../src/gsearchtool.c:2809
-msgid "Click to expand or collapse the list of available options."
-msgstr "ಲಭ್ಯವಿರುವ ಆಯ್ಕೆಗಳನ್ನು ದೊಡ್ಡದಾಗಿಸಲು ಅಥವ ಕಿರಿದಾಗಿಸಲು ಕ್ಲಿಕ್ ಮಾಡಿ."
-
-#: ../src/gsearchtool.c:2833
-msgid "Click to display the help manual."
-msgstr "ನೆರವು ಕೈಪಿಡಿಯನ್ನು ತೋರಿಸಲು ಕ್ಲಿಕ್ ಮಾಡಿ."
-
-#: ../src/gsearchtool.c:2841
-msgid "Click to close \"Search for Files\"."
-msgstr "\"ಕಡತಗಳಿಗಾಗಿ ಹುಡುಕು\" ಅನ್ನು ಮುಚ್ಚಲು ಕ್ಲಿಕ್ ಮಾಡಿ."
-
-#: ../src/gsearchtool.c:2867
-msgid "Click to perform a search."
-msgstr "ಒಂದು ಹುಡುಕನ್ನು ನಿರ್ವಹಿಸಲು ಕ್ಲಿಕ್ ಮಾಡಿ."
-
-#: ../src/gsearchtool.c:2868
-msgid "Click to stop a search."
-msgstr "ಒಂದು ಹುಡುಕನ್ನು ನಿಲ್ಲಿಸಲು ಕ್ಲಿಕ್ ಮಾಡಿ."
-
-#: ../src/gsearchtool.c:2961
-msgid "- the GNOME Search Tool"
-msgstr "- GNOME ಹುಡುಕು ಉಪಕರಣ"
-
-#: ../src/gsearchtool.c:2970
-#, c-format
-msgid "Failed to parse command line arguments: %s\n"
-msgstr "ಆದೇಶ ಸಾಲಿನ ಆರ್ಗ್ಯುಮೆಂಟ್‌ಗಳನ್ನು ಪಾರ್ಸ್ ಮಾಡುವಲ್ಲಿ ವಿಫಲಗೊಂಡಿದೆ: %s\n"
-
-#: ../libeggsmclient/eggdesktopfile.c:165
+#: ../libeggsmclient/eggdesktopfile.c:164
 #, c-format
 msgid "File is not a valid .desktop file"
 msgstr "ಕಡತವು ಒಂದು ಮಾನ್ಯವಾದಂತಹ .desktop ಕಡತವಾಗಿಲ್ಲ"
 
-#: ../libeggsmclient/eggdesktopfile.c:188
+#: ../libeggsmclient/eggdesktopfile.c:187
 #, c-format
 msgid "Unrecognized desktop file Version '%s'"
 msgstr "ಗುರುತಿಸಲಾಗದ ಗಣಕತೆರೆ ಕಡತದ ಆವೃತ್ತಿ '%s'"
 
-#: ../libeggsmclient/eggdesktopfile.c:958
+#: ../libeggsmclient/eggdesktopfile.c:957
 #, c-format
 msgid "Starting %s"
 msgstr "%s ಅನ್ನು ಆರಂಭಿಸಲಾಗುತ್ತಿದೆ"
 
-#: ../libeggsmclient/eggdesktopfile.c:1100
+#: ../libeggsmclient/eggdesktopfile.c:1099
 #, c-format
 msgid "Application does not accept documents on command line"
 msgstr "ಅನ್ವಯವು ಆಜ್ಞಾ ಸಾಲಿನಲ್ಲಿ ದಸ್ತಾವೇಜುಗಳನ್ನು ಅಂಗೀಕರಿಸುವುದಿಲ್ಲ"
 
-#: ../libeggsmclient/eggdesktopfile.c:1168
+#: ../libeggsmclient/eggdesktopfile.c:1167
 #, c-format
 msgid "Unrecognized launch option: %d"
 msgstr "ಗುರುತಿಸಲಾಗದ ಆರಂಭದ ಆಯ್ಕೆ: %d"
 
-#: ../libeggsmclient/eggdesktopfile.c:1373
+#: ../libeggsmclient/eggdesktopfile.c:1372
 #, c-format
 msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
 msgstr ""
 "ದಸ್ತಾವೇಜಿನ URI ಗಳನ್ನು ಒಂದು 'Type=Link' ಗಣಕತೆರೆ ನಮೂದಿಗೆ ರವಾನಿಸಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ"
 
-#: ../libeggsmclient/eggdesktopfile.c:1392
+#: ../libeggsmclient/eggdesktopfile.c:1391
 #, c-format
 msgid "Not a launchable item"
 msgstr "ಆರಂಭಿಸಬಹುದಾದ ಅಂಶವಾಗಿಲ್ಲ"
 
-#: ../libeggsmclient/eggsmclient.c:225
+#: ../libeggsmclient/eggsmclient.c:223
 msgid "Disable connection to session manager"
 msgstr "ಅಧಿವೇಶನದ ವ್ಯವಸ್ಥಾಪಕನೊಂದಿಗಿನ ಸಂಪರ್ಕವನ್ನು ಅಶಕ್ತಗೊಳಿಸು"
 
-#: ../libeggsmclient/eggsmclient.c:228
+#: ../libeggsmclient/eggsmclient.c:226
 msgid "Specify file containing saved configuration"
 msgstr "ಉಳಿಸಲಾದ ಸಂರಚನೆಯನ್ನು ಹೊಂದಿರುವ ಕಡತವನ್ನು ಸೂಚಿಸಿ"
 
-#: ../libeggsmclient/eggsmclient.c:228
+#: ../libeggsmclient/eggsmclient.c:226
 msgid "FILE"
 msgstr "FILE"
 
-#: ../libeggsmclient/eggsmclient.c:231
+#: ../libeggsmclient/eggsmclient.c:229
 msgid "Specify session management ID"
 msgstr "ಅಧಿವೇಶನ ವ್ಯವಸ್ಥಾಪನಾ ID ಯನ್ನು ಸೂಚಿಸಿ"
 
-#: ../libeggsmclient/eggsmclient.c:231
+#: ../libeggsmclient/eggsmclient.c:229
 msgid "ID"
 msgstr "ID"
 
-#: ../libeggsmclient/eggsmclient.c:252
+#: ../libeggsmclient/eggsmclient.c:250
 msgid "Session management options:"
 msgstr "ಅಧಿವೇಶನ ವ್ಯವಸ್ಥಾಪನಾ ಆಯ್ಕೆಗಳು:"
 
-#: ../libeggsmclient/eggsmclient.c:253
+#: ../libeggsmclient/eggsmclient.c:251
 msgid "Show session management options"
 msgstr "ಅಧಿವೇಶನ ವ್ಯವಸ್ಥಾಪನಾ ಆಯ್ಕೆಗಳನ್ನು ತೋರಿಸು"
+
+#~ msgid ""
+#~ "This key determines if the \"Select more options\" section is expanded "
+#~ "when the search tool is started."
+#~ msgstr ""
+#~ "ಹುಡುಕು ಉಪಕರಣವನ್ನು ಆರಂಭಿಸಿದಾಗ \"ಇನ್ನಷ್ಟು ಆಯ್ಕೆಗಳನ್ನು ಆರಿಸು\" ಹುಡುಕು ಆಯ್ಕೆಯನ್ನು "
+#~ "ಆರಿಸಲಾಗಿದೆಯೆ ಎಂದು ಈ ಕೀಲಿಯು ನಿರ್ಧರಿಸುತ್ತದೆ."
+
+#~ msgid "Select the search option \"Contains the text\""
+#~ msgstr "\"ಈ ಪಠ್ಯವನ್ನು ಹೊಂದಿರುವ\" ಎನ್ನುವ ಹುಡುಕು ಆಯ್ಕೆಯನ್ನು ಆರಿಸಿ"
+
+#~ msgid "Select the search option \"Date modified less than\""
+#~ msgstr "\"ಈ ದಿನಾಂಕಕ್ಕಿಂತ ಮೊದಲು ಮಾರ್ಪಡಿಸಲಾಗಿದ್ದು\" ಎನ್ನುವ ಹುಡುಕು ಆಯ್ಕೆಯನ್ನು ಆರಿಸಿ"
+
+#~ msgid "Select the search option \"Date modified more than\""
+#~ msgstr "\"ಈ ದಿನಾಂಕಕ್ಕಿಂತ ನಂತರ ಮಾರ್ಪಡಿಸಲಾಗಿದ್ದು\" ಎನ್ನುವ ಹುಡುಕು ಆಯ್ಕೆಯನ್ನು ಆರಿಸಿ"
+
+#~ msgid "Select the search option \"Size at least\""
+#~ msgstr "\"ಕನಿಷ್ಟ ಗಾತ್ರ\" ಎನ್ನುವ ಹುಡುಕು ಆಯ್ಕೆಯನ್ನು ಆರಿಸಿ"
+
+#~ msgid "Select the search option \"Size at most\""
+#~ msgstr "\"ಗರಿಷ್ಟ ಗಾತ್ರ\" ಎನ್ನುವ ಹುಡುಕು ಆಯ್ಕೆಯನ್ನು ಆರಿಸಿ"
+
+#~ msgid "Select the search option \"File is empty\""
+#~ msgstr "\"ಕಡತವು ಖಾಲಿ ಇದೆ\" ಎನ್ನುವ ಹುಡುಕು ಆಯ್ಕೆಯನ್ನು ಆರಿಸಿ"
+
+#~ msgid "Select the search option \"Owned by user\""
+#~ msgstr "\"ಬಳಕೆದಾರಿಂದ ಮಾಲಿಕತ್ವವನ್ನು ಹೊಂದಿರುವ\" ಎನ್ನುವ ಹುಡುಕು ಆಯ್ಕೆಯನ್ನು ಆರಿಸಿ"
+
+#~ msgid "Select the search option \"Owned by group\""
+#~ msgstr "\"ಸಮೂಹದಿಂದ ಮಾಲಿಕತ್ವವನ್ನು ಹೊಂದಿರುವ\" ಎನ್ನುವ ಹುಡುಕು ಆಯ್ಕೆಯನ್ನು ಆರಿಸಿ"
+
+#~ msgid "Select the search option \"Owner is unrecognized\""
+#~ msgstr "\"ಗುರುತಿಸಲಾಗದ ಮಾಲಿಕತ್ವವನ್ನು ಹೊಂದಿರುವ\" ಎನ್ನುವ ಹುಡುಕು ಆಯ್ಕೆಯನ್ನು ಆರಿಸಿ"
+
+#~ msgid "Select the search option \"Name does not contain\""
+#~ msgstr "\"ಹೆಸರು ಇದನ್ನು ಹೊಂದಿಲ್ಲ\" ಎನ್ನುವ ಹುಡುಕು ಆಯ್ಕೆಯನ್ನು ಆರಿಸಿ"
+
+#~ msgid "Select the search option \"Name matches regular expression\""
+#~ msgstr "ಹುಡುಕು ಆಯ್ಕೆ \"ಸಾಮಾನ್ಯ ಗಣಿತೋಕ್ತಿಗೆ ತಾಳೆಯಾಗುವ ಹೆಸರು\" ಅನ್ನು ಆಯ್ಕೆ ಮಾಡಿ"
+
+#~ msgid "Select the search option \"Show hidden files and folders\""
+#~ msgstr ""
+#~ "\"ಅಡಗಿಸಲಾದ ಕಡತಗಳು ಹಾಗು ಕಡತಕೋಶಗಳನ್ನು ತೋರಿಸು\" ಎನ್ನುವ ಹುಡುಕು ಆಯ್ಕೆಯನ್ನು ಆರಿಸಿ"
+
+#~ msgid "Select the search option \"Follow symbolic links\""
+#~ msgstr "\"ಸಾಂಕೇತಿಕ ಕೊಂಡಿಗಳನ್ನು ಅನುಸರಿಸು\" ಎನ್ನುವ ಹುಡುಕು ಆಯ್ಕೆಯನ್ನು ಆರಿಸಿ"
+
+#~ msgid "Select the search option \"Exclude other filesystems\""
+#~ msgstr "\"ಇತರೆ ಕಡತವ್ಯವಸ್ಥೆಗಳನ್ನು ಹೊರತುಪಡಿಸು\" ಎನ್ನುವ ಹುಡುಕು ಆಯ್ಕೆಯನ್ನು ಆರಿಸಿ"
+
+#~ msgid ""
+#~ "GConf error:\n"
+#~ "  %s"
+#~ msgstr ""
+#~ "GConf ದೋಷ:\n"
+#~ "  %s"
