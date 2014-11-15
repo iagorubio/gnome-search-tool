@@ -7,9 +7,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 3.6\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-09-01 01:27+0100\n"
-"PO-Revision-Date: 2012-09-01 01:30+0000\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
+"search-tool&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2013-12-18 21:31+0000\n"
+"PO-Revision-Date: 2014-03-18 10:09+0100\n"
 "Last-Translator: Duarte Loreto <happyguy_pt@hotmail.com>\n"
 "Language-Team: Portuguese <gnome_pt@yahoogroups.com>\n"
 "Language: pt\n"
@@ -17,6 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.5.4\n"
 
 #: ../data/gnome-search-tool.desktop.in.h:1
 msgid "Search for Files..."
@@ -26,6 +28,10 @@ msgstr "Procurar Ficheiros..."
 msgid "Locate documents and folders on this computer by name or content"
 msgstr ""
 "Localizar documentos e pastas neste computador com base no nome e conteúdo"
+
+#: ../data/gnome-search-tool.desktop.in.h:3
+msgid "find;locate;look for;seek;"
+msgstr "find;locate;look for;seek;encontrar;localizar;procurar;pesquisar"
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:1
 msgid "Search history"
