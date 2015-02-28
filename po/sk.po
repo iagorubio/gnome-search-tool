@@ -12,8 +12,8 @@ msgstr ""
 "Project-Id-Version: gnome-utils\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-search-"
 "tool&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2013-12-18 21:31+0000\n"
-"PO-Revision-Date: 2015-02-28 21:44+0100\n"
+"POT-Creation-Date: 2015-02-28 20:45+0000\n"
+"PO-Revision-Date: 2015-02-28 21:46+0100\n"
 "Last-Translator: Dušan Kazik <prescott66@gmail.com>\n"
 "Language-Team: Slovak <gnome-sk-list@gnome.org>\n"
 "Language: sk\n"
@@ -265,144 +265,144 @@ msgstr ""
 "Tento kľúč určuje, či je možnosť hľadania \"Vynechať iné súborové systémy\" vybratá pri spustení "
 "nástroja na hľadanie."
 
-#: ../src/gsearchtool.c:81
+#: ../src/gsearchtool.c:80
 msgid "Contains the _text"
 msgstr "Obsahuje _text"
 
-#: ../src/gsearchtool.c:83
+#: ../src/gsearchtool.c:82
 msgid "_Date modified less than"
 msgstr "Čas zmeny _menej než"
 
-#: ../src/gsearchtool.c:83 ../src/gsearchtool.c:84
+#: ../src/gsearchtool.c:82 ../src/gsearchtool.c:83
 msgid "days"
 msgstr "dní"
 
-#: ../src/gsearchtool.c:84
+#: ../src/gsearchtool.c:83
 msgid "Date modified more than"
 msgstr "Čas zmeny viac ako"
 
-#: ../src/gsearchtool.c:86
+#: ../src/gsearchtool.c:85
 msgid "S_ize at least"
 msgstr "Veľkosť _aspoň"
 
-#: ../src/gsearchtool.c:86 ../src/gsearchtool.c:87
+#: ../src/gsearchtool.c:85 ../src/gsearchtool.c:86
 msgid "kilobytes"
 msgstr "kilobajtov"
 
-#: ../src/gsearchtool.c:87
+#: ../src/gsearchtool.c:86
 msgid "Si_ze at most"
 msgstr "V_eľkosť najviac"
 
-#: ../src/gsearchtool.c:88
+#: ../src/gsearchtool.c:87
 msgid "File is empty"
 msgstr "Súbor je prázdny"
 
-#: ../src/gsearchtool.c:90
+#: ../src/gsearchtool.c:89
 msgid "Owned by _user"
 msgstr "Vlastní po_užívateľ"
 
-#: ../src/gsearchtool.c:91
+#: ../src/gsearchtool.c:90
 msgid "Owned by _group"
 msgstr "Vlastní _skupina"
 
-#: ../src/gsearchtool.c:92
+#: ../src/gsearchtool.c:91
 msgid "Owner is unrecognized"
 msgstr "Nerozpoznaný vlastník"
 
-#: ../src/gsearchtool.c:94
+#: ../src/gsearchtool.c:93
 msgid "Na_me does not contain"
 msgstr "Názov ne_smie obsahovať"
 
-#: ../src/gsearchtool.c:95
+#: ../src/gsearchtool.c:94
 msgid "Name matches regular e_xpression"
 msgstr "Názov vyhovuje _regulárnemu výrazu"
 
-#: ../src/gsearchtool.c:97
+#: ../src/gsearchtool.c:96
 msgid "Show hidden and backup files"
 msgstr "Zobraziť skryté a záložné súbory"
 
-#: ../src/gsearchtool.c:98
+#: ../src/gsearchtool.c:97
 msgid "Follow symbolic links"
 msgstr "Nasledovať symbolické odkazy"
 
-#: ../src/gsearchtool.c:99
+#: ../src/gsearchtool.c:98
 msgid "Exclude other filesystems"
 msgstr "Vynechať iné súborové systémy"
 
-#: ../src/gsearchtool.c:157
+#: ../src/gsearchtool.c:156
 msgid "Show version of the application"
 msgstr "Zobraziť verziu aplikácie"
 
-#: ../src/gsearchtool.c:158 ../src/gsearchtool.c:163 ../src/gsearchtool.c:172
+#: ../src/gsearchtool.c:157 ../src/gsearchtool.c:162 ../src/gsearchtool.c:171
 msgid "STRING"
 msgstr "REŤAZEC"
 
-#: ../src/gsearchtool.c:159
+#: ../src/gsearchtool.c:158
 msgid "PATH"
 msgstr "CESTA"
 
-#: ../src/gsearchtool.c:160
+#: ../src/gsearchtool.c:159
 msgid "VALUE"
 msgstr "HODNOTA"
 
-#: ../src/gsearchtool.c:164 ../src/gsearchtool.c:165
+#: ../src/gsearchtool.c:163 ../src/gsearchtool.c:164
 msgid "DAYS"
 msgstr "DNÍ"
 
-#: ../src/gsearchtool.c:166 ../src/gsearchtool.c:167
+#: ../src/gsearchtool.c:165 ../src/gsearchtool.c:166
 msgid "KILOBYTES"
 msgstr "KILOBAJTOV"
 
-#: ../src/gsearchtool.c:169
+#: ../src/gsearchtool.c:168
 msgid "USER"
 msgstr "POUŽÍVATEĽ"
 
-#: ../src/gsearchtool.c:170
+#: ../src/gsearchtool.c:169
 msgid "GROUP"
 msgstr "SKUPINA"
 
-#: ../src/gsearchtool.c:173
+#: ../src/gsearchtool.c:172
 msgid "PATTERN"
 msgstr "VZOR"
 
-#: ../src/gsearchtool.c:384
+#: ../src/gsearchtool.c:383
 msgid "A locate database has probably not been created."
 msgstr "Databáza locate nebola pravdepodobne vytvorená."
 
-#: ../src/gsearchtool.c:486
+#: ../src/gsearchtool.c:485
 #, c-format
 msgid "Character set conversion failed for \"%s\""
 msgstr "Konverzia znakovej sady pre \"%s\" zlyhala"
 
-#: ../src/gsearchtool.c:506
+#: ../src/gsearchtool.c:505
 msgid "Searching..."
 msgstr "Hľadá sa..."
 
-#: ../src/gsearchtool.c:506 ../src/gsearchtool.c:1019 ../src/gsearchtool.c:2987
+#: ../src/gsearchtool.c:505 ../src/gsearchtool.c:1018 ../src/gsearchtool.c:2986
 msgid "Search for Files"
 msgstr "Hľadanie súborov"
 
-#: ../src/gsearchtool.c:965 ../src/gsearchtool.c:994
+#: ../src/gsearchtool.c:964 ../src/gsearchtool.c:993
 msgid "No files found"
 msgstr "Nenájdené žiadne súbory"
 
-#: ../src/gsearchtool.c:987
+#: ../src/gsearchtool.c:986
 msgid "(stopped)"
 msgstr "(zastavené)"
 
-#: ../src/gsearchtool.c:993
+#: ../src/gsearchtool.c:992
 msgid "No Files Found"
 msgstr "Nenájdené žiadne súbory"
 
-#: ../src/gsearchtool.c:998
+#: ../src/gsearchtool.c:997
 #, c-format
 msgid "%'d File Found"
 msgid_plural "%'d Files Found"
 msgstr[0] "%'d nájdených súborov"
 msgstr[1] "%'d nájdený súbor"
-msgstr[2] "%'d nájdené súboy"
+msgstr[2] "%'d nájdené súbory"
 
-#: ../src/gsearchtool.c:1002 ../src/gsearchtool.c:1040
+#: ../src/gsearchtool.c:1001 ../src/gsearchtool.c:1039
 #, c-format
 msgid "%'d file found"
 msgid_plural "%'d files found"
@@ -410,47 +410,47 @@ msgstr[0] "%'d nájdených súborov"
 msgstr[1] "%'d nájdený súbor"
 msgstr[2] "%'d nájdené súbory"
 
-#: ../src/gsearchtool.c:1131
+#: ../src/gsearchtool.c:1130
 msgid "Entry changed called for a non entry option!"
 msgstr "Zmenená položka volaná pre voľbu bez položiek!"
 
-#: ../src/gsearchtool.c:1296
+#: ../src/gsearchtool.c:1295
 msgid "Set the text of \"Name contains\" search option"
 msgstr "Nastaviť text pre \"Názov obsahuje\""
 
-#: ../src/gsearchtool.c:1297
+#: ../src/gsearchtool.c:1296
 msgid "Set the text of \"Look in folder\" search option"
 msgstr "Nastaviť text pre \"Hľadať v priečinku\""
 
-#: ../src/gsearchtool.c:1298
+#: ../src/gsearchtool.c:1297
 msgid "Sort files by one of the following: name, folder, size, type, or date"
 msgstr ""
 "Utriediť súbory podľa: name (názvu), folder (priečinka), size (veľkosti), type (typu) alebo date "
 "(dátumu)"
 
-#: ../src/gsearchtool.c:1299
+#: ../src/gsearchtool.c:1298
 msgid "Set sort order to descending, the default is ascending"
 msgstr "Nastaviť poradie triedenia na zostupné, predvolené je vzostupné"
 
-#: ../src/gsearchtool.c:1300
+#: ../src/gsearchtool.c:1299
 msgid "Automatically start a search"
 msgstr "Automaticky spustiť hľadanie"
 
-#: ../src/gsearchtool.c:1306
+#: ../src/gsearchtool.c:1305
 #, c-format
 msgid "Select the \"%s\" search option"
 msgstr "Vyberte možnosť hľadania \"%s\""
 
-#: ../src/gsearchtool.c:1309
+#: ../src/gsearchtool.c:1308
 #, c-format
 msgid "Select and set the \"%s\" search option"
 msgstr "Vyberte a nastavte možnosť hľadania \"%s\""
 
-#: ../src/gsearchtool.c:1416
+#: ../src/gsearchtool.c:1415
 msgid "Invalid option passed to sortby command line argument."
 msgstr "Zadaná neplatná voľba pre parameter príkazového riadku sortby."
 
-#: ../src/gsearchtool.c:1710
+#: ../src/gsearchtool.c:1709
 msgid ""
 "\n"
 "... Too many errors to display ..."
@@ -458,182 +458,182 @@ msgstr ""
 "\n"
 "... Príliš veľa chýb ...."
 
-#: ../src/gsearchtool.c:1724
+#: ../src/gsearchtool.c:1723
 msgid "The search results may be invalid.  There were errors while performing this search."
 msgstr "Výsledky hľadania môžu byť neplatné.  Pri vyhľadávaní nastala chyba."
 
-#: ../src/gsearchtool.c:1733 ../src/gsearchtool.c:1774
+#: ../src/gsearchtool.c:1732 ../src/gsearchtool.c:1773
 msgid "Show more _details"
 msgstr "Zobraziť po_drobné informácie"
 
-#: ../src/gsearchtool.c:1763
+#: ../src/gsearchtool.c:1762
 msgid ""
 "The search results may be out of date or invalid.  Do you want to disable the quick search "
 "feature?"
 msgstr "Výsledky hľadania môžu byť staré alebo neplatné.  Chcete zakázať rýchle hľadanie?"
 
-#: ../src/gsearchtool.c:1785
+#: ../src/gsearchtool.c:1784
 msgid "Disable _Quick Search"
 msgstr "Zakázať _Rýchle hľadanie"
 
-#: ../src/gsearchtool.c:1812
+#: ../src/gsearchtool.c:1811
 #, c-format
 msgid "Failed to set process group id of child %d: %s.\n"
 msgstr "Nepodarilo sa nastaviť id skupiny procesov pre potomka %d: %s.\n"
 
-#: ../src/gsearchtool.c:1837
+#: ../src/gsearchtool.c:1836
 msgid "Error parsing the search command."
 msgstr "Chyba pri spracovaní príkazu pre hľadanie."
 
-#: ../src/gsearchtool.c:1866
+#: ../src/gsearchtool.c:1865
 msgid "Error running the search command."
 msgstr "Chyba pri spustení príkazu hľadania."
 
-#: ../src/gsearchtool.c:1982
+#: ../src/gsearchtool.c:1981
 #, c-format
 msgid "Enter a text value for the \"%s\" search option."
 msgstr "Zadajte textovú hodnotu pre možnosť hľadania \"%s\"."
 
 #. Translators:  Below is a string displaying the search options name
 #. and unit value.  For example, "\"Date modified less than\" in days".
-#: ../src/gsearchtool.c:1987
+#: ../src/gsearchtool.c:1986
 #, c-format
 msgid "\"%s\" in %s"
 msgstr "\"%s\" v %s"
 
-#: ../src/gsearchtool.c:1989
+#: ../src/gsearchtool.c:1988
 #, c-format
 msgid "Enter a value in %s for the \"%s\" search option."
 msgstr "Zadajte hodnotu v %s pre možnosť hľadania \"%s\"."
 
-#: ../src/gsearchtool.c:2047
+#: ../src/gsearchtool.c:2046
 #, c-format
 msgid "Remove \"%s\""
 msgstr "Odstrániť \"%s\""
 
-#: ../src/gsearchtool.c:2048
+#: ../src/gsearchtool.c:2047
 #, c-format
 msgid "Click to remove the \"%s\" search option."
 msgstr "Kliknite pre odstránenie voľby hľadania \"%s\""
 
-#: ../src/gsearchtool.c:2141
+#: ../src/gsearchtool.c:2140
 msgid "A_vailable options:"
 msgstr "_Dostupné voľby:"
 
-#: ../src/gsearchtool.c:2170
+#: ../src/gsearchtool.c:2169
 msgid "Available options"
 msgstr "Dostupné voľby"
 
-#: ../src/gsearchtool.c:2171
+#: ../src/gsearchtool.c:2170
 msgid "Select a search option from the drop-down list."
 msgstr "Vyberte možnosť hľadania hľadanie z menu."
 
-#: ../src/gsearchtool.c:2183
+#: ../src/gsearchtool.c:2182
 msgid "Add search option"
 msgstr "Pridať možnosť hľadania"
 
-#: ../src/gsearchtool.c:2184
+#: ../src/gsearchtool.c:2183
 msgid "Click to add the selected available search option."
 msgstr "Kliknite pre pridanie vybranej voľby hľadania."
 
-#: ../src/gsearchtool.c:2273
+#: ../src/gsearchtool.c:2272
 msgid "S_earch results:"
 msgstr "Výsled_ky hľadania:"
 
-#: ../src/gsearchtool.c:2317
+#: ../src/gsearchtool.c:2316
 msgid "List View"
 msgstr "Zobraziť ako zoznam"
 
-#: ../src/gsearchtool.c:2377
+#: ../src/gsearchtool.c:2376
 msgid "Name"
 msgstr "Názov"
 
-#: ../src/gsearchtool.c:2401
+#: ../src/gsearchtool.c:2400
 msgid "Folder"
 msgstr "Priečinok"
 
-#: ../src/gsearchtool.c:2414
+#: ../src/gsearchtool.c:2413
 msgid "Size"
 msgstr "Veľkosť"
 
-#: ../src/gsearchtool.c:2426
+#: ../src/gsearchtool.c:2425
 msgid "Type"
 msgstr "Typ"
 
-#: ../src/gsearchtool.c:2438
+#: ../src/gsearchtool.c:2437
 msgid "Date Modified"
 msgstr "Čas zmeny"
 
-#: ../src/gsearchtool.c:2757
+#: ../src/gsearchtool.c:2756
 msgid "_Name contains:"
 msgstr "_Názov obsahuje:"
 
-#: ../src/gsearchtool.c:2771 ../src/gsearchtool.c:2772
+#: ../src/gsearchtool.c:2770 ../src/gsearchtool.c:2771
 msgid "Enter a filename or partial filename with or without wildcards."
 msgstr "Zadajte názov súboru alebo jeho časť s prípadnými zástupnými znakmi."
 
-#: ../src/gsearchtool.c:2772
+#: ../src/gsearchtool.c:2771
 msgid "Name contains"
 msgstr "Názov obsahuje"
 
-#: ../src/gsearchtool.c:2778
+#: ../src/gsearchtool.c:2777
 msgid "_Look in folder:"
 msgstr "_Hľadať v priečinku:"
 
-#: ../src/gsearchtool.c:2784
+#: ../src/gsearchtool.c:2783
 msgid "Browse"
 msgstr "Prehliadať"
 
-#: ../src/gsearchtool.c:2793
+#: ../src/gsearchtool.c:2792
 msgid "Look in folder"
 msgstr "Hľadať v priečinku"
 
-#: ../src/gsearchtool.c:2793
+#: ../src/gsearchtool.c:2792
 msgid "Select the folder or device from which you want to begin the search."
 msgstr "Zadajte názov priečinka alebo zariadenia, kde chcete začať hľadanie."
 
-#: ../src/gsearchtool.c:2811
+#: ../src/gsearchtool.c:2810
 msgid "Select more _options"
 msgstr "Vybrať ďalšie v_oľby"
 
-#: ../src/gsearchtool.c:2820
+#: ../src/gsearchtool.c:2819
 msgid "Select more options"
 msgstr "Vybrať ďalšie voľby"
 
-#: ../src/gsearchtool.c:2820
+#: ../src/gsearchtool.c:2819
 msgid "Click to expand or collapse the list of available options."
 msgstr "Kliknite pre rozbalenie alebo zabalenie zoznamu volieb hľadania."
 
-#: ../src/gsearchtool.c:2844
+#: ../src/gsearchtool.c:2843
 msgid "Click to display the help manual."
 msgstr "Nepodarilo sa zobraziť pomocníka."
 
-#: ../src/gsearchtool.c:2852
+#: ../src/gsearchtool.c:2851
 msgid "Click to close \"Search for Files\"."
 msgstr "Kliknutím zatvoríte \"Hľadanie súborov\"."
 
-#: ../src/gsearchtool.c:2878
+#: ../src/gsearchtool.c:2877
 msgid "Click to perform a search."
 msgstr "Kliknutím vykonáte hľadanie."
 
-#: ../src/gsearchtool.c:2879
+#: ../src/gsearchtool.c:2878
 msgid "Click to stop a search."
 msgstr "Kliknutím zastavíte hľadanie."
 
-#: ../src/gsearchtool.c:2972
+#: ../src/gsearchtool.c:2971
 msgid "- the GNOME Search Tool"
 msgstr "- Nástroj na hľadanie GNOME"
 
-#: ../src/gsearchtool.c:2981
+#: ../src/gsearchtool.c:2980
 #, c-format
 msgid "Failed to parse command line arguments: %s\n"
 msgstr "Zlyhala analýza parametrov príkazového riadku: %s\n"
 
-#: ../src/gsearchtool-callbacks.c:197
+#: ../src/gsearchtool-callbacks.c:196
 msgid "Could not open help document."
 msgstr "Nepodarilo sa otvoriť dokument s pomocníkom."
 
-#: ../src/gsearchtool-callbacks.c:344
+#: ../src/gsearchtool-callbacks.c:343
 #, c-format
 msgid "Are you sure you want to open %d document?"
 msgid_plural "Are you sure you want to open %d documents?"
@@ -641,7 +641,7 @@ msgstr[0] "Naozaj chcete otvoriť %d dokumentov?"
 msgstr[1] "Naozaj chcete otvoriť %d dokument?"
 msgstr[2] "Naozaj chcete otvoriť %d dokumenty?"
 
-#: ../src/gsearchtool-callbacks.c:349 ../src/gsearchtool-callbacks.c:534
+#: ../src/gsearchtool-callbacks.c:348 ../src/gsearchtool-callbacks.c:533
 #, c-format
 msgid "This will open %d separate window."
 msgid_plural "This will open %d separate windows."
@@ -649,29 +649,29 @@ msgstr[0] "Otvorí sa %d samostatných okien."
 msgstr[1] "Otvorí sa %d samostatné okno."
 msgstr[2] "Otvoria sa %d samostatné okná."
 
-#: ../src/gsearchtool-callbacks.c:385
+#: ../src/gsearchtool-callbacks.c:384
 #, c-format
 msgid "Could not open document \"%s\"."
 msgstr "Nepodarilo sa otvoriť dokument \"%s\"."
 
-#: ../src/gsearchtool-callbacks.c:410
+#: ../src/gsearchtool-callbacks.c:409
 #, c-format
 msgid "Could not open folder \"%s\"."
 msgstr "Nepodarilo sa otvoriť priečinok \"%s\"."
 
-#: ../src/gsearchtool-callbacks.c:418
+#: ../src/gsearchtool-callbacks.c:417
 msgid "The nautilus file manager is not running."
 msgstr "Nebeží správca súborov nautilus."
 
-#: ../src/gsearchtool-callbacks.c:491 ../src/gsearchtool-callbacks.c:814
+#: ../src/gsearchtool-callbacks.c:490 ../src/gsearchtool-callbacks.c:813
 msgid "The document does not exist."
 msgstr "Dokument neexistuje."
 
-#: ../src/gsearchtool-callbacks.c:506
+#: ../src/gsearchtool-callbacks.c:505
 msgid "There is no installed viewer capable of displaying the document."
 msgstr "Nemáte nainštalovaný prehliadač, ktorý dokáže zobraziť tento dokument."
 
-#: ../src/gsearchtool-callbacks.c:529
+#: ../src/gsearchtool-callbacks.c:528
 #, c-format
 msgid "Are you sure you want to open %d folder?"
 msgid_plural "Are you sure you want to open %d folders?"
@@ -679,105 +679,105 @@ msgstr[0] "Naozaj chcete otvoriť %d priečinkov?"
 msgstr[1] "Naozaj chcete otvoriť %d priečinok?"
 msgstr[2] "Naozaj chcete otvoriť %d priečinky?"
 
-#: ../src/gsearchtool-callbacks.c:678
+#: ../src/gsearchtool-callbacks.c:677
 #, c-format
 msgid "Could not move \"%s\" to trash."
 msgstr "Nepodarilo sa presunúť \"%s\" do Koša."
 
-#: ../src/gsearchtool-callbacks.c:705
+#: ../src/gsearchtool-callbacks.c:704
 #, c-format
 msgid "Do you want to delete \"%s\" permanently?"
 msgstr "Chcete navždy vymazať \"%s\"?"
 
-#: ../src/gsearchtool-callbacks.c:708
+#: ../src/gsearchtool-callbacks.c:707
 #, c-format
 msgid "Trash is unavailable.  Could not move \"%s\" to the trash."
 msgstr "Kôš nie je dostupný.  Nepodarilo sa presunúť \"%s\" do koša."
 
-#: ../src/gsearchtool-callbacks.c:743
+#: ../src/gsearchtool-callbacks.c:742
 #, c-format
 msgid "Could not delete \"%s\"."
 msgstr "Nepodarilo sa vymazať \"%s\"."
 
-#: ../src/gsearchtool-callbacks.c:850
+#: ../src/gsearchtool-callbacks.c:849
 #, c-format
 msgid "Deleting \"%s\" failed: %s."
 msgstr "Vymazanie \"%s\" zlyhalo: %s."
 
-#: ../src/gsearchtool-callbacks.c:862
+#: ../src/gsearchtool-callbacks.c:861
 #, c-format
 msgid "Moving \"%s\" failed: %s."
 msgstr "Presúvanie \"%s\" zlyhalo: %s."
 
 #. Popup menu item: Open
-#: ../src/gsearchtool-callbacks.c:990 ../src/gsearchtool-callbacks.c:1020
+#: ../src/gsearchtool-callbacks.c:989 ../src/gsearchtool-callbacks.c:1019
 msgid "_Open"
 msgstr "_Otvoriť"
 
 #. Popup menu item: Open with (default)
-#: ../src/gsearchtool-callbacks.c:1045
+#: ../src/gsearchtool-callbacks.c:1044
 #, c-format
 msgid "_Open with %s"
 msgstr "_Otvoriť pomocou %s"
 
-#: ../src/gsearchtool-callbacks.c:1080
+#: ../src/gsearchtool-callbacks.c:1079
 #, c-format
 msgid "Open with %s"
 msgstr "Otvoriť pomocou %s"
 
 #. Popup menu item: Open With
-#: ../src/gsearchtool-callbacks.c:1113
+#: ../src/gsearchtool-callbacks.c:1112
 msgid "Open Wit_h"
 msgstr "Otvoriť _pomocou"
 
 #. Popup menu item: Open Containing Folder
-#: ../src/gsearchtool-callbacks.c:1158
+#: ../src/gsearchtool-callbacks.c:1157
 msgid "Open Containing _Folder"
 msgstr "Otvoriť _priečinok so súborom"
 
-#: ../src/gsearchtool-callbacks.c:1176
+#: ../src/gsearchtool-callbacks.c:1175
 msgid "Mo_ve to Trash"
 msgstr "Presunúť do _koša"
 
-#: ../src/gsearchtool-callbacks.c:1198
+#: ../src/gsearchtool-callbacks.c:1197
 msgid "_Save Results As..."
 msgstr "Uložiť výsledky _ako..."
 
-#: ../src/gsearchtool-callbacks.c:1580
+#: ../src/gsearchtool-callbacks.c:1579
 msgid "Save Search Results As..."
 msgstr "Uložiť výsledky hľadania ako..."
 
-#: ../src/gsearchtool-callbacks.c:1611
+#: ../src/gsearchtool-callbacks.c:1610
 msgid "Could not save document."
 msgstr "Nepodarilo sa uložiť dokument."
 
-#: ../src/gsearchtool-callbacks.c:1612
+#: ../src/gsearchtool-callbacks.c:1611
 msgid "You did not select a document name."
 msgstr "Nevybrali ste názov dokumentu."
 
-#: ../src/gsearchtool-callbacks.c:1638
+#: ../src/gsearchtool-callbacks.c:1637
 #, c-format
 msgid "Could not save \"%s\" document to \"%s\"."
 msgstr "Nepodarilo sa uložiť dokument \"%s\" do \"%s\"."
 
-#: ../src/gsearchtool-callbacks.c:1668
+#: ../src/gsearchtool-callbacks.c:1667
 #, c-format
 msgid "The document \"%s\" already exists.  Would you like to replace it?"
 msgstr "Dokument \"%s\" už existuje.  Chcete ho prepísať?"
 
-#: ../src/gsearchtool-callbacks.c:1672
+#: ../src/gsearchtool-callbacks.c:1671
 msgid "If you replace an existing file, its contents will be overwritten."
 msgstr "Ak nahradíte existujúci súbor, jeho obsah bude prepísaný."
 
-#: ../src/gsearchtool-callbacks.c:1683
+#: ../src/gsearchtool-callbacks.c:1682
 msgid "_Replace"
 msgstr "Nah_radiť"
 
-#: ../src/gsearchtool-callbacks.c:1733
+#: ../src/gsearchtool-callbacks.c:1732
 msgid "The document name you selected is a folder."
 msgstr "Názov dokumentu, ktorý ste vybrali, je priečinok."
 
-#: ../src/gsearchtool-callbacks.c:1771
+#: ../src/gsearchtool-callbacks.c:1770
 msgid "You may not have write permissions to the document."
 msgstr "Možno nemáte dostatočné práva na zápis dokumentu."
 
@@ -786,23 +786,23 @@ msgstr "Možno nemáte dostatočné práva na zápis dokumentu."
 #. on age of a file.  Please modify the format of the timestamp to match
 #. your locale.  For example, to display 24 hour time replace the '%-I'
 #. with '%-H' and remove the '%p'.  (See bugzilla report #120434.)
-#: ../src/gsearchtool-support.c:452
+#: ../src/gsearchtool-support.c:451
 msgid "today at %-I:%M %p"
 msgstr "dnes o %-H:%M"
 
-#: ../src/gsearchtool-support.c:454
+#: ../src/gsearchtool-support.c:453
 msgid "yesterday at %-I:%M %p"
 msgstr "včera o %-H:%M"
 
-#: ../src/gsearchtool-support.c:456 ../src/gsearchtool-support.c:458
+#: ../src/gsearchtool-support.c:455 ../src/gsearchtool-support.c:457
 msgid "%A, %B %-d %Y at %-I:%M:%S %p"
 msgstr "%-d.%-m.%Y, %-H:%M:%S"
 
-#: ../src/gsearchtool-support.c:645
+#: ../src/gsearchtool-support.c:644
 msgid "link (broken)"
 msgstr "odkaz (nefunčný)"
 
-#: ../src/gsearchtool-support.c:649
+#: ../src/gsearchtool-support.c:648
 #, c-format
 msgid "link to %s"
 msgstr "odkaz na %s"
@@ -813,12 +813,12 @@ msgstr "odkaz na %s"
 #. * make some or all of them match.
 #.
 #. localizers: tag used to detect the first copy of a file
-#: ../src/gsearchtool-support.c:1268
+#: ../src/gsearchtool-support.c:1267
 msgid " (copy)"
 msgstr " (kópia)"
 
 #. localizers: tag used to detect the second copy of a file
-#: ../src/gsearchtool-support.c:1270
+#: ../src/gsearchtool-support.c:1269
 msgid " (another copy)"
 msgstr " (ďalšia kópia)"
 
@@ -826,34 +826,34 @@ msgstr " (ďalšia kópia)"
 #. localizers: tag used to detect the x12th copy of a file
 #. localizers: tag used to detect the x13th copy of a file
 #. localizers: tag used to detect the xxth copy of a file
-#: ../src/gsearchtool-support.c:1273 ../src/gsearchtool-support.c:1275
-#: ../src/gsearchtool-support.c:1277 ../src/gsearchtool-support.c:1287
+#: ../src/gsearchtool-support.c:1272 ../src/gsearchtool-support.c:1274
+#: ../src/gsearchtool-support.c:1276 ../src/gsearchtool-support.c:1286
 msgid "th copy)"
 msgstr ". kópia)"
 
 #. localizers: tag used to detect the x1st copy of a file
-#: ../src/gsearchtool-support.c:1280
+#: ../src/gsearchtool-support.c:1279
 msgid "st copy)"
 msgstr ". kópia)"
 
 #. localizers: tag used to detect the x2nd copy of a file
-#: ../src/gsearchtool-support.c:1282
+#: ../src/gsearchtool-support.c:1281
 msgid "nd copy)"
 msgstr ". kópia)"
 
 #. localizers: tag used to detect the x3rd copy of a file
-#: ../src/gsearchtool-support.c:1284
+#: ../src/gsearchtool-support.c:1283
 msgid "rd copy)"
 msgstr ". kópia)"
 
 #. localizers: appended to first file copy
-#: ../src/gsearchtool-support.c:1301
+#: ../src/gsearchtool-support.c:1300
 #, c-format
 msgid "%s (copy)%s"
 msgstr "%s (kópia)%s"
 
 #. localizers: appended to second file copy
-#: ../src/gsearchtool-support.c:1303
+#: ../src/gsearchtool-support.c:1302
 #, c-format
 msgid "%s (another copy)%s"
 msgstr "%s (ďalšia kópia)%s"
@@ -862,106 +862,106 @@ msgstr "%s (ďalšia kópia)%s"
 #. localizers: appended to x12th file copy
 #. localizers: appended to x13th file copy
 #. localizers: appended to xxth file copy
-#: ../src/gsearchtool-support.c:1306 ../src/gsearchtool-support.c:1308
-#: ../src/gsearchtool-support.c:1310 ../src/gsearchtool-support.c:1319
+#: ../src/gsearchtool-support.c:1305 ../src/gsearchtool-support.c:1307
+#: ../src/gsearchtool-support.c:1309 ../src/gsearchtool-support.c:1318
 #, c-format
 msgid "%s (%dth copy)%s"
 msgstr "%s (%d. kópia)%s"
 
 #. localizers: appended to x1st file copy
-#: ../src/gsearchtool-support.c:1313
+#: ../src/gsearchtool-support.c:1312
 #, c-format
 msgid "%s (%dst copy)%s"
 msgstr "%s (%d. kópia)%s"
 
 #. localizers: appended to x2nd file copy
-#: ../src/gsearchtool-support.c:1315
+#: ../src/gsearchtool-support.c:1314
 #, c-format
 msgid "%s (%dnd copy)%s"
 msgstr "%s (%d. kópia)%s"
 
 #. localizers: appended to x3rd file copy
-#: ../src/gsearchtool-support.c:1317
+#: ../src/gsearchtool-support.c:1316
 #, c-format
 msgid "%s (%drd copy)%s"
 msgstr "%s (%d. kópia)%s"
 
-#: ../src/gsearchtool-support.c:1364
+#: ../src/gsearchtool-support.c:1363
 msgid " (invalid Unicode)"
 msgstr " (neplatný Unicode)"
 
 #. localizers: opening parentheses to match the "th copy)" string
-#: ../src/gsearchtool-support.c:1453
+#: ../src/gsearchtool-support.c:1452
 msgid " ("
 msgstr " ("
 
 #. localizers: opening parentheses of the "th copy)" string
-#: ../src/gsearchtool-support.c:1461
+#: ../src/gsearchtool-support.c:1460
 #, c-format
 msgid " (%d"
 msgstr " (%d"
 
-#: ../libeggsmclient/eggdesktopfile.c:165
+#: ../libeggsmclient/eggdesktopfile.c:164
 #, c-format
 msgid "File is not a valid .desktop file"
 msgstr "Súbor nie je platný .desktop súbor"
 
-#: ../libeggsmclient/eggdesktopfile.c:188
+#: ../libeggsmclient/eggdesktopfile.c:187
 #, c-format
 msgid "Unrecognized desktop file Version '%s'"
 msgstr "Nerozpoznaná položka 'Version' v .desktop súbore '%s'"
 
-#: ../libeggsmclient/eggdesktopfile.c:958
+#: ../libeggsmclient/eggdesktopfile.c:957
 #, c-format
 msgid "Starting %s"
 msgstr "Spúšťa sa %s"
 
-#: ../libeggsmclient/eggdesktopfile.c:1100
+#: ../libeggsmclient/eggdesktopfile.c:1099
 #, c-format
 msgid "Application does not accept documents on command line"
 msgstr "Aplikácia neprijíma dokumenty v príkazovom riadku"
 
-#: ../libeggsmclient/eggdesktopfile.c:1168
+#: ../libeggsmclient/eggdesktopfile.c:1167
 #, c-format
 msgid "Unrecognized launch option: %d"
 msgstr "Nerozpoznaná spúšťacia voľba: %d"
 
-#: ../libeggsmclient/eggdesktopfile.c:1373
+#: ../libeggsmclient/eggdesktopfile.c:1372
 #, c-format
 msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
 msgstr "Spúšťaču typu Odkaz ('Type=Link') nie je možné odovzdať URI dokumentov"
 
-#: ../libeggsmclient/eggdesktopfile.c:1392
+#: ../libeggsmclient/eggdesktopfile.c:1391
 #, c-format
 msgid "Not a launchable item"
 msgstr "Nespustiteľná položka"
 
-#: ../libeggsmclient/eggsmclient.c:225
+#: ../libeggsmclient/eggsmclient.c:223
 msgid "Disable connection to session manager"
 msgstr "Zakázať spojenie so správcom relácií"
 
-#: ../libeggsmclient/eggsmclient.c:228
+#: ../libeggsmclient/eggsmclient.c:226
 msgid "Specify file containing saved configuration"
 msgstr "Zadajte súbor, ktorý obsahuje uloženú konfiguráciu"
 
-#: ../libeggsmclient/eggsmclient.c:228
+#: ../libeggsmclient/eggsmclient.c:226
 msgid "FILE"
 msgstr "SÚBOR"
 
 # * https://bugzilla.gnome.org/show_bug.cgi?id=612778
-#: ../libeggsmclient/eggsmclient.c:231
+#: ../libeggsmclient/eggsmclient.c:229
 msgid "Specify session management ID"
 msgstr "Zadať identifikátor správy relácie"
 
-#: ../libeggsmclient/eggsmclient.c:231
+#: ../libeggsmclient/eggsmclient.c:229
 msgid "ID"
 msgstr "Identifikátor"
 
-#: ../libeggsmclient/eggsmclient.c:252
+#: ../libeggsmclient/eggsmclient.c:250
 msgid "Session management options:"
 msgstr "Voľby správy relácie:"
 
-#: ../libeggsmclient/eggsmclient.c:253
+#: ../libeggsmclient/eggsmclient.c:251
 msgid "Show session management options"
 msgstr "Zobraziť voľby správy relácií"
 
