@@ -10,630 +10,260 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-10-06 14:36-0400\n"
-"PO-Revision-Date: 2011-09-19 12:26+0200\n"
-"Last-Translator: Pavol Klačanský <pavol@klacansky.com>\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-search-"
+"tool&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2013-12-18 21:31+0000\n"
+"PO-Revision-Date: 2015-02-28 21:40+0100\n"
+"Last-Translator: Dušan Kazik <prescott66@gmail.com>\n"
 "Language-Team: Slovak <gnome-sk-list@gnome.org>\n"
 "Language: sk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 1 : (n>=2 && n<=4) ? 2 : 0;\n"
+"X-Generator: Poedit 1.7.4\n"
 
 #: ../data/gnome-search-tool.desktop.in.h:1
-msgid "Locate documents and folders on this computer by name or content"
-msgstr ""
-"Vyhľadajte dokumenty a priečinky na tomto počítači podľa názvu alebo obsahu"
-
-#: ../data/gnome-search-tool.desktop.in.h:2
 msgid "Search for Files..."
 msgstr "Hľadať súbory..."
 
-#: ../data/gnome-search-tool.schemas.in.h:1
-msgid "Default Window Height"
-msgstr "Predvolená šírka okna"
+#: ../data/gnome-search-tool.desktop.in.h:2
+msgid "Locate documents and folders on this computer by name or content"
+msgstr "Vyhľadajte dokumenty a priečinky na tomto počítači podľa názvu alebo obsahu"
 
-#: ../data/gnome-search-tool.schemas.in.h:2
-msgid "Default Window Maximized"
-msgstr "Predvolené maximalizované okno"
+#: ../data/gnome-search-tool.desktop.in.h:3
+msgid "find;locate;look for;seek;"
+msgstr "nájsť;lokalizovať;vyhľadať;"
 
-#: ../data/gnome-search-tool.schemas.in.h:3
-msgid "Default Window Width"
-msgstr "Predvolená šírka okna"
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:1
+msgid "Search history"
+msgstr "História hľadania"
 
-#: ../data/gnome-search-tool.schemas.in.h:4
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:2
+msgid "This key defines the items which were searched for in the past."
+msgstr "Tento kľúč definuje položky, ktoré boli hľadané v minulosti."
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:3
+msgid "Show Additional Options"
+msgstr "Zobraziť ďalšie voľby"
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:4
 msgid "Disable Quick Search"
 msgstr "Zakázať rýchle hľadanie"
 
-#: ../data/gnome-search-tool.schemas.in.h:5
-msgid "Disable Quick Search Second Scan"
-msgstr "Zakázať druhý cyklus rýchleho hľadania"
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:5
+msgid ""
+"This key determines if the search tool disables the use of the locate command when performing "
+"simple file name searches."
+msgstr ""
+"Tento kľúč určuje, či nástroj na hľadanie zakáže použitie príkazu locate pri jednoduchom hľadaní "
+"mien súborov."
 
-#: ../data/gnome-search-tool.schemas.in.h:6
-msgid "Look in Folder"
-msgstr "Hľadať v priečinku"
-
-#: ../data/gnome-search-tool.schemas.in.h:7
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:6
 msgid "Quick Search Excluded Paths"
 msgstr "Cesty vynechané z rýchleho hľadania"
 
-#: ../data/gnome-search-tool.schemas.in.h:8
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:7
+msgid ""
+"This key defines the paths the search tool will exclude from a quick search. The wildcards '*' "
+"and '?' are supported. The default values are /mnt/*, /media/*, /dev/*, /tmp/*, /proc/*, and /"
+"var/*."
+msgstr ""
+"Tento kľúč definuje cesty, ktoré nástroj na hľadanie vynechá z rýchleho hľadania. Sú podporované "
+"zástupné znaky '*' a '?'. Predvolené hodnoty sú /mnt/*, /media/*, /dev/*, /tmp/*, /proc/* a /var/"
+"*."
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:8
+msgid "Disable Quick Search Second Scan"
+msgstr "Zakázať druhý cyklus rýchleho hľadania"
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:9
+msgid ""
+"This key determines if the search tool disables the use of the find command after performing a "
+"quick search."
+msgstr ""
+"Tento kľúč určuje, či nástroj na hľadanie zakáže použitie príkazu find po vykonaní rýchleho "
+"hľadania."
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:10
 msgid "Quick Search Second Scan Excluded Paths"
 msgstr "Cesty vynechané z druhého cyklu rýchleho hľadania"
 
-#: ../data/gnome-search-tool.schemas.in.h:9
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:11
+msgid ""
+"This key defines the paths the search tool will exclude from a second scan when performing a "
+"quick search. The second scan uses the find command to search for files. The purpose of the "
+"second scan is to find files that have not been indexed. The wildcards '*' and '?' are "
+"supported. The default value is /."
+msgstr ""
+"Tento kľúč definuje cesty, ktoré nástroj na hľadanie vynechá z druhého cyklu pri rýchlom "
+"hľadaní. Druhý cyklus používa príkaz find na hľadanie súborov. Účel druhého cyklu je nájsť "
+"súbory, ktoré neboli indexované. Sú podporované zástupné znaky '*' a '?'. Predvolená hodnota "
+"je /."
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:12
 msgid "Search Result Columns Order"
 msgstr "Poradie stĺpcov výsledkov hľadania"
 
-#. Translators: The quoted text is the label of an available
-#. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:12
-msgid "Select the search option \"Contains the text\""
-msgstr "Vyberte možnosť \"Obsahuje text\""
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:13
+msgid ""
+"This key defines the order of the columns in the search results. This key should not be modified "
+"by the user."
+msgstr ""
+"Tento kľúč určuje poradie stĺpcov vo výsledkoch hľadania. Tento kľúč by používatelia nemali "
+"meniť."
 
-#. Translators: The quoted text is the label of an available
-#. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:15
-msgid "Select the search option \"Date modified less than\""
-msgstr "Vyberte možnosť \"Čas zmeny menej než\""
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:14
+msgid "Default Window Width"
+msgstr "Predvolená šírka okna"
 
-#. Translators: The quoted text is the label of an available
-#. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:18
-msgid "Select the search option \"Date modified more than\""
-msgstr "Vyberte možnosť \"Čas zmeny viac ako\""
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:15
+msgid ""
+"This key defines the window width, and it's used to remember the size of the search tool between "
+"sessions. Setting it to -1 will make the search tool use the default width."
+msgstr ""
+"Tento kľúč definuje šírku okna a je použitý na zapamätanie veľkosti nástroja na hľadanie medzi "
+"reláciami. Nastavenie na -1 spôsobí, že nástroj na hľadanie použije predvolenú šírku."
 
-#. Translators: The quoted text is the label of an available
-#. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:21
-msgid "Select the search option \"Exclude other filesystems\""
-msgstr "Vyberte možnosť hľadania \"Vynechať iné súborové systémy\""
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:16
+msgid "Default Window Height"
+msgstr "Predvolená šírka okna"
 
-#. Translators: The quoted text is the label of an available
-#. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:24
-msgid "Select the search option \"File is empty\""
-msgstr "Vyberte možnosť \"Súbor je prázdny\""
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:17
+msgid ""
+"This key defines the window height, and it's used to remember the size of the search tool "
+"between sessions. Setting it to -1 will make the search tool use the default height."
+msgstr ""
+"Tento kľúč definuje výšku okna a je použitý na zapamätanie veľkosti nástroja na hľadanie medzi "
+"reláciami. Nastavenie na -1 spôsobí, že nástroj na hľadanie použije predvolenú výšku."
 
-#. Translators: The quoted text is the label of an available
-#. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:27
-msgid "Select the search option \"Follow symbolic links\""
-msgstr "Vyberte možnosť \"Nasledovať symbolické odkazy\""
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:18
+msgid "Default Window Maximized"
+msgstr "Predvolené maximalizované okno"
 
-#. Translators: The quoted text is the label of an available
-#. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:30
-msgid "Select the search option \"Name does not contain\""
-msgstr "Vyberte možnosť \"Názov nesmie obsahovať\""
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:19
+msgid "This key determines if the search tool window starts in a maximized state."
+msgstr "Tento kľúč určuje, či sa okno nástroja na hľadanie spustí v maximalizovanom stave."
 
-#. Translators: The quoted text is the label of an available
-#. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:33
-msgid "Select the search option \"Name matches regular expression\""
-msgstr "Vyberte možnosť \"Názov vyhovuje regulárnemu výrazu\""
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:20
+msgid "Look in Folder"
+msgstr "Hľadať v priečinku"
 
-#. Translators: The quoted text is the label of an available
-#. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:36
-msgid "Select the search option \"Owned by group\""
-msgstr "Vyberte možnosť \"Vlastní skupina\""
-
-#. Translators: The quoted text is the label of an available
-#. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:39
-msgid "Select the search option \"Owned by user\""
-msgstr "Vyberte možnosť \"Vlastní používateľ\""
-
-#. Translators: The quoted text is the label of an available
-#. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:42
-msgid "Select the search option \"Owner is unrecognized\""
-msgstr "Vyberte možnosť \"Nerozpoznaný vlastník\""
-
-#. Translators: The quoted text is the label of an available
-#. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:45
-msgid "Select the search option \"Show hidden files and folders\""
-msgstr "Vyberte možnosť \"Zobraziť skryté súbory a priečinky\""
-
-#. Translators: The quoted text is the label of an available
-#. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:48
-msgid "Select the search option \"Size at least\""
-msgstr "Vyberte možnosť \"Veľkosť aspoň\""
-
-#. Translators: The quoted text is the label of an available
-#. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:51
-msgid "Select the search option \"Size at most\""
-msgstr "Vyberte možnosť \"Veľkosť najviac\""
-
-#: ../data/gnome-search-tool.schemas.in.h:52
-msgid "Show Additional Options"
-msgstr "Zobraziť ďalšie možnosti"
-
-#: ../data/gnome-search-tool.schemas.in.h:53
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:21
 msgid "This key defines the default value of the \"Look in Folder\" widget."
 msgstr "Tento kľúč definuje predvolenú hodnotu prvku \"Hľadať v priečinku\"."
 
-#: ../data/gnome-search-tool.schemas.in.h:54
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:22
 msgid ""
-"This key defines the order of the columns in the search results. This key "
-"should not be modified by the user."
+"This key determines if the \"Contains the text\" search option is selected when the search tool "
+"is started."
 msgstr ""
-"Tento kľúč určuje poradie stĺpcov vo výsledkoch hľadania. Tento kľúč by "
-"používatelia nemali meniť."
+"Tento kľúč určuje, či je možnosť hľadania \"Obsahuje text\" vybratá pri spustení nástroja na "
+"hľadanie."
 
-#: ../data/gnome-search-tool.schemas.in.h:55
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:23
 msgid ""
-"This key defines the paths the search tool will exclude from a quick search. "
-"The wildcards '*' and '?' are supported. The default values are /mnt/*, /"
-"media/*, /dev/*, /tmp/*, /proc/*, and /var/*."
+"This key determines if the \"Date modified less than\" search option is selected when the search "
+"tool is started."
 msgstr ""
-"Tento kľúč definuje cesty, ktoré nástroj na hľadanie vynechá z rýchleho "
-"hľadania. Sú podporované zástupné znaky '*' a '?'. Predvolené hodnoty sú /"
-"mnt/*, /media/*, /dev/*, /tmp/*, /proc/* a /var/*."
+"Tento kľúč určuje, či je možnosť hľadania \"Čas zmeny menej ako\" vybratá pri spustení nástroja "
+"na hľadanie."
 
-#: ../data/gnome-search-tool.schemas.in.h:56
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:24
 msgid ""
-"This key defines the paths the search tool will exclude from a second scan "
-"when performing a quick search. The second scan uses the find command to "
-"search for files. The purpose of the second scan is to find files that have "
-"not been indexed. The wildcards '*' and '?' are supported. The default value "
-"is /."
+"This key determines if the \"Date modified more than\" search option is selected when the search "
+"tool is started."
 msgstr ""
-"Tento kľúč definuje cesty, ktoré nástroj na hľadanie vynechá z druhého cyklu "
-"pri rýchlom hľadaní. Druhý cyklus používa príkaz find na hľadanie súborov. "
-"Účel druhého cyklu je nájsť súbory, ktoré neboli indexované. Sú podporované "
-"zástupné znaky '*' a '?'. Predvolená hodnota je /."
+"Tento kľúč určuje, či je možnosť hľadania \"Čas zmeny viac ako\" vybratá pri spustení nástroja "
+"na hľadanie."
 
-#: ../data/gnome-search-tool.schemas.in.h:57
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:25
 msgid ""
-"This key defines the window height, and it's used to remember the size of "
-"the search tool between sessions. Setting it to -1 will make the search tool "
-"use the default height."
+"This key determines if the \"Size at least\" search option is selected when the search tool is "
+"started."
 msgstr ""
-"Tento kľúč definuje výšku okna a je použitý na zapamätanie veľkosti nástroja "
-"na hľadanie medzi reláciami. Nastavenie na -1 spôsobí, že nástroj na "
-"hľadanie použije predvolenú výšku."
+"Tento kľúč určuje, či je možnosť hľadania \"Veľkosť aspoň\" vybratá pri spustení nástroja na "
+"hľadanie."
 
-#: ../data/gnome-search-tool.schemas.in.h:58
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:26
 msgid ""
-"This key defines the window width, and it's used to remember the size of the "
-"search tool between sessions. Setting it to -1 will make the search tool use "
-"the default width."
+"This key determines if the \"Size at most\" search option is selected when the search tool is "
+"started."
 msgstr ""
-"Tento kľúč definuje šírku okna a je použitý na zapamätanie veľkosti nástroja "
-"na hľadanie medzi reláciami. Nastavenie na -1 spôsobí, že nástroj na "
-"hľadanie použije predvolenú šírku."
+"Tento kľúč určuje, či je možnosť hľadania \"Veľkosť najviac\" vybratá pri spustení nástroja na "
+"hľadanie."
 
-#: ../data/gnome-search-tool.schemas.in.h:59
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:27
 msgid ""
-"This key determines if the \"Contains the text\" search option is selected "
-"when the search tool is started."
+"This key determines if the \"File is empty\" search option is selected when the search tool is "
+"started."
 msgstr ""
-"Tento kľúč určuje, či je možnosť hľadania \"Obsahuje text\" vybratá pri "
-"spustení nástroja na hľadanie."
+"Tento kľúč určuje, či je možnosť hľadania \"Súbor je prázdny\" vybratá pri spustení nástroja na "
+"hľadanie."
 
-#: ../data/gnome-search-tool.schemas.in.h:60
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:28
 msgid ""
-"This key determines if the \"Date modified less than\" search option is "
-"selected when the search tool is started."
+"This key determines if the \"Owned by user\" search option is selected when the search tool is "
+"started."
 msgstr ""
-"Tento kľúč určuje, či je možnosť hľadania \"Čas zmeny menej ako\" vybratá "
-"pri spustení nástroja na hľadanie."
+"Tento kľúč určuje, či je možnosť hľadania \"Vlastní používateľ\" vybratá pri spustení nástroja "
+"na hľadanie."
 
-#: ../data/gnome-search-tool.schemas.in.h:61
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:29
 msgid ""
-"This key determines if the \"Date modified more than\" search option is "
-"selected when the search tool is started."
+"This key determines if the \"Owned by group\" search option is selected when the search tool is "
+"started."
 msgstr ""
-"Tento kľúč určuje, či je možnosť hľadania \"Čas zmeny viac ako\" vybratá pri "
-"spustení nástroja na hľadanie."
+"Tento kľúč určuje, či je možnosť hľadania \"Vlastní skupina\" vybratá pri spustení nástroja na "
+"hľadanie."
 
-#: ../data/gnome-search-tool.schemas.in.h:62
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:30
 msgid ""
-"This key determines if the \"Exclude other filesystems\" search option is "
-"selected when the search tool is started."
+"This key determines if the \"Owner is unrecognized\" search option is selected when the search "
+"tool is started."
 msgstr ""
-"Tento kľúč určuje, či je možnosť hľadania \"Vynechať iné súborové systémy\" "
-"vybratá pri spustení nástroja na hľadanie."
+"Tento kľúč určuje, či je možnosť hľadania \"Nerozpoznaný vlastník\" vybratá pri spustení "
+"nástroja na hľadanie."
 
-#: ../data/gnome-search-tool.schemas.in.h:63
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:31
 msgid ""
-"This key determines if the \"File is empty\" search option is selected when "
+"This key determines if the \"Name does not contain\" search option is selected when the search "
+"tool is started."
+msgstr ""
+"Tento kľúč určuje, či je možnosť hľadania \"Názov nesmie obsahovať\" vybratá pri spustení "
+"nástroja na hľadanie."
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:32
+msgid ""
+"This key determines if the \"Name matches regular expression\" search option is selected when "
 "the search tool is started."
 msgstr ""
-"Tento kľúč určuje, či je možnosť hľadania \"Súbor je prázdny\" vybratá pri "
+"Tento kľúč určuje, či je možnosť hľadania \"Názov vyhovuje regulárnemu výrazu\" vybratá pri "
 "spustení nástroja na hľadanie."
 
-#: ../data/gnome-search-tool.schemas.in.h:64
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:33
 msgid ""
-"This key determines if the \"Follow symbolic links\" search option is "
-"selected when the search tool is started."
+"This key determines if the \"Show hidden files and folders\" search option is selected when the "
+"search tool is started."
 msgstr ""
-"Tento kľúč určuje, či je možnosť hľadania \"Nasledovať symbolické odkazy\" "
-"vybratá pri spustení nástroja na hľadanie."
-
-#: ../data/gnome-search-tool.schemas.in.h:65
-msgid ""
-"This key determines if the \"Name does not contain\" search option is "
-"selected when the search tool is started."
-msgstr ""
-"Tento kľúč určuje, či je možnosť hľadania \"Názov nesmie obsahovať\" vybratá "
-"pri spustení nástroja na hľadanie."
-
-#: ../data/gnome-search-tool.schemas.in.h:66
-msgid ""
-"This key determines if the \"Name matches regular expression\" search option "
-"is selected when the search tool is started."
-msgstr ""
-"Tento kľúč určuje, či je možnosť hľadania \"Názov vyhovuje regulárnemu výrazu"
-"\" vybratá pri spustení nástroja na hľadanie."
-
-#: ../data/gnome-search-tool.schemas.in.h:67
-msgid ""
-"This key determines if the \"Owned by group\" search option is selected when "
-"the search tool is started."
-msgstr ""
-"Tento kľúč určuje, či je možnosť hľadania \"Vlastní skupina\" vybratá pri "
+"Tento kľúč určuje, či je možnosť hľadania \"Zobraziť skryté súbory a priečinky\" vybratá pri "
 "spustení nástroja na hľadanie."
 
-#: ../data/gnome-search-tool.schemas.in.h:68
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:34
 msgid ""
-"This key determines if the \"Owned by user\" search option is selected when "
-"the search tool is started."
+"This key determines if the \"Follow symbolic links\" search option is selected when the search "
+"tool is started."
 msgstr ""
-"Tento kľúč určuje, či je možnosť hľadania \"Vlastní používateľ\" vybratá pri "
-"spustení nástroja na hľadanie."
+"Tento kľúč určuje, či je možnosť hľadania \"Nasledovať symbolické odkazy\" vybratá pri spustení "
+"nástroja na hľadanie."
 
-#: ../data/gnome-search-tool.schemas.in.h:69
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:35
 msgid ""
-"This key determines if the \"Owner is unrecognized\" search option is "
-"selected when the search tool is started."
+"This key determines if the \"Exclude other filesystems\" search option is selected when the "
+"search tool is started."
 msgstr ""
-"Tento kľúč určuje, či je možnosť hľadania \"Nerozpoznaný vlastník\" vybratá "
-"pri spustení nástroja na hľadanie."
-
-#. Translators: The quoted text is the label of the additional
-#. options expander that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:72
-msgid ""
-"This key determines if the \"Select more options\" section is expanded when "
-"the search tool is started."
-msgstr ""
-"Tento kľúč určuje, či je možnosť hľadania \"Vybrať ďalšie možnosti\" "
-"rozbalená pri spustení nástroja na hľadanie."
-
-#: ../data/gnome-search-tool.schemas.in.h:73
-msgid ""
-"This key determines if the \"Show hidden files and folders\" search option "
-"is selected when the search tool is started."
-msgstr ""
-"Tento kľúč určuje, či je možnosť hľadania \"Zobraziť skryté súbory a "
-"priečinky\" vybratá pri spustení nástroja na hľadanie."
-
-#: ../data/gnome-search-tool.schemas.in.h:74
-msgid ""
-"This key determines if the \"Size at least\" search option is selected when "
-"the search tool is started."
-msgstr ""
-"Tento kľúč určuje, či je možnosť hľadania \"Veľkosť aspoň\" vybratá pri "
-"spustení nástroja na hľadanie."
-
-#: ../data/gnome-search-tool.schemas.in.h:75
-msgid ""
-"This key determines if the \"Size at most\" search option is selected when "
-"the search tool is started."
-msgstr ""
-"Tento kľúč určuje, či je možnosť hľadania \"Veľkosť najviac\" vybratá pri "
-"spustení nástroja na hľadanie."
-
-#: ../data/gnome-search-tool.schemas.in.h:76
-msgid ""
-"This key determines if the search tool disables the use of the find command "
-"after performing a quick search."
-msgstr ""
-"Tento kľúč určuje, či nástroj na hľadanie zakáže použitie príkazu find po "
-"vykonaní rýchleho hľadania."
-
-#: ../data/gnome-search-tool.schemas.in.h:77
-msgid ""
-"This key determines if the search tool disables the use of the locate "
-"command when performing simple file name searches."
-msgstr ""
-"Tento kľúč určuje, či nástroj na hľadanie zakáže použitie príkazu locate pri "
-"jednoduchom hľadaní mien súborov."
-
-#: ../data/gnome-search-tool.schemas.in.h:78
-msgid ""
-"This key determines if the search tool window starts in a maximized state."
-msgstr ""
-"Tento kľúč určuje, či sa okno nástroja na hľadanie spustí v maximalizovanom "
-"stave."
-
-#: ../src/gsearchtool-callbacks.c:194
-msgid "Could not open help document."
-msgstr "Nepodarilo sa otvoriť dokument s pomocníkom."
-
-#: ../src/gsearchtool-callbacks.c:341
-#, c-format
-msgid "Are you sure you want to open %d document?"
-msgid_plural "Are you sure you want to open %d documents?"
-msgstr[0] "Naozaj chcete otvoriť %d dokumentov?"
-msgstr[1] "Naozaj chcete otvoriť %d dokument?"
-msgstr[2] "Naozaj chcete otvoriť %d dokumenty?"
-
-#: ../src/gsearchtool-callbacks.c:346 ../src/gsearchtool-callbacks.c:531
-#, c-format
-msgid "This will open %d separate window."
-msgid_plural "This will open %d separate windows."
-msgstr[0] "Otvorí sa %d samostatných okien."
-msgstr[1] "Otvorí sa %d samostatné okno."
-msgstr[2] "Otvoria sa %d samostatné okná."
-
-#: ../src/gsearchtool-callbacks.c:382
-#, c-format
-msgid "Could not open document \"%s\"."
-msgstr "Nepodarilo sa otvoriť dokument \"%s\"."
-
-#: ../src/gsearchtool-callbacks.c:407
-#, c-format
-msgid "Could not open folder \"%s\"."
-msgstr "Nepodarilo sa otvoriť priečinok \"%s\"."
-
-#: ../src/gsearchtool-callbacks.c:415
-msgid "The nautilus file manager is not running."
-msgstr "Nebeží správca súborov nautilus."
-
-#: ../src/gsearchtool-callbacks.c:488 ../src/gsearchtool-callbacks.c:811
-msgid "The document does not exist."
-msgstr "Dokument neexistuje."
-
-#: ../src/gsearchtool-callbacks.c:503
-msgid "There is no installed viewer capable of displaying the document."
-msgstr "Nemáte nainštalovaný prehliadač, ktorý dokáže zobraziť tento dokument."
-
-#: ../src/gsearchtool-callbacks.c:526
-#, c-format
-msgid "Are you sure you want to open %d folder?"
-msgid_plural "Are you sure you want to open %d folders?"
-msgstr[0] "Naozaj chcete otvoriť %d priečinkov?"
-msgstr[1] "Naozaj chcete otvoriť %d priečinok?"
-msgstr[2] "Naozaj chcete otvoriť %d priečinky?"
-
-#: ../src/gsearchtool-callbacks.c:675
-#, c-format
-msgid "Could not move \"%s\" to trash."
-msgstr "Nepodarilo sa presunúť \"%s\" do Koša."
-
-#: ../src/gsearchtool-callbacks.c:702
-#, c-format
-msgid "Do you want to delete \"%s\" permanently?"
-msgstr "Chcete navždy vymazať \"%s\"?"
-
-#: ../src/gsearchtool-callbacks.c:705
-#, c-format
-msgid "Trash is unavailable.  Could not move \"%s\" to the trash."
-msgstr "Kôš nie je dostupný.  Nepodarilo sa presunúť \"%s\" do koša."
-
-#: ../src/gsearchtool-callbacks.c:740
-#, c-format
-msgid "Could not delete \"%s\"."
-msgstr "Nepodarilo sa vymazať \"%s\"."
-
-#: ../src/gsearchtool-callbacks.c:847
-#, c-format
-msgid "Deleting \"%s\" failed: %s."
-msgstr "Vymazanie \"%s\" zlyhalo: %s."
-
-#: ../src/gsearchtool-callbacks.c:859
-#, c-format
-msgid "Moving \"%s\" failed: %s."
-msgstr "Presúvanie \"%s\" zlyhalo: %s."
-
-#. Popup menu item: Open
-#: ../src/gsearchtool-callbacks.c:987 ../src/gsearchtool-callbacks.c:1017
-msgid "_Open"
-msgstr "_Otvoriť"
-
-#. Popup menu item: Open with (default)
-#: ../src/gsearchtool-callbacks.c:1042
-#, c-format
-msgid "_Open with %s"
-msgstr "_Otvoriť pomocou %s"
-
-#: ../src/gsearchtool-callbacks.c:1077
-#, c-format
-msgid "Open with %s"
-msgstr "Otvoriť pomocou %s"
-
-#. Popup menu item: Open With
-#: ../src/gsearchtool-callbacks.c:1110
-msgid "Open Wit_h"
-msgstr "Otvoriť _pomocou"
-
-#. Popup menu item: Open Containing Folder
-#: ../src/gsearchtool-callbacks.c:1155
-msgid "Open Containing _Folder"
-msgstr "Otvoriť _priečinok so súborom"
-
-#: ../src/gsearchtool-callbacks.c:1173
-msgid "Mo_ve to Trash"
-msgstr "Presunúť do _koša"
-
-#: ../src/gsearchtool-callbacks.c:1195
-msgid "_Save Results As..."
-msgstr "Uložiť výsledky _ako..."
-
-#: ../src/gsearchtool-callbacks.c:1577
-msgid "Save Search Results As..."
-msgstr "Uložiť výsledky hľadania ako..."
-
-#: ../src/gsearchtool-callbacks.c:1608
-msgid "Could not save document."
-msgstr "Nepodarilo sa uložiť dokument."
-
-#: ../src/gsearchtool-callbacks.c:1609
-msgid "You did not select a document name."
-msgstr "Nevybrali ste názov dokumentu."
-
-#: ../src/gsearchtool-callbacks.c:1635
-#, c-format
-msgid "Could not save \"%s\" document to \"%s\"."
-msgstr "Nepodarilo sa uložiť dokument \"%s\" do \"%s\"."
-
-#: ../src/gsearchtool-callbacks.c:1665
-#, c-format
-msgid "The document \"%s\" already exists.  Would you like to replace it?"
-msgstr "Dokument \"%s\" už existuje.  Chcete ho prepísať?"
-
-#: ../src/gsearchtool-callbacks.c:1669
-msgid "If you replace an existing file, its contents will be overwritten."
-msgstr "Ak nahradíte existujúci súbor, jeho obsah bude prepísaný."
-
-#: ../src/gsearchtool-callbacks.c:1680
-msgid "_Replace"
-msgstr "Nah_radiť"
-
-#: ../src/gsearchtool-callbacks.c:1730
-msgid "The document name you selected is a folder."
-msgstr "Názov dokumentu, ktorý ste vybrali, je priečinok."
-
-#: ../src/gsearchtool-callbacks.c:1768
-msgid "You may not have write permissions to the document."
-msgstr "Možno nemáte dostatočné práva na zápis dokumentu."
-
-#: ../src/gsearchtool-support.c:63
-#, c-format
-msgid ""
-"GConf error:\n"
-"  %s"
-msgstr ""
-"Chyba GConf:\n"
-"  %s"
-
-#. Translators:  Below are the strings displayed in the 'Date Modified'
-#. column of the list view.  The format of this string can vary depending
-#. on age of a file.  Please modify the format of the timestamp to match
-#. your locale.  For example, to display 24 hour time replace the '%-I'
-#. with '%-H' and remove the '%p'.  (See bugzilla report #120434.)
-#: ../src/gsearchtool-support.c:696
-msgid "today at %-I:%M %p"
-msgstr "dnes o %-H:%M"
-
-#: ../src/gsearchtool-support.c:698
-msgid "yesterday at %-I:%M %p"
-msgstr "včera o %-H:%M"
-
-#: ../src/gsearchtool-support.c:700 ../src/gsearchtool-support.c:702
-msgid "%A, %B %-d %Y at %-I:%M:%S %p"
-msgstr "%-d.%-m.%Y, %-H:%M:%S"
-
-#: ../src/gsearchtool-support.c:889
-msgid "link (broken)"
-msgstr "odkaz (nefunčný)"
-
-#: ../src/gsearchtool-support.c:893
-#, c-format
-msgid "link to %s"
-msgstr "odkaz na %s"
-
-#. START OF NAUTILUS/EEL FUNCTIONS: USED FOR HANDLING OF DUPLICATE FILENAMES
-#. Localizers:
-#. * Feel free to leave out the st, nd, rd and th suffix or
-#. * make some or all of them match.
-#.
-#. localizers: tag used to detect the first copy of a file
-#: ../src/gsearchtool-support.c:1497
-msgid " (copy)"
-msgstr " (kópia)"
-
-#. localizers: tag used to detect the second copy of a file
-#: ../src/gsearchtool-support.c:1499
-msgid " (another copy)"
-msgstr " (ďalšia kópia)"
-
-#. localizers: tag used to detect the x11th copy of a file
-#. localizers: tag used to detect the x12th copy of a file
-#. localizers: tag used to detect the x13th copy of a file
-#. localizers: tag used to detect the xxth copy of a file
-#: ../src/gsearchtool-support.c:1502 ../src/gsearchtool-support.c:1504
-#: ../src/gsearchtool-support.c:1506 ../src/gsearchtool-support.c:1516
-msgid "th copy)"
-msgstr ". kópia)"
-
-#. localizers: tag used to detect the x1st copy of a file
-#: ../src/gsearchtool-support.c:1509
-msgid "st copy)"
-msgstr ". kópia)"
-
-#. localizers: tag used to detect the x2nd copy of a file
-#: ../src/gsearchtool-support.c:1511
-msgid "nd copy)"
-msgstr ". kópia)"
-
-#. localizers: tag used to detect the x3rd copy of a file
-#: ../src/gsearchtool-support.c:1513
-msgid "rd copy)"
-msgstr ". kópia)"
-
-#. localizers: appended to first file copy
-#: ../src/gsearchtool-support.c:1530
-#, c-format
-msgid "%s (copy)%s"
-msgstr "%s (kópia)%s"
-
-#. localizers: appended to second file copy
-#: ../src/gsearchtool-support.c:1532
-#, c-format
-msgid "%s (another copy)%s"
-msgstr "%s (ďalšia kópia)%s"
-
-#. localizers: appended to x11th file copy
-#. localizers: appended to x12th file copy
-#. localizers: appended to x13th file copy
-#. localizers: appended to xxth file copy
-#: ../src/gsearchtool-support.c:1535 ../src/gsearchtool-support.c:1537
-#: ../src/gsearchtool-support.c:1539 ../src/gsearchtool-support.c:1548
-#, c-format
-msgid "%s (%dth copy)%s"
-msgstr "%s (%d. kópia)%s"
-
-#. localizers: appended to x1st file copy
-#: ../src/gsearchtool-support.c:1542
-#, c-format
-msgid "%s (%dst copy)%s"
-msgstr "%s (%d. kópia)%s"
-
-#. localizers: appended to x2nd file copy
-#: ../src/gsearchtool-support.c:1544
-#, c-format
-msgid "%s (%dnd copy)%s"
-msgstr "%s (%d. kópia)%s"
-
-#. localizers: appended to x3rd file copy
-#: ../src/gsearchtool-support.c:1546
-#, c-format
-msgid "%s (%drd copy)%s"
-msgstr "%s (%d. kópia)%s"
-
-#: ../src/gsearchtool-support.c:1593
-msgid " (invalid Unicode)"
-msgstr " (neplatný Unicode)"
-
-#. localizers: opening parentheses to match the "th copy)" string
-#: ../src/gsearchtool-support.c:1682
-msgid " ("
-msgstr " ("
-
-#. localizers: opening parentheses of the "th copy)" string
-#: ../src/gsearchtool-support.c:1690
-#, c-format
-msgid " (%d"
-msgstr " (%d"
+"Tento kľúč určuje, či je možnosť hľadania \"Vynechať iné súborové systémy\" vybratá pri spustení "
+"nástroja na hľadanie."
 
 #: ../src/gsearchtool.c:81
 msgid "Contains the _text"
@@ -748,24 +378,23 @@ msgstr "Konverzia znakovej sady pre \"%s\" zlyhala"
 msgid "Searching..."
 msgstr "Hľadá sa..."
 
-#: ../src/gsearchtool.c:506 ../src/gsearchtool.c:1016
-#: ../src/gsearchtool.c:2976
+#: ../src/gsearchtool.c:506 ../src/gsearchtool.c:1019 ../src/gsearchtool.c:2987
 msgid "Search for Files"
 msgstr "Hľadať súbory"
 
-#: ../src/gsearchtool.c:962 ../src/gsearchtool.c:991
+#: ../src/gsearchtool.c:965 ../src/gsearchtool.c:994
 msgid "No files found"
 msgstr "Nenájdené žiadne súbory"
 
-#: ../src/gsearchtool.c:984
+#: ../src/gsearchtool.c:987
 msgid "(stopped)"
 msgstr "(zastavené)"
 
-#: ../src/gsearchtool.c:990
+#: ../src/gsearchtool.c:993
 msgid "No Files Found"
 msgstr "Nenájdené žiadne súbory"
 
-#: ../src/gsearchtool.c:995
+#: ../src/gsearchtool.c:998
 #, c-format
 msgid "%'d File Found"
 msgid_plural "%'d Files Found"
@@ -773,7 +402,7 @@ msgstr[0] "%'d nájdených súborov"
 msgstr[1] "%'d nájdený súbor"
 msgstr[2] "%'d nájdené súboy"
 
-#: ../src/gsearchtool.c:999 ../src/gsearchtool.c:1037
+#: ../src/gsearchtool.c:1002 ../src/gsearchtool.c:1040
 #, c-format
 msgid "%'d file found"
 msgid_plural "%'d files found"
@@ -781,47 +410,47 @@ msgstr[0] "%'d nájdených súborov"
 msgstr[1] "%'d nájdený súbor"
 msgstr[2] "%'d nájdené súbory"
 
-#: ../src/gsearchtool.c:1128
+#: ../src/gsearchtool.c:1131
 msgid "Entry changed called for a non entry option!"
 msgstr "Zmenená položka volaná pre voľbu bez položiek!"
 
-#: ../src/gsearchtool.c:1288
+#: ../src/gsearchtool.c:1296
 msgid "Set the text of \"Name contains\" search option"
 msgstr "Nastaviť text pre \"Názov obsahuje\""
 
-#: ../src/gsearchtool.c:1289
+#: ../src/gsearchtool.c:1297
 msgid "Set the text of \"Look in folder\" search option"
 msgstr "Nastaviť text pre \"Hľadať v priečinku\""
 
-#: ../src/gsearchtool.c:1290
+#: ../src/gsearchtool.c:1298
 msgid "Sort files by one of the following: name, folder, size, type, or date"
 msgstr ""
-"Utriediť súbory podľa: name (názvu), folder (priečinka), size (veľkosti), "
-"type (typu) alebo date (dátumu)"
+"Utriediť súbory podľa: name (názvu), folder (priečinka), size (veľkosti), type (typu) alebo date "
+"(dátumu)"
 
-#: ../src/gsearchtool.c:1291
+#: ../src/gsearchtool.c:1299
 msgid "Set sort order to descending, the default is ascending"
 msgstr "Nastaviť poradie triedenia na zostupné, predvolené je vzostupné"
 
-#: ../src/gsearchtool.c:1292
+#: ../src/gsearchtool.c:1300
 msgid "Automatically start a search"
 msgstr "Automaticky spustiť hľadanie"
 
-#: ../src/gsearchtool.c:1298
+#: ../src/gsearchtool.c:1306
 #, c-format
 msgid "Select the \"%s\" search option"
 msgstr "Vyberte možnosť hľadania \"%s\""
 
-#: ../src/gsearchtool.c:1301
+#: ../src/gsearchtool.c:1309
 #, c-format
 msgid "Select and set the \"%s\" search option"
 msgstr "Vyberte a nastavte možnosť hľadania \"%s\""
 
-#: ../src/gsearchtool.c:1408
+#: ../src/gsearchtool.c:1416
 msgid "Invalid option passed to sortby command line argument."
 msgstr "Zadaná neplatná voľba pre parameter príkazového riadku sortby."
 
-#: ../src/gsearchtool.c:1702
+#: ../src/gsearchtool.c:1710
 msgid ""
 "\n"
 "... Too many errors to display ..."
@@ -829,180 +458,448 @@ msgstr ""
 "\n"
 "... Príliš veľa chýb ...."
 
-#: ../src/gsearchtool.c:1716
-msgid ""
-"The search results may be invalid.  There were errors while performing this "
-"search."
+#: ../src/gsearchtool.c:1724
+msgid "The search results may be invalid.  There were errors while performing this search."
 msgstr "Výsledky hľadania môžu byť neplatné.  Pri vyhľadávaní nastala chyba."
 
-#: ../src/gsearchtool.c:1725 ../src/gsearchtool.c:1766
+#: ../src/gsearchtool.c:1733 ../src/gsearchtool.c:1774
 msgid "Show more _details"
 msgstr "Zobraziť po_drobné informácie"
 
-#: ../src/gsearchtool.c:1755
+#: ../src/gsearchtool.c:1763
 msgid ""
-"The search results may be out of date or invalid.  Do you want to disable "
-"the quick search feature?"
-msgstr ""
-"Výsledky hľadania môžu byť staré alebo neplatné.  Chcete zakázať rýchle "
-"hľadanie?"
+"The search results may be out of date or invalid.  Do you want to disable the quick search "
+"feature?"
+msgstr "Výsledky hľadania môžu byť staré alebo neplatné.  Chcete zakázať rýchle hľadanie?"
 
-#: ../src/gsearchtool.c:1777
+#: ../src/gsearchtool.c:1785
 msgid "Disable _Quick Search"
 msgstr "Zakázať _Rýchle hľadanie"
 
-#: ../src/gsearchtool.c:1804
+#: ../src/gsearchtool.c:1812
 #, c-format
 msgid "Failed to set process group id of child %d: %s.\n"
 msgstr "Nepodarilo sa nastaviť id skupiny procesov pre potomka %d: %s.\n"
 
-#: ../src/gsearchtool.c:1829
+#: ../src/gsearchtool.c:1837
 msgid "Error parsing the search command."
 msgstr "Chyba pri spracovaní príkazu pre hľadanie."
 
-#: ../src/gsearchtool.c:1858
+#: ../src/gsearchtool.c:1866
 msgid "Error running the search command."
 msgstr "Chyba pri spustení príkazu hľadania."
 
-#: ../src/gsearchtool.c:1974
+#: ../src/gsearchtool.c:1982
 #, c-format
 msgid "Enter a text value for the \"%s\" search option."
 msgstr "Zadajte textovú hodnotu pre možnosť hľadania \"%s\"."
 
 #. Translators:  Below is a string displaying the search options name
 #. and unit value.  For example, "\"Date modified less than\" in days".
-#: ../src/gsearchtool.c:1979
+#: ../src/gsearchtool.c:1987
 #, c-format
 msgid "\"%s\" in %s"
 msgstr "\"%s\" v %s"
 
-#: ../src/gsearchtool.c:1981
+#: ../src/gsearchtool.c:1989
 #, c-format
 msgid "Enter a value in %s for the \"%s\" search option."
 msgstr "Zadajte hodnotu v %s pre možnosť hľadania \"%s\"."
 
-#: ../src/gsearchtool.c:2039
+#: ../src/gsearchtool.c:2047
 #, c-format
 msgid "Remove \"%s\""
 msgstr "Odstrániť \"%s\""
 
-#: ../src/gsearchtool.c:2040
+#: ../src/gsearchtool.c:2048
 #, c-format
 msgid "Click to remove the \"%s\" search option."
-msgstr "Kliknite pre odstránenie možnosti hľadania \"%s\""
+msgstr "Kliknite pre odstránenie voľby hľadania \"%s\""
 
-#: ../src/gsearchtool.c:2133
+#: ../src/gsearchtool.c:2141
 msgid "A_vailable options:"
-msgstr "_Dostupné možnosti:"
+msgstr "_Dostupné voľby:"
 
-#: ../src/gsearchtool.c:2162
+#: ../src/gsearchtool.c:2170
 msgid "Available options"
-msgstr "Dostupné možnosti"
+msgstr "Dostupné voľby"
 
-#: ../src/gsearchtool.c:2163
+#: ../src/gsearchtool.c:2171
 msgid "Select a search option from the drop-down list."
 msgstr "Vyberte možnosť hľadania hľadanie z menu."
 
-#: ../src/gsearchtool.c:2175
+#: ../src/gsearchtool.c:2183
 msgid "Add search option"
 msgstr "Pridať možnosť hľadania"
 
-#: ../src/gsearchtool.c:2176
+#: ../src/gsearchtool.c:2184
 msgid "Click to add the selected available search option."
-msgstr "Kliknite pre pridanie vybranej možnosti hľadania."
+msgstr "Kliknite pre pridanie vybranej voľby hľadania."
 
-#: ../src/gsearchtool.c:2265
+#: ../src/gsearchtool.c:2273
 msgid "S_earch results:"
 msgstr "Výsled_ky hľadania:"
 
-#: ../src/gsearchtool.c:2309
+#: ../src/gsearchtool.c:2317
 msgid "List View"
 msgstr "Zobraziť ako zoznam"
 
-#: ../src/gsearchtool.c:2369
+#: ../src/gsearchtool.c:2377
 msgid "Name"
 msgstr "Názov"
 
-#: ../src/gsearchtool.c:2393
+#: ../src/gsearchtool.c:2401
 msgid "Folder"
 msgstr "Priečinok"
 
-#: ../src/gsearchtool.c:2406
+#: ../src/gsearchtool.c:2414
 msgid "Size"
 msgstr "Veľkosť"
 
-#: ../src/gsearchtool.c:2418
+#: ../src/gsearchtool.c:2426
 msgid "Type"
 msgstr "Typ"
 
-#: ../src/gsearchtool.c:2430
+#: ../src/gsearchtool.c:2438
 msgid "Date Modified"
 msgstr "Čas zmeny"
 
-#: ../src/gsearchtool.c:2746
+#: ../src/gsearchtool.c:2757
 msgid "_Name contains:"
 msgstr "_Názov obsahuje:"
 
-#: ../src/gsearchtool.c:2760 ../src/gsearchtool.c:2761
+#: ../src/gsearchtool.c:2771 ../src/gsearchtool.c:2772
 msgid "Enter a filename or partial filename with or without wildcards."
 msgstr "Zadajte názov súboru alebo jeho časť s prípadnými zástupnými znakmi."
 
-#: ../src/gsearchtool.c:2761
+#: ../src/gsearchtool.c:2772
 msgid "Name contains"
 msgstr "Názov obsahuje"
 
-#: ../src/gsearchtool.c:2767
+#: ../src/gsearchtool.c:2778
 msgid "_Look in folder:"
 msgstr "_Hľadať v priečinku:"
 
-#: ../src/gsearchtool.c:2773
+#: ../src/gsearchtool.c:2784
 msgid "Browse"
 msgstr "Prehliadať"
 
-#: ../src/gsearchtool.c:2782
+#: ../src/gsearchtool.c:2793
 msgid "Look in folder"
 msgstr "Hľadať v priečinku"
 
-#: ../src/gsearchtool.c:2782
+#: ../src/gsearchtool.c:2793
 msgid "Select the folder or device from which you want to begin the search."
 msgstr "Zadajte názov priečinka alebo zariadenia, kde chcete začať hľadanie."
 
-#: ../src/gsearchtool.c:2800
+#: ../src/gsearchtool.c:2811
 msgid "Select more _options"
-msgstr "Vybrať ďalšie m_ožnosti"
+msgstr "Vybrať ďalšie v_oľby"
 
-#: ../src/gsearchtool.c:2809
+#: ../src/gsearchtool.c:2820
 msgid "Select more options"
-msgstr "Vybrať ďalšie možnosti"
+msgstr "Vybrať ďalšie voľby"
 
-#: ../src/gsearchtool.c:2809
+#: ../src/gsearchtool.c:2820
 msgid "Click to expand or collapse the list of available options."
-msgstr "Kliknite pre rozbalenie alebo zabalenie zoznamu možností hľadania."
+msgstr "Kliknite pre rozbalenie alebo zabalenie zoznamu volieb hľadania."
 
-#: ../src/gsearchtool.c:2833
+#: ../src/gsearchtool.c:2844
 msgid "Click to display the help manual."
 msgstr "Nepodarilo sa zobraziť pomocníka."
 
-#: ../src/gsearchtool.c:2841
+#: ../src/gsearchtool.c:2852
 msgid "Click to close \"Search for Files\"."
 msgstr "Kliknutím zatvoríte \"Hľadať súbory\"."
 
-#: ../src/gsearchtool.c:2867
+#: ../src/gsearchtool.c:2878
 msgid "Click to perform a search."
 msgstr "Kliknutím vykonáte hľadanie."
 
-#: ../src/gsearchtool.c:2868
+#: ../src/gsearchtool.c:2879
 msgid "Click to stop a search."
 msgstr "Kliknutím zastavíte hľadanie."
 
-#: ../src/gsearchtool.c:2961
+#: ../src/gsearchtool.c:2972
 msgid "- the GNOME Search Tool"
 msgstr "- Nástroj na hľadanie GNOME"
 
-#: ../src/gsearchtool.c:2970
+#: ../src/gsearchtool.c:2981
 #, c-format
 msgid "Failed to parse command line arguments: %s\n"
 msgstr "Zlyhala analýza parametrov príkazového riadku: %s\n"
+
+#: ../src/gsearchtool-callbacks.c:197
+msgid "Could not open help document."
+msgstr "Nepodarilo sa otvoriť dokument s pomocníkom."
+
+#: ../src/gsearchtool-callbacks.c:344
+#, c-format
+msgid "Are you sure you want to open %d document?"
+msgid_plural "Are you sure you want to open %d documents?"
+msgstr[0] "Naozaj chcete otvoriť %d dokumentov?"
+msgstr[1] "Naozaj chcete otvoriť %d dokument?"
+msgstr[2] "Naozaj chcete otvoriť %d dokumenty?"
+
+#: ../src/gsearchtool-callbacks.c:349 ../src/gsearchtool-callbacks.c:534
+#, c-format
+msgid "This will open %d separate window."
+msgid_plural "This will open %d separate windows."
+msgstr[0] "Otvorí sa %d samostatných okien."
+msgstr[1] "Otvorí sa %d samostatné okno."
+msgstr[2] "Otvoria sa %d samostatné okná."
+
+#: ../src/gsearchtool-callbacks.c:385
+#, c-format
+msgid "Could not open document \"%s\"."
+msgstr "Nepodarilo sa otvoriť dokument \"%s\"."
+
+#: ../src/gsearchtool-callbacks.c:410
+#, c-format
+msgid "Could not open folder \"%s\"."
+msgstr "Nepodarilo sa otvoriť priečinok \"%s\"."
+
+#: ../src/gsearchtool-callbacks.c:418
+msgid "The nautilus file manager is not running."
+msgstr "Nebeží správca súborov nautilus."
+
+#: ../src/gsearchtool-callbacks.c:491 ../src/gsearchtool-callbacks.c:814
+msgid "The document does not exist."
+msgstr "Dokument neexistuje."
+
+#: ../src/gsearchtool-callbacks.c:506
+msgid "There is no installed viewer capable of displaying the document."
+msgstr "Nemáte nainštalovaný prehliadač, ktorý dokáže zobraziť tento dokument."
+
+#: ../src/gsearchtool-callbacks.c:529
+#, c-format
+msgid "Are you sure you want to open %d folder?"
+msgid_plural "Are you sure you want to open %d folders?"
+msgstr[0] "Naozaj chcete otvoriť %d priečinkov?"
+msgstr[1] "Naozaj chcete otvoriť %d priečinok?"
+msgstr[2] "Naozaj chcete otvoriť %d priečinky?"
+
+#: ../src/gsearchtool-callbacks.c:678
+#, c-format
+msgid "Could not move \"%s\" to trash."
+msgstr "Nepodarilo sa presunúť \"%s\" do Koša."
+
+#: ../src/gsearchtool-callbacks.c:705
+#, c-format
+msgid "Do you want to delete \"%s\" permanently?"
+msgstr "Chcete navždy vymazať \"%s\"?"
+
+#: ../src/gsearchtool-callbacks.c:708
+#, c-format
+msgid "Trash is unavailable.  Could not move \"%s\" to the trash."
+msgstr "Kôš nie je dostupný.  Nepodarilo sa presunúť \"%s\" do koša."
+
+#: ../src/gsearchtool-callbacks.c:743
+#, c-format
+msgid "Could not delete \"%s\"."
+msgstr "Nepodarilo sa vymazať \"%s\"."
+
+#: ../src/gsearchtool-callbacks.c:850
+#, c-format
+msgid "Deleting \"%s\" failed: %s."
+msgstr "Vymazanie \"%s\" zlyhalo: %s."
+
+#: ../src/gsearchtool-callbacks.c:862
+#, c-format
+msgid "Moving \"%s\" failed: %s."
+msgstr "Presúvanie \"%s\" zlyhalo: %s."
+
+#. Popup menu item: Open
+#: ../src/gsearchtool-callbacks.c:990 ../src/gsearchtool-callbacks.c:1020
+msgid "_Open"
+msgstr "_Otvoriť"
+
+#. Popup menu item: Open with (default)
+#: ../src/gsearchtool-callbacks.c:1045
+#, c-format
+msgid "_Open with %s"
+msgstr "_Otvoriť pomocou %s"
+
+#: ../src/gsearchtool-callbacks.c:1080
+#, c-format
+msgid "Open with %s"
+msgstr "Otvoriť pomocou %s"
+
+#. Popup menu item: Open With
+#: ../src/gsearchtool-callbacks.c:1113
+msgid "Open Wit_h"
+msgstr "Otvoriť _pomocou"
+
+#. Popup menu item: Open Containing Folder
+#: ../src/gsearchtool-callbacks.c:1158
+msgid "Open Containing _Folder"
+msgstr "Otvoriť _priečinok so súborom"
+
+#: ../src/gsearchtool-callbacks.c:1176
+msgid "Mo_ve to Trash"
+msgstr "Presunúť do _koša"
+
+#: ../src/gsearchtool-callbacks.c:1198
+msgid "_Save Results As..."
+msgstr "Uložiť výsledky _ako..."
+
+#: ../src/gsearchtool-callbacks.c:1580
+msgid "Save Search Results As..."
+msgstr "Uložiť výsledky hľadania ako..."
+
+#: ../src/gsearchtool-callbacks.c:1611
+msgid "Could not save document."
+msgstr "Nepodarilo sa uložiť dokument."
+
+#: ../src/gsearchtool-callbacks.c:1612
+msgid "You did not select a document name."
+msgstr "Nevybrali ste názov dokumentu."
+
+#: ../src/gsearchtool-callbacks.c:1638
+#, c-format
+msgid "Could not save \"%s\" document to \"%s\"."
+msgstr "Nepodarilo sa uložiť dokument \"%s\" do \"%s\"."
+
+#: ../src/gsearchtool-callbacks.c:1668
+#, c-format
+msgid "The document \"%s\" already exists.  Would you like to replace it?"
+msgstr "Dokument \"%s\" už existuje.  Chcete ho prepísať?"
+
+#: ../src/gsearchtool-callbacks.c:1672
+msgid "If you replace an existing file, its contents will be overwritten."
+msgstr "Ak nahradíte existujúci súbor, jeho obsah bude prepísaný."
+
+#: ../src/gsearchtool-callbacks.c:1683
+msgid "_Replace"
+msgstr "Nah_radiť"
+
+#: ../src/gsearchtool-callbacks.c:1733
+msgid "The document name you selected is a folder."
+msgstr "Názov dokumentu, ktorý ste vybrali, je priečinok."
+
+#: ../src/gsearchtool-callbacks.c:1771
+msgid "You may not have write permissions to the document."
+msgstr "Možno nemáte dostatočné práva na zápis dokumentu."
+
+#. Translators:  Below are the strings displayed in the 'Date Modified'
+#. column of the list view.  The format of this string can vary depending
+#. on age of a file.  Please modify the format of the timestamp to match
+#. your locale.  For example, to display 24 hour time replace the '%-I'
+#. with '%-H' and remove the '%p'.  (See bugzilla report #120434.)
+#: ../src/gsearchtool-support.c:452
+msgid "today at %-I:%M %p"
+msgstr "dnes o %-H:%M"
+
+#: ../src/gsearchtool-support.c:454
+msgid "yesterday at %-I:%M %p"
+msgstr "včera o %-H:%M"
+
+#: ../src/gsearchtool-support.c:456 ../src/gsearchtool-support.c:458
+msgid "%A, %B %-d %Y at %-I:%M:%S %p"
+msgstr "%-d.%-m.%Y, %-H:%M:%S"
+
+#: ../src/gsearchtool-support.c:645
+msgid "link (broken)"
+msgstr "odkaz (nefunčný)"
+
+#: ../src/gsearchtool-support.c:649
+#, c-format
+msgid "link to %s"
+msgstr "odkaz na %s"
+
+#. START OF NAUTILUS/EEL FUNCTIONS: USED FOR HANDLING OF DUPLICATE FILENAMES
+#. Localizers:
+#. * Feel free to leave out the st, nd, rd and th suffix or
+#. * make some or all of them match.
+#.
+#. localizers: tag used to detect the first copy of a file
+#: ../src/gsearchtool-support.c:1268
+msgid " (copy)"
+msgstr " (kópia)"
+
+#. localizers: tag used to detect the second copy of a file
+#: ../src/gsearchtool-support.c:1270
+msgid " (another copy)"
+msgstr " (ďalšia kópia)"
+
+#. localizers: tag used to detect the x11th copy of a file
+#. localizers: tag used to detect the x12th copy of a file
+#. localizers: tag used to detect the x13th copy of a file
+#. localizers: tag used to detect the xxth copy of a file
+#: ../src/gsearchtool-support.c:1273 ../src/gsearchtool-support.c:1275
+#: ../src/gsearchtool-support.c:1277 ../src/gsearchtool-support.c:1287
+msgid "th copy)"
+msgstr ". kópia)"
+
+#. localizers: tag used to detect the x1st copy of a file
+#: ../src/gsearchtool-support.c:1280
+msgid "st copy)"
+msgstr ". kópia)"
+
+#. localizers: tag used to detect the x2nd copy of a file
+#: ../src/gsearchtool-support.c:1282
+msgid "nd copy)"
+msgstr ". kópia)"
+
+#. localizers: tag used to detect the x3rd copy of a file
+#: ../src/gsearchtool-support.c:1284
+msgid "rd copy)"
+msgstr ". kópia)"
+
+#. localizers: appended to first file copy
+#: ../src/gsearchtool-support.c:1301
+#, c-format
+msgid "%s (copy)%s"
+msgstr "%s (kópia)%s"
+
+#. localizers: appended to second file copy
+#: ../src/gsearchtool-support.c:1303
+#, c-format
+msgid "%s (another copy)%s"
+msgstr "%s (ďalšia kópia)%s"
+
+#. localizers: appended to x11th file copy
+#. localizers: appended to x12th file copy
+#. localizers: appended to x13th file copy
+#. localizers: appended to xxth file copy
+#: ../src/gsearchtool-support.c:1306 ../src/gsearchtool-support.c:1308
+#: ../src/gsearchtool-support.c:1310 ../src/gsearchtool-support.c:1319
+#, c-format
+msgid "%s (%dth copy)%s"
+msgstr "%s (%d. kópia)%s"
+
+#. localizers: appended to x1st file copy
+#: ../src/gsearchtool-support.c:1313
+#, c-format
+msgid "%s (%dst copy)%s"
+msgstr "%s (%d. kópia)%s"
+
+#. localizers: appended to x2nd file copy
+#: ../src/gsearchtool-support.c:1315
+#, c-format
+msgid "%s (%dnd copy)%s"
+msgstr "%s (%d. kópia)%s"
+
+#. localizers: appended to x3rd file copy
+#: ../src/gsearchtool-support.c:1317
+#, c-format
+msgid "%s (%drd copy)%s"
+msgstr "%s (%d. kópia)%s"
+
+#: ../src/gsearchtool-support.c:1364
+msgid " (invalid Unicode)"
+msgstr " (neplatný Unicode)"
+
+#. localizers: opening parentheses to match the "th copy)" string
+#: ../src/gsearchtool-support.c:1453
+msgid " ("
+msgstr " ("
+
+#. localizers: opening parentheses of the "th copy)" string
+#: ../src/gsearchtool-support.c:1461
+#, c-format
+msgid " (%d"
+msgstr " (%d"
 
 #: ../libeggsmclient/eggdesktopfile.c:165
 #, c-format
@@ -1062,8 +959,64 @@ msgstr "Identifikátor"
 
 #: ../libeggsmclient/eggsmclient.c:252
 msgid "Session management options:"
-msgstr "Možnosti správy relácie:"
+msgstr "Voľby správy relácie:"
 
 #: ../libeggsmclient/eggsmclient.c:253
 msgid "Show session management options"
-msgstr "Zobraziť možnosti správy relácií"
+msgstr "Zobraziť voľby správy relácií"
+
+#~ msgid "Select the search option \"Contains the text\""
+#~ msgstr "Vyberte možnosť \"Obsahuje text\""
+
+#~ msgid "Select the search option \"Date modified less than\""
+#~ msgstr "Vyberte možnosť \"Čas zmeny menej než\""
+
+#~ msgid "Select the search option \"Date modified more than\""
+#~ msgstr "Vyberte možnosť \"Čas zmeny viac ako\""
+
+#~ msgid "Select the search option \"Exclude other filesystems\""
+#~ msgstr "Vyberte možnosť hľadania \"Vynechať iné súborové systémy\""
+
+#~ msgid "Select the search option \"File is empty\""
+#~ msgstr "Vyberte možnosť \"Súbor je prázdny\""
+
+#~ msgid "Select the search option \"Follow symbolic links\""
+#~ msgstr "Vyberte možnosť \"Nasledovať symbolické odkazy\""
+
+#~ msgid "Select the search option \"Name does not contain\""
+#~ msgstr "Vyberte možnosť \"Názov nesmie obsahovať\""
+
+#~ msgid "Select the search option \"Name matches regular expression\""
+#~ msgstr "Vyberte možnosť \"Názov vyhovuje regulárnemu výrazu\""
+
+#~ msgid "Select the search option \"Owned by group\""
+#~ msgstr "Vyberte možnosť \"Vlastní skupina\""
+
+#~ msgid "Select the search option \"Owned by user\""
+#~ msgstr "Vyberte možnosť \"Vlastní používateľ\""
+
+#~ msgid "Select the search option \"Owner is unrecognized\""
+#~ msgstr "Vyberte možnosť \"Nerozpoznaný vlastník\""
+
+#~ msgid "Select the search option \"Show hidden files and folders\""
+#~ msgstr "Vyberte možnosť \"Zobraziť skryté súbory a priečinky\""
+
+#~ msgid "Select the search option \"Size at least\""
+#~ msgstr "Vyberte možnosť \"Veľkosť aspoň\""
+
+#~ msgid "Select the search option \"Size at most\""
+#~ msgstr "Vyberte možnosť \"Veľkosť najviac\""
+
+#~ msgid ""
+#~ "This key determines if the \"Select more options\" section is expanded when the search tool "
+#~ "is started."
+#~ msgstr ""
+#~ "Tento kľúč určuje, či je možnosť hľadania \"Vybrať ďalšie možnosti\" rozbalená pri spustení "
+#~ "nástroja na hľadanie."
+
+#~ msgid ""
+#~ "GConf error:\n"
+#~ "  %s"
+#~ msgstr ""
+#~ "Chyba GConf:\n"
+#~ "  %s"
