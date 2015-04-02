@@ -1,4 +1,4 @@
-<schemalist gettext-domain="gnome-utils-2.0">
+<schemalist gettext-domain="gnome-search-tool">
   <schema id="org.gnome.gnome-search-tool" path="/org/gnome/gnome-search-tool/">
     <key name="search-history" type="a{sas}">
       <default>[ ]</default>
