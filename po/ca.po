@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: gnome-utils\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "search-tool&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2013-01-20 20:10+0000\n"
+"POT-Creation-Date: 2013-12-18 21:31+0000\n"
 "PO-Revision-Date: 2013-04-01 01:21+0200\n"
 "Last-Translator: Joan Duran <jodufi@gmail.com>\n"
 "Language-Team: Catalan <tradgnome@softcatala.org>\n"
@@ -376,7 +376,7 @@ msgstr "PATRÓ"
 
 #: ../src/gsearchtool.c:384
 msgid "A locate database has probably not been created."
-msgstr "Possiblement no s'hagi creat cap base de dades locate."
+msgstr "Possiblement no s'ha creat cap base de dades locate."
 
 #: ../src/gsearchtool.c:486
 #, c-format
@@ -780,7 +780,7 @@ msgstr "El document «%s» ja existeix. Voleu reemplaçar-lo?"
 #: ../src/gsearchtool-callbacks.c:1672
 msgid "If you replace an existing file, its contents will be overwritten."
 msgstr ""
-"Si reemplaceu un fitxer existent, es sobreescriuran els seus continguts."
+"Si reemplaceu un fitxer existent, se sobreescriuran els seus continguts."
 
 #: ../src/gsearchtool-callbacks.c:1683
 msgid "_Replace"
