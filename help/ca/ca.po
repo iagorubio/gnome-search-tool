@@ -335,7 +335,7 @@ msgstr "El <application>cerca fitxers</application> cerca en el directori que li
 
 #: C/gnome-search-tool.xml:321(para) 
 msgid "By default, <application>Search for Files</application> will perform a quick search using the <command>locate</command> command followed by a more thorough second search using the <command>find</command> command. The <command>locate</command> command is faster because it uses a database of information about files. If this database is more than a week old, <application>Search for Files</application> could warn you that the search results may be out of date and give you the option of disabling the quick search. To update the database, run the command <command>updatedb</command> as the root user."
-msgstr "Per defecte, el <application>cerca fitxers</application> farà una cerca ràpida amb l'ordre <command>locate</command> seguida d'una segona cerca més precisa amb l'ordre <command>find</command>. L'ordre <command>locate</command> és més ràpida perquè utilitza una base de dades d'informació dels fitxers. Si la base de dades te més d'una setmana, s'ús avisarà que els resultats poden estar desfasats i us donarà l'opció de deshabilitar la cerca ràpida. Per a actualitzar la base de dades, executeu l'ordre <command>updatedb</command> com a superusuari."
+msgstr "Per defecte, el <application>cerca fitxers</application> farà una cerca ràpida amb l'ordre <command>locate</command> seguida d'una segona cerca més precisa amb l'ordre <command>find</command>. L'ordre <command>locate</command> és més ràpida perquè utilitza una base de dades d'informació dels fitxers. Si la base de dades té més d'una setmana, s'us avisarà que els resultats poden estar desfasats i us donarà l'opció de deshabilitar la cerca ràpida. Per a actualitzar la base de dades, executeu l'ordre <command>updatedb</command> com a superusuari."
 
 #: C/gnome-search-tool.xml:325(title) 
 msgid "To Add Search Options"
@@ -371,7 +371,7 @@ msgstr "Repetiu els passos de sobre per a cada opció de cerca que vulgueu aplic
 
 #: C/gnome-search-tool.xml:335(para) 
 msgid "To remove a search option from the current search, click on the <guibutton>Remove</guibutton> button next to the option."
-msgstr "Per a suprimir una opció de cerca de la cerca actual, feu clic al botó <guibutton>Suprimeix</guibutton> que es al costat de l'opció."
+msgstr "Per a suprimir una opció de cerca de la cerca actual, feu clic al botó <guibutton>Suprimeix</guibutton> que és al costat de l'opció."
 
 #: C/gnome-search-tool.xml:336(para) 
 msgid "To disable the search options from the current search, click on the <guilabel>Select more options</guilabel> text."
@@ -467,7 +467,7 @@ msgstr "El nom no conté"
 
 #: C/gnome-search-tool.xml:410(para) 
 msgid "Search for filenames that do not contain the string that you enter. Enter a full filename or a partial filename with wildcards in the field provided. Use * to indicate a sequence of characters. Use ? to indicate a single character. The search is case sensitive."
-msgstr "Cerca noms de fitxers que no contenen el text que entreu. Entreu en el camp proporcionat un nom de fitxer complet, o parcial amb comodins. Utilitzeu l'* per indicar uns quants caràcters. Utilitzeu el ? per indicar un sol caràcter. La cerca te en compte les majúscules i minúscules."
+msgstr "Cerca noms de fitxers que no contenen el text que entreu. Entreu en el camp proporcionat un nom de fitxer complet, o parcial amb comodins. Utilitzeu l'* per indicar uns quants caràcters. Utilitzeu el ? per indicar un sol caràcter. La cerca té en compte les majúscules i minúscules."
 
 #: C/gnome-search-tool.xml:414(para) 
 msgid "Name matches regular expression"
@@ -507,7 +507,7 @@ msgstr "Per a aturar una cerca"
 
 #: C/gnome-search-tool.xml:445(para) 
 msgid "Click <guibutton>Stop</guibutton> to stop a search before <application>Search for Files</application> completes the search."
-msgstr "Feu clic a <guibutton>Atura</guibutton> per a aturar una cerca abans de que el <application>cerca fitxers</application> completi la cerca."
+msgstr "Feu clic a <guibutton>Atura</guibutton> per a aturar una cerca abans de què el <application>cerca fitxers</application> completi la cerca."
 
 #: C/gnome-search-tool.xml:449(title) 
 msgid "To Open a Displayed File"
@@ -611,7 +611,7 @@ msgstr "Valors predeterminats: [/mnt/*,/media/*,/dev/*,/tmp/*,/proc/*,/var/*]"
 
 #: C/gnome-search-tool.xml:517(para) 
 msgid "<application>Search for Files</application> will not perform a quick search for paths defined by this key. File name searches in the defined paths will use the <command>find</command> command. The wildcards '*' and '?' are supported."
-msgstr "El <application>cerca fitxers</application> no farà una cerca ràpida en els camins definits en aquesta clau. Les cerques de noms de fitxers en els camins definits es faran amb l'ordre <command>find</command>. Es permet l'utilització dels comodins «*» i «?»."
+msgstr "El <application>cerca fitxers</application> no farà una cerca ràpida en els camins definits en aquesta clau. Les cerques de noms de fitxers en els camins definits es faran amb l'ordre <command>find</command>. Es permet la utilització dels comodins «*» i «?»."
 
 #: C/gnome-search-tool.xml:521(title) 
 msgid "Quick Search Second Scan Excluded Paths"
@@ -627,7 +627,7 @@ msgstr "Valors predeterminats: [/]"
 
 #: C/gnome-search-tool.xml:524(para) 
 msgid "<application>Search for Files</application> will not perform a second scan after a quick search for the paths defined by this key. Quick searches in the defined paths will not be followed by a thorough search using the <command>find</command> command. The wildcards '*' and '?' are supported."
-msgstr "El <application>cerca fitxers</application> no farà una segona passada després de la cerca ràpida en els camins definits en aquesta clau. Les cerques ràpides en els camins definits no seran seguits per una cerca més precisa amb l'ordre <command>find</command>. Es permet l'utilització dels comodins «*» i «?»."
+msgstr "El <application>cerca fitxers</application> no farà una segona passada després de la cerca ràpida en els camins definits en aquesta clau. Les cerques ràpides en els camins definits no seran seguits per una cerca més precisa amb l'ordre <command>find</command>. Es permet la utilització dels comodins «*» i «?»."
 
 #: C/gnome-search-tool.xml:528(title) 
 msgid "Show Additional Options"
