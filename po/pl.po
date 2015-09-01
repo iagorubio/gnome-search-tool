@@ -9,14 +9,14 @@
 # Wadim Dziedzic <wdziedzic@aviary.pl>, 2007.
 # Tomasz Dominikowski <dominikowski@gmail.com>, 2007-2009.
 # Joanna Mazgaj <jmazgaj@aviary.pl>, 2008.
-# Piotr Drąg <piotrdrag@gmail.com>, 2010-2013.
-# Aviary.pl <gnomepl@aviary.pl>, 2007-2013.
+# Piotr Drąg <piotrdrag@gmail.com>, 2010-2015.
+# Aviary.pl <gnomepl@aviary.pl>, 2007-2015.
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-search-tool\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-08-20 23:37+0200\n"
-"PO-Revision-Date: 2013-08-20 23:38+0200\n"
+"POT-Creation-Date: 2015-09-01 03:34+0200\n"
+"PO-Revision-Date: 2015-09-01 03:35+0200\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <gnomepl@aviary.pl>\n"
 "Language: pl\n"
@@ -30,7 +30,7 @@ msgstr ""
 
 #: ../data/gnome-search-tool.desktop.in.h:1
 msgid "Search for Files..."
-msgstr "Wyszukaj pliki..."
+msgstr "Wyszukaj pliki…"
 
 #: ../data/gnome-search-tool.desktop.in.h:2
 msgid "Locate documents and folders on this computer by name or content"
@@ -75,8 +75,8 @@ msgid ""
 "media/*, /dev/*, /tmp/*, /proc/*, and /var/*."
 msgstr ""
 "Klucz ten definiuje ścieżki, które nie będą brane pod uwagę przy szybkim "
-"wyszukiwaniu. Obsługiwane są znaki specjalne \"*\" i \"?\". Domyślne "
-"wartości to /mnt/*, /media/*, /dev/*, /tmp/*, /proc/* oraz /var/*."
+"wyszukiwaniu. Obsługiwane są znaki specjalne „*” i „?”. Domyślne wartości "
+"to /mnt/*, /media/*, /dev/*, /tmp/*, /proc/* oraz /var/*."
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:8
 msgid "Disable Quick Search Second Scan"
@@ -105,8 +105,8 @@ msgstr ""
 "Klucz ten definiuje ścieżki, które nie będą brane pod uwagę przy drugim "
 "przebiegu szybkiego wyszukiwania. Drugi przebieg używa do wyszukiwania "
 "plików polecenia find. Zadaniem drugiego przebiegu jest odnalezienie plików, "
-"które nie zostały zindeksowane.  Obsługiwane są znaki specjalne \"*\" i \"?"
-"\". Domyślną wartością jest /."
+"które nie zostały zindeksowane. Obsługiwane są znaki specjalne „*” i „?”. "
+"Domyślną wartością jest /."
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:12
 msgid "Search Result Columns Order"
@@ -163,15 +163,14 @@ msgstr "Wyszukiwanie w katalogu"
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:21
 msgid "This key defines the default value of the \"Look in Folder\" widget."
-msgstr ""
-"Ten klucz określa domyślną wartość widgetu \"Wyszukiwanie w katalogu\"."
+msgstr "Ten klucz określa domyślną wartość widżetu „Wyszukiwanie w katalogu”."
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:22
 msgid ""
 "This key determines if the \"Contains the text\" search option is selected "
 "when the search tool is started."
 msgstr ""
-"Klucz ten określa, czy wybrana jest opcja wyszukiwania \"Zawiera tekst\" "
+"Klucz ten określa, czy wybrana jest opcja wyszukiwania „Zawiera tekst” "
 "podczas uruchamiania narzędzia wyszukiwania."
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:23
@@ -179,39 +178,39 @@ msgid ""
 "This key determines if the \"Date modified less than\" search option is "
 "selected when the search tool is started."
 msgstr ""
-"Klucz ten określa, czy wybrana jest opcja wyszukiwania \"Czas od modyfikacji "
-"nie przekracza\" podczas uruchamiania narzędzia wyszukiwania."
+"Klucz ten określa, czy wybrana jest opcja wyszukiwania „Czas od modyfikacji "
+"nie przekracza” podczas uruchamiania narzędzia wyszukiwania."
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:24
 msgid ""
 "This key determines if the \"Date modified more than\" search option is "
 "selected when the search tool is started."
 msgstr ""
-"Klucz ten określa, czy wybrana jest opcja wyszukiwania \"Czas od modyfikacji "
-"przekracza\" podczas uruchamiania narzędzia wyszukiwania."
+"Klucz ten określa, czy wybrana jest opcja wyszukiwania „Czas od modyfikacji "
+"przekracza” podczas uruchamiania narzędzia wyszukiwania."
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:25
 msgid ""
 "This key determines if the \"Size at least\" search option is selected when "
 "the search tool is started."
 msgstr ""
-"Klucz ten określa, czy wybrana jest opcja wyszukiwania \"Rozmiar przynajmniej"
-"\" podczas uruchamiania narzędzia wyszukiwania."
+"Klucz ten określa, czy wybrana jest opcja wyszukiwania „Rozmiar "
+"przynajmniej” podczas uruchamiania narzędzia wyszukiwania."
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:26
 msgid ""
 "This key determines if the \"Size at most\" search option is selected when "
 "the search tool is started."
 msgstr ""
-"Klucz ten określa, czy wybrana jest opcja wyszukiwania \"Rozmiar nie "
-"przekracza\" podczas uruchamiania narzędzia wyszukiwania."
+"Klucz ten określa, czy wybrana jest opcja wyszukiwania „Rozmiar nie "
+"przekracza” podczas uruchamiania narzędzia wyszukiwania."
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:27
 msgid ""
 "This key determines if the \"File is empty\" search option is selected when "
 "the search tool is started."
 msgstr ""
-"Klucz ten określa, czy wybrana jest opcja wyszukiwania \"Plik jest pusty\" "
+"Klucz ten określa, czy wybrana jest opcja wyszukiwania „Plik jest pusty” "
 "podczas uruchamiania narzędzia wyszukiwania."
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:28
@@ -219,15 +218,15 @@ msgid ""
 "This key determines if the \"Owned by user\" search option is selected when "
 "the search tool is started."
 msgstr ""
-"Klucz ten określa, czy wybrana jest opcja wyszukiwania \"Należy do "
-"użytkownika\" podczas uruchamiania narzędzia wyszukiwania."
+"Klucz ten określa, czy wybrana jest opcja wyszukiwania „Należy do "
+"użytkownika” podczas uruchamiania narzędzia wyszukiwania."
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:29
 msgid ""
 "This key determines if the \"Owned by group\" search option is selected when "
 "the search tool is started."
 msgstr ""
-"Klucz ten określa, czy wybrana jest opcja wyszukiwania \"Należy do grupy\" "
+"Klucz ten określa, czy wybrana jest opcja wyszukiwania „Należy do grupy” "
 "podczas uruchamiania narzędzia wyszukiwania."
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:30
@@ -235,15 +234,15 @@ msgid ""
 "This key determines if the \"Owner is unrecognized\" search option is "
 "selected when the search tool is started."
 msgstr ""
-"Klucz ten określa, czy wybrana jest opcja wyszukiwania \"Nierozpoznany "
-"użytkownik\" podczas uruchamiania narzędzia wyszukiwania."
+"Klucz ten określa, czy wybrana jest opcja wyszukiwania „Nierozpoznany "
+"właściciel” podczas uruchamiania narzędzia wyszukiwania."
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:31
 msgid ""
 "This key determines if the \"Name does not contain\" search option is "
 "selected when the search tool is started."
 msgstr ""
-"Klucz ten określa, czy wybrana jest opcja wyszukiwania \"Nazwa nie zawiera\" "
+"Klucz ten określa, czy wybrana jest opcja wyszukiwania „Nazwa nie zawiera” "
 "podczas uruchamiania narzędzia wyszukiwania."
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:32
@@ -251,164 +250,164 @@ msgid ""
 "This key determines if the \"Name matches regular expression\" search option "
 "is selected when the search tool is started."
 msgstr ""
-"Klucz ten określa, czy wybrana jest opcja wyszukiwania \"Nazwa pasuje do "
-"wyrażenia regularnego\" podczas uruchamiania narzędzia wyszukiwania."
+"Klucz ten określa, czy wybrana jest opcja wyszukiwania „Nazwa pasuje do "
+"wyrażenia regularnego” podczas uruchamiania narzędzia wyszukiwania."
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:33
 msgid ""
 "This key determines if the \"Show hidden files and folders\" search option "
 "is selected when the search tool is started."
 msgstr ""
-"Klucz ten określa, czy wybrana jest opcja wyszukiwania \"Wyświetlanie "
-"ukrytych plików i katalogów\" podczas uruchamiania narzędzia wyszukiwania."
+"Klucz ten określa, czy wybrana jest opcja wyszukiwania „Wyświetlanie "
+"ukrytych plików i katalogów” podczas uruchamiania narzędzia wyszukiwania."
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:34
 msgid ""
 "This key determines if the \"Follow symbolic links\" search option is "
 "selected when the search tool is started."
 msgstr ""
-"Klucz ten określa, czy wybrana jest opcja wyszukiwania \"Podążanie za "
-"dowiązaniami symbolicznymi\" podczas uruchamiania narzędzia wyszukiwania."
+"Klucz ten określa, czy wybrana jest opcja wyszukiwania „Podążanie za "
+"dowiązaniami symbolicznymi” podczas uruchamiania narzędzia wyszukiwania."
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:35
 msgid ""
 "This key determines if the \"Exclude other filesystems\" search option is "
 "selected when the search tool is started."
 msgstr ""
-"Klucz ten określa, czy wybrana jest opcja wyszukiwania \"Bez innych systemów "
-"plików\" podczas uruchamiania narzędzia wyszukiwania."
+"Klucz ten określa, czy wybrana jest opcja wyszukiwania „Bez innych systemów "
+"plików” podczas uruchamiania narzędzia wyszukiwania."
 
-#: ../src/gsearchtool.c:81
+#: ../src/gsearchtool.c:80
 msgid "Contains the _text"
 msgstr "Zawiera _tekst"
 
-#: ../src/gsearchtool.c:83
+#: ../src/gsearchtool.c:82
 msgid "_Date modified less than"
 msgstr "Cz_as od modyfikacji nie przekracza"
 
-#: ../src/gsearchtool.c:83 ../src/gsearchtool.c:84
+#: ../src/gsearchtool.c:82 ../src/gsearchtool.c:83
 msgid "days"
 msgstr "dni"
 
-#: ../src/gsearchtool.c:84
+#: ../src/gsearchtool.c:83
 msgid "Date modified more than"
 msgstr "Czas od modyfikacji przekracza"
 
-#: ../src/gsearchtool.c:86
+#: ../src/gsearchtool.c:85
 msgid "S_ize at least"
 msgstr "_Rozmiar co najmniej"
 
-#: ../src/gsearchtool.c:86 ../src/gsearchtool.c:87
+#: ../src/gsearchtool.c:85 ../src/gsearchtool.c:86
 msgid "kilobytes"
 msgstr "kilobajtów"
 
-#: ../src/gsearchtool.c:87
+#: ../src/gsearchtool.c:86
 msgid "Si_ze at most"
 msgstr "Rozmiar nie prz_ekracza"
 
-#: ../src/gsearchtool.c:88
+#: ../src/gsearchtool.c:87
 msgid "File is empty"
 msgstr "Plik jest pusty"
 
-#: ../src/gsearchtool.c:90
+#: ../src/gsearchtool.c:89
 msgid "Owned by _user"
 msgstr "Przypis_any użytkownik"
 
-#: ../src/gsearchtool.c:91
+#: ../src/gsearchtool.c:90
 msgid "Owned by _group"
 msgstr "Przypisana gr_upa"
 
-#: ../src/gsearchtool.c:92
+#: ../src/gsearchtool.c:91
 msgid "Owner is unrecognized"
-msgstr "Właściciel nierozpoznany"
+msgstr "Właściciel jest nierozpoznany"
 
-#: ../src/gsearchtool.c:94
+#: ../src/gsearchtool.c:93
 msgid "Na_me does not contain"
 msgstr "Nazwa n_ie zawiera"
 
-#: ../src/gsearchtool.c:95
+#: ../src/gsearchtool.c:94
 msgid "Name matches regular e_xpression"
 msgstr "_Plik pasuje do wyrażenia regularnego"
 
-#: ../src/gsearchtool.c:97
+#: ../src/gsearchtool.c:96
 msgid "Show hidden and backup files"
-msgstr "Wyświetlanie plików ukrytych i zapasowych"
+msgstr "Wyświetla pliki ukryte i zapasowe"
+
+#: ../src/gsearchtool.c:97
+msgid "Follow symbolic links"
+msgstr "Podąża za dowiązaniami symbolicznymi"
 
 #: ../src/gsearchtool.c:98
-msgid "Follow symbolic links"
-msgstr "Podążanie za dowiązaniami symbolicznymi"
-
-#: ../src/gsearchtool.c:99
 msgid "Exclude other filesystems"
 msgstr "Bez innych systemów plików"
 
-#: ../src/gsearchtool.c:157
+#: ../src/gsearchtool.c:156
 msgid "Show version of the application"
 msgstr "Wyświetla wersję programu"
 
-#: ../src/gsearchtool.c:158 ../src/gsearchtool.c:163 ../src/gsearchtool.c:172
+#: ../src/gsearchtool.c:157 ../src/gsearchtool.c:162 ../src/gsearchtool.c:171
 msgid "STRING"
 msgstr "TEKST"
 
-#: ../src/gsearchtool.c:159
+#: ../src/gsearchtool.c:158
 msgid "PATH"
 msgstr "ŚCIEŻKA"
 
-#: ../src/gsearchtool.c:160
+#: ../src/gsearchtool.c:159
 msgid "VALUE"
 msgstr "WARTOŚĆ"
 
-#: ../src/gsearchtool.c:164 ../src/gsearchtool.c:165
+#: ../src/gsearchtool.c:163 ../src/gsearchtool.c:164
 msgid "DAYS"
 msgstr "DNI"
 
-#: ../src/gsearchtool.c:166 ../src/gsearchtool.c:167
+#: ../src/gsearchtool.c:165 ../src/gsearchtool.c:166
 msgid "KILOBYTES"
 msgstr "KILOBAJTY"
 
-#: ../src/gsearchtool.c:169
+#: ../src/gsearchtool.c:168
 msgid "USER"
 msgstr "UŻYTKOWNIK"
 
-#: ../src/gsearchtool.c:170
+#: ../src/gsearchtool.c:169
 msgid "GROUP"
 msgstr "GRUPA"
 
-#: ../src/gsearchtool.c:173
+#: ../src/gsearchtool.c:172
 msgid "PATTERN"
 msgstr "WZORZEC"
 
-#: ../src/gsearchtool.c:384
+#: ../src/gsearchtool.c:383
 msgid "A locate database has probably not been created."
 msgstr "Prawdopodobnie baza danych locate nie została utworzona."
 
-#: ../src/gsearchtool.c:486
+#: ../src/gsearchtool.c:485
 #, c-format
 msgid "Character set conversion failed for \"%s\""
-msgstr "Nie powiodła się konwersja zestawu znaków dla \"%s\""
+msgstr "Nie powiodła się konwersja zestawu znaków dla „%s”"
 
-#: ../src/gsearchtool.c:506
+#: ../src/gsearchtool.c:505
 msgid "Searching..."
-msgstr "Wyszukiwanie..."
+msgstr "Wyszukiwanie…"
 
-#: ../src/gsearchtool.c:506 ../src/gsearchtool.c:1019
-#: ../src/gsearchtool.c:2987
+#: ../src/gsearchtool.c:505 ../src/gsearchtool.c:1018
+#: ../src/gsearchtool.c:2986
 msgid "Search for Files"
 msgstr "Wyszukiwanie plików"
 
-#: ../src/gsearchtool.c:965 ../src/gsearchtool.c:994
+#: ../src/gsearchtool.c:964 ../src/gsearchtool.c:993
 msgid "No files found"
 msgstr "Nie odnaleziono plików"
 
-#: ../src/gsearchtool.c:987
+#: ../src/gsearchtool.c:986
 msgid "(stopped)"
 msgstr "(zatrzymano)"
 
-#: ../src/gsearchtool.c:993
+#: ../src/gsearchtool.c:992
 msgid "No Files Found"
 msgstr "Nie odnaleziono plików"
 
-#: ../src/gsearchtool.c:998
+#: ../src/gsearchtool.c:997
 #, c-format
 msgid "%'d File Found"
 msgid_plural "%'d Files Found"
@@ -416,7 +415,7 @@ msgstr[0] "Odnaleziono %'d plik"
 msgstr[1] "Odnaleziono %'d pliki"
 msgstr[2] "Odnaleziono %'d plików"
 
-#: ../src/gsearchtool.c:1002 ../src/gsearchtool.c:1040
+#: ../src/gsearchtool.c:1001 ../src/gsearchtool.c:1039
 #, c-format
 msgid "%'d file found"
 msgid_plural "%'d files found"
@@ -424,48 +423,48 @@ msgstr[0] "Odnaleziono %'d plik"
 msgstr[1] "Odnaleziono %'d pliki"
 msgstr[2] "Odnaleziono %'d plików"
 
-#: ../src/gsearchtool.c:1131
+#: ../src/gsearchtool.c:1130
 msgid "Entry changed called for a non entry option!"
 msgstr ""
-"Wywołano \"entry changed\" dla elementu nie będącego elementem wejściowym."
+"Wywołano „entry changed” dla elementu nie będącego elementem wejściowym."
+
+#: ../src/gsearchtool.c:1295
+msgid "Set the text of \"Name contains\" search option"
+msgstr "Ustawia napis w polu „Nazwa zawiera” opcji wyszukiwania"
 
 #: ../src/gsearchtool.c:1296
-msgid "Set the text of \"Name contains\" search option"
-msgstr "Ustawia napis w polu \"Nazwa zawiera\" opcji wyszukiwania"
+msgid "Set the text of \"Look in folder\" search option"
+msgstr "Ustawia napis w polu „Wyszukiwanie w katalogu” opcji wyszukiwania"
 
 #: ../src/gsearchtool.c:1297
-msgid "Set the text of \"Look in folder\" search option"
-msgstr "Ustawia napis w polu \"Wyszukiwanie w katalogu\" opcji wyszukiwania"
-
-#: ../src/gsearchtool.c:1298
 msgid "Sort files by one of the following: name, folder, size, type, or date"
 msgstr ""
-"Sortuje pliki wg jednego z kryteriów: name (nazwa), folder (katalog), size "
-"(rozmiar), type (typ) lub date (data)"
+"Sortuje pliki według jednego z kryteriów: „name” (nazwa), "
+"„folder” (katalog), „size” (rozmiar), „type” (typ) lub „date” (data)"
 
-#: ../src/gsearchtool.c:1299
+#: ../src/gsearchtool.c:1298
 msgid "Set sort order to descending, the default is ascending"
 msgstr "Zmienia porządek na malejący (domyślny jest rosnący)"
 
-#: ../src/gsearchtool.c:1300
+#: ../src/gsearchtool.c:1299
 msgid "Automatically start a search"
 msgstr "Rozpoczyna wyszukiwanie automatycznie"
 
-#: ../src/gsearchtool.c:1306
+#: ../src/gsearchtool.c:1305
 #, c-format
 msgid "Select the \"%s\" search option"
-msgstr "Wybiera opcję wyszukiwania \"%s\""
+msgstr "Wybiera opcję wyszukiwania „%s”"
 
-#: ../src/gsearchtool.c:1309
+#: ../src/gsearchtool.c:1308
 #, c-format
 msgid "Select and set the \"%s\" search option"
-msgstr "Wybiera i ustawia opcję wyszukiwania \"%s\""
+msgstr "Wybiera i ustawia opcję wyszukiwania „%s”"
 
-#: ../src/gsearchtool.c:1416
+#: ../src/gsearchtool.c:1415
 msgid "Invalid option passed to sortby command line argument."
 msgstr "W wierszu polecenia wprowadzono nieprawidłowy parametr opcji sortby."
 
-#: ../src/gsearchtool.c:1710
+#: ../src/gsearchtool.c:1709
 msgid ""
 "\n"
 "... Too many errors to display ..."
@@ -473,7 +472,7 @@ msgstr ""
 "\n"
 "Za dużo błędów, aby je wyświetlić."
 
-#: ../src/gsearchtool.c:1724
+#: ../src/gsearchtool.c:1723
 msgid ""
 "The search results may be invalid.  There were errors while performing this "
 "search."
@@ -481,11 +480,11 @@ msgstr ""
 "Wynik wyszukiwania może być nieprawidłowy. Wystąpiły błędy podczas "
 "wyszukiwania."
 
-#: ../src/gsearchtool.c:1733 ../src/gsearchtool.c:1774
+#: ../src/gsearchtool.c:1732 ../src/gsearchtool.c:1773
 msgid "Show more _details"
 msgstr "Wyświetl więcej _opcji"
 
-#: ../src/gsearchtool.c:1763
+#: ../src/gsearchtool.c:1762
 msgid ""
 "The search results may be out of date or invalid.  Do you want to disable "
 "the quick search feature?"
@@ -493,172 +492,172 @@ msgstr ""
 "Wynik wyszukiwania może być nieaktualny lub nieprawidłowy. Wyłączyć funkcję "
 "szybkiego wyszukiwania?"
 
-#: ../src/gsearchtool.c:1785
+#: ../src/gsearchtool.c:1784
 msgid "Disable _Quick Search"
 msgstr "Wyłącz _szybkie wyszukiwanie"
 
-#: ../src/gsearchtool.c:1812
+#: ../src/gsearchtool.c:1811
 #, c-format
 msgid "Failed to set process group id of child %d: %s.\n"
 msgstr ""
 "Ustawienie identyfikatora grupy procesu potomka %d się nie powiodło: %s.\n"
 
-#: ../src/gsearchtool.c:1837
+#: ../src/gsearchtool.c:1836
 msgid "Error parsing the search command."
 msgstr "Błąd podczas przetwarzania polecenia wyszukiwania."
 
-#: ../src/gsearchtool.c:1866
+#: ../src/gsearchtool.c:1865
 msgid "Error running the search command."
 msgstr "Błąd podczas uruchamiania polecenia wyszukiwania."
 
-#: ../src/gsearchtool.c:1982
+#: ../src/gsearchtool.c:1981
 #, c-format
 msgid "Enter a text value for the \"%s\" search option."
-msgstr "Proszę wprowadzić wartość opcji wyszukiwania \"%s\"."
+msgstr "Proszę wprowadzić wartość opcji wyszukiwania „%s”."
 
 #. Translators:  Below is a string displaying the search options name
 #. and unit value.  For example, "\"Date modified less than\" in days".
-#: ../src/gsearchtool.c:1987
+#: ../src/gsearchtool.c:1986
 #, c-format
 msgid "\"%s\" in %s"
-msgstr "\"%s\" w %s"
+msgstr "„%s” w %s"
 
-#: ../src/gsearchtool.c:1989
+#: ../src/gsearchtool.c:1988
 #, c-format
 msgid "Enter a value in %s for the \"%s\" search option."
-msgstr "Proszę wprowadzić wartość w %s dla opcji wyszukiwania \"%s\"."
+msgstr "Proszę wprowadzić wartość w %s dla opcji wyszukiwania „%s”."
+
+#: ../src/gsearchtool.c:2046
+#, c-format
+msgid "Remove \"%s\""
+msgstr "Usuń „%s”"
 
 #: ../src/gsearchtool.c:2047
 #, c-format
-msgid "Remove \"%s\""
-msgstr "Usuń \"%s\""
-
-#: ../src/gsearchtool.c:2048
-#, c-format
 msgid "Click to remove the \"%s\" search option."
-msgstr "Kliknięcie usunie opcję wyszukiwania \"%s\"."
+msgstr "Kliknięcie usunie opcję wyszukiwania „%s”."
 
 # niestety nie da rady inaczej
-#: ../src/gsearchtool.c:2141
+#: ../src/gsearchtool.c:2140
 msgid "A_vailable options:"
 msgstr "Dos_tępne opcje:"
 
-#: ../src/gsearchtool.c:2170
+#: ../src/gsearchtool.c:2169
 msgid "Available options"
 msgstr "Dostępne opcje"
 
-#: ../src/gsearchtool.c:2171
+#: ../src/gsearchtool.c:2170
 msgid "Select a search option from the drop-down list."
 msgstr "Proszę wybrać opcję wyszukiwania z listy."
 
-#: ../src/gsearchtool.c:2183
+#: ../src/gsearchtool.c:2182
 msgid "Add search option"
 msgstr "Dodaje opcję wyszukiwania"
 
-#: ../src/gsearchtool.c:2184
+#: ../src/gsearchtool.c:2183
 msgid "Click to add the selected available search option."
 msgstr "Kliknięcie doda wybraną opcję wyszukiwania."
 
-#: ../src/gsearchtool.c:2273
+#: ../src/gsearchtool.c:2272
 msgid "S_earch results:"
 msgstr "Wy_niki wyszukiwania:"
 
-#: ../src/gsearchtool.c:2317
+#: ../src/gsearchtool.c:2316
 msgid "List View"
 msgstr "Widok listy"
 
-#: ../src/gsearchtool.c:2377
+#: ../src/gsearchtool.c:2376
 msgid "Name"
 msgstr "Nazwa"
 
-#: ../src/gsearchtool.c:2401
+#: ../src/gsearchtool.c:2400
 msgid "Folder"
 msgstr "Katalog"
 
-#: ../src/gsearchtool.c:2414
+#: ../src/gsearchtool.c:2413
 msgid "Size"
 msgstr "Rozmiar"
 
-#: ../src/gsearchtool.c:2426
+#: ../src/gsearchtool.c:2425
 msgid "Type"
 msgstr "Typ"
 
-#: ../src/gsearchtool.c:2438
+#: ../src/gsearchtool.c:2437
 msgid "Date Modified"
 msgstr "Data modyfikacji"
 
-#: ../src/gsearchtool.c:2757
+#: ../src/gsearchtool.c:2756
 msgid "_Name contains:"
 msgstr "Na_zwa zawiera:"
 
-#: ../src/gsearchtool.c:2771 ../src/gsearchtool.c:2772
+#: ../src/gsearchtool.c:2770 ../src/gsearchtool.c:2771
 msgid "Enter a filename or partial filename with or without wildcards."
 msgstr ""
 "Proszę wprowadzić pełną lub część nazwy pliku używając lub nie znaków "
 "specjalnych."
 
-#: ../src/gsearchtool.c:2772
+#: ../src/gsearchtool.c:2771
 msgid "Name contains"
 msgstr "Nazwa zawiera"
 
-#: ../src/gsearchtool.c:2778
+#: ../src/gsearchtool.c:2777
 msgid "_Look in folder:"
 msgstr "_Wyszukiwanie w katalogu:"
 
-#: ../src/gsearchtool.c:2784
+#: ../src/gsearchtool.c:2783
 msgid "Browse"
 msgstr "Przeglądaj"
 
-#: ../src/gsearchtool.c:2793
+#: ../src/gsearchtool.c:2792
 msgid "Look in folder"
 msgstr "Wyszukiwanie w katalogu"
 
-#: ../src/gsearchtool.c:2793
+#: ../src/gsearchtool.c:2792
 msgid "Select the folder or device from which you want to begin the search."
-msgstr "Proszę wybrać katalog lub urządzenie, w którym rozpocząć wyszukiwanie."
+msgstr "Wybór katalogu lub urządzenia, w którym rozpocząć wyszukiwanie."
 
-#: ../src/gsearchtool.c:2811
+#: ../src/gsearchtool.c:2810
 msgid "Select more _options"
 msgstr "Więcej _opcji"
 
-#: ../src/gsearchtool.c:2820
+#: ../src/gsearchtool.c:2819
 msgid "Select more options"
 msgstr "Wyświetla dodatkowe opcje"
 
-#: ../src/gsearchtool.c:2820
+#: ../src/gsearchtool.c:2819
 msgid "Click to expand or collapse the list of available options."
 msgstr "Kliknięcie rozwinie lub zwinie listę dostępnych opcji."
 
-#: ../src/gsearchtool.c:2844
+#: ../src/gsearchtool.c:2843
 msgid "Click to display the help manual."
 msgstr "Kliknięcie wyświetli pomoc."
 
-#: ../src/gsearchtool.c:2852
+#: ../src/gsearchtool.c:2851
 msgid "Click to close \"Search for Files\"."
-msgstr "Kliknięcie zamknie \"Wyszukiwanie plików\"."
+msgstr "Kliknięcie zamknie „Wyszukiwanie plików”."
 
-#: ../src/gsearchtool.c:2878
+#: ../src/gsearchtool.c:2877
 msgid "Click to perform a search."
 msgstr "Kliknięcie rozpocznie wyszukiwanie."
 
-#: ../src/gsearchtool.c:2879
+#: ../src/gsearchtool.c:2878
 msgid "Click to stop a search."
 msgstr "Kliknięcie zatrzyma wyszukiwanie."
 
-#: ../src/gsearchtool.c:2972
+#: ../src/gsearchtool.c:2971
 msgid "- the GNOME Search Tool"
-msgstr "- narzędzie wyszukiwania dla środowiska GNOME"
+msgstr "— narzędzie wyszukiwania dla środowiska GNOME"
 
-#: ../src/gsearchtool.c:2981
+#: ../src/gsearchtool.c:2980
 #, c-format
 msgid "Failed to parse command line arguments: %s\n"
 msgstr "Przetworzenie parametrów wiersza poleceń się nie powiodło: %s\n"
 
-#: ../src/gsearchtool-callbacks.c:197
+#: ../src/gsearchtool-callbacks.c:196
 msgid "Could not open help document."
 msgstr "Nie można otworzyć dokumentu pomocy."
 
-#: ../src/gsearchtool-callbacks.c:344
+#: ../src/gsearchtool-callbacks.c:343
 #, c-format
 msgid "Are you sure you want to open %d document?"
 msgid_plural "Are you sure you want to open %d documents?"
@@ -666,39 +665,39 @@ msgstr[0] "Na pewno otworzyć %d dokument?"
 msgstr[1] "Na pewno otworzyć %d dokumenty?"
 msgstr[2] "Na pewno otworzyć %d dokumentów?"
 
-#: ../src/gsearchtool-callbacks.c:349 ../src/gsearchtool-callbacks.c:534
+#: ../src/gsearchtool-callbacks.c:348 ../src/gsearchtool-callbacks.c:533
 #, c-format
 msgid "This will open %d separate window."
 msgid_plural "This will open %d separate windows."
-msgstr[0] "Działanie spowoduje otwarcie %d oddzielnego okna."
-msgstr[1] "Działanie spowoduje otwarcie %d oddzielnych okien."
-msgstr[2] "Działanie spowoduje otwarcie %d oddzielnych okien."
+msgstr[0] "Spowoduje to otwarcie %d oddzielnego okna."
+msgstr[1] "Spowoduje to otwarcie %d oddzielnych okien."
+msgstr[2] "Spowoduje to otwarcie %d oddzielnych okien."
 
-#: ../src/gsearchtool-callbacks.c:385
+#: ../src/gsearchtool-callbacks.c:384
 #, c-format
 msgid "Could not open document \"%s\"."
-msgstr "Nie można otworzyć dokumentu \"%s\"."
+msgstr "Nie można otworzyć dokumentu „%s”."
 
-#: ../src/gsearchtool-callbacks.c:410
+#: ../src/gsearchtool-callbacks.c:409
 #, c-format
 msgid "Could not open folder \"%s\"."
-msgstr "Nie można otworzyć katalogu \"%s\"."
+msgstr "Nie można otworzyć katalogu „%s”."
 
-#: ../src/gsearchtool-callbacks.c:418
+#: ../src/gsearchtool-callbacks.c:417
 msgid "The nautilus file manager is not running."
 msgstr "Menedżer plików Nautilus nie jest uruchomiony."
 
-#: ../src/gsearchtool-callbacks.c:491 ../src/gsearchtool-callbacks.c:814
+#: ../src/gsearchtool-callbacks.c:490 ../src/gsearchtool-callbacks.c:813
 msgid "The document does not exist."
 msgstr "Dokument nie istnieje."
 
-#: ../src/gsearchtool-callbacks.c:506
+#: ../src/gsearchtool-callbacks.c:505
 msgid "There is no installed viewer capable of displaying the document."
 msgstr ""
 "Nie zainstalowano w systemie przeglądarki obsługującej wyświetlanie "
 "dokumentu."
 
-#: ../src/gsearchtool-callbacks.c:529
+#: ../src/gsearchtool-callbacks.c:528
 #, c-format
 msgid "Are you sure you want to open %d folder?"
 msgid_plural "Are you sure you want to open %d folders?"
@@ -706,105 +705,105 @@ msgstr[0] "Na pewno otworzyć %d katalog?"
 msgstr[1] "Na pewno otworzyć %d katalogi?"
 msgstr[2] "Na pewno otworzyć %d katalogów?"
 
-#: ../src/gsearchtool-callbacks.c:678
+#: ../src/gsearchtool-callbacks.c:677
 #, c-format
 msgid "Could not move \"%s\" to trash."
-msgstr "Nie można przenieść \"%s\" do kosza."
+msgstr "Nie można przenieść „%s” do kosza."
 
-#: ../src/gsearchtool-callbacks.c:705
+#: ../src/gsearchtool-callbacks.c:704
 #, c-format
 msgid "Do you want to delete \"%s\" permanently?"
-msgstr "Usunąć trwale \"%s\"?"
+msgstr "Usunąć trwale „%s”?"
 
-#: ../src/gsearchtool-callbacks.c:708
+#: ../src/gsearchtool-callbacks.c:707
 #, c-format
 msgid "Trash is unavailable.  Could not move \"%s\" to the trash."
-msgstr "Kosz jest niedostępny. Nie można przenieść \"%s\" do kosza."
+msgstr "Kosz jest niedostępny. Nie można przenieść „%s” do kosza."
 
-#: ../src/gsearchtool-callbacks.c:743
+#: ../src/gsearchtool-callbacks.c:742
 #, c-format
 msgid "Could not delete \"%s\"."
-msgstr "Nie można usunąć \"%s\"."
+msgstr "Nie można usunąć „%s”."
 
-#: ../src/gsearchtool-callbacks.c:850
+#: ../src/gsearchtool-callbacks.c:849
 #, c-format
 msgid "Deleting \"%s\" failed: %s."
-msgstr "Usuwanie \"%s\" się nie powiodło: %s."
+msgstr "Usuwanie „%s” się nie powiodło: %s."
 
-#: ../src/gsearchtool-callbacks.c:862
+#: ../src/gsearchtool-callbacks.c:861
 #, c-format
 msgid "Moving \"%s\" failed: %s."
-msgstr "Przenoszenie \"%s\" się nie powiodło: %s."
+msgstr "Przenoszenie „%s” się nie powiodło: %s."
 
 #. Popup menu item: Open
-#: ../src/gsearchtool-callbacks.c:990 ../src/gsearchtool-callbacks.c:1020
+#: ../src/gsearchtool-callbacks.c:989 ../src/gsearchtool-callbacks.c:1019
 msgid "_Open"
 msgstr "_Otwórz"
 
 #. Popup menu item: Open with (default)
-#: ../src/gsearchtool-callbacks.c:1045
+#: ../src/gsearchtool-callbacks.c:1044
 #, c-format
 msgid "_Open with %s"
-msgstr "Ot_wórz za pomocą %s"
+msgstr "Ot_wórz za pomocą „%s”"
 
-#: ../src/gsearchtool-callbacks.c:1080
+#: ../src/gsearchtool-callbacks.c:1079
 #, c-format
 msgid "Open with %s"
-msgstr "Otwórz za pomocą %s"
+msgstr "Otwórz za pomocą „%s”"
 
 #. Popup menu item: Open With
-#: ../src/gsearchtool-callbacks.c:1113
+#: ../src/gsearchtool-callbacks.c:1112
 msgid "Open Wit_h"
 msgstr "Otwórz za pomo_cą"
 
 #. Popup menu item: Open Containing Folder
-#: ../src/gsearchtool-callbacks.c:1158
+#: ../src/gsearchtool-callbacks.c:1157
 msgid "Open Containing _Folder"
 msgstr "Otwórz _katalog zawierający"
 
-#: ../src/gsearchtool-callbacks.c:1176
+#: ../src/gsearchtool-callbacks.c:1175
 msgid "Mo_ve to Trash"
 msgstr "Przenieś do k_osza"
 
-#: ../src/gsearchtool-callbacks.c:1198
+#: ../src/gsearchtool-callbacks.c:1197
 msgid "_Save Results As..."
-msgstr "Z_apisz wyniki jako..."
+msgstr "Z_apisz wyniki jako…"
 
-#: ../src/gsearchtool-callbacks.c:1580
+#: ../src/gsearchtool-callbacks.c:1579
 msgid "Save Search Results As..."
-msgstr "Zapisz wyniki wyszukiwania jako..."
+msgstr "Zapisz wyniki wyszukiwania jako…"
 
-#: ../src/gsearchtool-callbacks.c:1611
+#: ../src/gsearchtool-callbacks.c:1610
 msgid "Could not save document."
 msgstr "Nie można zapisać dokumentu."
 
-#: ../src/gsearchtool-callbacks.c:1612
+#: ../src/gsearchtool-callbacks.c:1611
 msgid "You did not select a document name."
 msgstr "Nie wybrano nazwy dokumentu."
 
-#: ../src/gsearchtool-callbacks.c:1638
+#: ../src/gsearchtool-callbacks.c:1637
 #, c-format
 msgid "Could not save \"%s\" document to \"%s\"."
-msgstr "Nie można zapisać dokumentu \"%s\" w \"%s\"."
+msgstr "Nie można zapisać dokumentu „%s” w „%s”."
 
-#: ../src/gsearchtool-callbacks.c:1668
+#: ../src/gsearchtool-callbacks.c:1667
 #, c-format
 msgid "The document \"%s\" already exists.  Would you like to replace it?"
-msgstr "Dokument \"%s\" już istnieje. Zastąpić go?"
+msgstr "Dokument „%s” już istnieje. Zastąpić go?"
 
-#: ../src/gsearchtool-callbacks.c:1672
+#: ../src/gsearchtool-callbacks.c:1671
 msgid "If you replace an existing file, its contents will be overwritten."
 msgstr "Zastąpienie istniejącego pliku oznacza nadpisanie jego zawartości."
 
-#: ../src/gsearchtool-callbacks.c:1683
+#: ../src/gsearchtool-callbacks.c:1682
 msgid "_Replace"
 msgstr "_Zastąp"
 
-#: ../src/gsearchtool-callbacks.c:1733
+#: ../src/gsearchtool-callbacks.c:1732
 msgid "The document name you selected is a folder."
 msgstr "Wybrana nazwa dokumentu jest katalogiem."
 
-#: ../src/gsearchtool-callbacks.c:1771
+#: ../src/gsearchtool-callbacks.c:1770
 msgid "You may not have write permissions to the document."
 msgstr "Brak uprawnień do zapisu do tego dokumentu."
 
@@ -813,23 +812,23 @@ msgstr "Brak uprawnień do zapisu do tego dokumentu."
 #. on age of a file.  Please modify the format of the timestamp to match
 #. your locale.  For example, to display 24 hour time replace the '%-I'
 #. with '%-H' and remove the '%p'.  (See bugzilla report #120434.)
-#: ../src/gsearchtool-support.c:452
+#: ../src/gsearchtool-support.c:451
 msgid "today at %-I:%M %p"
 msgstr "dzisiaj o %-H∶%M"
 
-#: ../src/gsearchtool-support.c:454
+#: ../src/gsearchtool-support.c:453
 msgid "yesterday at %-I:%M %p"
 msgstr "wczoraj o %-H∶%M"
 
-#: ../src/gsearchtool-support.c:456 ../src/gsearchtool-support.c:458
+#: ../src/gsearchtool-support.c:455 ../src/gsearchtool-support.c:457
 msgid "%A, %B %-d %Y at %-I:%M:%S %p"
 msgstr "%A, %-d %B %Y o %-H∶%M∶%S"
 
-#: ../src/gsearchtool-support.c:645
+#: ../src/gsearchtool-support.c:644
 msgid "link (broken)"
 msgstr "dowiązanie (uszkodzone)"
 
-#: ../src/gsearchtool-support.c:649
+#: ../src/gsearchtool-support.c:648
 #, c-format
 msgid "link to %s"
 msgstr "dowiązanie do %s"
@@ -840,12 +839,12 @@ msgstr "dowiązanie do %s"
 #. * make some or all of them match.
 #.
 #. localizers: tag used to detect the first copy of a file
-#: ../src/gsearchtool-support.c:1268
+#: ../src/gsearchtool-support.c:1267
 msgid " (copy)"
 msgstr " (kopia)"
 
 #. localizers: tag used to detect the second copy of a file
-#: ../src/gsearchtool-support.c:1270
+#: ../src/gsearchtool-support.c:1269
 msgid " (another copy)"
 msgstr " (kolejna kopia)"
 
@@ -853,34 +852,34 @@ msgstr " (kolejna kopia)"
 #. localizers: tag used to detect the x12th copy of a file
 #. localizers: tag used to detect the x13th copy of a file
 #. localizers: tag used to detect the xxth copy of a file
-#: ../src/gsearchtool-support.c:1273 ../src/gsearchtool-support.c:1275
-#: ../src/gsearchtool-support.c:1277 ../src/gsearchtool-support.c:1287
+#: ../src/gsearchtool-support.c:1272 ../src/gsearchtool-support.c:1274
+#: ../src/gsearchtool-support.c:1276 ../src/gsearchtool-support.c:1286
 msgid "th copy)"
-msgstr " kopia)"
+msgstr ". kopia)"
 
 #. localizers: tag used to detect the x1st copy of a file
-#: ../src/gsearchtool-support.c:1280
+#: ../src/gsearchtool-support.c:1279
 msgid "st copy)"
-msgstr " kopia)"
+msgstr ". kopia)"
 
 #. localizers: tag used to detect the x2nd copy of a file
-#: ../src/gsearchtool-support.c:1282
+#: ../src/gsearchtool-support.c:1281
 msgid "nd copy)"
-msgstr " kopia)"
+msgstr ". kopia)"
 
 #. localizers: tag used to detect the x3rd copy of a file
-#: ../src/gsearchtool-support.c:1284
+#: ../src/gsearchtool-support.c:1283
 msgid "rd copy)"
-msgstr " kopia)"
+msgstr ". kopia)"
 
 #. localizers: appended to first file copy
-#: ../src/gsearchtool-support.c:1301
+#: ../src/gsearchtool-support.c:1300
 #, c-format
 msgid "%s (copy)%s"
 msgstr "%s (kopia)%s"
 
 #. localizers: appended to second file copy
-#: ../src/gsearchtool-support.c:1303
+#: ../src/gsearchtool-support.c:1302
 #, c-format
 msgid "%s (another copy)%s"
 msgstr "%s (kolejna kopia)%s"
@@ -889,105 +888,105 @@ msgstr "%s (kolejna kopia)%s"
 #. localizers: appended to x12th file copy
 #. localizers: appended to x13th file copy
 #. localizers: appended to xxth file copy
-#: ../src/gsearchtool-support.c:1306 ../src/gsearchtool-support.c:1308
-#: ../src/gsearchtool-support.c:1310 ../src/gsearchtool-support.c:1319
+#: ../src/gsearchtool-support.c:1305 ../src/gsearchtool-support.c:1307
+#: ../src/gsearchtool-support.c:1309 ../src/gsearchtool-support.c:1318
 #, c-format
 msgid "%s (%dth copy)%s"
-msgstr "%s (%d kopia)%s"
+msgstr "%s (%d. kopia)%s"
 
 #. localizers: appended to x1st file copy
-#: ../src/gsearchtool-support.c:1313
+#: ../src/gsearchtool-support.c:1312
 #, c-format
 msgid "%s (%dst copy)%s"
-msgstr "%s (%d kopia)%s"
+msgstr "%s (%d. kopia)%s"
 
 #. localizers: appended to x2nd file copy
-#: ../src/gsearchtool-support.c:1315
+#: ../src/gsearchtool-support.c:1314
 #, c-format
 msgid "%s (%dnd copy)%s"
-msgstr "%s (%d kopia)%s"
+msgstr "%s (%d. kopia)%s"
 
 #. localizers: appended to x3rd file copy
-#: ../src/gsearchtool-support.c:1317
+#: ../src/gsearchtool-support.c:1316
 #, c-format
 msgid "%s (%drd copy)%s"
-msgstr "%s (%d kopia)%s"
+msgstr "%s (%d. kopia)%s"
 
-#: ../src/gsearchtool-support.c:1364
+#: ../src/gsearchtool-support.c:1363
 msgid " (invalid Unicode)"
 msgstr " (nieprawidłowy unikod)"
 
 #. localizers: opening parentheses to match the "th copy)" string
-#: ../src/gsearchtool-support.c:1453
+#: ../src/gsearchtool-support.c:1452
 msgid " ("
 msgstr " ("
 
 #. localizers: opening parentheses of the "th copy)" string
-#: ../src/gsearchtool-support.c:1461
+#: ../src/gsearchtool-support.c:1460
 #, c-format
 msgid " (%d"
 msgstr " (%d"
 
-#: ../libeggsmclient/eggdesktopfile.c:165
+#: ../libeggsmclient/eggdesktopfile.c:164
 #, c-format
 msgid "File is not a valid .desktop file"
 msgstr "Nieprawidłowy plik .desktop"
 
-#: ../libeggsmclient/eggdesktopfile.c:188
+#: ../libeggsmclient/eggdesktopfile.c:187
 #, c-format
 msgid "Unrecognized desktop file Version '%s'"
-msgstr "Nierozpoznana wersja pliku .desktop \"%s\""
+msgstr "Nierozpoznana wersja pliku .desktop „%s”"
 
-#: ../libeggsmclient/eggdesktopfile.c:958
+#: ../libeggsmclient/eggdesktopfile.c:957
 #, c-format
 msgid "Starting %s"
-msgstr "Uruchamianie %s"
+msgstr "Uruchamianie „%s”"
 
-#: ../libeggsmclient/eggdesktopfile.c:1100
+#: ../libeggsmclient/eggdesktopfile.c:1099
 #, c-format
 msgid "Application does not accept documents on command line"
 msgstr "Program nie przyjmuje dokumentów w wierszu poleceń"
 
-#: ../libeggsmclient/eggdesktopfile.c:1168
+#: ../libeggsmclient/eggdesktopfile.c:1167
 #, c-format
 msgid "Unrecognized launch option: %d"
 msgstr "Nierozpoznana opcja uruchamiania: %d"
 
-#: ../libeggsmclient/eggdesktopfile.c:1373
+#: ../libeggsmclient/eggdesktopfile.c:1372
 #, c-format
 msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
 msgstr ""
-"Nie można przekazać adresów URI dokumentów do wpisu .desktop \"Type=Link\""
+"Nie można przekazać adresów URI dokumentów do wpisu .desktop „Type=Link”"
 
-#: ../libeggsmclient/eggdesktopfile.c:1392
+#: ../libeggsmclient/eggdesktopfile.c:1391
 #, c-format
 msgid "Not a launchable item"
 msgstr "Nie można uruchomić elementu"
 
-#: ../libeggsmclient/eggsmclient.c:225
+#: ../libeggsmclient/eggsmclient.c:223
 msgid "Disable connection to session manager"
-msgstr "Rozłącza połączenie do menedżera sesji"
+msgstr "Rozłącza połączenie z menedżerem sesji"
 
-#: ../libeggsmclient/eggsmclient.c:228
+#: ../libeggsmclient/eggsmclient.c:226
 msgid "Specify file containing saved configuration"
 msgstr "Określa plik zawierający zapisaną konfigurację"
 
-#: ../libeggsmclient/eggsmclient.c:228
+#: ../libeggsmclient/eggsmclient.c:226
 msgid "FILE"
 msgstr "PLIK"
 
-#: ../libeggsmclient/eggsmclient.c:231
+#: ../libeggsmclient/eggsmclient.c:229
 msgid "Specify session management ID"
 msgstr "Określa identyfikator zarządzania sesją"
 
-#: ../libeggsmclient/eggsmclient.c:231
+#: ../libeggsmclient/eggsmclient.c:229
 msgid "ID"
 msgstr "Identyfikator"
 
-#: ../libeggsmclient/eggsmclient.c:252
+#: ../libeggsmclient/eggsmclient.c:250
 msgid "Session management options:"
 msgstr "Opcje zarządzania sesją:"
 
-#: ../libeggsmclient/eggsmclient.c:253
+#: ../libeggsmclient/eggsmclient.c:251
 msgid "Show session management options"
 msgstr "Wyświetla opcje zarządzania sesją"
