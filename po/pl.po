@@ -15,8 +15,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-search-tool\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-01 03:34+0200\n"
-"PO-Revision-Date: 2015-09-01 03:35+0200\n"
+"POT-Creation-Date: 2015-09-26 20:50+0200\n"
+"PO-Revision-Date: 2015-09-26 20:51+0200\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <gnomepl@aviary.pl>\n"
 "Language: pl\n"
@@ -390,8 +390,7 @@ msgstr "Nie powiodła się konwersja zestawu znaków dla „%s”"
 msgid "Searching..."
 msgstr "Wyszukiwanie…"
 
-#: ../src/gsearchtool.c:505 ../src/gsearchtool.c:1018
-#: ../src/gsearchtool.c:2986
+#: ../src/gsearchtool.c:505 ../src/gsearchtool.c:1018 ../src/gsearchtool.c:2986
 msgid "Search for Files"
 msgstr "Wyszukiwanie plików"
 
@@ -606,7 +605,7 @@ msgstr "_Wyszukiwanie w katalogu:"
 
 #: ../src/gsearchtool.c:2783
 msgid "Browse"
-msgstr "Przeglądaj"
+msgstr "Przeglądanie"
 
 #: ../src/gsearchtool.c:2792
 msgid "Look in folder"
