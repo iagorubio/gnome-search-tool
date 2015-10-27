@@ -1,0 +1,949 @@
+# translation of gnome-search-tool.master.po to Icelandic
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Sveinn í Felli <sv1@fellsnet.is>, 2015.
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-search-tool.master\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-se"
+"arch-tool&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2015-09-02 07:57+0000\n"
+"PO-Revision-Date: 2015-10-27 21:53+0000\n"
+"Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
+"Language-Team: Icelandic <translation-team-is@lists.sourceforge.net>\n"
+"Language: is\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 1.5\n"
+
+#: ../data/gnome-search-tool.desktop.in.h:1
+msgid "Search for Files..."
+msgstr "Leita að skrám..."
+
+#: ../data/gnome-search-tool.desktop.in.h:2
+msgid "Locate documents and folders on this computer by name or content"
+msgstr "Leita að skrám og möppum á tölvunni eftir nafni eða innihaldi"
+
+#: ../data/gnome-search-tool.desktop.in.h:3
+msgid "find;locate;look for;seek;"
+msgstr ""
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:1
+msgid "Search history"
+msgstr "Leitarferill"
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:2
+msgid "This key defines the items which were searched for in the past."
+msgstr ""
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:3
+msgid "Show Additional Options"
+msgstr "Sýna fleiri valmöguleika"
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:4
+msgid "Disable Quick Search"
+msgstr ""
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:5
+msgid ""
+"This key determines if the search tool disables the use of the locate "
+"command when performing simple file name searches."
+msgstr ""
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:6
+msgid "Quick Search Excluded Paths"
+msgstr ""
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:7
+msgid ""
+"This key defines the paths the search tool will exclude from a quick search. "
+"The wildcards '*' and '?' are supported. The default values are /mnt/*, /"
+"media/*, /dev/*, /tmp/*, /proc/*, and /var/*."
+msgstr ""
+"Þessi lykill ákveður hvar forritið mun leita. Algildissafirnir ‚*‘ og ‚?‘ "
+"virka. Venjuleg gildi eru /mnt/*, /media/*, /dev/*, /tmp/*, /proc/*, og "
+"/var/*."
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:8
+msgid "Disable Quick Search Second Scan"
+msgstr ""
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:9
+msgid ""
+"This key determines if the search tool disables the use of the find command "
+"after performing a quick search."
+msgstr ""
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:10
+msgid "Quick Search Second Scan Excluded Paths"
+msgstr ""
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:11
+msgid ""
+"This key defines the paths the search tool will exclude from a second scan "
+"when performing a quick search. The second scan uses the find command to "
+"search for files. The purpose of the second scan is to find files that have "
+"not been indexed. The wildcards '*' and '?' are supported. The default value "
+"is /."
+msgstr ""
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:12
+msgid "Search Result Columns Order"
+msgstr ""
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:13
+msgid ""
+"This key defines the order of the columns in the search results. This key "
+"should not be modified by the user."
+msgstr ""
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:14
+msgid "Default Window Width"
+msgstr "Venjuleg breidd glugga"
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:15
+msgid ""
+"This key defines the window width, and it's used to remember the size of the "
+"search tool between sessions. Setting it to -1 will make the search tool use "
+"the default width."
+msgstr ""
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:16
+msgid "Default Window Height"
+msgstr "Venjuleg hæð glugga"
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:17
+msgid ""
+"This key defines the window height, and it's used to remember the size of "
+"the search tool between sessions. Setting it to -1 will make the search tool "
+"use the default height."
+msgstr ""
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:18
+msgid "Default Window Maximized"
+msgstr ""
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:19
+msgid ""
+"This key determines if the search tool window starts in a maximized state."
+msgstr ""
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:20
+msgid "Look in Folder"
+msgstr "Leita í möppu"
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:21
+msgid "This key defines the default value of the \"Look in Folder\" widget."
+msgstr ""
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:22
+msgid ""
+"This key determines if the \"Contains the text\" search option is selected "
+"when the search tool is started."
+msgstr ""
+"Þessi lykill ákveður hvort leitarmöguleikinn „Inniheldur textann“ sé valinn "
+"þegar leitin byrjar."
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:23
+msgid ""
+"This key determines if the \"Date modified less than\" search option is "
+"selected when the search tool is started."
+msgstr ""
+"Þessi lykill ákveður hvort leitarmöguleikinn „Breytt fyrir minna en“ sé "
+"valinn þegar leitin byrjar."
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:24
+msgid ""
+"This key determines if the \"Date modified more than\" search option is "
+"selected when the search tool is started."
+msgstr ""
+"Þessi lykill ákveður hvort leitarmöguleikinn „Breytt fyrir meira en“ sé "
+"valinn þegar leitin byrjar."
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:25
+msgid ""
+"This key determines if the \"Size at least\" search option is selected when "
+"the search tool is started."
+msgstr ""
+"Þessi lykill ákveður hvort leitarmöguleikinn „Stærð að minnsta kosti“ sé "
+"valinn þegar leitin byrjar."
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:26
+msgid ""
+"This key determines if the \"Size at most\" search option is selected when "
+"the search tool is started."
+msgstr ""
+"Þessi lykill ákveður hvort leitarmöguleikinn „Stærð í mesta lagi“ sé valinn "
+"þegar leitin byrjar."
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:27
+msgid ""
+"This key determines if the \"File is empty\" search option is selected when "
+"the search tool is started."
+msgstr ""
+"Þessi lykill ákveður hvort leitarmöguleikinn „Skráin er tóm“ sé valinn þegar "
+"leitin byrjar."
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:28
+msgid ""
+"This key determines if the \"Owned by user\" search option is selected when "
+"the search tool is started."
+msgstr ""
+"Þessi lykill ákveður hvort leitarmöguleikinn „Notandinn sem á skránna“ sé "
+"valinn þegar leitin byrjar."
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:29
+msgid ""
+"This key determines if the \"Owned by group\" search option is selected when "
+"the search tool is started."
+msgstr ""
+"Þessi lykill ákveður hvort leitarmöguleikinn „Hópurinn sem á skránna“ sé "
+"valinn þegar leitin byrjar."
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:30
+msgid ""
+"This key determines if the \"Owner is unrecognized\" search option is "
+"selected when the search tool is started."
+msgstr ""
+"Þessi lykill ákveður hvort leitarmöguleikinn „Notandi er ekki þekktur“ sé "
+"valinn þegar leitin byrjar."
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:31
+msgid ""
+"This key determines if the \"Name does not contain\" search option is "
+"selected when the search tool is started."
+msgstr ""
+"Þessi lykill ákveður hvort leitarmöguleikinn „Nafn inniheldur ekki“ sé "
+"valinn þegar leitin byrjar."
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:32
+msgid ""
+"This key determines if the \"Name matches regular expression\" search option "
+"is selected when the search tool is started."
+msgstr ""
+"Þessi lykill ákveður hvort leitarmöguleikinn „Nafn passar við reglulega "
+"segð“ sé valinn þegar leitin byrjar."
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:33
+msgid ""
+"This key determines if the \"Show hidden files and folders\" search option "
+"is selected when the search tool is started."
+msgstr ""
+"Þessi lykill ákveður hvort leitarmöguleikinn „Sýna faldar skrár og möppur“ "
+"sé valinn þegar leitin byrjar."
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:34
+msgid ""
+"This key determines if the \"Follow symbolic links\" search option is "
+"selected when the search tool is started."
+msgstr ""
+"Þessi lykill ákveður hvort leitarmöguleikinn „Elta táknræna tengingar“ sé "
+"valinn þegar leitin byrjar."
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:35
+msgid ""
+"This key determines if the \"Exclude other filesystems\" search option is "
+"selected when the search tool is started."
+msgstr ""
+"Þessi lykill ákveður hvort leitarmöguleikinn „Undanskilja önnur skráakerfi“ "
+"sé valinn þegar leitin byrjar."
+
+#: ../src/gsearchtool.c:80
+msgid "Contains the _text"
+msgstr "Inniheldur _textann"
+
+#: ../src/gsearchtool.c:82
+msgid "_Date modified less than"
+msgstr "_Breytt fyrir minna en"
+
+#: ../src/gsearchtool.c:82 ../src/gsearchtool.c:83
+msgid "days"
+msgstr "dögum"
+
+#: ../src/gsearchtool.c:83
+msgid "Date modified more than"
+msgstr "Breytt fyrir meira en"
+
+#: ../src/gsearchtool.c:85
+msgid "S_ize at least"
+msgstr "_Stærð að minnsta kosti"
+
+#: ../src/gsearchtool.c:85 ../src/gsearchtool.c:86
+msgid "kilobytes"
+msgstr "kílóbæt"
+
+#: ../src/gsearchtool.c:86
+msgid "Si_ze at most"
+msgstr "_Stærð í mesta lagi"
+
+#: ../src/gsearchtool.c:87
+msgid "File is empty"
+msgstr "Skráin er tóm"
+
+#: ../src/gsearchtool.c:89
+msgid "Owned by _user"
+msgstr "_Notandinn sem á skránna"
+
+#: ../src/gsearchtool.c:90
+msgid "Owned by _group"
+msgstr "_Hópurinn sem á skránna"
+
+#: ../src/gsearchtool.c:91
+msgid "Owner is unrecognized"
+msgstr "Notandi er ekki þekktur"
+
+#: ../src/gsearchtool.c:93
+msgid "Na_me does not contain"
+msgstr "_Nafn inniheldur ekki"
+
+#: ../src/gsearchtool.c:94
+msgid "Name matches regular e_xpression"
+msgstr "Nafn passar við _reglulega segð"
+
+#: ../src/gsearchtool.c:96
+msgid "Show hidden and backup files"
+msgstr "Sýna afrit af skrám og faldar skrár"
+
+#: ../src/gsearchtool.c:97
+msgid "Follow symbolic links"
+msgstr "Elta táknræna tengingar"
+
+#: ../src/gsearchtool.c:98
+msgid "Exclude other filesystems"
+msgstr "Undanskilja önnur skráakerfi"
+
+#: ../src/gsearchtool.c:156
+msgid "Show version of the application"
+msgstr "Birta útgáfu forritsins"
+
+#: ../src/gsearchtool.c:157 ../src/gsearchtool.c:162 ../src/gsearchtool.c:171
+msgid "STRING"
+msgstr "STRENGUR"
+
+#: ../src/gsearchtool.c:158
+msgid "PATH"
+msgstr "SLÓÐ"
+
+#: ../src/gsearchtool.c:159
+msgid "VALUE"
+msgstr "GILDI"
+
+#: ../src/gsearchtool.c:163 ../src/gsearchtool.c:164
+msgid "DAYS"
+msgstr "DAGAR"
+
+#: ../src/gsearchtool.c:165 ../src/gsearchtool.c:166
+msgid "KILOBYTES"
+msgstr "KÍLÓBÆT"
+
+#: ../src/gsearchtool.c:168
+msgid "USER"
+msgstr "NOTANDI"
+
+#: ../src/gsearchtool.c:169
+msgid "GROUP"
+msgstr "HÓPUR"
+
+#: ../src/gsearchtool.c:172
+msgid "PATTERN"
+msgstr "MYNSTUR"
+
+#: ../src/gsearchtool.c:383
+msgid "A locate database has probably not been created."
+msgstr ""
+
+#: ../src/gsearchtool.c:485
+#, c-format
+msgid "Character set conversion failed for \"%s\""
+msgstr ""
+
+#: ../src/gsearchtool.c:505
+msgid "Searching..."
+msgstr "Leita..."
+
+#: ../src/gsearchtool.c:505 ../src/gsearchtool.c:1018
+#: ../src/gsearchtool.c:2986
+msgid "Search for Files"
+msgstr "Leita að skrám"
+
+#: ../src/gsearchtool.c:964 ../src/gsearchtool.c:993
+msgid "No files found"
+msgstr "Engar skrár fundust"
+
+#: ../src/gsearchtool.c:986
+msgid "(stopped)"
+msgstr "(hætt við)"
+
+#: ../src/gsearchtool.c:992
+msgid "No Files Found"
+msgstr "Engar skrár fundust"
+
+#: ../src/gsearchtool.c:997
+#, c-format
+msgid "%'d File Found"
+msgid_plural "%'d Files Found"
+msgstr[0] "%'d skrá fannst"
+msgstr[1] "%'d skrár fundust"
+
+#: ../src/gsearchtool.c:1001 ../src/gsearchtool.c:1039
+#, c-format
+msgid "%'d file found"
+msgid_plural "%'d files found"
+msgstr[0] "%'d skrá fannst"
+msgstr[1] "%'d skrár fundust"
+
+#: ../src/gsearchtool.c:1130
+msgid "Entry changed called for a non entry option!"
+msgstr ""
+
+#: ../src/gsearchtool.c:1295
+msgid "Set the text of \"Name contains\" search option"
+msgstr ""
+
+#: ../src/gsearchtool.c:1296
+msgid "Set the text of \"Look in folder\" search option"
+msgstr ""
+
+#: ../src/gsearchtool.c:1297
+msgid "Sort files by one of the following: name, folder, size, type, or date"
+msgstr ""
+
+#: ../src/gsearchtool.c:1298
+msgid "Set sort order to descending, the default is ascending"
+msgstr ""
+
+#: ../src/gsearchtool.c:1299
+msgid "Automatically start a search"
+msgstr "Byrja að leita sjálfkrafa"
+
+#: ../src/gsearchtool.c:1305
+#, c-format
+msgid "Select the \"%s\" search option"
+msgstr ""
+
+#: ../src/gsearchtool.c:1308
+#, c-format
+msgid "Select and set the \"%s\" search option"
+msgstr ""
+
+#: ../src/gsearchtool.c:1415
+msgid "Invalid option passed to sortby command line argument."
+msgstr ""
+
+#: ../src/gsearchtool.c:1709
+msgid ""
+"\n"
+"... Too many errors to display ..."
+msgstr ""
+"\n"
+"... Of margar villu til að birta ..."
+
+#: ../src/gsearchtool.c:1723
+msgid ""
+"The search results may be invalid.  There were errors while performing this "
+"search."
+msgstr ""
+
+#: ../src/gsearchtool.c:1732 ../src/gsearchtool.c:1773
+msgid "Show more _details"
+msgstr "Sýna frekari _upplýsingar"
+
+#: ../src/gsearchtool.c:1762
+msgid ""
+"The search results may be out of date or invalid.  Do you want to disable "
+"the quick search feature?"
+msgstr ""
+
+#: ../src/gsearchtool.c:1784
+msgid "Disable _Quick Search"
+msgstr "Gera flýtileit óvirka"
+
+#: ../src/gsearchtool.c:1811
+#, c-format
+msgid "Failed to set process group id of child %d: %s.\n"
+msgstr ""
+
+#: ../src/gsearchtool.c:1836
+msgid "Error parsing the search command."
+msgstr ""
+
+#: ../src/gsearchtool.c:1865
+msgid "Error running the search command."
+msgstr "Villa við að keyra leitarskipunina."
+
+#: ../src/gsearchtool.c:1981
+#, c-format
+msgid "Enter a text value for the \"%s\" search option."
+msgstr ""
+
+#. Translators:  Below is a string displaying the search options name
+#. and unit value.  For example, "\"Date modified less than\" in days".
+#: ../src/gsearchtool.c:1986
+#, c-format
+msgid "\"%s\" in %s"
+msgstr "„%s“ í %s"
+
+#: ../src/gsearchtool.c:1988
+#, c-format
+msgid "Enter a value in %s for the \"%s\" search option."
+msgstr ""
+
+#: ../src/gsearchtool.c:2046
+#, c-format
+msgid "Remove \"%s\""
+msgstr "Fjarlægja „%s“"
+
+#: ../src/gsearchtool.c:2047
+#, c-format
+msgid "Click to remove the \"%s\" search option."
+msgstr "Click to remove the \"%s\" search option."
+
+#: ../src/gsearchtool.c:2140
+msgid "A_vailable options:"
+msgstr "_Valkostir:"
+
+#: ../src/gsearchtool.c:2169
+msgid "Available options"
+msgstr "Valkostir"
+
+#: ../src/gsearchtool.c:2170
+msgid "Select a search option from the drop-down list."
+msgstr ""
+
+#: ../src/gsearchtool.c:2182
+msgid "Add search option"
+msgstr "Bæta við leitarmöguleikum"
+
+#: ../src/gsearchtool.c:2183
+msgid "Click to add the selected available search option."
+msgstr ""
+
+#: ../src/gsearchtool.c:2272
+msgid "S_earch results:"
+msgstr "_Leitarniðurstöður:"
+
+#: ../src/gsearchtool.c:2316
+msgid "List View"
+msgstr "Listi"
+
+#: ../src/gsearchtool.c:2376
+msgid "Name"
+msgstr "Nafn"
+
+#: ../src/gsearchtool.c:2400
+msgid "Folder"
+msgstr "Mappa"
+
+#: ../src/gsearchtool.c:2413
+msgid "Size"
+msgstr "Stærð"
+
+#: ../src/gsearchtool.c:2425
+msgid "Type"
+msgstr "Tegund"
+
+#: ../src/gsearchtool.c:2437
+msgid "Date Modified"
+msgstr "Breytt þann"
+
+#: ../src/gsearchtool.c:2756
+msgid "_Name contains:"
+msgstr "_Nafnið inniheldur:"
+
+#: ../src/gsearchtool.c:2770 ../src/gsearchtool.c:2771
+msgid "Enter a filename or partial filename with or without wildcards."
+msgstr ""
+
+#: ../src/gsearchtool.c:2771
+msgid "Name contains"
+msgstr "Nafnið inniheldur"
+
+#: ../src/gsearchtool.c:2777
+msgid "_Look in folder:"
+msgstr "_Leita í möppunni:"
+
+#: ../src/gsearchtool.c:2783
+msgid "Browse"
+msgstr "Leita"
+
+#: ../src/gsearchtool.c:2792
+msgid "Look in folder"
+msgstr "Leita í möppunni"
+
+#: ../src/gsearchtool.c:2792
+msgid "Select the folder or device from which you want to begin the search."
+msgstr "Veldu þá möppu eða það tæki sem þú vilt byrja að leita í."
+
+#: ../src/gsearchtool.c:2810
+msgid "Select more _options"
+msgstr "Velja frekari _valmöguleika"
+
+#: ../src/gsearchtool.c:2819
+msgid "Select more options"
+msgstr "Velja frekari valmöguleika"
+
+#: ../src/gsearchtool.c:2819
+msgid "Click to expand or collapse the list of available options."
+msgstr "Smelltu til að stækka og minnka listann yfir valkosti"
+
+#: ../src/gsearchtool.c:2843
+msgid "Click to display the help manual."
+msgstr "Ýttu hér til að birta hjálparleiðbeiningar."
+
+#: ../src/gsearchtool.c:2851
+msgid "Click to close \"Search for Files\"."
+msgstr "Ýttu til að loka „Leita að skrám“."
+
+#: ../src/gsearchtool.c:2877
+msgid "Click to perform a search."
+msgstr "Ýttu til að hefja leit."
+
+#: ../src/gsearchtool.c:2878
+msgid "Click to stop a search."
+msgstr "Ýttu til að hætta að leita."
+
+#: ../src/gsearchtool.c:2971
+msgid "- the GNOME Search Tool"
+msgstr "- GNOME leitartól"
+
+#: ../src/gsearchtool.c:2980
+#, c-format
+msgid "Failed to parse command line arguments: %s\n"
+msgstr ""
+
+#: ../src/gsearchtool-callbacks.c:196
+msgid "Could not open help document."
+msgstr "Gat ekki opnað aðstoð."
+
+#: ../src/gsearchtool-callbacks.c:343
+#, c-format
+msgid "Are you sure you want to open %d document?"
+msgid_plural "Are you sure you want to open %d documents?"
+msgstr[0] "Viltu opna %d skjal?"
+msgstr[1] "Viltu opna %d skjöl?"
+
+#: ../src/gsearchtool-callbacks.c:348 ../src/gsearchtool-callbacks.c:533
+#, c-format
+msgid "This will open %d separate window."
+msgid_plural "This will open %d separate windows."
+msgstr[0] "Þetta mun opna %d mismunandi glugga."
+msgstr[1] "Þetta mun opna %d einstaka glugga."
+
+#: ../src/gsearchtool-callbacks.c:384
+#, c-format
+msgid "Could not open document \"%s\"."
+msgstr "Gat ekki opnað skránna „%s“."
+
+#: ../src/gsearchtool-callbacks.c:409
+#, c-format
+msgid "Could not open folder \"%s\"."
+msgstr "Gat ekki opnað möppuna „%s“."
+
+#: ../src/gsearchtool-callbacks.c:417
+msgid "The nautilus file manager is not running."
+msgstr "Skráarvafrinn Nautilus er ekki í gangi."
+
+#: ../src/gsearchtool-callbacks.c:490 ../src/gsearchtool-callbacks.c:813
+msgid "The document does not exist."
+msgstr "Þetta skjal er ekki til."
+
+#: ../src/gsearchtool-callbacks.c:505
+msgid "There is no installed viewer capable of displaying the document."
+msgstr "Það er ekkert forrit sem getur opnað þessa skrá."
+
+#: ../src/gsearchtool-callbacks.c:528
+#, c-format
+msgid "Are you sure you want to open %d folder?"
+msgid_plural "Are you sure you want to open %d folders?"
+msgstr[0] "Viltu opna %d möppu?"
+msgstr[1] "Viltu opna %d möppur?"
+
+#: ../src/gsearchtool-callbacks.c:677
+#, c-format
+msgid "Could not move \"%s\" to trash."
+msgstr "Gat ekki hent „%s“ í ruslið."
+
+#: ../src/gsearchtool-callbacks.c:704
+#, c-format
+msgid "Do you want to delete \"%s\" permanently?"
+msgstr "Viltu örugglega eyða „%s“ varanlega?"
+
+#: ../src/gsearchtool-callbacks.c:707
+#, c-format
+msgid "Trash is unavailable.  Could not move \"%s\" to the trash."
+msgstr "Ruslið virkar ekki. Þess vegna er ekki hægt að henda „%s“ í ruslið."
+
+#: ../src/gsearchtool-callbacks.c:742
+#, c-format
+msgid "Could not delete \"%s\"."
+msgstr "Gat ekki eytt „%s“."
+
+#: ../src/gsearchtool-callbacks.c:849
+#, c-format
+msgid "Deleting \"%s\" failed: %s."
+msgstr "Ekki tókst að eyða „%s“: %s"
+
+#: ../src/gsearchtool-callbacks.c:861
+#, c-format
+msgid "Moving \"%s\" failed: %s."
+msgstr "Mistókst að færa „%s“: %s"
+
+#. Popup menu item: Open
+#: ../src/gsearchtool-callbacks.c:989 ../src/gsearchtool-callbacks.c:1019
+msgid "_Open"
+msgstr "_Opna"
+
+#. Popup menu item: Open with (default)
+#: ../src/gsearchtool-callbacks.c:1044
+#, c-format
+msgid "_Open with %s"
+msgstr "_Opna með %s"
+
+#: ../src/gsearchtool-callbacks.c:1079
+#, c-format
+msgid "Open with %s"
+msgstr "Opna með %s"
+
+#. Popup menu item: Open With
+#: ../src/gsearchtool-callbacks.c:1112
+msgid "Open Wit_h"
+msgstr "Opna _með"
+
+#. Popup menu item: Open Containing Folder
+#: ../src/gsearchtool-callbacks.c:1157
+msgid "Open Containing _Folder"
+msgstr "Birta umlykjandi _möppu"
+
+#: ../src/gsearchtool-callbacks.c:1175
+msgid "Mo_ve to Trash"
+msgstr "_Henda í ruslið"
+
+#: ../src/gsearchtool-callbacks.c:1197
+msgid "_Save Results As..."
+msgstr "_Vista niðurstöður sem..."
+
+#: ../src/gsearchtool-callbacks.c:1579
+msgid "Save Search Results As..."
+msgstr "Vista leitarniðurstöðurnar sem..."
+
+#: ../src/gsearchtool-callbacks.c:1610
+msgid "Could not save document."
+msgstr "Gat ekki vistað skjalið."
+
+#: ../src/gsearchtool-callbacks.c:1611
+msgid "You did not select a document name."
+msgstr "Þú valdir ekki nafn fyrir skjalið."
+
+#: ../src/gsearchtool-callbacks.c:1637
+#, c-format
+msgid "Could not save \"%s\" document to \"%s\"."
+msgstr "Gat ekki vistað skjalið „%s“ sem „%s“."
+
+#: ../src/gsearchtool-callbacks.c:1667
+#, c-format
+msgid "The document \"%s\" already exists.  Would you like to replace it?"
+msgstr "Skjalið „%s“ er þegar til. Viltu skipta því út?"
+
+#: ../src/gsearchtool-callbacks.c:1671
+msgid "If you replace an existing file, its contents will be overwritten."
+msgstr "Skrifað verður fyri skrá ef þú skiptir henni út."
+
+#: ../src/gsearchtool-callbacks.c:1682
+msgid "_Replace"
+msgstr "_Skipta út"
+
+#: ../src/gsearchtool-callbacks.c:1732
+msgid "The document name you selected is a folder."
+msgstr "Nafn skjalsins sem þú valdir er mappa."
+
+#: ../src/gsearchtool-callbacks.c:1770
+msgid "You may not have write permissions to the document."
+msgstr "Þér er ekki heimilað að skrifa í þetta skjal."
+
+#. Translators:  Below are the strings displayed in the 'Date Modified'
+#. column of the list view.  The format of this string can vary depending
+#. on age of a file.  Please modify the format of the timestamp to match
+#. your locale.  For example, to display 24 hour time replace the '%-I'
+#. with '%-H' and remove the '%p'.  (See bugzilla report #120434.)
+#: ../src/gsearchtool-support.c:451
+msgid "today at %-I:%M %p"
+msgstr "í dag klukkan %-I:%M %p"
+
+#: ../src/gsearchtool-support.c:453
+msgid "yesterday at %-I:%M %p"
+msgstr "í gær klukkan %-I:%M %p"
+
+#: ../src/gsearchtool-support.c:455 ../src/gsearchtool-support.c:457
+msgid "%A, %B %-d %Y at %-I:%M:%S %p"
+msgstr "%A, %B %-d %Y klukkan %-I:%M:%S %p"
+
+#: ../src/gsearchtool-support.c:644
+msgid "link (broken)"
+msgstr "tenging (brotin)"
+
+#: ../src/gsearchtool-support.c:648
+#, c-format
+msgid "link to %s"
+msgstr "tenging í %s"
+
+#. START OF NAUTILUS/EEL FUNCTIONS: USED FOR HANDLING OF DUPLICATE FILENAMES
+#. Localizers:
+#. * Feel free to leave out the st, nd, rd and th suffix or
+#. * make some or all of them match.
+#.
+#. localizers: tag used to detect the first copy of a file
+#: ../src/gsearchtool-support.c:1267
+msgid " (copy)"
+msgstr " (afrit)"
+
+#. localizers: tag used to detect the second copy of a file
+#: ../src/gsearchtool-support.c:1269
+msgid " (another copy)"
+msgstr " (annað afrit)"
+
+#. localizers: tag used to detect the x11th copy of a file
+#. localizers: tag used to detect the x12th copy of a file
+#. localizers: tag used to detect the x13th copy of a file
+#. localizers: tag used to detect the xxth copy of a file
+#: ../src/gsearchtool-support.c:1272 ../src/gsearchtool-support.c:1274
+#: ../src/gsearchtool-support.c:1276 ../src/gsearchtool-support.c:1286
+msgid "th copy)"
+msgstr ". afrit)"
+
+#. localizers: tag used to detect the x1st copy of a file
+#: ../src/gsearchtool-support.c:1279
+msgid "st copy)"
+msgstr ". afrit)"
+
+#. localizers: tag used to detect the x2nd copy of a file
+#: ../src/gsearchtool-support.c:1281
+msgid "nd copy)"
+msgstr ". afrit)"
+
+#. localizers: tag used to detect the x3rd copy of a file
+#: ../src/gsearchtool-support.c:1283
+msgid "rd copy)"
+msgstr ". afrit)"
+
+#. localizers: appended to first file copy
+#: ../src/gsearchtool-support.c:1300
+#, c-format
+msgid "%s (copy)%s"
+msgstr "%s (afrit)%s"
+
+#. localizers: appended to second file copy
+#: ../src/gsearchtool-support.c:1302
+#, c-format
+msgid "%s (another copy)%s"
+msgstr "%s (annað afrit)%s"
+
+#. localizers: appended to x11th file copy
+#. localizers: appended to x12th file copy
+#. localizers: appended to x13th file copy
+#. localizers: appended to xxth file copy
+#: ../src/gsearchtool-support.c:1305 ../src/gsearchtool-support.c:1307
+#: ../src/gsearchtool-support.c:1309 ../src/gsearchtool-support.c:1318
+#, c-format
+msgid "%s (%dth copy)%s"
+msgstr "%s (%d. afrit)%s"
+
+#. localizers: appended to x1st file copy
+#: ../src/gsearchtool-support.c:1312
+#, c-format
+msgid "%s (%dst copy)%s"
+msgstr "%s (%d. afrit)%s"
+
+#. localizers: appended to x2nd file copy
+#: ../src/gsearchtool-support.c:1314
+#, c-format
+msgid "%s (%dnd copy)%s"
+msgstr "%s (%d.afrit)%s"
+
+#. localizers: appended to x3rd file copy
+#: ../src/gsearchtool-support.c:1316
+#, c-format
+msgid "%s (%drd copy)%s"
+msgstr "%s (%d. afrit)%s"
+
+#: ../src/gsearchtool-support.c:1363
+msgid " (invalid Unicode)"
+msgstr " (ógilur Unicode stafur)"
+
+#. localizers: opening parentheses to match the "th copy)" string
+#: ../src/gsearchtool-support.c:1452
+msgid " ("
+msgstr " ("
+
+#. localizers: opening parentheses of the "th copy)" string
+#: ../src/gsearchtool-support.c:1460
+#, c-format
+msgid " (%d"
+msgstr " (%d"
+
+#: ../libeggsmclient/eggdesktopfile.c:164
+#, c-format
+msgid "File is not a valid .desktop file"
+msgstr "Þessi skrá er ekki gild .desktop skrá"
+
+#: ../libeggsmclient/eggdesktopfile.c:187
+#, c-format
+msgid "Unrecognized desktop file Version '%s'"
+msgstr "Óþekkt desktop skráarútgáfa ‚%s‘"
+
+#: ../libeggsmclient/eggdesktopfile.c:957
+#, c-format
+msgid "Starting %s"
+msgstr "Ræsi %s"
+
+#: ../libeggsmclient/eggdesktopfile.c:1099
+#, c-format
+msgid "Application does not accept documents on command line"
+msgstr "Þetta forrit tekur ekki á móti skrám á skipanalínunni"
+
+#: ../libeggsmclient/eggdesktopfile.c:1167
+#, c-format
+msgid "Unrecognized launch option: %d"
+msgstr "Þessi valmöguleiki er ekki þekktur: %d"
+
+#: ../libeggsmclient/eggdesktopfile.c:1372
+#, c-format
+msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
+msgstr "Get ekki látið veffang ganga til ‚Type=Link‘"
+
+#: ../libeggsmclient/eggdesktopfile.c:1391
+#, c-format
+msgid "Not a launchable item"
+msgstr "Það er ekki hægt að keyra þennan hlut"
+
+#: ../libeggsmclient/eggsmclient.c:223
+msgid "Disable connection to session manager"
+msgstr "Slökkva á tengingu við setustjóra"
+
+#: ../libeggsmclient/eggsmclient.c:226
+msgid "Specify file containing saved configuration"
+msgstr "Veldu skrá sem inniheldur vistaðar stillingar"
+
+#: ../libeggsmclient/eggsmclient.c:226
+msgid "FILE"
+msgstr "SKRÁ"
+
+#: ../libeggsmclient/eggsmclient.c:229
+msgid "Specify session management ID"
+msgstr "Tilgreindu auðkenni setustjórnunar"
+
+#: ../libeggsmclient/eggsmclient.c:229
+msgid "ID"
+msgstr "Auðkenni"
+
+#: ../libeggsmclient/eggsmclient.c:250
+msgid "Session management options:"
+msgstr "Valkostir setustýringar:"
+
+#: ../libeggsmclient/eggsmclient.c:251
+msgid "Show session management options"
+msgstr "Sýna valkosti setustýringar"
+
+
