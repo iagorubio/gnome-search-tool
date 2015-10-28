@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-se"
 "arch-tool&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2015-09-02 07:57+0000\n"
-"PO-Revision-Date: 2015-10-27 21:53+0000\n"
+"PO-Revision-Date: 2015-10-28 07:31+0000\n"
 "Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
 "Language-Team: Icelandic <translation-team-is@lists.sourceforge.net>\n"
 "Language: is\n"
@@ -29,7 +29,7 @@ msgstr "Leita að skrám og möppum á tölvunni eftir nafni eða innihaldi"
 
 #: ../data/gnome-search-tool.desktop.in.h:3
 msgid "find;locate;look for;seek;"
-msgstr ""
+msgstr "finna;staðsetja;locate;leita að;leit;"
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:1
 msgid "Search history"
@@ -37,7 +37,7 @@ msgstr "Leitarferill"
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:2
 msgid "This key defines the items which were searched for in the past."
-msgstr ""
+msgstr "Þessi lykill skilgreinir atriðin sem áður hefur verið leitað að."
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:3
 msgid "Show Additional Options"
@@ -45,7 +45,7 @@ msgstr "Sýna fleiri valmöguleika"
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:4
 msgid "Disable Quick Search"
-msgstr ""
+msgstr "Gera flýtileit óvirka"
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:5
 msgid ""
@@ -55,7 +55,7 @@ msgstr ""
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:6
 msgid "Quick Search Excluded Paths"
-msgstr ""
+msgstr "Slóðir sem á að sleppa í flýtileit"
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:7
 msgid ""
@@ -63,13 +63,13 @@ msgid ""
 "The wildcards '*' and '?' are supported. The default values are /mnt/*, /"
 "media/*, /dev/*, /tmp/*, /proc/*, and /var/*."
 msgstr ""
-"Þessi lykill ákveður hvar forritið mun leita. Algildissafirnir ‚*‘ og ‚?‘ "
+"Þessi lykill ákveður hvar forritið mun leita. Algildisstafirnir ‚*‘ og ‚?‘ "
 "virka. Venjuleg gildi eru /mnt/*, /media/*, /dev/*, /tmp/*, /proc/*, og "
 "/var/*."
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:8
 msgid "Disable Quick Search Second Scan"
-msgstr ""
+msgstr "Gera aðra yfirferð óvirka í flýtileit"
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:9
 msgid ""
@@ -79,7 +79,7 @@ msgstr ""
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:10
 msgid "Quick Search Second Scan Excluded Paths"
-msgstr ""
+msgstr "Slóðir sem á að sleppa í einni umferð flýtileitar"
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:11
 msgid ""
@@ -92,7 +92,7 @@ msgstr ""
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:12
 msgid "Search Result Columns Order"
-msgstr ""
+msgstr "Röð leitardálka"
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:13
 msgid ""
@@ -102,7 +102,7 @@ msgstr ""
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:14
 msgid "Default Window Width"
-msgstr "Venjuleg breidd glugga"
+msgstr "Sjálfgefin breidd glugga"
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:15
 msgid ""
@@ -113,7 +113,7 @@ msgstr ""
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:16
 msgid "Default Window Height"
-msgstr "Venjuleg hæð glugga"
+msgstr "Sjálfgefin hæð glugga"
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:17
 msgid ""
@@ -124,7 +124,7 @@ msgstr ""
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:18
 msgid "Default Window Maximized"
-msgstr ""
+msgstr "Sjálfgefin hámörkun glugga"
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:19
 msgid ""
@@ -138,6 +138,7 @@ msgstr "Leita í möppu"
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:21
 msgid "This key defines the default value of the \"Look in Folder\" widget."
 msgstr ""
+"Þessi lykill skilgreinir sjálfgefið gildi \"Leita í möppunni\" skjágræjunnar."
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:22
 msgid ""
@@ -353,12 +354,12 @@ msgstr "MYNSTUR"
 
 #: ../src/gsearchtool.c:383
 msgid "A locate database has probably not been created."
-msgstr ""
+msgstr "Staðsetningagagnagrunnur hefur líklega ekki verið útbúinn."
 
 #: ../src/gsearchtool.c:485
 #, c-format
 msgid "Character set conversion failed for \"%s\""
-msgstr ""
+msgstr "Umbreyting stafatöflu fyrir \"%s\" mistókst"
 
 #: ../src/gsearchtool.c:505
 msgid "Searching..."
@@ -401,19 +402,21 @@ msgstr ""
 
 #: ../src/gsearchtool.c:1295
 msgid "Set the text of \"Name contains\" search option"
-msgstr ""
+msgstr "Settu texta í \"Nafn inniheldur\" leitarmöguleikann"
 
 #: ../src/gsearchtool.c:1296
 msgid "Set the text of \"Look in folder\" search option"
-msgstr ""
+msgstr "Settu texta í \"Leita í möppunni\" leitarmöguleikann"
 
 #: ../src/gsearchtool.c:1297
 msgid "Sort files by one of the following: name, folder, size, type, or date"
 msgstr ""
+"Raða skrám eftir einu af eftirtöldu: nafni, möppu, stærð, tegund eða "
+"dagsetningu"
 
 #: ../src/gsearchtool.c:1298
 msgid "Set sort order to descending, the default is ascending"
-msgstr ""
+msgstr "Setja röðun sem hækkandi, sjálfgefið er lækkandi"
 
 #: ../src/gsearchtool.c:1299
 msgid "Automatically start a search"
@@ -422,12 +425,12 @@ msgstr "Byrja að leita sjálfkrafa"
 #: ../src/gsearchtool.c:1305
 #, c-format
 msgid "Select the \"%s\" search option"
-msgstr ""
+msgstr "Veldu \"%s\" leitarmöguleikann"
 
 #: ../src/gsearchtool.c:1308
 #, c-format
 msgid "Select and set the \"%s\" search option"
-msgstr ""
+msgstr "Veldu og settu \"%s\" leitarmöguleikann"
 
 #: ../src/gsearchtool.c:1415
 msgid "Invalid option passed to sortby command line argument."
@@ -468,7 +471,7 @@ msgstr ""
 
 #: ../src/gsearchtool.c:1836
 msgid "Error parsing the search command."
-msgstr ""
+msgstr "Villa við að þátta leitarskipunina."
 
 #: ../src/gsearchtool.c:1865
 msgid "Error running the search command."
@@ -477,7 +480,7 @@ msgstr "Villa við að keyra leitarskipunina."
 #: ../src/gsearchtool.c:1981
 #, c-format
 msgid "Enter a text value for the \"%s\" search option."
-msgstr ""
+msgstr "Settu textagildi fyrir \"%s\" leitarmöguleikann."
 
 #. Translators:  Below is a string displaying the search options name
 #. and unit value.  For example, "\"Date modified less than\" in days".
@@ -489,7 +492,7 @@ msgstr "„%s“ í %s"
 #: ../src/gsearchtool.c:1988
 #, c-format
 msgid "Enter a value in %s for the \"%s\" search option."
-msgstr ""
+msgstr "Settu gildi í %s fyrir \"%s\" leitarmöguleikann."
 
 #: ../src/gsearchtool.c:2046
 #, c-format
@@ -511,7 +514,7 @@ msgstr "Valkostir"
 
 #: ../src/gsearchtool.c:2170
 msgid "Select a search option from the drop-down list."
-msgstr ""
+msgstr "Veldu leitarmöguleika úr fellilistanum."
 
 #: ../src/gsearchtool.c:2182
 msgid "Add search option"
@@ -519,7 +522,7 @@ msgstr "Bæta við leitarmöguleikum"
 
 #: ../src/gsearchtool.c:2183
 msgid "Click to add the selected available search option."
-msgstr ""
+msgstr "Smelltu til að bæta við völdum tiltækum leitarmöguleika."
 
 #: ../src/gsearchtool.c:2272
 msgid "S_earch results:"
@@ -555,7 +558,7 @@ msgstr "_Nafnið inniheldur:"
 
 #: ../src/gsearchtool.c:2770 ../src/gsearchtool.c:2771
 msgid "Enter a filename or partial filename with or without wildcards."
-msgstr ""
+msgstr "Settu inn skráarheiti eða hluta heitis með eða án algildisstafa."
 
 #: ../src/gsearchtool.c:2771
 msgid "Name contains"
@@ -612,7 +615,7 @@ msgstr "- GNOME leitartól"
 #: ../src/gsearchtool.c:2980
 #, c-format
 msgid "Failed to parse command line arguments: %s\n"
-msgstr ""
+msgstr "Mistókst að þátta skipanalínuviðföng: %s\n"
 
 #: ../src/gsearchtool-callbacks.c:196
 msgid "Could not open help document."
