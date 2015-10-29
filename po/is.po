@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-se"
 "arch-tool&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2015-09-02 07:57+0000\n"
-"PO-Revision-Date: 2015-10-28 07:31+0000\n"
+"PO-Revision-Date: 2015-10-29 08:13+0000\n"
 "Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
 "Language-Team: Icelandic <translation-team-is@lists.sourceforge.net>\n"
 "Language: is\n"
@@ -52,6 +52,8 @@ msgid ""
 "This key determines if the search tool disables the use of the locate "
 "command when performing simple file name searches."
 msgstr ""
+"Þessi lykill ákveður hvort leitartólið gerir notkun locate-skipunarinnar "
+"óvirka við að framkvæma einfalda leit að skráaheitum."
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:6
 msgid "Quick Search Excluded Paths"
@@ -76,6 +78,8 @@ msgid ""
 "This key determines if the search tool disables the use of the find command "
 "after performing a quick search."
 msgstr ""
+"Þessi lykill ákveður hvort leitartólið gerir notkun find-skipunarinnar óvirka "
+"eftir að hafa framkvæmt flýtileit."
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:10
 msgid "Quick Search Second Scan Excluded Paths"
@@ -99,6 +103,8 @@ msgid ""
 "This key defines the order of the columns in the search results. This key "
 "should not be modified by the user."
 msgstr ""
+"Þessi lykill ákveður röð dálka í leitarniðurstöðum. Notandin ætti ekki að "
+"breyta þessum lykli."
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:14
 msgid "Default Window Width"
@@ -129,7 +135,7 @@ msgstr "Sjálfgefin hámörkun glugga"
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:19
 msgid ""
 "This key determines if the search tool window starts in a maximized state."
-msgstr ""
+msgstr "Þessi lykill ákveður hvort hvort glugginn opnast hámarkaður."
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:20
 msgid "Look in Folder"
@@ -286,11 +292,11 @@ msgstr "Skráin er tóm"
 
 #: ../src/gsearchtool.c:89
 msgid "Owned by _user"
-msgstr "_Notandinn sem á skránna"
+msgstr "_Notandinn sem á skrána"
 
 #: ../src/gsearchtool.c:90
 msgid "Owned by _group"
-msgstr "_Hópurinn sem á skránna"
+msgstr "_Hópurinn sem á skrána"
 
 #: ../src/gsearchtool.c:91
 msgid "Owner is unrecognized"
@@ -434,7 +440,7 @@ msgstr "Veldu og settu \"%s\" leitarmöguleikann"
 
 #: ../src/gsearchtool.c:1415
 msgid "Invalid option passed to sortby command line argument."
-msgstr ""
+msgstr "Ógild breyta var sett með sortby-skipun á skipanalínu."
 
 #: ../src/gsearchtool.c:1709
 msgid ""
@@ -449,6 +455,7 @@ msgid ""
 "The search results may be invalid.  There were errors while performing this "
 "search."
 msgstr ""
+"Niðurstöður leitar gætu verið ófullkomnar. Það komu upp villur við leitina."
 
 #: ../src/gsearchtool.c:1732 ../src/gsearchtool.c:1773
 msgid "Show more _details"
@@ -459,6 +466,8 @@ msgid ""
 "The search results may be out of date or invalid.  Do you want to disable "
 "the quick search feature?"
 msgstr ""
+"Niðurstöður leitar gætu verið ófullkomnar eða úreltar. Viltu gera "
+"flýtileitarmöguleikann óvirkann?"
 
 #: ../src/gsearchtool.c:1784
 msgid "Disable _Quick Search"
@@ -467,7 +476,7 @@ msgstr "Gera flýtileit óvirka"
 #: ../src/gsearchtool.c:1811
 #, c-format
 msgid "Failed to set process group id of child %d: %s.\n"
-msgstr ""
+msgstr "Gat ekki sett hópauðkenni ferils á undirferli %d: %s.\n"
 
 #: ../src/gsearchtool.c:1836
 msgid "Error parsing the search command."
@@ -582,11 +591,11 @@ msgstr "Veldu þá möppu eða það tæki sem þú vilt byrja að leita í."
 
 #: ../src/gsearchtool.c:2810
 msgid "Select more _options"
-msgstr "Velja frekari _valmöguleika"
+msgstr "Velja fleiri _valmöguleika"
 
 #: ../src/gsearchtool.c:2819
 msgid "Select more options"
-msgstr "Velja frekari valmöguleika"
+msgstr "Velja fleiri valmöguleika"
 
 #: ../src/gsearchtool.c:2819
 msgid "Click to expand or collapse the list of available options."
