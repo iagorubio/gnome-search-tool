@@ -142,7 +142,7 @@
 			</revdescription> 
  </revision>
  <revision> 
-			<revnumber>&app;l Manual V2.2</revnumber> 
+			<revnumber>&app; Manual V2.2</revnumber> 
 			<date>August 2002</date> 
 			<revdescription> 
 	  		<para role="author">Sun GNOME Documentation Team</para>
