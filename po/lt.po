@@ -13,8 +13,8 @@ msgstr ""
 "Project-Id-Version: lt\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "search-tool&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2013-01-20 20:10+0000\n"
-"PO-Revision-Date: 2013-01-23 21:45+0200\n"
+"POT-Creation-Date: 2016-01-08 10:01+0000\n"
+"PO-Revision-Date: 2016-01-08 14:10+0200\n"
 "Last-Translator: Aurimas Černius <aurisc4@gmail.com>\n"
 "Language-Team: Lietuvių <gnome-lt@lists.akl.lt>\n"
 "Language: lt\n"
@@ -23,7 +23,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n"
 "%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Gtranslator 2.91.6\n"
+"X-Generator: Poedit 1.8.6\n"
 
 #: ../data/gnome-search-tool.desktop.in.h:1
 msgid "Search for Files..."
@@ -272,140 +272,139 @@ msgid ""
 "This key determines if the \"Exclude other filesystems\" search option is "
 "selected when the search tool is started."
 msgstr ""
-"Šis raktas nurodo, ar paieškos parinktis „Neieškoti kitose failų sistemose“ "
-"yra pažymėta, kai paleidžiamas paieškos įrankis."
+"Šis raktas nurodo, ar paieškos parametras „Neieškoti kitose failų sistemose“ "
+"yra pažymėtas, kai paleidžiamas paieškos įrankis."
 
-#: ../src/gsearchtool.c:81
+#: ../src/gsearchtool.c:80
 msgid "Contains the _text"
 msgstr "_Turi tekstą"
 
-#: ../src/gsearchtool.c:83
+#: ../src/gsearchtool.c:82
 msgid "_Date modified less than"
 msgstr "Pakeista prieš _mažiau nei"
 
-#: ../src/gsearchtool.c:83 ../src/gsearchtool.c:84
+#: ../src/gsearchtool.c:82 ../src/gsearchtool.c:83
 msgid "days"
 msgstr "dienų"
 
-#: ../src/gsearchtool.c:84
+#: ../src/gsearchtool.c:83
 msgid "Date modified more than"
 msgstr "Pakeista prieš daugiau nei"
 
-#: ../src/gsearchtool.c:86
+#: ../src/gsearchtool.c:85
 msgid "S_ize at least"
 msgstr "Mažiausias galimas _dydis"
 
-#: ../src/gsearchtool.c:86 ../src/gsearchtool.c:87
+#: ../src/gsearchtool.c:85 ../src/gsearchtool.c:86
 msgid "kilobytes"
 msgstr "kilobaitų"
 
-#: ../src/gsearchtool.c:87
+#: ../src/gsearchtool.c:86
 msgid "Si_ze at most"
 msgstr "Didžiausias galimas d_ydis"
 
-#: ../src/gsearchtool.c:88
+#: ../src/gsearchtool.c:87
 msgid "File is empty"
 msgstr "Failas yra tuščias"
 
-#: ../src/gsearchtool.c:90
+#: ../src/gsearchtool.c:89
 msgid "Owned by _user"
 msgstr "Prikla_uso naudotojui"
 
-#: ../src/gsearchtool.c:91
+#: ../src/gsearchtool.c:90
 msgid "Owned by _group"
 msgstr "Priklauso _grupei"
 
-#: ../src/gsearchtool.c:92
+#: ../src/gsearchtool.c:91
 msgid "Owner is unrecognized"
 msgstr "Neatpažintas savininkas"
 
-#: ../src/gsearchtool.c:94
+#: ../src/gsearchtool.c:93
 msgid "Na_me does not contain"
 msgstr "Varde _nėra"
 
-#: ../src/gsearchtool.c:95
+#: ../src/gsearchtool.c:94
 msgid "Name matches regular e_xpression"
 msgstr "Vardas atitinka _reguliariąją išraišką"
 
-#: ../src/gsearchtool.c:97
+#: ../src/gsearchtool.c:96
 msgid "Show hidden and backup files"
 msgstr "Rodyti paslėptus ir atsarginius failus"
 
-#: ../src/gsearchtool.c:98
+#: ../src/gsearchtool.c:97
 msgid "Follow symbolic links"
 msgstr "Sekti simbolinėmis nuorodomis"
 
-#: ../src/gsearchtool.c:99
+#: ../src/gsearchtool.c:98
 msgid "Exclude other filesystems"
 msgstr "Neieškoti kitose failų sistemose"
 
-#: ../src/gsearchtool.c:157
+#: ../src/gsearchtool.c:156
 msgid "Show version of the application"
 msgstr "Rodyti programos versiją"
 
-#: ../src/gsearchtool.c:158 ../src/gsearchtool.c:163 ../src/gsearchtool.c:172
+#: ../src/gsearchtool.c:157 ../src/gsearchtool.c:162 ../src/gsearchtool.c:171
 msgid "STRING"
 msgstr "SEKA"
 
-#: ../src/gsearchtool.c:159
+#: ../src/gsearchtool.c:158
 msgid "PATH"
 msgstr "KELIAS"
 
-#: ../src/gsearchtool.c:160
+#: ../src/gsearchtool.c:159
 msgid "VALUE"
 msgstr "REIKŠMĖ"
 
-#: ../src/gsearchtool.c:164 ../src/gsearchtool.c:165
+#: ../src/gsearchtool.c:163 ../src/gsearchtool.c:164
 msgid "DAYS"
 msgstr "DIENOS"
 
-#: ../src/gsearchtool.c:166 ../src/gsearchtool.c:167
+#: ../src/gsearchtool.c:165 ../src/gsearchtool.c:166
 msgid "KILOBYTES"
 msgstr "KILOBAITAI"
 
-#: ../src/gsearchtool.c:169
+#: ../src/gsearchtool.c:168
 msgid "USER"
 msgstr "NAUDOTOJAS"
 
-#: ../src/gsearchtool.c:170
+#: ../src/gsearchtool.c:169
 msgid "GROUP"
 msgstr "GRUPĖ"
 
-#: ../src/gsearchtool.c:173
+#: ../src/gsearchtool.c:172
 msgid "PATTERN"
 msgstr "ŠABLONAS"
 
-#: ../src/gsearchtool.c:384
+#: ../src/gsearchtool.c:383
 msgid "A locate database has probably not been created."
 msgstr "Tikriausiai „locate“ duomenų bazė nebuvo sukurta."
 
-#: ../src/gsearchtool.c:486
+#: ../src/gsearchtool.c:485
 #, c-format
 msgid "Character set conversion failed for \"%s\""
 msgstr "Nepavyko konvertuoti „%s“ simbolių koduotės"
 
-#: ../src/gsearchtool.c:506
+#: ../src/gsearchtool.c:505
 msgid "Searching..."
 msgstr "Ieškoma..."
 
-#: ../src/gsearchtool.c:506 ../src/gsearchtool.c:1019
-#: ../src/gsearchtool.c:2987
+#: ../src/gsearchtool.c:505 ../src/gsearchtool.c:1018 ../src/gsearchtool.c:2986
 msgid "Search for Files"
 msgstr "Ieškoti failų"
 
-#: ../src/gsearchtool.c:965 ../src/gsearchtool.c:994
+#: ../src/gsearchtool.c:964 ../src/gsearchtool.c:993
 msgid "No files found"
 msgstr "Failų nerasta"
 
-#: ../src/gsearchtool.c:987
+#: ../src/gsearchtool.c:986
 msgid "(stopped)"
 msgstr "(sustabdyta)"
 
-#: ../src/gsearchtool.c:993
+#: ../src/gsearchtool.c:992
 msgid "No Files Found"
 msgstr "Failų nerasta"
 
-#: ../src/gsearchtool.c:998
+#: ../src/gsearchtool.c:997
 #, c-format
 msgid "%'d File Found"
 msgid_plural "%'d Files Found"
@@ -413,7 +412,7 @@ msgstr[0] "Rastas %'d failas"
 msgstr[1] "Rasti %'d failai"
 msgstr[2] "Rasta %'d failų"
 
-#: ../src/gsearchtool.c:1002 ../src/gsearchtool.c:1040
+#: ../src/gsearchtool.c:1001 ../src/gsearchtool.c:1039
 #, c-format
 msgid "%'d file found"
 msgid_plural "%'d files found"
@@ -421,47 +420,47 @@ msgstr[0] "Rastas %'d failas"
 msgstr[1] "Rasti %'d failai"
 msgstr[2] "Rasta %'d failų"
 
-#: ../src/gsearchtool.c:1131
+#: ../src/gsearchtool.c:1130
 msgid "Entry changed called for a non entry option!"
-msgstr "Įrašo keitimo funkcija pritaikyta ne įrašo savybėms!"
+msgstr "Įrašo keitimo funkcija pritaikyta ne įrašo parametrui!"
 
-#: ../src/gsearchtool.c:1296
+#: ../src/gsearchtool.c:1295
 msgid "Set the text of \"Name contains\" search option"
 msgstr "Nustatyti paieškos parametro „Varde yra“ tekstą"
 
-#: ../src/gsearchtool.c:1297
+#: ../src/gsearchtool.c:1296
 msgid "Set the text of \"Look in folder\" search option"
 msgstr "Nustatyti paieškos parametro „Ieškoti aplanke“ tekstą"
 
-#: ../src/gsearchtool.c:1298
+#: ../src/gsearchtool.c:1297
 msgid "Sort files by one of the following: name, folder, size, type, or date"
 msgstr ""
 "Rikiuoti failus pagal vieną iš šių požymių: vardą, aplanką, dydį, tipą ar "
 "datą"
 
-#: ../src/gsearchtool.c:1299
+#: ../src/gsearchtool.c:1298
 msgid "Set sort order to descending, the default is ascending"
 msgstr "Rikiuoti mažėjimo tvarka. Numatytoji – didėjimo tvarka."
 
-#: ../src/gsearchtool.c:1300
+#: ../src/gsearchtool.c:1299
 msgid "Automatically start a search"
 msgstr "Automatiškai pradėti paiešką"
 
-#: ../src/gsearchtool.c:1306
+#: ../src/gsearchtool.c:1305
 #, c-format
 msgid "Select the \"%s\" search option"
-msgstr "Pasirinkti paieškos parinktį „%s“"
+msgstr "Pasirinkti paieškos parametrą „%s“"
 
-#: ../src/gsearchtool.c:1309
+#: ../src/gsearchtool.c:1308
 #, c-format
 msgid "Select and set the \"%s\" search option"
-msgstr "Pasirinkti ir nustatyti paieškos parinktį „%s“"
+msgstr "Pasirinkti ir nustatyti paieškos parametrą „%s“"
 
-#: ../src/gsearchtool.c:1416
+#: ../src/gsearchtool.c:1415
 msgid "Invalid option passed to sortby command line argument."
-msgstr "Sortby komandų eilutės argumentui pateikta netinkama parinktis."
+msgstr "Sortby komandų eilutės argumentui pateiktas netinkamas parametras."
 
-#: ../src/gsearchtool.c:1710
+#: ../src/gsearchtool.c:1709
 msgid ""
 "\n"
 "... Too many errors to display ..."
@@ -469,18 +468,18 @@ msgstr ""
 "\n"
 "... Per daug rodytinų klaidų ..."
 
-#: ../src/gsearchtool.c:1724
+#: ../src/gsearchtool.c:1723
 msgid ""
 "The search results may be invalid.  There were errors while performing this "
 "search."
 msgstr ""
 "Paieškos rezultatai gali būti neteisingi. Vykdant šią paiešką, iškilo klaidų."
 
-#: ../src/gsearchtool.c:1733 ../src/gsearchtool.c:1774
+#: ../src/gsearchtool.c:1732 ../src/gsearchtool.c:1773
 msgid "Show more _details"
 msgstr "Ro_dyti išsamesnę informaciją"
 
-#: ../src/gsearchtool.c:1763
+#: ../src/gsearchtool.c:1762
 msgid ""
 "The search results may be out of date or invalid.  Do you want to disable "
 "the quick search feature?"
@@ -488,170 +487,170 @@ msgstr ""
 "Paieškos rezultatai gali būti pasenę arba neteisingi. Ar norite atjungti "
 "sparčiosios paieškos funkciją?"
 
-#: ../src/gsearchtool.c:1785
+#: ../src/gsearchtool.c:1784
 msgid "Disable _Quick Search"
 msgstr "Išjungti _sparčiąją paiešką"
 
-#: ../src/gsearchtool.c:1812
+#: ../src/gsearchtool.c:1811
 #, c-format
 msgid "Failed to set process group id of child %d: %s.\n"
 msgstr "Nepavyko nustatyti proceso grupės id antrinio proceso %d: %s.\n"
 
-#: ../src/gsearchtool.c:1837
+#: ../src/gsearchtool.c:1836
 msgid "Error parsing the search command."
 msgstr "Įvyko klaida apdorojant paieškos komandą."
 
-#: ../src/gsearchtool.c:1866
+#: ../src/gsearchtool.c:1865
 msgid "Error running the search command."
 msgstr "Įvyko klaida paleidžiant paieškos komandą."
 
-#: ../src/gsearchtool.c:1982
+#: ../src/gsearchtool.c:1981
 #, c-format
 msgid "Enter a text value for the \"%s\" search option."
-msgstr "Įveskite tekstinę reikšmę paieškos parinkčiai „%s“."
+msgstr "Įveskite tekstinę reikšmę paieškos parametrui „%s“."
 
 #. Translators:  Below is a string displaying the search options name
 #. and unit value.  For example, "\"Date modified less than\" in days".
-#: ../src/gsearchtool.c:1987
+#: ../src/gsearchtool.c:1986
 #, c-format
 msgid "\"%s\" in %s"
 msgstr "„%s“ per %s"
 
-#: ../src/gsearchtool.c:1989
+#: ../src/gsearchtool.c:1988
 #, c-format
 msgid "Enter a value in %s for the \"%s\" search option."
-msgstr "Įveskite %s reikšmę paieškos parinkčiai „%s“."
+msgstr "Įveskite %s reikšmę paieškos parametrui „%s“."
 
-#: ../src/gsearchtool.c:2047
+#: ../src/gsearchtool.c:2046
 #, c-format
 msgid "Remove \"%s\""
 msgstr "Pašalinti „%s“"
 
-#: ../src/gsearchtool.c:2048
+#: ../src/gsearchtool.c:2047
 #, c-format
 msgid "Click to remove the \"%s\" search option."
 msgstr "Spustelėkite, norėdami pašalinti paieškos parametrą „%s“."
 
-#: ../src/gsearchtool.c:2141
+#: ../src/gsearchtool.c:2140
 msgid "A_vailable options:"
-msgstr "_Galimos parinktys:"
+msgstr "_Galimi parametrai:"
+
+#: ../src/gsearchtool.c:2169
+msgid "Available options"
+msgstr "Galimi parametrai"
 
 #: ../src/gsearchtool.c:2170
-msgid "Available options"
-msgstr "Galimos parinktys"
-
-#: ../src/gsearchtool.c:2171
 msgid "Select a search option from the drop-down list."
-msgstr "Išskleidžiamame meniu pasirinkite paieškos parinktį."
+msgstr "Išskleidžiamame meniu pasirinkite paieškos parametrą."
+
+#: ../src/gsearchtool.c:2182
+msgid "Add search option"
+msgstr "Pridėti paieškos parametrą"
 
 #: ../src/gsearchtool.c:2183
-msgid "Add search option"
-msgstr "Pridėti paieškos parinktį"
-
-#: ../src/gsearchtool.c:2184
 msgid "Click to add the selected available search option."
-msgstr "Spustelėkite, norėdami pridėti pasirinktą galimą paieškos parinktį."
+msgstr "Spustelėkite, norėdami pridėti pasirinktą galimą paieškos parametrą."
 
-#: ../src/gsearchtool.c:2273
+#: ../src/gsearchtool.c:2272
 msgid "S_earch results:"
 msgstr "_Paieškos rezultatai:"
 
-#: ../src/gsearchtool.c:2317
+#: ../src/gsearchtool.c:2316
 msgid "List View"
 msgstr "Sąrašo rodinys"
 
-#: ../src/gsearchtool.c:2377
+#: ../src/gsearchtool.c:2376
 msgid "Name"
 msgstr "Vardas"
 
-#: ../src/gsearchtool.c:2401
+#: ../src/gsearchtool.c:2400
 msgid "Folder"
 msgstr "Aplankas"
 
-#: ../src/gsearchtool.c:2414
+#: ../src/gsearchtool.c:2413
 msgid "Size"
 msgstr "Dydis"
 
-#: ../src/gsearchtool.c:2426
+#: ../src/gsearchtool.c:2425
 msgid "Type"
 msgstr "Tipas"
 
-#: ../src/gsearchtool.c:2438
+#: ../src/gsearchtool.c:2437
 msgid "Date Modified"
 msgstr "Keitimo data"
 
-#: ../src/gsearchtool.c:2757
+#: ../src/gsearchtool.c:2756
 msgid "_Name contains:"
 msgstr "_Varde yra:"
 
-#: ../src/gsearchtool.c:2771 ../src/gsearchtool.c:2772
+#: ../src/gsearchtool.c:2770 ../src/gsearchtool.c:2771
 msgid "Enter a filename or partial filename with or without wildcards."
 msgstr ""
 "Įveskite visą arba dalinį failo vardą (galima naudoti pakaitos simbolius)."
 
-#: ../src/gsearchtool.c:2772
+#: ../src/gsearchtool.c:2771
 msgid "Name contains"
 msgstr "Varde yra"
 
-#: ../src/gsearchtool.c:2778
+#: ../src/gsearchtool.c:2777
 msgid "_Look in folder:"
 msgstr "Ieškoti ap_lanke:"
 
-#: ../src/gsearchtool.c:2784
+#: ../src/gsearchtool.c:2783
 msgid "Browse"
 msgstr "Naršyti"
 
-#: ../src/gsearchtool.c:2793
+#: ../src/gsearchtool.c:2792
 msgid "Look in folder"
 msgstr "Ieškoti aplanke"
 
-#: ../src/gsearchtool.c:2793
+#: ../src/gsearchtool.c:2792
 msgid "Select the folder or device from which you want to begin the search."
 msgstr "Pasirinkite aplanką arbą įrenginį, kuriame norite pradėti paiešką"
 
-#: ../src/gsearchtool.c:2811
+#: ../src/gsearchtool.c:2810
 msgid "Select more _options"
-msgstr "Pasirin_kti daugiau parinkčių"
+msgstr "Pasirin_kti daugiau parametrų"
 
-#: ../src/gsearchtool.c:2820
+#: ../src/gsearchtool.c:2819
 msgid "Select more options"
-msgstr "Pasirinkti daugiau parinkčių"
+msgstr "Pasirinkti daugiau parametrų"
 
-#: ../src/gsearchtool.c:2820
+#: ../src/gsearchtool.c:2819
 msgid "Click to expand or collapse the list of available options."
 msgstr ""
-"Spustelėkite, norėdami išskleisti arba sutraukti galimų parinkčių sąrašą."
+"Spustelėkite, norėdami išskleisti arba sutraukti galimų parametrų sąrašą."
 
-#: ../src/gsearchtool.c:2844
+#: ../src/gsearchtool.c:2843
 msgid "Click to display the help manual."
 msgstr "Spustelėkite, norėdami pamatyti žinyną."
 
-#: ../src/gsearchtool.c:2852
+#: ../src/gsearchtool.c:2851
 msgid "Click to close \"Search for Files\"."
 msgstr "Spustelėkite, norėdami užverti „Ieškoti failų...“."
 
-#: ../src/gsearchtool.c:2878
+#: ../src/gsearchtool.c:2877
 msgid "Click to perform a search."
 msgstr "Spustelėkite, norėdami pradėti paiešką."
 
-#: ../src/gsearchtool.c:2879
+#: ../src/gsearchtool.c:2878
 msgid "Click to stop a search."
 msgstr "Spustelėkite, norėdami sustabdyti paiešką."
 
-#: ../src/gsearchtool.c:2972
+#: ../src/gsearchtool.c:2971
 msgid "- the GNOME Search Tool"
 msgstr "– GNOME paieškos įrankis"
 
-#: ../src/gsearchtool.c:2981
+#: ../src/gsearchtool.c:2980
 #, c-format
 msgid "Failed to parse command line arguments: %s\n"
 msgstr "Nepavyko apdoroti komandų eilutės argumentų: %s\n"
 
-#: ../src/gsearchtool-callbacks.c:197
+#: ../src/gsearchtool-callbacks.c:196
 msgid "Could not open help document."
 msgstr "Nepavyko atverti žinyno dokumento."
 
-#: ../src/gsearchtool-callbacks.c:344
+#: ../src/gsearchtool-callbacks.c:343
 #, c-format
 msgid "Are you sure you want to open %d document?"
 msgid_plural "Are you sure you want to open %d documents?"
@@ -659,7 +658,7 @@ msgstr[0] "Ar tikrai norite atverti %d dokumentą?"
 msgstr[1] "Ar tikrai norite atverti %d dokumentus?"
 msgstr[2] "Ar tikrai norite atverti %d dokumentų?"
 
-#: ../src/gsearchtool-callbacks.c:349 ../src/gsearchtool-callbacks.c:534
+#: ../src/gsearchtool-callbacks.c:348 ../src/gsearchtool-callbacks.c:533
 #, c-format
 msgid "This will open %d separate window."
 msgid_plural "This will open %d separate windows."
@@ -667,29 +666,29 @@ msgstr[0] "Bus atvertas %d atskiras langas."
 msgstr[1] "Bus atverti %d atskiri langai."
 msgstr[2] "Bus atverta %d atskirų langų."
 
-#: ../src/gsearchtool-callbacks.c:385
+#: ../src/gsearchtool-callbacks.c:384
 #, c-format
 msgid "Could not open document \"%s\"."
 msgstr "Nepavyko atverti dokumento „%s“."
 
-#: ../src/gsearchtool-callbacks.c:410
+#: ../src/gsearchtool-callbacks.c:409
 #, c-format
 msgid "Could not open folder \"%s\"."
 msgstr "Nepavyko atverti aplanko „%s“."
 
-#: ../src/gsearchtool-callbacks.c:418
+#: ../src/gsearchtool-callbacks.c:417
 msgid "The nautilus file manager is not running."
-msgstr "Nautilus failų tvarkyklė nepaleista."
+msgstr "Nautilus failų tvarkytuvė nepaleista."
 
-#: ../src/gsearchtool-callbacks.c:491 ../src/gsearchtool-callbacks.c:814
+#: ../src/gsearchtool-callbacks.c:490 ../src/gsearchtool-callbacks.c:813
 msgid "The document does not exist."
 msgstr "Toks dokumentas neegzistuoja."
 
-#: ../src/gsearchtool-callbacks.c:506
+#: ../src/gsearchtool-callbacks.c:505
 msgid "There is no installed viewer capable of displaying the document."
 msgstr "Nėra įdiegta šio tipo dokumentus galinti skaityti programa."
 
-#: ../src/gsearchtool-callbacks.c:529
+#: ../src/gsearchtool-callbacks.c:528
 #, c-format
 msgid "Are you sure you want to open %d folder?"
 msgid_plural "Are you sure you want to open %d folders?"
@@ -697,105 +696,105 @@ msgstr[0] "Ar tikrai norite atverti %d katalogą?"
 msgstr[1] "Ar tikrai norite atverti %d katalogus?"
 msgstr[2] "Ar tikrai norite atverti %d katalogų?"
 
-#: ../src/gsearchtool-callbacks.c:678
+#: ../src/gsearchtool-callbacks.c:677
 #, c-format
 msgid "Could not move \"%s\" to trash."
 msgstr "Nepavyko perkelti „%s“ į šiukšlinę."
 
-#: ../src/gsearchtool-callbacks.c:705
+#: ../src/gsearchtool-callbacks.c:704
 #, c-format
 msgid "Do you want to delete \"%s\" permanently?"
 msgstr "Ar norite ištrinti „%s“ visam laikui?"
 
-#: ../src/gsearchtool-callbacks.c:708
+#: ../src/gsearchtool-callbacks.c:707
 #, c-format
 msgid "Trash is unavailable.  Could not move \"%s\" to the trash."
 msgstr "Šiukšlinė neprieinama.  Nepavyko perkelti „%s“ į šiukšlinę."
 
-#: ../src/gsearchtool-callbacks.c:743
+#: ../src/gsearchtool-callbacks.c:742
 #, c-format
 msgid "Could not delete \"%s\"."
 msgstr "Nepavyko ištrinti „%s“."
 
-#: ../src/gsearchtool-callbacks.c:850
+#: ../src/gsearchtool-callbacks.c:849
 #, c-format
 msgid "Deleting \"%s\" failed: %s."
 msgstr "Ištrinti „%s“ nepavyko: %s."
 
-#: ../src/gsearchtool-callbacks.c:862
+#: ../src/gsearchtool-callbacks.c:861
 #, c-format
 msgid "Moving \"%s\" failed: %s."
 msgstr "Perkelti „%s“ nepavyko: %s."
 
 #. Popup menu item: Open
-#: ../src/gsearchtool-callbacks.c:990 ../src/gsearchtool-callbacks.c:1020
+#: ../src/gsearchtool-callbacks.c:989 ../src/gsearchtool-callbacks.c:1019
 msgid "_Open"
 msgstr "_Atverti"
 
 #. Popup menu item: Open with (default)
-#: ../src/gsearchtool-callbacks.c:1045
+#: ../src/gsearchtool-callbacks.c:1044
 #, c-format
 msgid "_Open with %s"
 msgstr "_Atverti su %s"
 
-#: ../src/gsearchtool-callbacks.c:1080
+#: ../src/gsearchtool-callbacks.c:1079
 #, c-format
 msgid "Open with %s"
 msgstr "Atverti su %s"
 
 #. Popup menu item: Open With
-#: ../src/gsearchtool-callbacks.c:1113
+#: ../src/gsearchtool-callbacks.c:1112
 msgid "Open Wit_h"
 msgstr "Atverti s_u"
 
 #. Popup menu item: Open Containing Folder
-#: ../src/gsearchtool-callbacks.c:1158
+#: ../src/gsearchtool-callbacks.c:1157
 msgid "Open Containing _Folder"
 msgstr "Atverti _aplanką"
 
-#: ../src/gsearchtool-callbacks.c:1176
+#: ../src/gsearchtool-callbacks.c:1175
 msgid "Mo_ve to Trash"
 msgstr "Per_kelti į Šiukšlinę"
 
-#: ../src/gsearchtool-callbacks.c:1198
+#: ../src/gsearchtool-callbacks.c:1197
 msgid "_Save Results As..."
 msgstr "Įrašyti rezultatus _kaip..."
 
-#: ../src/gsearchtool-callbacks.c:1580
+#: ../src/gsearchtool-callbacks.c:1579
 msgid "Save Search Results As..."
 msgstr "Įrašyti paieškos rezultatus kaip..."
 
-#: ../src/gsearchtool-callbacks.c:1611
+#: ../src/gsearchtool-callbacks.c:1610
 msgid "Could not save document."
 msgstr "Nepavyko įrašyti dokumento."
 
-#: ../src/gsearchtool-callbacks.c:1612
+#: ../src/gsearchtool-callbacks.c:1611
 msgid "You did not select a document name."
 msgstr "Jūs nepasirinkote dokumento vardo."
 
-#: ../src/gsearchtool-callbacks.c:1638
+#: ../src/gsearchtool-callbacks.c:1637
 #, c-format
 msgid "Could not save \"%s\" document to \"%s\"."
 msgstr "Nepavyko įrašyti „%s“ dokumento „%s“."
 
-#: ../src/gsearchtool-callbacks.c:1668
+#: ../src/gsearchtool-callbacks.c:1667
 #, c-format
 msgid "The document \"%s\" already exists.  Would you like to replace it?"
 msgstr "Dokumentas „%s“ jau egzistuoja.  Ar Jūs norite jį pakeisti?"
 
-#: ../src/gsearchtool-callbacks.c:1672
+#: ../src/gsearchtool-callbacks.c:1671
 msgid "If you replace an existing file, its contents will be overwritten."
 msgstr "Jeigu pakeisite jau egzistuojantį failą, jo turinys bus perrašytas."
 
-#: ../src/gsearchtool-callbacks.c:1683
+#: ../src/gsearchtool-callbacks.c:1682
 msgid "_Replace"
 msgstr "_Pakeisti"
 
-#: ../src/gsearchtool-callbacks.c:1733
+#: ../src/gsearchtool-callbacks.c:1732
 msgid "The document name you selected is a folder."
 msgstr "Jūsų pasirinkto dokumento vardas yra aplankas."
 
-#: ../src/gsearchtool-callbacks.c:1771
+#: ../src/gsearchtool-callbacks.c:1770
 msgid "You may not have write permissions to the document."
 msgstr "Jūs neturite teisės rašyti į šį dokumentą."
 
@@ -804,23 +803,23 @@ msgstr "Jūs neturite teisės rašyti į šį dokumentą."
 #. on age of a file.  Please modify the format of the timestamp to match
 #. your locale.  For example, to display 24 hour time replace the '%-I'
 #. with '%-H' and remove the '%p'.  (See bugzilla report #120434.)
-#: ../src/gsearchtool-support.c:452
+#: ../src/gsearchtool-support.c:451
 msgid "today at %-I:%M %p"
 msgstr "šiandien %-H:%M"
 
-#: ../src/gsearchtool-support.c:454
+#: ../src/gsearchtool-support.c:453
 msgid "yesterday at %-I:%M %p"
 msgstr "vakar %-H:%M"
 
-#: ../src/gsearchtool-support.c:456 ../src/gsearchtool-support.c:458
+#: ../src/gsearchtool-support.c:455 ../src/gsearchtool-support.c:457
 msgid "%A, %B %-d %Y at %-I:%M:%S %p"
 msgstr "%Y %B %-d, %A  %H:%M:%S"
 
-#: ../src/gsearchtool-support.c:645
+#: ../src/gsearchtool-support.c:644
 msgid "link (broken)"
 msgstr "nuoroda (neveikianti)"
 
-#: ../src/gsearchtool-support.c:649
+#: ../src/gsearchtool-support.c:648
 #, c-format
 msgid "link to %s"
 msgstr "nuorodą į %s"
@@ -831,12 +830,12 @@ msgstr "nuorodą į %s"
 #. * make some or all of them match.
 #.
 #. localizers: tag used to detect the first copy of a file
-#: ../src/gsearchtool-support.c:1268
+#: ../src/gsearchtool-support.c:1267
 msgid " (copy)"
 msgstr " (kopija)"
 
 #. localizers: tag used to detect the second copy of a file
-#: ../src/gsearchtool-support.c:1270
+#: ../src/gsearchtool-support.c:1269
 msgid " (another copy)"
 msgstr " (kita kopija)"
 
@@ -844,34 +843,34 @@ msgstr " (kita kopija)"
 #. localizers: tag used to detect the x12th copy of a file
 #. localizers: tag used to detect the x13th copy of a file
 #. localizers: tag used to detect the xxth copy of a file
-#: ../src/gsearchtool-support.c:1273 ../src/gsearchtool-support.c:1275
-#: ../src/gsearchtool-support.c:1277 ../src/gsearchtool-support.c:1287
+#: ../src/gsearchtool-support.c:1272 ../src/gsearchtool-support.c:1274
+#: ../src/gsearchtool-support.c:1276 ../src/gsearchtool-support.c:1286
 msgid "th copy)"
 msgstr "-oji kopija)"
 
 #. localizers: tag used to detect the x1st copy of a file
-#: ../src/gsearchtool-support.c:1280
+#: ../src/gsearchtool-support.c:1279
 msgid "st copy)"
 msgstr "-oji kopija)"
 
 #. localizers: tag used to detect the x2nd copy of a file
-#: ../src/gsearchtool-support.c:1282
+#: ../src/gsearchtool-support.c:1281
 msgid "nd copy)"
 msgstr "-oji kopija)"
 
 #. localizers: tag used to detect the x3rd copy of a file
-#: ../src/gsearchtool-support.c:1284
+#: ../src/gsearchtool-support.c:1283
 msgid "rd copy)"
 msgstr "-oji kopija)"
 
 #. localizers: appended to first file copy
-#: ../src/gsearchtool-support.c:1301
+#: ../src/gsearchtool-support.c:1300
 #, c-format
 msgid "%s (copy)%s"
 msgstr "%s (kopija)%s"
 
 #. localizers: appended to second file copy
-#: ../src/gsearchtool-support.c:1303
+#: ../src/gsearchtool-support.c:1302
 #, c-format
 msgid "%s (another copy)%s"
 msgstr "%s (kita kopija)%s"
@@ -880,104 +879,104 @@ msgstr "%s (kita kopija)%s"
 #. localizers: appended to x12th file copy
 #. localizers: appended to x13th file copy
 #. localizers: appended to xxth file copy
-#: ../src/gsearchtool-support.c:1306 ../src/gsearchtool-support.c:1308
-#: ../src/gsearchtool-support.c:1310 ../src/gsearchtool-support.c:1319
+#: ../src/gsearchtool-support.c:1305 ../src/gsearchtool-support.c:1307
+#: ../src/gsearchtool-support.c:1309 ../src/gsearchtool-support.c:1318
 #, c-format
 msgid "%s (%dth copy)%s"
 msgstr "%s (%d-oji kopija)%s"
 
 #. localizers: appended to x1st file copy
-#: ../src/gsearchtool-support.c:1313
+#: ../src/gsearchtool-support.c:1312
 #, c-format
 msgid "%s (%dst copy)%s"
 msgstr "%s (%d-oji kopija)%s"
 
 #. localizers: appended to x2nd file copy
-#: ../src/gsearchtool-support.c:1315
+#: ../src/gsearchtool-support.c:1314
 #, c-format
 msgid "%s (%dnd copy)%s"
 msgstr "%s (%d-oji kopija)%s"
 
 #. localizers: appended to x3rd file copy
-#: ../src/gsearchtool-support.c:1317
+#: ../src/gsearchtool-support.c:1316
 #, c-format
 msgid "%s (%drd copy)%s"
 msgstr "%s (%d-oji kopija)%s"
 
-#: ../src/gsearchtool-support.c:1364
+#: ../src/gsearchtool-support.c:1363
 msgid " (invalid Unicode)"
 msgstr " (neteisingas Unikodas)"
 
 #. localizers: opening parentheses to match the "th copy)" string
-#: ../src/gsearchtool-support.c:1453
+#: ../src/gsearchtool-support.c:1452
 msgid " ("
 msgstr " ("
 
 #. localizers: opening parentheses of the "th copy)" string
-#: ../src/gsearchtool-support.c:1461
+#: ../src/gsearchtool-support.c:1460
 #, c-format
 msgid " (%d"
 msgstr " (%d"
 
-#: ../libeggsmclient/eggdesktopfile.c:165
+#: ../libeggsmclient/eggdesktopfile.c:164
 #, c-format
 msgid "File is not a valid .desktop file"
 msgstr "Tai nėra tinkamas .desktop failas"
 
-#: ../libeggsmclient/eggdesktopfile.c:188
+#: ../libeggsmclient/eggdesktopfile.c:187
 #, c-format
 msgid "Unrecognized desktop file Version '%s'"
 msgstr "Neatpažinta .desktop failo versija „%s“"
 
-#: ../libeggsmclient/eggdesktopfile.c:958
+#: ../libeggsmclient/eggdesktopfile.c:957
 #, c-format
 msgid "Starting %s"
 msgstr "Paleidžiama %s"
 
-#: ../libeggsmclient/eggdesktopfile.c:1100
+#: ../libeggsmclient/eggdesktopfile.c:1099
 #, c-format
 msgid "Application does not accept documents on command line"
 msgstr "Programa nepriima dokumentų komandų eilutėje"
 
-#: ../libeggsmclient/eggdesktopfile.c:1168
+#: ../libeggsmclient/eggdesktopfile.c:1167
 #, c-format
 msgid "Unrecognized launch option: %d"
-msgstr "Neatpažinta paleisties parinktis: %d"
+msgstr "Neatpažintas paleisties parametras: %d"
 
-#: ../libeggsmclient/eggdesktopfile.c:1373
+#: ../libeggsmclient/eggdesktopfile.c:1372
 #, c-format
 msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
 msgstr "Desktop failo eilutei „Type=Link“ negalima nurodyti dokumentų URI"
 
-#: ../libeggsmclient/eggdesktopfile.c:1392
+#: ../libeggsmclient/eggdesktopfile.c:1391
 #, c-format
 msgid "Not a launchable item"
 msgstr "Ne paleidžiamas elementas"
 
-#: ../libeggsmclient/eggsmclient.c:225
+#: ../libeggsmclient/eggsmclient.c:223
 msgid "Disable connection to session manager"
-msgstr "Išjungti jungimąsi prie seansų valdyklės"
+msgstr "Išjungti jungimąsi prie seansų tvarkytuvės"
 
-#: ../libeggsmclient/eggsmclient.c:228
+#: ../libeggsmclient/eggsmclient.c:226
 msgid "Specify file containing saved configuration"
 msgstr "Nurodyti failą, kuriame yra įrašyta konfigūracija"
 
-#: ../libeggsmclient/eggsmclient.c:228
+#: ../libeggsmclient/eggsmclient.c:226
 msgid "FILE"
 msgstr "FAILAS"
 
-#: ../libeggsmclient/eggsmclient.c:231
+#: ../libeggsmclient/eggsmclient.c:229
 msgid "Specify session management ID"
-msgstr "Nurodyti seanso valdymo ID"
+msgstr "Nurodyti seanso tvarkymo ID"
 
-#: ../libeggsmclient/eggsmclient.c:231
+#: ../libeggsmclient/eggsmclient.c:229
 msgid "ID"
 msgstr "ID"
 
-#: ../libeggsmclient/eggsmclient.c:252
+#: ../libeggsmclient/eggsmclient.c:250
 msgid "Session management options:"
-msgstr "Seanso valdymo parinktys:"
+msgstr "Seanso tvarkymo parametrai:"
 
-#: ../libeggsmclient/eggsmclient.c:253
+#: ../libeggsmclient/eggsmclient.c:251
 msgid "Show session management options"
-msgstr "Rodyti seanso valdymo parinktis"
+msgstr "Rodyti seanso tvarkymo parametrus"
