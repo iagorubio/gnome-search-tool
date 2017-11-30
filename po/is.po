@@ -2,14 +2,14 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 #
-# Sveinn í Felli <sv1@fellsnet.is>, 2015.
+# Sveinn í Felli <sv1@fellsnet.is>, 2015, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-search-tool.master\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-se"
-"arch-tool&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2015-09-02 07:57+0000\n"
-"PO-Revision-Date: 2015-10-29 08:13+0000\n"
+"Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
+"search-tool&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2017-04-08 14:47+0000\n"
+"PO-Revision-Date: 2017-11-30 20:05+0000\n"
 "Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
 "Language-Team: Icelandic <translation-team-is@lists.sourceforge.net>\n"
 "Language: is\n"
@@ -41,7 +41,7 @@ msgstr "Þessi lykill skilgreinir atriðin sem áður hefur verið leitað að."
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:3
 msgid "Show Additional Options"
-msgstr "Sýna fleiri valmöguleika"
+msgstr "Sýna fleiri valkosti"
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:4
 msgid "Disable Quick Search"
@@ -66,8 +66,8 @@ msgid ""
 "media/*, /dev/*, /tmp/*, /proc/*, and /var/*."
 msgstr ""
 "Þessi lykill ákveður hvar forritið mun leita. Algildisstafirnir ‚*‘ og ‚?‘ "
-"virka. Venjuleg gildi eru /mnt/*, /media/*, /dev/*, /tmp/*, /proc/*, og "
-"/var/*."
+"virka. Venjuleg gildi eru /mnt/*, /media/*, /dev/*, /tmp/*, /proc/*, og /var/"
+"*."
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:8
 msgid "Disable Quick Search Second Scan"
@@ -78,8 +78,8 @@ msgid ""
 "This key determines if the search tool disables the use of the find command "
 "after performing a quick search."
 msgstr ""
-"Þessi lykill ákveður hvort leitartólið gerir notkun find-skipunarinnar óvirka "
-"eftir að hafa framkvæmt flýtileit."
+"Þessi lykill ákveður hvort leitartólið gerir notkun find-skipunarinnar "
+"óvirka eftir að hafa framkvæmt flýtileit."
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:10
 msgid "Quick Search Second Scan Excluded Paths"
@@ -103,7 +103,7 @@ msgid ""
 "This key defines the order of the columns in the search results. This key "
 "should not be modified by the user."
 msgstr ""
-"Þessi lykill ákveður röð dálka í leitarniðurstöðum. Notandin ætti ekki að "
+"Þessi lykill ákveður röð dálka í leitarniðurstöðum. Notandinn ætti ekki að "
 "breyta þessum lykli."
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:14
@@ -199,16 +199,16 @@ msgid ""
 "This key determines if the \"Owned by user\" search option is selected when "
 "the search tool is started."
 msgstr ""
-"Þessi lykill ákveður hvort leitarmöguleikinn „Notandinn sem á skránna“ sé "
-"valinn þegar leitin byrjar."
+"Þessi lykill ákveður hvort leitarmöguleikinn „Í eigu notanda“ sé valinn þegar "
+"leitin byrjar."
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:29
 msgid ""
 "This key determines if the \"Owned by group\" search option is selected when "
 "the search tool is started."
 msgstr ""
-"Þessi lykill ákveður hvort leitarmöguleikinn „Hópurinn sem á skránna“ sé "
-"valinn þegar leitin byrjar."
+"Þessi lykill ákveður hvort leitarmöguleikinn „Í eigu hóps“ sé valinn þegar "
+"leitin byrjar."
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:30
 msgid ""
@@ -239,7 +239,7 @@ msgid ""
 "This key determines if the \"Show hidden files and folders\" search option "
 "is selected when the search tool is started."
 msgstr ""
-"Þessi lykill ákveður hvort leitarmöguleikinn „Sýna faldar skrár og möppur“ "
+"Þessi lykill ákveður hvort leitarmöguleikinn „Birta faldar skrár og möppur“ "
 "sé valinn þegar leitin byrjar."
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:34
@@ -247,7 +247,7 @@ msgid ""
 "This key determines if the \"Follow symbolic links\" search option is "
 "selected when the search tool is started."
 msgstr ""
-"Þessi lykill ákveður hvort leitarmöguleikinn „Elta táknræna tengingar“ sé "
+"Þessi lykill ákveður hvort leitarmöguleikinn „Elta tákntengingar“ sé "
 "valinn þegar leitin byrjar."
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:35
@@ -276,11 +276,11 @@ msgstr "Breytt fyrir meira en"
 
 #: ../src/gsearchtool.c:85
 msgid "S_ize at least"
-msgstr "_Stærð að minnsta kosti"
+msgstr "Stærð að m_innsta kosti"
 
 #: ../src/gsearchtool.c:85 ../src/gsearchtool.c:86
 msgid "kilobytes"
-msgstr "kílóbæt"
+msgstr "kílóbæti"
 
 #: ../src/gsearchtool.c:86
 msgid "Si_ze at most"
@@ -292,11 +292,11 @@ msgstr "Skráin er tóm"
 
 #: ../src/gsearchtool.c:89
 msgid "Owned by _user"
-msgstr "_Notandinn sem á skrána"
+msgstr "Í eigu _notanda"
 
 #: ../src/gsearchtool.c:90
 msgid "Owned by _group"
-msgstr "_Hópurinn sem á skrána"
+msgstr "Í eigu _hóps"
 
 #: ../src/gsearchtool.c:91
 msgid "Owner is unrecognized"
@@ -304,7 +304,7 @@ msgstr "Notandi er ekki þekktur"
 
 #: ../src/gsearchtool.c:93
 msgid "Na_me does not contain"
-msgstr "_Nafn inniheldur ekki"
+msgstr "Nafn inniheldur _ekki"
 
 #: ../src/gsearchtool.c:94
 msgid "Name matches regular e_xpression"
@@ -312,11 +312,11 @@ msgstr "Nafn passar við _reglulega segð"
 
 #: ../src/gsearchtool.c:96
 msgid "Show hidden and backup files"
-msgstr "Sýna afrit af skrám og faldar skrár"
+msgstr "Birta faldar skrár og öryggisafrit"
 
 #: ../src/gsearchtool.c:97
 msgid "Follow symbolic links"
-msgstr "Elta táknræna tengingar"
+msgstr "Elta tákntengingar"
 
 #: ../src/gsearchtool.c:98
 msgid "Exclude other filesystems"
@@ -344,7 +344,7 @@ msgstr "DAGAR"
 
 #: ../src/gsearchtool.c:165 ../src/gsearchtool.c:166
 msgid "KILOBYTES"
-msgstr "KÍLÓBÆT"
+msgstr "KÍLÓBÆTI"
 
 #: ../src/gsearchtool.c:168
 msgid "USER"
@@ -371,8 +371,7 @@ msgstr "Umbreyting stafatöflu fyrir \"%s\" mistókst"
 msgid "Searching..."
 msgstr "Leita..."
 
-#: ../src/gsearchtool.c:505 ../src/gsearchtool.c:1018
-#: ../src/gsearchtool.c:2986
+#: ../src/gsearchtool.c:505 ../src/gsearchtool.c:1018 ../src/gsearchtool.c:2986
 msgid "Search for Files"
 msgstr "Leita að skrám"
 
@@ -382,7 +381,7 @@ msgstr "Engar skrár fundust"
 
 #: ../src/gsearchtool.c:986
 msgid "(stopped)"
-msgstr "(hætt við)"
+msgstr "(stöðvað)"
 
 #: ../src/gsearchtool.c:992
 msgid "No Files Found"
@@ -634,7 +633,7 @@ msgstr "Gat ekki opnað aðstoð."
 #, c-format
 msgid "Are you sure you want to open %d document?"
 msgid_plural "Are you sure you want to open %d documents?"
-msgstr[0] "Viltu opna %d skjal?"
+msgstr[0] "Viltu opna %d skjalið?"
 msgstr[1] "Viltu opna %d skjöl?"
 
 #: ../src/gsearchtool-callbacks.c:348 ../src/gsearchtool-callbacks.c:533
@@ -647,7 +646,7 @@ msgstr[1] "Þetta mun opna %d einstaka glugga."
 #: ../src/gsearchtool-callbacks.c:384
 #, c-format
 msgid "Could not open document \"%s\"."
-msgstr "Gat ekki opnað skránna „%s“."
+msgstr "Gat ekki opnað skjalið „%s“."
 
 #: ../src/gsearchtool-callbacks.c:409
 #, c-format
@@ -664,7 +663,7 @@ msgstr "Þetta skjal er ekki til."
 
 #: ../src/gsearchtool-callbacks.c:505
 msgid "There is no installed viewer capable of displaying the document."
-msgstr "Það er ekkert forrit sem getur opnað þessa skrá."
+msgstr "Það er ekkert forrit sem getur birt þetta skjal."
 
 #: ../src/gsearchtool-callbacks.c:528
 #, c-format
@@ -773,7 +772,7 @@ msgstr "Nafn skjalsins sem þú valdir er mappa."
 
 #: ../src/gsearchtool-callbacks.c:1770
 msgid "You may not have write permissions to the document."
-msgstr "Þér er ekki heimilað að skrifa í þetta skjal."
+msgstr "Þú ert ekki með heimild til að skrifa í þetta skjal."
 
 #. Translators:  Below are the strings displayed in the 'Date Modified'
 #. column of the list view.  The format of this string can vary depending
@@ -913,7 +912,7 @@ msgstr "Ræsi %s"
 #: ../libeggsmclient/eggdesktopfile.c:1099
 #, c-format
 msgid "Application does not accept documents on command line"
-msgstr "Þetta forrit tekur ekki á móti skrám á skipanalínunni"
+msgstr "Þetta forrit tekur ekki á móti skrám á skipanalínu"
 
 #: ../libeggsmclient/eggdesktopfile.c:1167
 #, c-format
@@ -923,7 +922,7 @@ msgstr "Þessi valmöguleiki er ekki þekktur: %d"
 #: ../libeggsmclient/eggdesktopfile.c:1372
 #, c-format
 msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
-msgstr "Get ekki látið veffang ganga til ‚Type=Link‘"
+msgstr "Get ekki látið veffang ganga í 'Type=Link' skjáborðsfærslu"
 
 #: ../libeggsmclient/eggdesktopfile.c:1391
 #, c-format
@@ -957,5 +956,4 @@ msgstr "Valkostir setustýringar:"
 #: ../libeggsmclient/eggsmclient.c:251
 msgid "Show session management options"
 msgstr "Sýna valkosti setustýringar"
-
 
