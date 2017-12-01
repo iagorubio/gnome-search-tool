@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "search-tool&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2017-04-08 14:47+0000\n"
-"PO-Revision-Date: 2017-11-30 20:05+0000\n"
+"PO-Revision-Date: 2017-12-01 07:59+0000\n"
 "Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
 "Language-Team: Icelandic <translation-team-is@lists.sourceforge.net>\n"
 "Language: is\n"
@@ -65,13 +65,13 @@ msgid ""
 "The wildcards '*' and '?' are supported. The default values are /mnt/*, /"
 "media/*, /dev/*, /tmp/*, /proc/*, and /var/*."
 msgstr ""
-"Þessi lykill ákveður hvar forritið mun leita. Algildisstafirnir ‚*‘ og ‚?‘ "
-"virka. Venjuleg gildi eru /mnt/*, /media/*, /dev/*, /tmp/*, /proc/*, og /var/"
-"*."
+"Þessi lykill ákveður hvar leitartólið mun leita. Algildisstafirnir ‚*‘ og ‚?‘ "
+"virka. Sjálfgefin gildi eru /mnt/*, /media/*, /dev/*, /tmp/*, /proc/*, og "
+"/var/*."
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:8
 msgid "Disable Quick Search Second Scan"
-msgstr "Gera aðra yfirferð óvirka í flýtileit"
+msgstr "Gera seinni yfirferð óvirka í flýtileit"
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:9
 msgid ""
@@ -83,7 +83,7 @@ msgstr ""
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:10
 msgid "Quick Search Second Scan Excluded Paths"
-msgstr "Slóðir sem á að sleppa í einni umferð flýtileitar"
+msgstr "Slóðir sem á að sleppa í seinni yfirferð flýtileitar"
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:11
 msgid ""
@@ -93,6 +93,11 @@ msgid ""
 "not been indexed. The wildcards '*' and '?' are supported. The default value "
 "is /."
 msgstr ""
+"Þessi lykill skilgreinir slóðirnar sem leitartólið útilokar úr seinni "
+"yfirferð þegar hraðleit fer fram. Seinni yfirferðin notar find-skipunina til "
+"að leita að skrám. Tilgangur seinni yfirferðarinnar er að finna skrár sem "
+"ekki hafa verið skráðar í atriðaskrá. Algildistáknin '*' og '?' eru studd. "
+"Sjálfgefna gildið er /."
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:12
 msgid "Search Result Columns Order"
@@ -116,6 +121,8 @@ msgid ""
 "search tool between sessions. Setting it to -1 will make the search tool use "
 "the default width."
 msgstr ""
+"Þessi lykill skilgreinir breidd gluggans, og er notaður til að muna stærð "
+"leitartólsins milli seta. Sé þetta stillt á -1 er sjálfgefin breidd notuð."
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:16
 msgid "Default Window Height"
@@ -127,6 +134,8 @@ msgid ""
 "the search tool between sessions. Setting it to -1 will make the search tool "
 "use the default height."
 msgstr ""
+"Þessi lykill skilgreinir hæð gluggans, og er notaður til að muna stærð "
+"leitartólsins milli seta. Sé þetta stillt á -1 er sjálfgefin hæð notuð."
 
 #: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:18
 msgid "Default Window Maximized"
@@ -403,7 +412,7 @@ msgstr[1] "%'d skrár fundust"
 
 #: ../src/gsearchtool.c:1130
 msgid "Entry changed called for a non entry option!"
-msgstr ""
+msgstr "Breytt færsla bað um valkost sem ekki er innsetningarfærsla!"
 
 #: ../src/gsearchtool.c:1295
 msgid "Set the text of \"Name contains\" search option"
@@ -466,7 +475,7 @@ msgid ""
 "the quick search feature?"
 msgstr ""
 "Niðurstöður leitar gætu verið ófullkomnar eða úreltar. Viltu gera "
-"flýtileitarmöguleikann óvirkann?"
+"flýtileitarmöguleikann óvirkan?"
 
 #: ../src/gsearchtool.c:1784
 msgid "Disable _Quick Search"
@@ -618,7 +627,7 @@ msgstr "Ýttu til að hætta að leita."
 
 #: ../src/gsearchtool.c:2971
 msgid "- the GNOME Search Tool"
-msgstr "- GNOME leitartól"
+msgstr "- GNOME leitartólið"
 
 #: ../src/gsearchtool.c:2980
 #, c-format
@@ -956,4 +965,5 @@ msgstr "Valkostir setustýringar:"
 #: ../libeggsmclient/eggsmclient.c:251
 msgid "Show session management options"
 msgstr "Sýna valkosti setustýringar"
+
 
